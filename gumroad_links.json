@@ -1,52 +1,12 @@
 {
-  "Bakersfield": {
-    "id": "0kEQkc6CVAbjEplf3D_xEQ==",
-    "url": "https://diverty2.gumroad.com/l/taprh",
-    "price": 12
-  },
-  "Fresno": {
-    "id": "-Qf4Lemr83UfhVKIQD3lDw==",
-    "url": "https://diverty2.gumroad.com/l/bfspjq",
-    "price": 12
-  },
-  "Modesto": {
-    "id": "LnHEwafmmR5G_y7sT-RSSA==",
-    "url": "https://diverty2.gumroad.com/l/qlorx",
-    "price": 12
-  },
-  "Stockton": {
-    "id": "iwJ9gIYgMIsRjQNdC9BgRg==",
-    "url": "https://diverty2.gumroad.com/l/hwyxbp",
-    "price": 12
-  },
-  "Santa Rosa": {
-    "id": "-N6e0NJks9clHK3xVbnBjw==",
-    "url": "https://diverty2.gumroad.com/l/olzon",
-    "price": 12
-  },
-  "Oceanside": {
-    "id": "PiBT_mVK_FgBqifqt9ccmQ==",
-    "url": "https://diverty2.gumroad.com/l/nikkef",
-    "price": 12
-  },
-  "Vallejo": {
-    "id": "SSzCZIPhYiZMjTkbxCF01g==",
-    "url": "https://diverty2.gumroad.com/l/tkqwcs",
-    "price": 12
-  },
-  "Spokane": {
-    "id": "ThkpooTVFI3W1aK1SBS2uw==",
-    "url": "https://diverty2.gumroad.com/l/adfphg",
-    "price": 14
-  },
-  "Tacoma": {
-    "id": "msCknZpf6HtFJXLNK3-EQw==",
-    "url": "https://diverty2.gumroad.com/l/bogrkc",
-    "price": 14
-  },
-  "Vancouver": {
-    "id": "P1TvQELw0W6IRsW6S6SffQ==",
-    "url": "https://diverty2.gumroad.com/l/sjnoet",
-    "price": 14
-  }
+  "Vancouver": "https://diverty2.gumroad.com/l/sjnoet",
+  "Tacoma": "https://diverty2.gumroad.com/l/bogrkc",
+  "Spokane": "https://diverty2.gumroad.com/l/adfphg",
+  "Vallejo": "https://diverty2.gumroad.com/l/tkqwcs",
+  "Oceanside": "https://diverty2.gumroad.com/l/nikkef",
+  "Santa Rosa": "https://diverty2.gumroad.com/l/olzon",
+  "Stockton": "https://diverty2.gumroad.com/l/hwyxbp",
+  "Modesto": "https://diverty2.gumroad.com/l/qlorx",
+  "Fresno": "https://diverty2.gumroad.com/l/bfspjq",
+  "Bakersfield": "https://diverty2.gumroad.com/l/taprh"
 }
