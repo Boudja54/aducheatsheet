@@ -61,7 +61,7 @@
   <div class="cta-section">
     <h3>📥 Download the Complete Spokane ADU Cheat Sheet</h3>
     <p>Get the step-by-step permit checklist, official government forms, direct planning department contacts, and estimated fees — all in one printable PDF for Spokane, Washington.</p>
-    <a href="https://diverty2.gumroad.com/l/adfphg" class="cta-button gumroad-button" data-gumroad-overlay="true">Download the Complete Spokane ADU Cheat Sheet — $12</a>
+    <a href="https://checkout.stripe.com/c/pay/cs_live_a1O4lFuCfUOvZr6YefqT2YTFEyfpLTDrKLF1Llk2C1utLgGbam3CsbYQ5w#fidnandhYHdWcXxpYCc%2FJ2FgY2RwaXEnKSdicGRmZGhqaWBTZHdsZGtxJz8nZmprcXdqaScpJ2R1bE5gfCc%2FJ3VuWmlsc2BaMDRRfENgN0FsdWpyUWxcUVxWX2Ndd3Z8aTR9X2RdajxtYWw9djVPVVdwN1dkU3RGfFRibnJkcn9RM0ZHYWQ9XXU2TndufEtSS1JIZnBGa0ZXMzZSUVxWUk81NT0wXH9TdkdLJyknY3dqaFZgd3Ngdyc%2FcXdwYCknZ2RmbmJ3anBrYUZqaWp3Jz8nJmNjY2NjYycpJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl" class="cta-button stripe-checkout-button" data-url="https://checkout.stripe.com/c/pay/cs_live_a1O4lFuCfUOvZr6YefqT2YTFEyfpLTDrKLF1Llk2C1utLgGbam3CsbYQ5w#fidnandhYHdWcXxpYCc%2FJ2FgY2RwaXEnKSdicGRmZGhqaWBTZHdsZGtxJz8nZmprcXdqaScpJ2R1bE5gfCc%2FJ3VuWmlsc2BaMDRRfENgN0FsdWpyUWxcUVxWX2Ndd3Z8aTR9X2RdajxtYWw9djVPVVdwN1dkU3RGfFRibnJkcn9RM0ZHYWQ9XXU2TndufEtSS1JIZnBGa0ZXMzZSUVxWUk81NT0wXH9TdkdLJyknY3dqaFZgd3Ngdyc%2FcXdwYCknZ2RmbmJ3anBrYUZqaWp3Jz8nJmNjY2NjYycpJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl">Download the Complete Spokane ADU Cheat Sheet — $12</a>
   </div>
 
   <h3>Frequently Asked Questions About ADUs in Spokane</h3>
@@ -102,8 +102,16 @@
   </div>
 </footer>
 
-<!-- Gumroad Overlay Checkout — keeps customer on site -->
-<script type="text/javascript" src="https://gumroad.com/js/gumroad.js"></script>
-
+<!-- Stripe Checkout —>
+<script src="https://js.stripe.com/v3/"></script>
+<script>
+document.querySelectorAll('.stripe-checkout-button').forEach(function(btn) {
+  btn.addEventListener('click', function(e) {
+    e.preventDefault();
+    var url = this.getAttribute('data-url');
+    if (url) window.location.href = url;
+  });
+});
+</script>
 </body>
 </html>

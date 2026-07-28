@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a5f3a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2d7a4e;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Background circle -->
+  <circle cx="200" cy="200" r="190" fill="url(#bg)" />
+  <!-- House icon -->
+  <g transform="translate(115,120)" fill="white">
+    <!-- Roof -->
+    <polygon points="85,0 170,70 0,70" />
+    <!-- House body -->
+    <rect x="20" y="70" width="130" height="100" />
+    <!-- Door -->
+    <rect x="65" y="110" width="40" height="60" rx="3" />
+    <!-- Window left -->
+    <rect x="35" y="85" width="25" height="25" rx="2" />
+    <!-- Window right -->
+    <rect x="110" y="85" width="25" height="25" rx="2" />
+  </g>
+  <!-- Text -->
+  <text x="200" y="335" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="38" fill="white">ADU</text>
+  <text x="200" y="368" text-anchor="middle" font-family="Arial, sans-serif" font-weight="normal" font-size="18" fill="rgba(255,255,255,0.8)">CheatSheet</text>
+</svg>
