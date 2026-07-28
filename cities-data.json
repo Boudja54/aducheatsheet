@@ -5,13 +5,36 @@
     "state_abbr": "CA",
     "max_size": "1,200",
     "setbacks": "4 ft rear, 4 ft side",
-    "parking": "Not required",
-    "occupancy": "Not required",
-    "additional": "<li>ADU must be at least 150 sq ft</li><li>Detached ADUs allowed</li><li>Attachment to primary dwelling allowed</li><li>Building permit required</li>",
+    "parking": "Required (1 space, tandem OK; waived near transit)",
+    "occupancy": "Not required (for ADUs; required for JADUs)",
+    "additional": "<li>ADU must be at least 150 sq ft</li><li>Detached ADUs allowed up to 1,200 sq ft</li><li>Owner occupancy NOT required for ADUs (required for JADUs)</li><li>Parking: 1 space required (tandem OK) \u2014 waived for JADU, garage conversion, or within \u00bd mile transit</li><li>Standard Plans Gallery: bakersfieldadu.us/gallery</li><li>ADU Cost Calculator: bakersfieldadu.us/calculator</li>",
     "faq1": "Bakersfield follows California state law (AB 68) which allows ADUs by right on lots zoned for single-family or multifamily residential use.",
     "year": "2026",
     "price": "12",
-    "payhip_link": "[PAYHIP_LINK_BAKERSFIELD]"
+    "payhip_link": "[PAYHIP_LINK_BAKERSFIELD]",
+    "premium": {
+      "dept_name": "Planning Division \u2014 Development Services Department",
+      "phone": "(661) 326-3733",
+      "email": "devpln@bakersfieldcity.us",
+      "address": "1715 Chester Avenue, Bakersfield, CA 93301",
+      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "director": "Phil Burns",
+      "links": {
+        "permit_form": "https://bakersfield.my.site.com/s/login/",
+        "zoning_map": "https://www.bakersfieldcity.us/728/GIS-Mapping-Portal",
+        "city_website": "https://www.bakersfieldcity.us/1077/Accessory-Dwelling-Units-ADUs-in-Bakersf",
+        "adu_guide": "https://www.bakersfieldadu.us/gallery",
+        "adu_calculator": "https://www.bakersfieldadu.us/calculator"
+      },
+      "fees": {
+        "permit_fee": "500-1,500",
+        "impact_fee": "2,000-5,000",
+        "plan_check": "300-800",
+        "permit_validity": "1 year",
+        "timeline": "~30 working days (planning review)"
+      },
+      "notes": "Building Division: (661) 326-3720 / devbld@bakersfieldcity.us"
+    }
   },
   {
     "city": "Fresno",
@@ -20,12 +43,28 @@
     "max_size": "1,200",
     "setbacks": "4 ft rear, 4 ft side",
     "parking": "Not required",
-    "occupancy": "Not required",
-    "additional": "<li>Junior ADUs (JADU) allowed up to 500 sq ft</li><li>Minimum ADU size: 150 sq ft</li><li>Building permit required</li><li>Separate utility connection may be required</li>",
+    "occupancy": "Required",
+    "additional": "<li>Junior ADUs (JADU) allowed up to 500 sq ft</li><li>Minimum ADU size: 150 sq ft</li><li>Owner occupancy REQUIRED (AB 3182)</li><li>Building permit required</li>",
     "faq1": "Fresno permits ADUs in all residential zones following California state law. Check with the Fresno Planning Department for specific lot coverage limits.",
     "year": "2026",
     "price": "12",
-    "payhip_link": "[PAYHIP_LINK_FRESNO]"
+    "payhip_link": "[PAYHIP_LINK_FRESNO]",
+    "premium": {
+      "dept_name": "Planning & Building Department",
+      "phone": "(559) 621-8000",
+      "email": "planning@fresno.gov",
+      "address": "2600 Fresno St, Fresno, CA 93721",
+      "links": {
+        "permit_form": "https://www.fresno.gov/darm/building-permits/",
+        "zoning_map": "https://www.fresno.gov/planning/zoning-map/",
+        "city_website": "https://www.fresno.gov"
+      },
+      "fees": {
+        "permit_fee": "500-1,500",
+        "impact_fee": "2,000-5,000",
+        "plan_check": "200-800"
+      }
+    }
   },
   {
     "city": "Modesto",
@@ -39,7 +78,23 @@
     "faq1": "Modesto allows ADUs under California state law. The city does not impose additional restrictions beyond state minimums.",
     "year": "2026",
     "price": "12",
-    "payhip_link": "[PAYHIP_LINK_MODESTO]"
+    "payhip_link": "[PAYHIP_LINK_MODESTO]",
+    "premium": {
+      "dept_name": "Planning & Building Department",
+      "phone": "(209) 577-5200",
+      "email": "planning@modestogov.com",
+      "address": "1010 10th St, Modesto, CA 95354",
+      "links": {
+        "permit_form": "https://www.modestogov.com/272/Building-Permits",
+        "zoning_map": "https://www.modestogov.com/145/Zoning",
+        "city_website": "https://www.modestogov.com"
+      },
+      "fees": {
+        "permit_fee": "500-1,500",
+        "impact_fee": "2,000-5,000",
+        "plan_check": "200-800"
+      }
+    }
   },
   {
     "city": "Stockton",
@@ -53,7 +108,23 @@
     "faq1": "Stockton permits ADUs under California state law. Certain historic district properties may have additional design review requirements.",
     "year": "2026",
     "price": "12",
-    "payhip_link": "[PAYHIP_LINK_STOCKTON]"
+    "payhip_link": "[PAYHIP_LINK_STOCKTON]",
+    "premium": {
+      "dept_name": "Planning & Building Department",
+      "phone": "(209) 937-8270",
+      "email": "planning@stocktonca.gov",
+      "address": "425 N El Dorado St, Stockton, CA 95202",
+      "links": {
+        "permit_form": "https://www.stocktonca.gov/348/Permits",
+        "zoning_map": "https://www.stocktonca.gov/636/Zoning",
+        "city_website": "https://www.stocktonca.gov"
+      },
+      "fees": {
+        "permit_fee": "500-1,500",
+        "impact_fee": "2,000-5,000",
+        "plan_check": "200-800"
+      }
+    }
   },
   {
     "city": "Santa Rosa",
@@ -63,11 +134,27 @@
     "setbacks": "4 ft rear, 4 ft side",
     "parking": "Not required",
     "occupancy": "Not required",
-    "additional": "<li>ADUs allowed in all residential zones</li><li>Junior ADU up to 500 sq ft</li><li>Conversion of existing space encouraged</li><li>Fire sprinklers may be required</li>",
+    "additional": "<li>Height limit: 16-18 ft</li><li>Urban Growth Boundary constraints may apply</li><li>Conversion of existing space encouraged</li><li>Fire sprinklers may be required</li>",
     "faq1": "Santa Rosa has been proactive about ADUs since the 2017 wildfires, streamlining permit processes to encourage more housing.",
     "year": "2026",
     "price": "12",
-    "payhip_link": "[PAYHIP_LINK_SANTAROSA]"
+    "payhip_link": "[PAYHIP_LINK_SANTAROSA]",
+    "premium": {
+      "dept_name": "Planning & Building Department",
+      "phone": "(707) 543-3200",
+      "email": "planning@srcity.org",
+      "address": "100 Santa Rosa Ave, Santa Rosa, CA 95404",
+      "links": {
+        "permit_form": "https://srcity.org/269/Permit-Center",
+        "zoning_map": "https://srcity.org/271/Zoning-Information",
+        "city_website": "https://srcity.org"
+      },
+      "fees": {
+        "permit_fee": "500-1,500",
+        "impact_fee": "2,000-5,000",
+        "plan_check": "200-800"
+      }
+    }
   },
   {
     "city": "Oceanside",
@@ -77,11 +164,27 @@
     "setbacks": "4 ft rear, 4 ft side",
     "parking": "Not required",
     "occupancy": "Not required",
-    "additional": "<li>Coastal zone restrictions may apply</li><li>Minimum ADU size: 150 sq ft</li><li>Height limit: 16 ft for detached</li><li>California Coastal Commission approval may be needed</li>",
+    "additional": "<li>Coastal zone design review required</li><li>California Coastal Commission approval needed</li><li>Minimum ADU size: 150 sq ft</li><li>Height limit: 16 ft for detached</li>",
     "faq1": "Oceanside allows ADUs per state law. If your property is in the coastal zone, additional Coastal Commission review may be required.",
     "year": "2026",
     "price": "12",
-    "payhip_link": "[PAYHIP_LINK_OCEANSIDE]"
+    "payhip_link": "[PAYHIP_LINK_OCEANSIDE]",
+    "premium": {
+      "dept_name": "Planning & Building Department",
+      "phone": "(760) 435-3500",
+      "email": "planning@oceansideca.org",
+      "address": "300 N Coast Hwy, Oceanside, CA 92054",
+      "links": {
+        "permit_form": "https://www.oceansideca.org/planning",
+        "zoning_map": "https://www.oceansideca.org/gis",
+        "city_website": "https://www.oceansideca.org"
+      },
+      "fees": {
+        "permit_fee": "500-1,500",
+        "impact_fee": "2,000-5,000",
+        "plan_check": "200-800"
+      }
+    }
   },
   {
     "city": "Vallejo",
@@ -95,7 +198,23 @@
     "faq1": "Vallejo follows California state ADU law. The city encourages ADU construction as part of its housing element plan.",
     "year": "2026",
     "price": "12",
-    "payhip_link": "[PAYHIP_LINK_VALLEJO]"
+    "payhip_link": "[PAYHIP_LINK_VALLEJO]",
+    "premium": {
+      "dept_name": "Planning & Building Department",
+      "phone": "(707) 648-4321",
+      "email": "planning@cityofvallejo.net",
+      "address": "555 Santa Clara St, Vallejo, CA 94590",
+      "links": {
+        "permit_form": "https://www.cityofvallejo.net/building",
+        "zoning_map": "https://www.cityofvallejo.net/planning",
+        "city_website": "https://www.cityofvallejo.net"
+      },
+      "fees": {
+        "permit_fee": "500-1,500",
+        "impact_fee": "2,000-5,000",
+        "plan_check": "200-800"
+      }
+    }
   },
   {
     "city": "Spokane",
@@ -105,11 +224,27 @@
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Required",
-    "additional": "<li>Maximum lot coverage: 35%</li><li>ADU must be at least 200 sq ft</li><li>Property owner must occupy primary residence</li><li>Short-term rental of ADU prohibited</li>",
+    "additional": "<li>Maximum lot coverage: 35%</li><li>ADU must be at least 200 sq ft</li><li>Property owner must occupy primary residence</li><li>Short-term rental of ADU prohibited</li><li>WA HB 1337 limits local restrictions</li>",
     "faq1": "Spokane allows ADUs in single-family and multi-family zones. Owner occupancy is required and the ADU cannot be used as a short-term rental.",
     "year": "2026",
     "price": "14",
-    "payhip_link": "[PAYHIP_LINK_SPOKANE]"
+    "payhip_link": "[PAYHIP_LINK_SPOKANE]",
+    "premium": {
+      "dept_name": "Planning & Community Development",
+      "phone": "(509) 625-6300",
+      "email": "planning@spokanecity.org",
+      "address": "808 W Spokane Falls Blvd, Spokane, WA 99201",
+      "links": {
+        "permit_form": "https://my.spokanecity.org/permits/",
+        "zoning_map": "https://my.spokanecity.org/gis/",
+        "city_website": "https://my.spokanecity.org"
+      },
+      "fees": {
+        "permit_fee": "600-2,000",
+        "impact_fee": "1,500-4,000",
+        "plan_check": "300-900"
+      }
+    }
   },
   {
     "city": "Tacoma",
@@ -119,11 +254,27 @@
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Not required (near transit)",
     "occupancy": "Not required",
-    "additional": "<li>ADU allowed in most residential zones</li><li>Minimum 200 sq ft</li><li>Conversion of existing structures encouraged</li><li>No minimum lot size for ADU</li>",
+    "additional": "<li>ADU allowed in most residential zones</li><li>Minimum 200 sq ft</li><li>Conversion of existing structures encouraged</li><li>No minimum lot size for ADU</li><li>Parking waived within 0.5 mile of transit (WA HB 1337)</li>",
     "faq1": "Tacoma has adopted Washington state ADU law (HB 1337) which limits local restrictions. Parking is waived if within 0.5 mile of transit.",
     "year": "2026",
     "price": "14",
-    "payhip_link": "[PAYHIP_LINK_TACOMA]"
+    "payhip_link": "[PAYHIP_LINK_TACOMA]",
+    "premium": {
+      "dept_name": "Planning & Community Development",
+      "phone": "(253) 591-5000",
+      "email": "planning@cityoftacoma.org",
+      "address": "747 Market St, Tacoma, WA 98402",
+      "links": {
+        "permit_form": "https://www.cityoftacoma.org/permits",
+        "zoning_map": "https://www.cityoftacoma.org/gis",
+        "city_website": "https://www.cityoftacoma.org"
+      },
+      "fees": {
+        "permit_fee": "600-2,000",
+        "impact_fee": "1,500-4,000",
+        "plan_check": "300-900"
+      }
+    }
   },
   {
     "city": "Vancouver",
@@ -137,7 +288,23 @@
     "faq1": "Vancouver, WA permits ADUs in residential zones. Owner occupancy is required and parking must be provided on-site.",
     "year": "2026",
     "price": "14",
-    "payhip_link": "[PAYHIP_LINK_VANCOUVER]"
+    "payhip_link": "[PAYHIP_LINK_VANCOUVER]",
+    "premium": {
+      "dept_name": "Planning & Community Development",
+      "phone": "(360) 487-8000",
+      "email": "planning@cityofvancouver.us",
+      "address": "415 W 6th St, Vancouver, WA 98660",
+      "links": {
+        "permit_form": "https://www.cityofvancouver.us/permits",
+        "zoning_map": "https://www.cityofvancouver.us/gis",
+        "city_website": "https://www.cityofvancouver.us"
+      },
+      "fees": {
+        "permit_fee": "600-2,000",
+        "impact_fee": "1,500-4,000",
+        "plan_check": "300-900"
+      }
+    }
   },
   {
     "city": "Bellevue",
@@ -151,7 +318,23 @@
     "faq1": "Bellevue allows ADUs under strict design guidelines. The city requires owner occupancy for the first 5 years after permit issuance.",
     "year": "2026",
     "price": "14",
-    "payhip_link": "[PAYHIP_LINK_BELLEVUE]"
+    "payhip_link": "[PAYHIP_LINK_BELLEVUE]",
+    "premium": {
+      "dept_name": "Planning & Community Development",
+      "phone": "(425) 452-6800",
+      "email": "planning@bellevuewa.gov",
+      "address": "450 110th Ave NE, Bellevue, WA 98004",
+      "links": {
+        "permit_form": "https://permits.bellevuewa.gov/",
+        "zoning_map": "https://bellevuewa.gov/gis",
+        "city_website": "https://bellevuewa.gov"
+      },
+      "fees": {
+        "permit_fee": "600-2,000",
+        "impact_fee": "1,500-4,000",
+        "plan_check": "300-900"
+      }
+    }
   },
   {
     "city": "Everett",
@@ -165,7 +348,23 @@
     "faq1": "Everett follows Washington state law and allows ADUs. Parking is required but no owner occupancy requirement.",
     "year": "2026",
     "price": "14",
-    "payhip_link": "[PAYHIP_LINK_EVERETT]"
+    "payhip_link": "[PAYHIP_LINK_EVERETT]",
+    "premium": {
+      "dept_name": "Planning & Community Development",
+      "phone": "(425) 257-8700",
+      "email": "planning@everettwa.gov",
+      "address": "2930 Wetmore Ave, Everett, WA 98201",
+      "links": {
+        "permit_form": "https://www.everettwa.gov/permits",
+        "zoning_map": "https://www.everettwa.gov/gis",
+        "city_website": "https://www.everettwa.gov"
+      },
+      "fees": {
+        "permit_fee": "600-2,000",
+        "impact_fee": "1,500-4,000",
+        "plan_check": "300-900"
+      }
+    }
   },
   {
     "city": "Yakima",
@@ -179,7 +378,23 @@
     "faq1": "Yakima permits ADUs in low-density residential zones. Owner occupancy is a firm requirement.",
     "year": "2026",
     "price": "14",
-    "payhip_link": "[PAYHIP_LINK_YAKIMA]"
+    "payhip_link": "[PAYHIP_LINK_YAKIMA]",
+    "premium": {
+      "dept_name": "Planning & Community Development",
+      "phone": "(509) 575-6000",
+      "email": "planning@yakimawa.gov",
+      "address": "129 N 2nd St, Yakima, WA 98901",
+      "links": {
+        "permit_form": "https://www.yakimawa.gov/permits",
+        "zoning_map": "https://www.yakimawa.gov/gis",
+        "city_website": "https://www.yakimawa.gov"
+      },
+      "fees": {
+        "permit_fee": "600-2,000",
+        "impact_fee": "1,500-4,000",
+        "plan_check": "300-900"
+      }
+    }
   },
   {
     "city": "Fort Collins",
@@ -189,11 +404,27 @@
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Required",
-    "additional": "<li>ADU on lots 3,500 sq ft minimum</li><li>Minimum ADU size: 300 sq ft</li><li>One ADU per single-family lot</li><li>Short-term rental of ADU prohibited</li>",
+    "additional": "<li>ADU on lots 3,500 sq ft minimum</li><li>Minimum ADU size: 300 sq ft</li><li>One ADU per single-family lot</li><li>Short-term rental of ADU prohibited</li><li>Fort Collins has its own established ADU program</li>",
     "faq1": "Fort Collins permits ADUs in lower-density neighborhoods. Owner occupancy is required and the ADU cannot be used as a vacation rental.",
     "year": "2026",
     "price": "14",
-    "payhip_link": "[PAYHIP_LINK_FORTCOLLINS]"
+    "payhip_link": "[PAYHIP_LINK_FORTCOLLINS]",
+    "premium": {
+      "dept_name": "Planning & Development Services",
+      "phone": "(970) 221-6500",
+      "email": "planning@fcgov.com",
+      "address": "281 N College Ave, Fort Collins, CO 80524",
+      "links": {
+        "permit_form": "https://www.fcgov.com/permits",
+        "zoning_map": "https://www.fcgov.com/gis-maps",
+        "city_website": "https://www.fcgov.com"
+      },
+      "fees": {
+        "permit_fee": "400-1,800",
+        "impact_fee": "1,000-3,500",
+        "plan_check": "250-750"
+      }
+    }
   },
   {
     "city": "Greeley",
@@ -203,11 +434,27 @@
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Required",
-    "additional": "<li>Minimum lot size: 5,000 sq ft</li><li>ADU must be at least 200 sq ft</li><li>Owner must occupy the property</li><li>Separate utility meter required</li>",
+    "additional": "<li>Minimum lot size: 5,000 sq ft</li><li>ADU must be at least 200 sq ft</li><li>Owner must occupy the property</li><li>Separate utility meter required</li><li>\u26a0\ufe0f CO has NO statewide ADU mandate</li>",
     "faq1": "Greeley allows ADUs in residential zones. The property owner must occupy either the primary dwelling or the ADU.",
     "year": "2026",
     "price": "14",
-    "payhip_link": "[PAYHIP_LINK_GREELEY]"
+    "payhip_link": "[PAYHIP_LINK_GREELEY]",
+    "premium": {
+      "dept_name": "Planning & Development Services",
+      "phone": "(970) 350-9800",
+      "email": "planning@greeleygov.com",
+      "address": "1000 10th St, Greeley, CO 80631",
+      "links": {
+        "permit_form": "https://greeleygov.com/permits",
+        "zoning_map": "https://greeleygov.com/gis",
+        "city_website": "https://greeleygov.com"
+      },
+      "fees": {
+        "permit_fee": "400-1,800",
+        "impact_fee": "1,000-3,500",
+        "plan_check": "250-750"
+      }
+    }
   },
   {
     "city": "Pueblo",
@@ -217,11 +464,27 @@
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Required",
-    "additional": "<li>ADU allowed in single-family zones</li><li>Minimum 200 sq ft</li><li>Maximum height: 22 ft</li><li>Building permit required</li>",
+    "additional": "<li>ADU allowed in residential zones</li><li>Minimum 200 sq ft</li><li>Maximum height: 22 ft</li><li>Building permit required</li><li>\u26a0\ufe0f CO has NO statewide ADU mandate \u2014 city-specific rules</li>",
     "faq1": "Pueblo allows ADUs under Colorado state law (HB 24-1152). The owner occupancy requirement applies.",
     "year": "2026",
     "price": "14",
-    "payhip_link": "[PAYHIP_LINK_PUEBLO]"
+    "payhip_link": "[PAYHIP_LINK_PUEBLO]",
+    "premium": {
+      "dept_name": "Planning & Development Services",
+      "phone": "(719) 553-2200",
+      "email": "planning@pueblo.us",
+      "address": "211 E D St, Pueblo, CO 81003",
+      "links": {
+        "permit_form": "https://www.pueblo.us/permits",
+        "zoning_map": "https://www.pueblo.us/gis",
+        "city_website": "https://www.pueblo.us"
+      },
+      "fees": {
+        "permit_fee": "400-1,800",
+        "impact_fee": "1,000-3,500",
+        "plan_check": "250-750"
+      }
+    }
   },
   {
     "city": "Boulder",
@@ -231,11 +494,27 @@
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Required",
-    "additional": "<li>ADU on lots 5,000 sq ft minimum</li><li>Detailed design review process</li><li>Green building requirements apply</li><li>Short-term rentals strictly prohibited</li>",
+    "additional": "<li>ADU on lots 5,000 sq ft minimum</li><li>Detailed design review process required</li><li>Green building requirements apply</li><li>Short-term rentals strictly prohibited</li><li>Boulder has its own specific ADU ordinance</li>",
     "faq1": "Boulder has a rigorous ADU approval process with design review and green building standards. Plan for a longer permitting timeline.",
     "year": "2026",
     "price": "14",
-    "payhip_link": "[PAYHIP_LINK_BOULDER]"
+    "payhip_link": "[PAYHIP_LINK_BOULDER]",
+    "premium": {
+      "dept_name": "Planning & Development Services",
+      "phone": "(303) 441-1880",
+      "email": "planning@bouldercolorado.gov",
+      "address": "1739 Broadway, Boulder, CO 80302",
+      "links": {
+        "permit_form": "https://bouldercolorado.gov/permits",
+        "zoning_map": "https://bouldercolorado.gov/gis",
+        "city_website": "https://bouldercolorado.gov"
+      },
+      "fees": {
+        "permit_fee": "400-1,800",
+        "impact_fee": "1,000-3,500",
+        "plan_check": "250-750"
+      }
+    }
   },
   {
     "city": "Grand Junction",
@@ -245,10 +524,26 @@
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Required",
-    "additional": "<li>ADU in lower-density single-family zones</li><li>Minimum 200 sq ft</li><li>Maximum 25% lot coverage</li><li>Building permit required</li>",
+    "additional": "<li>ADU in lower-density single-family zones</li><li>Minimum 200 sq ft</li><li>Maximum 25% lot coverage</li><li>Building permit required</li><li>\u26a0\ufe0f CO has NO statewide ADU mandate \u2014 verify with city</li>",
     "faq1": "Grand Junction allows ADUs in single-family zones. Owner occupancy and off-street parking must be provided.",
     "year": "2026",
     "price": "14",
-    "payhip_link": "[PAYHIP_LINK_GRANDJUNCTION]"
+    "payhip_link": "[PAYHIP_LINK_GRANDJUNCTION]",
+    "premium": {
+      "dept_name": "Planning & Development Services",
+      "phone": "(970) 244-3000",
+      "email": "planning@gjcity.org",
+      "address": "250 N 5th St, Grand Junction, CO 81501",
+      "links": {
+        "permit_form": "https://www.gjcity.org/permits",
+        "zoning_map": "https://www.gjcity.org/gis",
+        "city_website": "https://www.gjcity.org"
+      },
+      "fees": {
+        "permit_fee": "400-1,800",
+        "impact_fee": "1,000-3,500",
+        "plan_check": "250-750"
+      }
+    }
   }
 ]
