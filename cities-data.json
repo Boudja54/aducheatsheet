@@ -663,5 +663,785 @@
     "stripe_checkout_url": "https://checkout.stripe.com/c/pay/cs_live_a10k8ZbWVkZu3VlVvgGTHeirjCrDaxdsfSbt0kZdQCAm0bmPgBjY2jL0UD#fidnandhYHdWcXxpYCc%2FJ2FgY2RwaXEnKSdicGRmZGhqaWBTZHdsZGtxJz8nZmprcXdqaScpJ2R1bE5gfCc%2FJ3VuWmlsc2BaMDRRfENgN0FsdWpyUWxcUVxWX2Ndd3Z8aTR9X2RdajxtYWw9djVPVVdwN1dkU3RGfFRibnJkcn9RM0ZHYWQ9XXU2TndufEtSS1JIZnBGa0ZXMzZSUVxWUk81NT0wXH9TdkdLJyknY3dqaFZgd3Ngdyc%2FcXdwYCknZ2RmbmJ3anBrYUZqaWp3Jz8nJmNjY2NjYycpJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl",
     "stripe_product_id": "prod_UyDScLawHG1qwl",
     "stripe_price_id": "price_1TyH19DipowTiYTYqrj0ZaaW"
+  },
+  {
+    "city": "Riverside",
+    "state": "California",
+    "state_abbr": "CA",
+    "max_size": "1,200",
+    "setbacks": "4 ft rear, 4 ft side",
+    "parking": "Required (1 space, tandem OK)",
+    "occupancy": "Not required",
+    "additional": "<li>ADU by right in residential zones</li><li>Minimum 150 sq ft</li><li>Height limit: 16 ft for detached</li><li>Parking waived near transit</li>",
+    "faq1": "Riverside follows California state ADU law. Properties near transit stops may qualify for parking exemptions.",
+    "year": "2026",
+    "price": "12",
+    "payhip_link": "[PAYHIP_LINK_RIVERSIDE]",
+    "premium": {
+      "dept_name": "Planning & Building Department",
+      "phone": "(951) 826-5311",
+      "email": "planning@riversideca.gov",
+      "address": "3900 Main St, Riverside, CA 92522",
+      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "links": {
+        "permit_form": "https://riversideca.gov/permits",
+        "zoning_map": "https://riversideca.gov/gis",
+        "city_website": "https://riversideca.gov"
+      },
+      "fees": {
+        "permit_fee": "$1,500",
+        "impact_fee": "$5,000",
+        "plan_check": "$800"
+      },
+      "notes": "Building Division: (951) 826-5311"
+    },
+    "intro": "Inland Southern California's largest city, Riverside permits ADUs under the statewide AB 68 framework. The city's proximity to major transit corridors means many properties qualify for parking exemptions.",
+    "county": "Riverside County",
+    "state_law": "California's AB 68 (2020), AB 881 (2021), and AB 3182 (2024) which together establish a statewide ADU framework",
+    "gumroad_link": "",
+    "stripe_checkout_url": "",
+    "stripe_product_id": "",
+    "stripe_price_id": ""
+  },
+  {
+    "city": "San Bernardino",
+    "state": "California",
+    "state_abbr": "CA",
+    "max_size": "1,200",
+    "setbacks": "4 ft rear, 4 ft side",
+    "parking": "Not required",
+    "occupancy": "Not required",
+    "additional": "<li>ADU by right in all residential zones</li><li>Minimum 150 sq ft</li><li>Conversion of existing structures encouraged</li><li>Building permit required</li>",
+    "faq1": "San Bernardino permits ADUs under California state law with minimal local restrictions beyond state requirements.",
+    "year": "2026",
+    "price": "12",
+    "payhip_link": "[PAYHIP_LINK_SAN_BERNARDINO]",
+    "premium": {
+      "dept_name": "Planning Division \u2014 Development Services",
+      "phone": "(909) 384-5390",
+      "email": "planning@sbcity.org",
+      "address": "201 N E St, San Bernardino, CA 92401",
+      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "links": {
+        "permit_form": "https://sbcity.org/permits",
+        "zoning_map": "https://sbcity.org/gis",
+        "city_website": "https://sbcity.org"
+      },
+      "fees": {
+        "permit_fee": "$1,500",
+        "impact_fee": "$5,000",
+        "plan_check": "$800"
+      },
+      "notes": "Building & Safety: (909) 384-5393"
+    },
+    "intro": "At the base of the San Bernardino Mountains, the city aligns with California's statewide ADU mandates. San Bernardino's Development Services Department processes applications under streamlined state timelines.",
+    "county": "San Bernardino County",
+    "state_law": "California's AB 68 (2020), AB 881 (2021), and AB 3182 (2024) which together establish a statewide ADU framework",
+    "gumroad_link": "",
+    "stripe_checkout_url": "",
+    "stripe_product_id": "",
+    "stripe_price_id": ""
+  },
+  {
+    "city": "Santa Clarita",
+    "state": "California",
+    "state_abbr": "CA",
+    "max_size": "1,200",
+    "setbacks": "4 ft rear, 4 ft side",
+    "parking": "Required (1 space)",
+    "occupancy": "Not required",
+    "additional": "<li>ADU allowed in single-family zones</li><li>Minimum 150 sq ft</li><li>Height limit: 16 ft</li><li>Fire sprinkler requirements for detached units</li>",
+    "faq1": "Santa Clarita permits ADUs under California law. Properties in high fire severity zones may have additional requirements.",
+    "year": "2026",
+    "price": "12",
+    "payhip_link": "[PAYHIP_LINK_SANTA_CLARITA]",
+    "premium": {
+      "dept_name": "Planning Division",
+      "phone": "(661) 255-4318",
+      "email": "planning@santa-clarita.com",
+      "address": "23920 Valencia Blvd, Santa Clarita, CA 91355",
+      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "links": {
+        "permit_form": "https://santa-clarita.com/permits",
+        "zoning_map": "https://santa-clarita.com/gis",
+        "city_website": "https://santa-clarita.com"
+      },
+      "fees": {
+        "permit_fee": "$1,500",
+        "impact_fee": "$5,000",
+        "plan_check": "$800"
+      },
+      "notes": "Building & Safety: (661) 255-4960"
+    },
+    "intro": "Located in Los Angeles County just north of the Santa Susana Mountains, Santa Clarita's ADU regulations follow California's statewide framework with additional fire safety standards for properties in Very High Fire Hazard Severity Zones.",
+    "county": "Los Angeles County",
+    "state_law": "California's AB 68 (2020), AB 881 (2021), and AB 3182 (2024) which together establish a statewide ADU framework",
+    "gumroad_link": "",
+    "stripe_checkout_url": "",
+    "stripe_product_id": "",
+    "stripe_price_id": ""
+  },
+  {
+    "city": "Oxnard",
+    "state": "California",
+    "state_abbr": "CA",
+    "max_size": "1,200",
+    "setbacks": "4 ft rear, 4 ft side",
+    "parking": "Required (1 space)",
+    "occupancy": "Not required",
+    "additional": "<li>Coastal zone design review may apply</li><li>Minimum 150 sq ft</li><li>Height limit: 16 ft detached</li><li>ADU by right on most lots</li>",
+    "faq1": "Oxnard permits ADUs per state law. If your property is in the coastal zone, additional Coastal Commission review may be needed.",
+    "year": "2026",
+    "price": "12",
+    "payhip_link": "[PAYHIP_LINK_OXNARD]",
+    "premium": {
+      "dept_name": "Planning & Building Department",
+      "phone": "(805) 385-7850",
+      "email": "planning@oxnard.org",
+      "address": "214 S C St, Oxnard, CA 93030",
+      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "links": {
+        "permit_form": "https://oxnard.org/permits",
+        "zoning_map": "https://oxnard.org/gis",
+        "city_website": "https://oxnard.org"
+      },
+      "fees": {
+        "permit_fee": "$1,500",
+        "impact_fee": "$5,000",
+        "plan_check": "$800"
+      },
+      "notes": "Building Division: (805) 385-7820"
+    },
+    "intro": "On the Ventura County coastline, Oxnard applies California's statewide ADU standards with additional coastal zone considerations. The California Coastal Commission may require a coastal development permit alongside the standard building permit.",
+    "county": "Ventura County",
+    "state_law": "California's AB 68 (2020), AB 881 (2021), and AB 3182 (2024) which together establish a statewide ADU framework",
+    "gumroad_link": "",
+    "stripe_checkout_url": "",
+    "stripe_product_id": "",
+    "stripe_price_id": ""
+  },
+  {
+    "city": "Glendale",
+    "state": "California",
+    "state_abbr": "CA",
+    "max_size": "1,200",
+    "setbacks": "4 ft rear, 4 ft side",
+    "parking": "Not required",
+    "occupancy": "Not required",
+    "additional": "<li>ADU by right in residential zones</li><li>Minimum 150 sq ft</li><li>Garage conversion allowed</li><li>Dense urban lot constraints may apply</li>",
+    "faq1": "Glendale follows California state ADU law. Standard state minimums apply with no additional local restrictions for most properties.",
+    "year": "2026",
+    "price": "12",
+    "payhip_link": "[PAYHIP_LINK_GLENDALE]",
+    "premium": {
+      "dept_name": "Planning Division \u2014 Community Development",
+      "phone": "(818) 548-2140",
+      "email": "planning@glendaleca.gov",
+      "address": "633 E Broadway, Glendale, CA 91206",
+      "hours": "Mon\u2013Fri, 7:30am\u20135:30pm",
+      "links": {
+        "permit_form": "https://glendaleca.gov/permits",
+        "zoning_map": "https://glendaleca.gov/gis",
+        "city_website": "https://glendaleca.gov"
+      },
+      "fees": {
+        "permit_fee": "$1,500",
+        "impact_fee": "$5,000",
+        "plan_check": "$800"
+      },
+      "notes": "Building & Safety: (818) 548-3200"
+    },
+    "intro": "Situated in the Verdugo Mountains region of Los Angeles County, Glendale's ADU rules mirror California's state mandates. The dense urban environment means property owners should verify lot coverage limits before designing their project.",
+    "county": "Los Angeles County",
+    "state_law": "California's AB 68 (2020), AB 881 (2021), and AB 3182 (2024) which together establish a statewide ADU framework",
+    "gumroad_link": "",
+    "stripe_checkout_url": "",
+    "stripe_product_id": "",
+    "stripe_price_id": ""
+  },
+  {
+    "city": "Aurora",
+    "state": "Colorado",
+    "state_abbr": "CO",
+    "max_size": "1,200",
+    "setbacks": "5 ft rear, 5 ft side",
+    "parking": "Required (1 space)",
+    "occupancy": "Required",
+    "additional": "<li>ADU on lots 6,000 sq ft minimum</li><li>Minimum 300 sq ft</li><li>Design review for exterior changes</li><li>Short-term rentals prohibited</li><li>\u26a0\ufe0f CO has NO statewide ADU mandate</li>",
+    "faq1": "Aurora allows ADUs in single-family zones. The city has specific design standards and a minimum lot size requirement.",
+    "year": "2026",
+    "price": "14",
+    "payhip_link": "[PAYHIP_LINK_AURORA]",
+    "premium": {
+      "dept_name": "Planning & Development Services",
+      "phone": "(303) 739-7520",
+      "email": "planning@auroragov.org",
+      "address": "15151 E Alameda Pkwy, Aurora, CO 80012",
+      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "links": {
+        "permit_form": "https://auroragov.org/permits",
+        "zoning_map": "https://auroragov.org/gis",
+        "city_website": "https://auroragov.org"
+      },
+      "fees": {
+        "permit_fee": "$1,800",
+        "impact_fee": "$3,500",
+        "plan_check": "$750"
+      },
+      "notes": "Building Division: (303) 739-7400"
+    },
+    "intro": "Colorado's third-largest city, Aurora permits ADUs through its local zoning code. Colorado has no statewide ADU mandate, so Aurora's municipal code establishes all requirements including minimum lot sizes and design review standards.",
+    "county": "Adams County / Arapahoe County",
+    "state_law": "local zoning ordinances, as Colorado has no statewide ADU mandate (HB 24-1152 addresses transit density)",
+    "gumroad_link": "",
+    "stripe_checkout_url": "",
+    "stripe_product_id": "",
+    "stripe_price_id": ""
+  },
+  {
+    "city": "Lakewood",
+    "state": "Colorado",
+    "state_abbr": "CO",
+    "max_size": "1,000",
+    "setbacks": "5 ft rear, 5 ft side",
+    "parking": "Required (1 space)",
+    "occupancy": "Required",
+    "additional": "<li>ADU on lots 5,000 sq ft minimum</li><li>Minimum 200 sq ft</li><li>Maximum 35% total lot coverage</li><li>Owner occupancy required</li>",
+    "faq1": "Lakewood permits ADUs in residential zones with standard setbacks and parking requirements.",
+    "year": "2026",
+    "price": "14",
+    "payhip_link": "[PAYHIP_LINK_LAKEWOOD]",
+    "premium": {
+      "dept_name": "Planning & Building Department",
+      "phone": "(303) 987-7510",
+      "email": "planning@lakewood.org",
+      "address": "480 S Allison Pkwy, Lakewood, CO 80226",
+      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "links": {
+        "permit_form": "https://lakewood.org/permits",
+        "zoning_map": "https://lakewood.org/gis",
+        "city_website": "https://lakewood.org"
+      },
+      "fees": {
+        "permit_fee": "$1,800",
+        "impact_fee": "$3,500",
+        "plan_check": "$750"
+      },
+      "notes": ""
+    },
+    "intro": "Located in Jefferson County, Lakewood's ADU program is governed entirely by local zoning ordinances. Colorado's lack of a statewide ADU mandate means each city sets its own rules \u2014 Lakewood requires minimum lot sizes and owner occupancy.",
+    "county": "Jefferson County",
+    "state_law": "local zoning ordinances, as Colorado has no statewide ADU mandate (HB 24-1152 addresses transit density)",
+    "gumroad_link": "",
+    "stripe_checkout_url": "",
+    "stripe_product_id": "",
+    "stripe_price_id": ""
+  },
+  {
+    "city": "Thornton",
+    "state": "Colorado",
+    "state_abbr": "CO",
+    "max_size": "1,000",
+    "setbacks": "5 ft rear, 5 ft side",
+    "parking": "Required (1 space)",
+    "occupancy": "Required",
+    "additional": "<li>Minimum lot size: 6,000 sq ft</li><li>Minimum ADU size: 200 sq ft</li><li>Owner must occupy property</li><li>Building permit and utility connections required</li>",
+    "faq1": "Thornton permits ADUs in residential neighborhoods. Verify the specific zone and minimum lot size before applying.",
+    "year": "2026",
+    "price": "14",
+    "payhip_link": "[PAYHIP_LINK_THORNTON]",
+    "premium": {
+      "dept_name": "Community Development Department",
+      "phone": "(303) 538-7230",
+      "email": "planning@thorntonco.gov",
+      "address": "9500 Civic Center Dr, Thornton, CO 80229",
+      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "links": {
+        "permit_form": "https://thorntonco.gov/permits",
+        "zoning_map": "https://thorntonco.gov/gis",
+        "city_website": "https://thorntonco.gov"
+      },
+      "fees": {
+        "permit_fee": "$1,800",
+        "impact_fee": "$3,500",
+        "plan_check": "$750"
+      },
+      "notes": ""
+    },
+    "intro": "Adams County's largest city, Thornton regulates ADUs through its municipal code. Without statewide ADU legislation, the city imposes a 6,000 sq ft minimum lot size and requires property owners to occupy the residence.",
+    "county": "Adams County",
+    "state_law": "local zoning ordinances, as Colorado has no statewide ADU mandate (HB 24-1152 addresses transit density)",
+    "gumroad_link": "",
+    "stripe_checkout_url": "",
+    "stripe_product_id": "",
+    "stripe_price_id": ""
+  },
+  {
+    "city": "Arvada",
+    "state": "Colorado",
+    "state_abbr": "CO",
+    "max_size": "1,000",
+    "setbacks": "5 ft rear, 5 ft side",
+    "parking": "Required (1 space)",
+    "occupancy": "Required",
+    "additional": "<li>ADU on lots 5,500 sq ft minimum</li><li>Minimum 200 sq ft</li><li>Maximum 40% lot coverage</li><li>Design review for historic areas</li>",
+    "faq1": "Arvada permits ADUs in residential zones with specific lot size and coverage requirements.",
+    "year": "2026",
+    "price": "14",
+    "payhip_link": "[PAYHIP_LINK_ARVADA]",
+    "premium": {
+      "dept_name": "Planning & Development Department",
+      "phone": "(720) 898-7450",
+      "email": "planning@arvada.org",
+      "address": "8101 Ralston Rd, Arvada, CO 80002",
+      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "links": {
+        "permit_form": "https://arvada.org/permits",
+        "zoning_map": "https://arvada.org/gis",
+        "city_website": "https://arvada.org"
+      },
+      "fees": {
+        "permit_fee": "$1,800",
+        "impact_fee": "$3,500",
+        "plan_check": "$750"
+      },
+      "notes": "Building Division: (720) 898-7480"
+    },
+    "intro": "Jefferson County's second-largest city, Arvada operates its ADU program under local zoning authority. Colorado's lack of a statewide ADU law means Arvada's code \u2014 including lot coverage caps and historic district review \u2014 is the governing standard.",
+    "county": "Jefferson County",
+    "state_law": "local zoning ordinances, as Colorado has no statewide ADU mandate (HB 24-1152 addresses transit density)",
+    "gumroad_link": "",
+    "stripe_checkout_url": "",
+    "stripe_product_id": "",
+    "stripe_price_id": ""
+  },
+  {
+    "city": "Westminster",
+    "state": "Colorado",
+    "state_abbr": "CO",
+    "max_size": "1,000",
+    "setbacks": "5 ft rear, 5 ft side",
+    "parking": "Required (1 space)",
+    "occupancy": "Required",
+    "additional": "<li>ADU on lots 5,000 sq ft minimum</li><li>Minimum 200 sq ft</li><li>Owner occupancy mandatory</li><li>Building permit required \u2014 CO has no state ADU mandate</li>",
+    "faq1": "Westminster allows ADUs in certain residential zones. Contact the planning department to confirm your zone eligibility.",
+    "year": "2026",
+    "price": "14",
+    "payhip_link": "[PAYHIP_LINK_WESTMINSTER]",
+    "premium": {
+      "dept_name": "Planning & Development Services",
+      "phone": "(303) 658-2400",
+      "email": "planning@westminsterco.gov",
+      "address": "4800 W 92nd Ave, Westminster, CO 80031",
+      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "links": {
+        "permit_form": "https://westminsterco.gov/permits",
+        "zoning_map": "https://westminsterco.gov/gis",
+        "city_website": "https://westminsterco.gov"
+      },
+      "fees": {
+        "permit_fee": "$1,800",
+        "impact_fee": "$3,500",
+        "plan_check": "$750"
+      },
+      "notes": ""
+    },
+    "intro": "Spanning Adams and Jefferson counties, Westminster regulates ADUs entirely through its own municipal zoning code. With no Colorado statewide ADU mandate, the city's minimum lot size and owner occupancy rules are final authority.",
+    "county": "Adams County / Jefferson County",
+    "state_law": "local zoning ordinances, as Colorado has no statewide ADU mandate (HB 24-1152 addresses transit density)",
+    "gumroad_link": "",
+    "stripe_checkout_url": "",
+    "stripe_product_id": "",
+    "stripe_price_id": ""
+  },
+  {
+    "city": "Kent",
+    "state": "Washington",
+    "state_abbr": "WA",
+    "max_size": "1,000",
+    "setbacks": "5 ft rear, 5 ft side",
+    "parking": "Not required (near transit)",
+    "occupancy": "Not required",
+    "additional": "<li>ADU by right in all residential zones</li><li>Minimum 200 sq ft</li><li>WA HB 1337 prohibits excessive restrictions</li><li>No short-term rental use allowed</li>",
+    "faq1": "Kent follows Washington state law (HB 1337). Parking is waived within proximity to transit stops.",
+    "year": "2026",
+    "price": "14",
+    "payhip_link": "[PAYHIP_LINK_KENT]",
+    "premium": {
+      "dept_name": "Planning & Building Department",
+      "phone": "(253) 856-5454",
+      "email": "planning@kentwa.gov",
+      "address": "400 W Gowe St, Kent, WA 98032",
+      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "links": {
+        "permit_form": "https://kentwa.gov/permits",
+        "zoning_map": "https://kentwa.gov/gis",
+        "city_website": "https://kentwa.gov"
+      },
+      "fees": {
+        "permit_fee": "$2,000",
+        "impact_fee": "$4,000",
+        "plan_check": "$900"
+      },
+      "notes": "Building Division: (253) 856-5444"
+    },
+    "intro": "Located in King County south of Seattle, Kent's ADU regulations follow Washington's HB 1337 which limits local restrictions. The city's transit-oriented zones near Sound Transit stations qualify for parking exemptions.",
+    "county": "King County",
+    "state_law": "Washington's HB 1337 (2023) which limits local ADU restrictions statewide",
+    "gumroad_link": "",
+    "stripe_checkout_url": "",
+    "stripe_product_id": "",
+    "stripe_price_id": ""
+  },
+  {
+    "city": "Renton",
+    "state": "Washington",
+    "state_abbr": "WA",
+    "max_size": "1,000",
+    "setbacks": "5 ft rear, 5 ft side",
+    "parking": "Required (1 space)",
+    "occupancy": "Not required",
+    "additional": "<li>ADU allowed in single-family zones</li><li>Minimum 200 sq ft</li><li>Height limit: 20 ft</li><li>HB 1337 statewide limits apply</li>",
+    "faq1": "Renton permits ADUs in residential zones. Parking may be required depending on transit proximity.",
+    "year": "2026",
+    "price": "14",
+    "payhip_link": "[PAYHIP_LINK_RENTON]",
+    "premium": {
+      "dept_name": "Planning & Community Development",
+      "phone": "(425) 430-7222",
+      "email": "planning@rentonwa.gov",
+      "address": "1055 S Grady Way, Renton, WA 98057",
+      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "links": {
+        "permit_form": "https://rentonwa.gov/permits",
+        "zoning_map": "https://rentonwa.gov/gis",
+        "city_website": "https://rentonwa.gov"
+      },
+      "fees": {
+        "permit_fee": "$2,000",
+        "impact_fee": "$4,000",
+        "plan_check": "$900"
+      },
+      "notes": ""
+    },
+    "intro": "On the southern shore of Lake Washington in King County, Renton's ADU rules align with Washington's HB 1337. The city's proximity to Boeing and tech employment centers makes ADUs a popular housing option for workforce households.",
+    "county": "King County",
+    "state_law": "Washington's HB 1337 (2023) which limits local ADU restrictions statewide",
+    "gumroad_link": "",
+    "stripe_checkout_url": "",
+    "stripe_product_id": "",
+    "stripe_price_id": ""
+  },
+  {
+    "city": "Federal Way",
+    "state": "Washington",
+    "state_abbr": "WA",
+    "max_size": "1,000",
+    "setbacks": "5 ft rear, 5 ft side",
+    "parking": "Required (1 space)",
+    "occupancy": "Not required",
+    "additional": "<li>ADU by right in residential zones</li><li>Minimum 200 sq ft</li><li>Short-term rental prohibited</li><li>State law HB 1337 applies</li>",
+    "faq1": "Federal Way permits ADUs under Washington state law. Owner occupancy is not required.",
+    "year": "2026",
+    "price": "14",
+    "payhip_link": "[PAYHIP_LINK_FEDERAL_WAY]",
+    "premium": {
+      "dept_name": "Planning & Community Development",
+      "phone": "(253) 835-2600",
+      "email": "planning@cityoffederalway.com",
+      "address": "33325 8th Ave S, Federal Way, WA 98003",
+      "hours": "Mon\u2013Fri, 8:30am\u20135pm",
+      "links": {
+        "permit_form": "https://cityoffederalway.com/permits",
+        "zoning_map": "https://cityoffederalway.com/gis",
+        "city_website": "https://cityoffederalway.com"
+      },
+      "fees": {
+        "permit_fee": "$2,000",
+        "impact_fee": "$4,000",
+        "plan_check": "$900"
+      },
+      "notes": ""
+    },
+    "intro": "Situated in King County between Seattle and Tacoma, Federal Way permits ADUs under Washington's HB 1337 framework. The city's location along the I-5 corridor makes it an attractive market for ADU development.",
+    "county": "King County",
+    "state_law": "Washington's HB 1337 (2023) which limits local ADU restrictions statewide",
+    "gumroad_link": "",
+    "stripe_checkout_url": "",
+    "stripe_product_id": "",
+    "stripe_price_id": ""
+  },
+  {
+    "city": "Kirkland",
+    "state": "Washington",
+    "state_abbr": "WA",
+    "max_size": "1,000",
+    "setbacks": "5 ft rear, 5 ft side",
+    "parking": "Not required (near transit)",
+    "occupancy": "Not required",
+    "additional": "<li>ADU by right in most residential zones</li><li>Minimum 200 sq ft</li><li>Design review for waterfront properties</li><li>Parking waived in transit zones (HB 1337)</li>",
+    "faq1": "Kirkland allows ADUs under Washington state law. Waterfront properties may need additional design review.",
+    "year": "2026",
+    "price": "14",
+    "payhip_link": "[PAYHIP_LINK_KIRKLAND]",
+    "premium": {
+      "dept_name": "Planning & Building Department",
+      "phone": "(425) 587-3600",
+      "email": "planning@kirklandwa.gov",
+      "address": "123 5th Ave, Kirkland, WA 98033",
+      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "links": {
+        "permit_form": "https://kirklandwa.gov/permits",
+        "zoning_map": "https://kirklandwa.gov/gis",
+        "city_website": "https://kirklandwa.gov"
+      },
+      "fees": {
+        "permit_fee": "$2,000",
+        "impact_fee": "$4,000",
+        "plan_check": "$900"
+      },
+      "notes": "Building Division: (425) 587-3660"
+    },
+    "intro": "On the northeastern shore of Lake Washington in King County, Kirkland's ADU program benefits from Washington's HB 1337. The city's popular downtown and waterfront areas may trigger additional design review requirements.",
+    "county": "King County",
+    "state_law": "Washington's HB 1337 (2023) which limits local ADU restrictions statewide",
+    "gumroad_link": "",
+    "stripe_checkout_url": "",
+    "stripe_product_id": "",
+    "stripe_price_id": ""
+  },
+  {
+    "city": "Redmond",
+    "state": "Washington",
+    "state_abbr": "WA",
+    "max_size": "1,000",
+    "setbacks": "5 ft rear, 5 ft side",
+    "parking": "Not required (near transit)",
+    "occupancy": "Not required",
+    "additional": "<li>ADU by right in residential zones</li><li>Minimum 200 sq ft</li><li>Tree retention standards may apply</li><li>Light rail proximity waives parking (HB 1337)</li>",
+    "faq1": "Redmond permits ADUs under Washington's HB 1337. Parking is not required near the Redmond Technology transit station.",
+    "year": "2026",
+    "price": "14",
+    "payhip_link": "[PAYHIP_LINK_REDMOND]",
+    "premium": {
+      "dept_name": "Planning & Community Development",
+      "phone": "(425) 556-2490",
+      "email": "planning@redmond.gov",
+      "address": "15670 NE 85th St, Redmond, WA 98052",
+      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "links": {
+        "permit_form": "https://redmond.gov/permits",
+        "zoning_map": "https://redmond.gov/gis",
+        "city_website": "https://redmond.gov"
+      },
+      "fees": {
+        "permit_fee": "$2,000",
+        "impact_fee": "$4,000",
+        "plan_check": "$900"
+      },
+      "notes": "Building Division: (425) 556-2830"
+    },
+    "intro": "Home to Microsoft's headquarters in King County, Redmond permits ADUs under Washington's HB 1337. The city's Link Light Rail extension has created transit zones where parking requirements are waived for ADU projects.",
+    "county": "King County",
+    "state_law": "Washington's HB 1337 (2023) which limits local ADU restrictions statewide",
+    "gumroad_link": "",
+    "stripe_checkout_url": "",
+    "stripe_product_id": "",
+    "stripe_price_id": ""
+  },
+  {
+    "city": "Eugene",
+    "state": "Oregon",
+    "state_abbr": "OR",
+    "max_size": "1,200",
+    "setbacks": "5 ft rear, 5 ft side",
+    "parking": "Not required",
+    "occupancy": "Not required",
+    "additional": "<li>ADU by right in all residential zones (Oregon HB 2001)</li><li>Minimum 200 sq ft</li><li>System development charges may apply</li><li>Owner occupancy not required</li>",
+    "faq1": "Eugene allows ADUs by right under Oregon's HB 2001. No owner occupancy requirement and parking is generally not required.",
+    "year": "2026",
+    "price": "12",
+    "payhip_link": "[PAYHIP_LINK_EUGENE]",
+    "premium": {
+      "dept_name": "Planning & Development Department",
+      "phone": "(541) 682-5225",
+      "email": "planning@eugene-or.gov",
+      "address": "99 W 10th Ave, Eugene, OR 97401",
+      "hours": "Mon\u2013Fri, 8:30am\u20135pm",
+      "links": {
+        "permit_form": "https://eugene-or.gov/permits",
+        "zoning_map": "https://eugene-or.gov/gis",
+        "city_website": "https://eugene-or.gov"
+      },
+      "fees": {
+        "permit_fee": "$1,500",
+        "impact_fee": "$4,500",
+        "plan_check": "$800"
+      },
+      "notes": "Building Division: (541) 682-6885"
+    },
+    "intro": "Home to the University of Oregon in Lane County, Eugene permits ADUs by right under Oregon's HB 2001 (2019), which requires cities to allow ADUs in all residential zones. The city's progressive housing policies make ADU development straightforward for most property owners.",
+    "county": "Lane County",
+    "state_law": "Oregon's HB 2001 (2019) which requires ADU approval by-right in all residential zones statewide",
+    "gumroad_link": "",
+    "stripe_checkout_url": "",
+    "stripe_product_id": "",
+    "stripe_price_id": ""
+  },
+  {
+    "city": "Salem",
+    "state": "Oregon",
+    "state_abbr": "OR",
+    "max_size": "1,200",
+    "setbacks": "5 ft rear, 5 ft side",
+    "parking": "Not required",
+    "occupancy": "Not required",
+    "additional": "<li>ADU by right in residential zones (HB 2001)</li><li>Minimum 200 sq ft</li><li>System development charges apply</li><li>One ADU per lot maximum</li>",
+    "faq1": "Salem permits ADUs under Oregon's HB 2001 statewide mandate. The process is streamlined with minimal local restrictions.",
+    "year": "2026",
+    "price": "12",
+    "payhip_link": "[PAYHIP_LINK_SALEM]",
+    "premium": {
+      "dept_name": "Planning Division \u2014 Community Development",
+      "phone": "(503) 588-6170",
+      "email": "planning@cityofsalem.net",
+      "address": "555 Liberty St SE, Salem, OR 97301",
+      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "links": {
+        "permit_form": "https://cityofsalem.net/permits",
+        "zoning_map": "https://cityofsalem.net/gis",
+        "city_website": "https://cityofsalem.net"
+      },
+      "fees": {
+        "permit_fee": "$1,500",
+        "impact_fee": "$4,500",
+        "plan_check": "$800"
+      },
+      "notes": ""
+    },
+    "intro": "Oregon's capital city in Marion County, Salem permits ADUs by right under HB 2001. As a mid-sized city with growing housing demand, Salem's Planning Division processes ADU applications under the state's streamlined by-right framework.",
+    "county": "Marion County / Polk County",
+    "state_law": "Oregon's HB 2001 (2019) which requires ADU approval by-right in all residential zones statewide",
+    "gumroad_link": "",
+    "stripe_checkout_url": "",
+    "stripe_product_id": "",
+    "stripe_price_id": ""
+  },
+  {
+    "city": "Gresham",
+    "state": "Oregon",
+    "state_abbr": "OR",
+    "max_size": "1,200",
+    "setbacks": "5 ft rear, 5 ft side",
+    "parking": "Not required",
+    "occupancy": "Not required",
+    "additional": "<li>ADU by right in all residential zones</li><li>Minimum 200 sq ft</li><li>Max height: 20 ft</li><li>System development charges may be reduced for ADUs</li>",
+    "faq1": "Gresham permits ADUs under Oregon law. The city offers SDC reductions for ADUs to encourage construction.",
+    "year": "2026",
+    "price": "12",
+    "payhip_link": "[PAYHIP_LINK_GRESHAM]",
+    "premium": {
+      "dept_name": "Planning & Building Department",
+      "phone": "(503) 618-2845",
+      "email": "planning@greshamoregon.gov",
+      "address": "1333 NW Eastman Pkwy, Gresham, OR 97030",
+      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "links": {
+        "permit_form": "https://greshamoregon.gov/permits",
+        "zoning_map": "https://greshamoregon.gov/gis",
+        "city_website": "https://greshamoregon.gov"
+      },
+      "fees": {
+        "permit_fee": "$1,500",
+        "impact_fee": "$4,500",
+        "plan_check": "$800"
+      },
+      "notes": "Building Services: (503) 618-2845"
+    },
+    "intro": "Multnomah County's second-largest city, Gresham permits ADUs by right under Oregon's HB 2001. The city actively encourages ADU construction through reduced System Development Charges (SDCs), making it an affordable option for property owners.",
+    "county": "Multnomah County",
+    "state_law": "Oregon's HB 2001 (2019) which requires ADU approval by-right in all residential zones statewide",
+    "gumroad_link": "",
+    "stripe_checkout_url": "",
+    "stripe_product_id": "",
+    "stripe_price_id": ""
+  },
+  {
+    "city": "Hillsboro",
+    "state": "Oregon",
+    "state_abbr": "OR",
+    "max_size": "1,200",
+    "setbacks": "5 ft rear, 5 ft side",
+    "parking": "Not required",
+    "occupancy": "Not required",
+    "additional": "<li>ADU by right in all residential zones (HB 2001)</li><li>Minimum 200 sq ft</li><li>Design review for historic districts only</li><li>No owner occupancy requirement</li>",
+    "faq1": "Hillsboro follows Oregon's HB 2001. ADUs are permitted by right with no additional local restrictions for most properties.",
+    "year": "2026",
+    "price": "12",
+    "payhip_link": "[PAYHIP_LINK_HILLSBORO]",
+    "premium": {
+      "dept_name": "Planning & Development Department",
+      "phone": "(503) 681-6153",
+      "email": "planning@hillsboro-oregon.gov",
+      "address": "150 E Main St, Hillsboro, OR 97123",
+      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "links": {
+        "permit_form": "https://hillsboro-oregon.gov/permits",
+        "zoning_map": "https://hillsboro-oregon.gov/gis",
+        "city_website": "https://hillsboro-oregon.gov"
+      },
+      "fees": {
+        "permit_fee": "$1,500",
+        "impact_fee": "$4,500",
+        "plan_check": "$800"
+      },
+      "notes": "Building Division: (503) 681-6153"
+    },
+    "intro": "Washington County's largest city and home to Silicon Forest tech companies, Hillsboro permits ADUs by right under Oregon's HB 2001. The growing demand for workforce housing near major employers like Intel drives interest in ADU construction.",
+    "county": "Washington County",
+    "state_law": "Oregon's HB 2001 (2019) which requires ADU approval by-right in all residential zones statewide",
+    "gumroad_link": "",
+    "stripe_checkout_url": "",
+    "stripe_product_id": "",
+    "stripe_price_id": ""
+  },
+  {
+    "city": "Beaverton",
+    "state": "Oregon",
+    "state_abbr": "OR",
+    "max_size": "1,200",
+    "setbacks": "5 ft rear, 5 ft side",
+    "parking": "Not required",
+    "occupancy": "Not required",
+    "additional": "<li>ADU by right in residential zones (HB 2001)</li><li>Minimum 200 sq ft</li><li>MAX light rail proximity may reduce SDCs</li><li>Streamlined permit process available</li>",
+    "faq1": "Beaverton allows ADUs under Oregon state law. The city provides a streamlined process for standard ADU designs.",
+    "year": "2026",
+    "price": "12",
+    "payhip_link": "[PAYHIP_LINK_BEAVERTON]",
+    "premium": {
+      "dept_name": "Planning & Building Department",
+      "phone": "(503) 526-2493",
+      "email": "planning@beavertonoregon.gov",
+      "address": "12725 SW Millikan Way, Beaverton, OR 97005",
+      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "links": {
+        "permit_form": "https://beavertonoregon.gov/permits",
+        "zoning_map": "https://beavertonoregon.gov/gis",
+        "city_website": "https://beavertonoregon.gov"
+      },
+      "fees": {
+        "permit_fee": "$1,500",
+        "impact_fee": "$4,500",
+        "plan_check": "$800"
+      },
+      "notes": "Building Services: (503) 526-2460"
+    },
+    "intro": "In Washington County west of Portland, Beaverton permits ADUs by right under Oregon's HB 2001. The city's location along the MAX Light Rail line provides transit-oriented development opportunities with potential SDC reductions.",
+    "county": "Washington County",
+    "state_law": "Oregon's HB 2001 (2019) which requires ADU approval by-right in all residential zones statewide",
+    "gumroad_link": "",
+    "stripe_checkout_url": "",
+    "stripe_product_id": "",
+    "stripe_price_id": ""
   }
 ]
