@@ -1,0 +1,135 @@
+# ADUCheatSheet — Produits Payhip
+# Mode d'emploi :
+# 1. Va sur https://payhip.com/login
+# 2. Clique "Add Product" 
+# 3. Copie-colle les infos ci-dessous pour chaque ville
+# 4. Upload le PDF correspondant (dossier pdfs/)
+# 5. Clique "Save" → copie le lien → donne-le moi
+
+# ========== CALIFORNIA ($12) ==========
+
+[TITLE]: The Ultimate Bakersfield ADU Permit Cheat Sheet
+[PRICE]: 12.00
+[FILE]: pdfs/bakersfield-ca-adu-cheatsheet.pdf
+[SKU]: BAKERSFIELD-CA-ADU-001
+[DESC]: Complete ADU zoning guide for Bakersfield, CA. Includes official permit forms, planning department contacts, zoning map links, and step-by-step project checklist. Kern County.
+[STATEMENT]: ADUCheat
+
+---
+
+[TITLE]: The Ultimate Fresno ADU Permit Cheat Sheet
+[PRICE]: 12.00
+[FILE]: pdfs/fresno-ca-adu-cheatsheet.pdf
+[SKU]: FRESNO-CA-ADU-001
+
+---
+
+[TITLE]: The Ultimate Modesto ADU Permit Cheat Sheet
+[PRICE]: 12.00
+[FILE]: pdfs/modesto-ca-adu-cheatsheet.pdf
+[SKU]: MODESTO-CA-ADU-001
+
+---
+
+[TITLE]: The Ultimate Stockton ADU Permit Cheat Sheet
+[PRICE]: 12.00
+[FILE]: pdfs/stockton-ca-adu-cheatsheet.pdf
+[SKU]: STOCKTON-CA-ADU-001
+
+---
+
+[TITLE]: The Ultimate Santa Rosa ADU Permit Cheat Sheet
+[PRICE]: 12.00
+[FILE]: pdfs/santa-rosa-ca-adu-cheatsheet.pdf
+[SKU]: SANTA-ROSA-CA-ADU-001
+
+---
+
+[TITLE]: The Ultimate Oceanside ADU Permit Cheat Sheet
+[PRICE]: 12.00
+[FILE]: pdfs/oceanside-ca-adu-cheatsheet.pdf
+[SKU]: OCEANSIDE-CA-ADU-001
+
+---
+
+[TITLE]: The Ultimate Vallejo ADU Permit Cheat Sheet
+[PRICE]: 12.00
+[FILE]: pdfs/vallejo-ca-adu-cheatsheet.pdf
+[SKU]: VALLEJO-CA-ADU-001
+
+# ========== WASHINGTON ($14) ==========
+
+[TITLE]: The Ultimate Spokane ADU Permit Cheat Sheet
+[PRICE]: 14.00
+[FILE]: pdfs/spokane-wa-adu-cheatsheet.pdf
+[SKU]: SPOKANE-WA-ADU-001
+
+---
+
+[TITLE]: The Ultimate Tacoma ADU Permit Cheat Sheet
+[PRICE]: 14.00
+[FILE]: pdfs/tacoma-wa-adu-cheatsheet.pdf
+[SKU]: TACOMA-WA-ADU-001
+
+---
+
+[TITLE]: The Ultimate Vancouver ADU Permit Cheat Sheet
+[PRICE]: 14.00
+[FILE]: pdfs/vancouver-wa-adu-cheatsheet.pdf
+[SKU]: VANCOUVER-WA-ADU-001
+
+---
+
+[TITLE]: The Ultimate Bellevue ADU Permit Cheat Sheet
+[PRICE]: 14.00
+[FILE]: pdfs/bellevue-wa-adu-cheatsheet.pdf
+[SKU]: BELLEVUE-WA-ADU-001
+
+---
+
+[TITLE]: The Ultimate Everett ADU Permit Cheat Sheet
+[PRICE]: 14.00
+[FILE]: pdfs/everett-wa-adu-cheatsheet.pdf
+[SKU]: EVERETT-WA-ADU-001
+
+---
+
+[TITLE]: The Ultimate Yakima ADU Permit Cheat Sheet
+[PRICE]: 14.00
+[FILE]: pdfs/yakima-wa-adu-cheatsheet.pdf
+[SKU]: YAKIMA-WA-ADU-001
+
+# ========== COLORADO ($14) ==========
+
+[TITLE]: The Ultimate Fort Collins ADU Permit Cheat Sheet
+[PRICE]: 14.00
+[FILE]: pdfs/fort-collins-co-adu-cheatsheet.pdf
+[SKU]: FORT-COLLINS-CO-ADU-001
+
+---
+
+[TITLE]: The Ultimate Greeley ADU Permit Cheat Sheet
+[PRICE]: 14.00
+[FILE]: pdfs/greeley-co-adu-cheatsheet.pdf
+[SKU]: GREELEY-CO-ADU-001
+
+---
+
+[TITLE]: The Ultimate Pueblo ADU Permit Cheat Sheet
+[PRICE]: 14.00
+[FILE]: pdfs/pueblo-co-adu-cheatsheet.pdf
+[SKU]: PUEBLO-CO-ADU-001
+
+---
+
+[TITLE]: The Ultimate Boulder ADU Permit Cheat Sheet
+[PRICE]: 14.00
+[FILE]: pdfs/boulder-co-adu-cheatsheet.pdf
+[SKU]: BOULDER-CO-ADU-001
+
+---
+
+[TITLE]: The Ultimate Grand Junction ADU Permit Cheat Sheet
+[PRICE]: 14.00
+[FILE]: pdfs/grand-junction-co-adu-cheatsheet.pdf
+[SKU]: GRAND-JUNCTION-CO-ADU-001

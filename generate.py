@@ -76,7 +76,7 @@ for c in cities:
         "[FAQ_1]": c.get("faq1", ""),
         "[YEAR]": c.get("year", "2026"),
         "[PRICE]": c.get("web_price", "12"),
-        "[PAYHIP_LINK_CITY]": c.get("payhip_link", ""),
+        "[GUMROAD_LINK]": c.get("gumroad_link", ""),
         "[RELATED_CITIES]": related_html,
     }
     
