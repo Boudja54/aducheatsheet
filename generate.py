@@ -1,19 +1,19 @@
 #!/usr/bin/env python3
 """
-ADUCheatSheet.com — Full Generator
+ADUCheatSheet.com — Full Generator v2 (Anti-Penalty Google)
 1. Reads cities-data.json
-2. Generates HTML city pages (Niveau 1 data)
-3. Generates PDF cheat sheets (Niveau 1 + Niveau 2 premium data)
+2. Generates HTML city pages (unique content per city, conditional rows)
+3. Generates PDF cheat sheets (3 pages: cover, premium data, checklist)
 4. Updates index.html
 """
 
-import json, os, textwrap
+import json, os
 from reportlab.lib.pagesizes import letter
 from reportlab.lib.units import inch
 from reportlab.lib import colors
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, PageBreak
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
-from reportlab.lib.enums import TA_CENTER, TA_LEFT
+from reportlab.lib.enums import TA_CENTER
 
 DATA_FILE = "cities-data.json"
 TEMPLATE_FILE = "template-city.html"
@@ -36,7 +36,7 @@ os.makedirs(CITIES_DIR, exist_ok=True)
 os.makedirs(PDF_DIR, exist_ok=True)
 
 # ============================================================
-# 1. GENERATE HTML PAGES
+# 1. GENERATE HTML PAGES (Anti-Penalty: unique content per city)
 # ============================================================
 for c in cities:
     html = template[:]
@@ -47,15 +47,31 @@ for c in cities:
     for r in related:
         related_html += f'<li><a href="/cities/{city_filename(r["city"], r["state_abbr"])}">{r["city"]}, {r["state_abbr"]}</a></li>\n'
     
+    # Conditional rows: hide if "Not required" / "Not applicable"
+    parking_row = ""
+    if "required" in c.get("parking", "").lower() or "space" in c.get("parking", "").lower():
+        parking_row = f'<tr><td><strong>Extra Parking Required</strong></td><td>{c["parking"]}</td></tr>'
+    
+    occ_row = ""
+    if "required" in c.get("occupancy", "").lower():
+        occ_row = f'<tr><td><strong>Owner Occupancy</strong></td><td>{c["occupancy"]}</td></tr>'
+    elif "not" in c.get("occupancy", "").lower():
+        occ_row = ""  # Hide row completely — no "Not required" text
+    else:
+        occ_row = f'<tr><td><strong>Owner Occupancy</strong></td><td>{c["occupancy"]}</td></tr>'
+    
     replacements = {
         "[CITY]": c["city"],
         "[CITY-LOWER]": slug(c["city"]),
         "[STATE]": c["state"],
         "[STATE-LOWER]": c["state_abbr"].lower(),
+        "[COUNTY]": c.get("county", ""),
+        "[CITY_INTRO]": c.get("intro", ""),
+        "[STATE_LAW]": c.get("state_law", "local zoning ordinances"),
         "[MAX_SIZE]": c["max_size"],
         "[SETBACKS]": c["setbacks"],
-        "[PARKING]": c["parking"],
-        "[OCCUPANCY]": c["occupancy"],
+        "[PARKING_ROW]": parking_row,
+        "[OCCUPANCY_ROW]": occ_row,
         "[ADDITIONAL_REQUIREMENTS]": c.get("additional", ""),
         "[FAQ_1]": c.get("faq1", ""),
         "[YEAR]": c.get("year", "2026"),
@@ -73,7 +89,7 @@ for c in cities:
     print(f"✅ HTML: {fname}")
 
 # ============================================================
-# 2. GENERATE PDF CHEAT SHEETS
+# 2. GENERATE PDF CHEAT SHEETS (3 pages)
 # ============================================================
 styles = getSampleStyleSheet()
 title_style = ParagraphStyle("CustomTitle", parent=styles["Title"], fontSize=22, spaceAfter=12, alignment=TA_CENTER, textColor=colors.HexColor("#1a5f3a"))
@@ -82,8 +98,8 @@ heading_style = ParagraphStyle("Heading2", parent=styles["Heading2"], fontSize=1
 normal_style = ParagraphStyle("Normal2", parent=styles["Normal"], fontSize=10, spaceAfter=4, leading=14)
 disclaimer_style = ParagraphStyle("Disclaimer", parent=styles["Normal"], fontSize=8, spaceAfter=6, textColor=colors.HexColor("#856404"))
 bullet_style = ParagraphStyle("Bullet", parent=styles["Normal"], fontSize=10, spaceAfter=3, leftIndent=20, leading=14)
-table_header_style = ParagraphStyle("TableHeader", parent=styles["Normal"], fontSize=10, textColor=colors.white, alignment=TA_CENTER)
-table_cell_style = ParagraphStyle("TableCell", parent=styles["Normal"], fontSize=10, alignment=TA_LEFT)
+table_header_style = ParagraphStyle("TableHeader", parent=styles["Normal"], fontSize=10, textColor=colors.white)
+table_cell_style = ParagraphStyle("TableCell", parent=styles["Normal"], fontSize=10)
 
 for c in cities:
     pdf_path = os.path.join(PDF_DIR, f"{slug(c['city'])}-{c['state_abbr'].lower()}-adu-cheatsheet.pdf")
@@ -93,14 +109,13 @@ for c in cities:
     
     elements = []
     
-    # ===== PAGE 1: COVER + DISCLAIMER =====
+    # PAGE 1: COVER + DISCLAIMER
     elements.append(Spacer(1, 1.5*inch))
     elements.append(Paragraph(f"The Ultimate<br/>{c['city']} ADU<br/>Permit Cheat Sheet", title_style))
     elements.append(Spacer(1, 0.3*inch))
-    elements.append(Paragraph(f"{c['city']}, {c['state']} — {c.get('year', '2026')}", subtitle_style))
+    elements.append(Paragraph(f"{c['city']}, {c.get('county', '')} — {c.get('year', '2026')}", subtitle_style))
     elements.append(Spacer(1, 1.5*inch))
     
-    # Disclaimer box
     disclaimer_text = (
         "<b>For Informational Purposes Only:</b><br/>"
         "The information provided is strictly for educational purposes and does not constitute "
@@ -110,30 +125,33 @@ for c in cities:
     elements.append(Paragraph(disclaimer_text, disclaimer_style))
     elements.append(Spacer(1, 0.1*inch))
     elements.append(Paragraph(
-        "By using this guide, you agree that the publisher is not liable for any errors, omissions, or damages.",
+        "By using this guide, you agree that the publisher is not liable for any errors, omissions, or damages. "
+        "Zoning laws change frequently — verify all information with local officials.",
         disclaimer_style
     ))
     
     elements.append(PageBreak())
     
-    # ===== PAGE 2: LOCAL DIRECTORY + BASIC RULES =====
-    elements.append(Paragraph(f"🏡 {c['city']} ADU — Key Regulations & Local Contacts", heading_style))
+    # PAGE 2: PREMIUM DATA & CONTACTS
+    elements.append(Paragraph(f"🏡 {c['city']} ADU — Key Regulations &amp; Local Contacts", heading_style))
     elements.append(Spacer(1, 0.15*inch))
     
-    # Basic rules table (Niveau 1)
-    elements.append(Paragraph("<b>Basic Zoning Rules</b>", normal_style))
+    # Basic rules table
+    elements.append(Paragraph("<b>Zoning Rules Overview</b>", normal_style))
     rules_data = [
         [Paragraph("Regulation", table_header_style), Paragraph("Requirement", table_header_style)],
         [Paragraph("Maximum Size", table_cell_style), Paragraph(c["max_size"] + " sq ft", table_cell_style)],
         [Paragraph("Property Setbacks", table_cell_style), Paragraph(c["setbacks"], table_cell_style)],
-        [Paragraph("Extra Parking", table_cell_style), Paragraph(c["parking"], table_cell_style)],
-        [Paragraph("Owner Occupancy", table_cell_style), Paragraph(c["occupancy"], table_cell_style)],
     ]
+    if "Required" in c.get("parking", ""):
+        rules_data.append([Paragraph("Extra Parking", table_cell_style), Paragraph(c["parking"], table_cell_style)])
+    if "Required" in c.get("occupancy", ""):
+        rules_data.append([Paragraph("Owner Occupancy", table_cell_style), Paragraph(c["occupancy"], table_cell_style)])
+    
     rule_table = Table(rules_data, colWidths=[2.2*inch, 3.5*inch])
     rule_table.setStyle(TableStyle([
         ('BACKGROUND', (0, 0), (-1, 0), colors.HexColor("#1a5f3a")),
         ('TEXTCOLOR', (0, 0), (-1, 0), colors.white),
-        ('FONTSIZE', (0, 0), (-1, -1), 10),
         ('GRID', (0, 0), (-1, -1), 0.5, colors.HexColor("#cccccc")),
         ('ROWBACKGROUNDS', (0, 1), (-1, -1), [colors.white, colors.HexColor("#f5f5f5")]),
         ('VALIGN', (0, 0), (-1, -1), 'MIDDLE'),
@@ -144,11 +162,11 @@ for c in cities:
     elements.append(rule_table)
     elements.append(Spacer(1, 0.3*inch))
     
-    # Premium contacts (Niveau 2)
+    # Premium contacts
+    contacts = c.get("premium", {})
     elements.append(Paragraph("<b>📍 Local Planning Department</b>", normal_style))
     elements.append(Spacer(1, 0.1*inch))
     
-    contacts = c.get("premium", {})
     contact_lines = [
         f"<b>Department:</b> {contacts.get('dept_name', 'Planning Department')}",
         f"<b>Phone:</b> {contacts.get('phone', 'Check city website')}",
@@ -162,60 +180,60 @@ for c in cities:
         elements.append(Paragraph(line, normal_style))
     elements.append(Spacer(1, 0.15*inch))
     
-    elements.append(Paragraph("<b>🔗 Key Links</b>", normal_style))
+    elements.append(Paragraph("<b>🔗 Key Online Resources</b>", normal_style))
     links = contacts.get('links', {})
     link_lines = [
-        f"• <b>Permit Application:</b> <font color='blue'><u>{links.get('permit_form', 'N/A')}</u></font>",
+        f"• <b>ADU Information:</b> <font color='blue'><u>{links.get('city_website', 'N/A')}</u></font>",
         f"• <b>Zoning Map:</b> <font color='blue'><u>{links.get('zoning_map', 'N/A')}</u></font>",
-        f"• <b>City Website:</b> <font color='blue'><u>{links.get('city_website', 'N/A')}</u></font>",
+        f"• <b>Permit Portal:</b> <font color='blue'><u>{links.get('permit_form', 'N/A')}</u></font>",
     ]
     for line in link_lines:
         elements.append(Paragraph(line, normal_style))
     elements.append(Spacer(1, 0.15*inch))
     
-    elements.append(Paragraph("<b>💰 Estimated Fees</b>", normal_style))
+    elements.append(Paragraph("<b>💰 Maximum Estimated Permit Fees</b>", normal_style))
     fees = contacts.get('fees', {})
     fee_lines = [
-        f"• Permit fee: ${fees.get('permit_fee', 'TBD')}",
-        f"• Impact fees: ${fees.get('impact_fee', 'TBD')}",
-        f"• Plan check: ${fees.get('plan_check', 'TBD')}",
+        f"• Building permit fee: {fees.get('permit_fee', 'TBD')}",
+        f"• Impact / development fees: {fees.get('impact_fee', 'TBD')}",
+        f"• Plan check fee: {fees.get('plan_check', 'TBD')}",
     ]
     for line in fee_lines:
         elements.append(Paragraph(line, normal_style))
     
     elements.append(PageBreak())
     
-    # ===== PAGE 3: PROJECT CHECKLIST =====
-    elements.append(Paragraph(f"✅ {c['city']} ADU — Project Checklist", heading_style))
+    # PAGE 3: PROJECT CHECKLIST
+    elements.append(Paragraph(f"✅ {c['city']} ADU — Step-by-Step Project Checklist", heading_style))
     elements.append(Spacer(1, 0.2*inch))
     
+    permit_form_name = contacts.get('links', {}).get('permit_form', 'the application')
     checklist_items = [
-        "☐ Verify zoning compliance — confirm your property is zoned for ADU",
-        "☐ Check lot size, setbacks, and height restrictions on the zoning map",
-        "☐ Prepare preliminary site plan and floor plan (can be hand-drawn)",
-        "☐ Complete the building permit application form",
-        "☐ Gather required documents: site plan, floor plan, elevations, title report",
-        "☐ Submit application package to the Planning Department",
-        "☐ Pay plan check and permit fees",
-        "☐ Wait for plan review (typically 4-8 weeks)",
-        "☐ Address any correction notices from the reviewer",
-        "☐ Receive approved permit",
-        "☐ Schedule inspections during construction (foundation, framing, electrical, final)",
-        "☐ Obtain certificate of occupancy upon completion",
+        "☐ Verify zoning compliance — confirm your lot is zoned for ADU use",
+        f"☐ Check the official zoning map at: <font color='blue'><u>{contacts.get('links', {}).get('zoning_map', 'city GIS portal')}</u></font>",
+        "☐ Measure lot size, setbacks, and height limits against your design",
+        "☐ Prepare a preliminary site plan (property lines, building locations, setbacks)",
+        "☐ Draft floor plan showing ADU layout (bedroom, kitchen, bathroom)",
+        f"☐ Complete the building permit application — available at: {permit_form_name}",
+        "☐ Gather required documents: site plan, floor plan, elevations, proof of ownership",
+        "☐ Submit complete application package to the Planning Department in person or online",
+        "☐ Pay plan check fee and building permit fee",
+        "☐ Wait for plan review (typically 4-8 weeks — respond to correction notices promptly)",
+        "☐ Schedule required inspections: foundation, framing, electrical, plumbing, final",
+        "☐ Obtain Certificate of Occupancy once all inspections pass",
     ]
     for item in checklist_items:
         elements.append(Paragraph(item, bullet_style))
-        elements.append(Spacer(1, 0.05*inch))
+        elements.append(Spacer(1, 0.03*inch))
     
     elements.append(Spacer(1, 0.3*inch))
     elements.append(Paragraph(
-        "<i>💡 Tip: Contact the local planning department early in your process — "
-        "they can save you months of back-and-forth by identifying issues upfront.</i>",
+        f"<i>💡 Tip: Schedule a pre-application meeting with the {c['city']} Planning Department "
+        f"early in your process — they can identify issues before you spend time and money on detailed plans.</i>",
         normal_style
     ))
     
-    # Build PDF
     doc.build(elements)
-    print(f"✅ PDF: {pdf_path}")
+    print(f"✅ PDF: {os.path.basename(pdf_path)}")
 
-print(f"\n🎉 Done! {len(cities)} HTML pages + {len(cities)} PDFs generated.")
+print(f"\n🎉 Done! {len(cities)} HTML pages + {len(cities)} PDFs — all with unique content and conditional rows.")

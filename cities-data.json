@@ -27,14 +27,17 @@
         "adu_calculator": "https://www.bakersfieldadu.us/calculator"
       },
       "fees": {
-        "permit_fee": "500-1,500",
-        "impact_fee": "2,000-5,000",
-        "plan_check": "300-800",
+        "permit_fee": "$1,500",
+        "impact_fee": "$5,000",
+        "plan_check": "$800",
         "permit_validity": "1 year",
         "timeline": "~30 working days (planning review)"
       },
       "notes": "Building Division: (661) 326-3720 / devbld@bakersfieldcity.us"
-    }
+    },
+    "intro": "Located in Kern County, Bakersfield sits at the southern end of the San Joaquin Valley. Under California's AB 68 and AB 3182, ADUs are permitted by right on most single-family lots. However, Bakersfield's municipal code adds specific lot coverage standards that property owners must verify before designing their project.",
+    "county": "Kern County",
+    "state_law": "California's AB 68 (2020), AB 881 (2021), and AB 3182 (2024) which together establish a statewide ADU framework"
   },
   {
     "city": "Fresno",
@@ -60,11 +63,14 @@
         "city_website": "https://www.fresno.gov"
       },
       "fees": {
-        "permit_fee": "500-1,500",
-        "impact_fee": "2,000-5,000",
-        "plan_check": "200-800"
+        "permit_fee": "$1,500",
+        "impact_fee": "$5,000",
+        "plan_check": "$800"
       }
-    }
+    },
+    "intro": "As the heart of California's Central Valley, Fresno follows the statewide ADU framework established by AB 68 and AB 881. Fresno's Planning Department reviews ADU applications with attention to the city's specific zoning district requirements, particularly in neighborhoods zoned for single-family residential use.",
+    "county": "Fresno County",
+    "state_law": "California's AB 68 (2020), AB 881 (2021), and AB 3182 (2024) which together establish a statewide ADU framework"
   },
   {
     "city": "Modesto",
@@ -90,11 +96,14 @@
         "city_website": "https://www.modestogov.com"
       },
       "fees": {
-        "permit_fee": "500-1,500",
-        "impact_fee": "2,000-5,000",
-        "plan_check": "200-800"
+        "permit_fee": "$1,500",
+        "impact_fee": "$5,000",
+        "plan_check": "$800"
       }
-    }
+    },
+    "intro": "Located in Stanislaus County, Modesto's ADU regulations align with California's statewide mandates. The city encourages detached ADUs as a solution to local housing needs, with most residential properties qualifying for by-right development under state law.",
+    "county": "Stanislaus County",
+    "state_law": "California's AB 68 (2020), AB 881 (2021), and AB 3182 (2024) which together establish a statewide ADU framework"
   },
   {
     "city": "Stockton",
@@ -120,11 +129,14 @@
         "city_website": "https://www.stocktonca.gov"
       },
       "fees": {
-        "permit_fee": "500-1,500",
-        "impact_fee": "2,000-5,000",
-        "plan_check": "200-800"
+        "permit_fee": "$1,500",
+        "impact_fee": "$5,000",
+        "plan_check": "$800"
       }
-    }
+    },
+    "intro": "Sitting in San Joaquin County, Stockton permits ADUs under California's Housing Accountability Act. The city's Development Services Department processes applications with consideration for historic district overlay zones that may impose additional design standards.",
+    "county": "San Joaquin County",
+    "state_law": "California's AB 68 (2020), AB 881 (2021), and AB 3182 (2024) which together establish a statewide ADU framework"
   },
   {
     "city": "Santa Rosa",
@@ -150,11 +162,14 @@
         "city_website": "https://srcity.org"
       },
       "fees": {
-        "permit_fee": "500-1,500",
-        "impact_fee": "2,000-5,000",
-        "plan_check": "200-800"
+        "permit_fee": "$1,500",
+        "impact_fee": "$5,000",
+        "plan_check": "$800"
       }
-    }
+    },
+    "intro": "Nestled in Sonoma County, Santa Rosa has been proactive about ADUs since the 2017 wildfires, streamlining permit processes as part of the city's recovery and housing resilience strategy. The Urban Growth Boundary may influence lot coverage for larger properties.",
+    "county": "Sonoma County",
+    "state_law": "California's AB 68 (2020), AB 881 (2021), and AB 3182 (2024) which together establish a statewide ADU framework"
   },
   {
     "city": "Oceanside",
@@ -180,11 +195,14 @@
         "city_website": "https://www.oceansideca.org"
       },
       "fees": {
-        "permit_fee": "500-1,500",
-        "impact_fee": "2,000-5,000",
-        "plan_check": "200-800"
+        "permit_fee": "$1,500",
+        "impact_fee": "$5,000",
+        "plan_check": "$800"
       }
-    }
+    },
+    "intro": "Along the San Diego County coastline, Oceanside's ADU regulations include additional review layers for properties within the Coastal Zone. The California Coastal Commission may require a coastal development permit alongside the standard ADU building permit.",
+    "county": "San Diego County",
+    "state_law": "California's AB 68 (2020), AB 881 (2021), and AB 3182 (2024) which together establish a statewide ADU framework"
   },
   {
     "city": "Vallejo",
@@ -210,11 +228,14 @@
         "city_website": "https://www.cityofvallejo.net"
       },
       "fees": {
-        "permit_fee": "500-1,500",
-        "impact_fee": "2,000-5,000",
-        "plan_check": "200-800"
+        "permit_fee": "$1,500",
+        "impact_fee": "$5,000",
+        "plan_check": "$800"
       }
-    }
+    },
+    "intro": "Situated in Solano County in the North Bay, Vallejo benefits from California's streamlined ADU laws while maintaining local design review standards. The city views ADUs as key to meeting its Regional Housing Needs Allocation (RHNA) targets.",
+    "county": "Solano County",
+    "state_law": "California's AB 68 (2020), AB 881 (2021), and AB 3182 (2024) which together establish a statewide ADU framework"
   },
   {
     "city": "Spokane",
@@ -240,11 +261,14 @@
         "city_website": "https://my.spokanecity.org"
       },
       "fees": {
-        "permit_fee": "600-2,000",
-        "impact_fee": "1,500-4,000",
-        "plan_check": "300-900"
+        "permit_fee": "$2,000",
+        "impact_fee": "$4,000",
+        "plan_check": "$900"
       }
-    }
+    },
+    "intro": "Eastern Washington's largest city, Spokane permits ADUs under Washington's HB 1337 which limits local restrictions. Spokane's municipal code requires owner occupancy and prohibits short-term rental use of ADUs, preserving them for long-term housing.",
+    "county": "Spokane County",
+    "state_law": "Washington's HB 1337 (2023) which limits local ADU restrictions statewide"
   },
   {
     "city": "Tacoma",
@@ -270,11 +294,14 @@
         "city_website": "https://www.cityoftacoma.org"
       },
       "fees": {
-        "permit_fee": "600-2,000",
-        "impact_fee": "1,500-4,000",
-        "plan_check": "300-900"
+        "permit_fee": "$2,000",
+        "impact_fee": "$4,000",
+        "plan_check": "$900"
       }
-    }
+    },
+    "intro": "Located in Pierce County on Puget Sound, Tacoma has embraced Washington's HB 1337 reforms. The city waives parking requirements for ADUs within half a mile of frequent transit service, reflecting its commitment to transit-oriented development.",
+    "county": "Pierce County",
+    "state_law": "Washington's HB 1337 (2023) which limits local ADU restrictions statewide"
   },
   {
     "city": "Vancouver",
@@ -300,11 +327,14 @@
         "city_website": "https://www.cityofvancouver.us"
       },
       "fees": {
-        "permit_fee": "600-2,000",
-        "impact_fee": "1,500-4,000",
-        "plan_check": "300-900"
+        "permit_fee": "$2,000",
+        "impact_fee": "$4,000",
+        "plan_check": "$900"
       }
-    }
+    },
+    "intro": "Across the Columbia River from Portland, Vancouver enforces ADU regulations under Washington state law with specific local adjustments. The city requires off-street parking and owner occupancy, with design standards that complement the region's Pacific Northwest aesthetic.",
+    "county": "Clark County",
+    "state_law": "Washington's HB 1337 (2023) which limits local ADU restrictions statewide"
   },
   {
     "city": "Bellevue",
@@ -330,11 +360,14 @@
         "city_website": "https://bellevuewa.gov"
       },
       "fees": {
-        "permit_fee": "600-2,000",
-        "impact_fee": "1,500-4,000",
-        "plan_check": "300-900"
+        "permit_fee": "$2,000",
+        "impact_fee": "$4,000",
+        "plan_check": "$900"
       }
-    }
+    },
+    "intro": "In King County across Lake Washington from Seattle, Bellevue maintains stringent ADU design guidelines. Despite Washington's HB 1337, the city enforces a 5-year owner occupancy requirement and detailed design review for exterior modifications.",
+    "county": "King County",
+    "state_law": "Washington's HB 1337 (2023) which limits local ADU restrictions statewide"
   },
   {
     "city": "Everett",
@@ -360,11 +393,14 @@
         "city_website": "https://www.everettwa.gov"
       },
       "fees": {
-        "permit_fee": "600-2,000",
-        "impact_fee": "1,500-4,000",
-        "plan_check": "300-900"
+        "permit_fee": "$2,000",
+        "impact_fee": "$4,000",
+        "plan_check": "$900"
       }
-    }
+    },
+    "intro": "Snohomish County's largest city, Everett permits ADUs by right in all residential zones under Washington's HB 1337. The city prohibits short-term rentals of ADUs, ensuring they serve the local long-term housing market.",
+    "county": "Snohomish County",
+    "state_law": "Washington's HB 1337 (2023) which limits local ADU restrictions statewide"
   },
   {
     "city": "Yakima",
@@ -390,11 +426,14 @@
         "city_website": "https://www.yakimawa.gov"
       },
       "fees": {
-        "permit_fee": "600-2,000",
-        "impact_fee": "1,500-4,000",
-        "plan_check": "300-900"
+        "permit_fee": "$2,000",
+        "impact_fee": "$4,000",
+        "plan_check": "$900"
       }
-    }
+    },
+    "intro": "Located in Yakima County in Central Washington, the city permits ADUs in low-density residential zones. Yakima requires owner occupancy and off-street parking, with site plan review for all new ADU construction.",
+    "county": "Yakima County",
+    "state_law": "Washington's HB 1337 (2023) which limits local ADU restrictions statewide"
   },
   {
     "city": "Fort Collins",
@@ -420,11 +459,14 @@
         "city_website": "https://www.fcgov.com"
       },
       "fees": {
-        "permit_fee": "400-1,800",
-        "impact_fee": "1,000-3,500",
-        "plan_check": "250-750"
+        "permit_fee": "$1,800",
+        "impact_fee": "$3,500",
+        "plan_check": "$750"
       }
-    }
+    },
+    "intro": "At the base of the Rocky Mountains in Larimer County, Fort Collins has one of Colorado's most developed ADU programs. The city allows ADUs on lots as small as 3,500 square feet with specific design standards reflecting the community's character.",
+    "county": "Larimer County",
+    "state_law": "local zoning ordinances, as Colorado has no statewide ADU mandate (HB 24-1152 addresses transit density)"
   },
   {
     "city": "Greeley",
@@ -450,11 +492,14 @@
         "city_website": "https://greeleygov.com"
       },
       "fees": {
-        "permit_fee": "400-1,800",
-        "impact_fee": "1,000-3,500",
-        "plan_check": "250-750"
+        "permit_fee": "$1,800",
+        "impact_fee": "$3,500",
+        "plan_check": "$750"
       }
-    }
+    },
+    "intro": "Situated in Weld County in Northern Colorado, Greeley permits ADUs under local ordinance. Colorado has no statewide ADU mandate (HB 24-1152 focuses on transit density, not ADU-specific rules), so Greeley's local regulations are the governing authority.",
+    "county": "Weld County",
+    "state_law": "local zoning ordinances, as Colorado has no statewide ADU mandate (HB 24-1152 addresses transit density)"
   },
   {
     "city": "Pueblo",
@@ -480,11 +525,14 @@
         "city_website": "https://www.pueblo.us"
       },
       "fees": {
-        "permit_fee": "400-1,800",
-        "impact_fee": "1,000-3,500",
-        "plan_check": "250-750"
+        "permit_fee": "$1,800",
+        "impact_fee": "$3,500",
+        "plan_check": "$750"
       }
-    }
+    },
+    "intro": "Located in Pueblo County along the Arkansas River, the city's ADU program operates entirely under local zoning authority. Colorado has no statewide ADU law, meaning Pueblo's municipal code is the definitive source for all ADU requirements.",
+    "county": "Pueblo County",
+    "state_law": "local zoning ordinances, as Colorado has no statewide ADU mandate (HB 24-1152 addresses transit density)"
   },
   {
     "city": "Boulder",
@@ -510,11 +558,14 @@
         "city_website": "https://bouldercolorado.gov"
       },
       "fees": {
-        "permit_fee": "400-1,800",
-        "impact_fee": "1,000-3,500",
-        "plan_check": "250-750"
+        "permit_fee": "$1,800",
+        "impact_fee": "$3,500",
+        "plan_check": "$750"
       }
-    }
+    },
+    "intro": "At the foothills of the Flatirons in Boulder County, the city maintains one of Colorado's most thorough ADU review processes. Green building requirements, design review, and strict owner occupancy rules reflect the city's environmental and community values.",
+    "county": "Boulder County",
+    "state_law": "local zoning ordinances, as Colorado has no statewide ADU mandate (HB 24-1152 addresses transit density)"
   },
   {
     "city": "Grand Junction",
@@ -540,10 +591,13 @@
         "city_website": "https://www.gjcity.org"
       },
       "fees": {
-        "permit_fee": "400-1,800",
-        "impact_fee": "1,000-3,500",
-        "plan_check": "250-750"
+        "permit_fee": "$1,800",
+        "impact_fee": "$3,500",
+        "plan_check": "$750"
       }
-    }
+    },
+    "intro": "In Mesa County on Colorado's Western Slope, Grand Junction allows ADUs in lower-density single-family zones. Without a Colorado state ADU mandate, the city's 25% lot coverage limit and owner occupancy requirement are locally determined.",
+    "county": "Mesa County",
+    "state_law": "local zoning ordinances, as Colorado has no statewide ADU mandate (HB 24-1152 addresses transit density)"
   }
 ]
