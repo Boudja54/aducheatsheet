@@ -39,9 +39,9 @@
     "county": "Kern County",
     "state_law": "California's AB 68 (2020), AB 881 (2021), and AB 3182 (2024) which together establish a statewide ADU framework",
     "gumroad_link": "https://diverty2.gumroad.com/l/taprh",
-    "stripe_checkout_url": "https://checkout.stripe.com/c/pay/cs_live_a13BPaj6nvwkfkzleer0fY0QlISKitfv0PAktVV6onzZMI7p4QLBjebJQ9#fidnandhYHdWcXxpYCc%2FJ2FgY2RwaXEnKSdicGRmZGhqaWBTZHdsZGtxJz8nZmprcXdqaScpJ2R1bE5gfCc%2FJ3VuWmlsc2BaMDRRfENgN0FsdWpyUWxcUVxWX2Ndd3Z8aTR9X2RdajxtYWw9djVPVVdwN1dkU3RGfFRibnJkcn9RM0ZHYWQ9XXU2TndufEtSS1JIZnBGa0ZXMzZSUVxWUk81NT0wXH9TdkdLJyknY3dqaFZgd3Ngdyc%2FcXdwYCknZ2RmbmJ3anBrYUZqaWp3Jz8nJmNjY2NjYycpJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl",
-    "stripe_product_id": "prod_UyDRAO5MbVpdMd",
-    "stripe_price_id": "price_1TyH0tDipowTiYTYEhvz314f"
+    "stripe_checkout_url": "https://buy.stripe.com/cNicN51638Xr2Qj30QeME00",
+    "stripe_product_id": "prod_UytkYLIC0XMhXt",
+    "stripe_price_id": "price_1TyvwjDipowTiYTY9PzBsYzf"
   },
   {
     "city": "Fresno",
@@ -76,9 +76,9 @@
     "county": "Fresno County",
     "state_law": "California's AB 68 (2020), AB 881 (2021), and AB 3182 (2024) which together establish a statewide ADU framework",
     "gumroad_link": "https://diverty2.gumroad.com/l/bfspjq",
-    "stripe_checkout_url": "https://checkout.stripe.com/c/pay/cs_live_a1oIUlLmZiCoc1CEB6AVxKdUdvyfQfZNgoN5HOrN2JG79m0xYi10rAPi9b#fidnandhYHdWcXxpYCc%2FJ2FgY2RwaXEnKSdicGRmZGhqaWBTZHdsZGtxJz8nZmprcXdqaScpJ2R1bE5gfCc%2FJ3VuWmlsc2BaMDRRfENgN0FsdWpyUWxcUVxWX2Ndd3Z8aTR9X2RdajxtYWw9djVPVVdwN1dkU3RGfFRibnJkcn9RM0ZHYWQ9XXU2TndufEtSS1JIZnBGa0ZXMzZSUVxWUk81NT0wXH9TdkdLJyknY3dqaFZgd3Ngdyc%2FcXdwYCknZ2RmbmJ3anBrYUZqaWp3Jz8nJmNjY2NjYycpJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl",
-    "stripe_product_id": "prod_UyDRktOiRr1Sew",
-    "stripe_price_id": "price_1TyH0vDipowTiYTYAKN6q8jk"
+    "stripe_checkout_url": "https://buy.stripe.com/00w3cv1635Lf76z9peeME01",
+    "stripe_product_id": "prod_Uytke7Fe1EKivB",
+    "stripe_price_id": "price_1TyvwkDipowTiYTYZzwnEIpv"
   },
   {
     "city": "Modesto",
@@ -113,9 +113,9 @@
     "county": "Stanislaus County",
     "state_law": "California's AB 68 (2020), AB 881 (2021), and AB 3182 (2024) which together establish a statewide ADU framework",
     "gumroad_link": "https://diverty2.gumroad.com/l/qlorx",
-    "stripe_checkout_url": "https://checkout.stripe.com/c/pay/cs_live_a1JaVHYrWW4mnQ1Ix5W4JUuFFphy4xvSUCp4PkPbsxhiMQW1I4TXKT3J5X#fidnandhYHdWcXxpYCc%2FJ2FgY2RwaXEnKSdicGRmZGhqaWBTZHdsZGtxJz8nZmprcXdqaScpJ2R1bE5gfCc%2FJ3VuWmlsc2BaMDRRfENgN0FsdWpyUWxcUVxWX2Ndd3Z8aTR9X2RdajxtYWw9djVPVVdwN1dkU3RGfFRibnJkcn9RM0ZHYWQ9XXU2TndufEtSS1JIZnBGa0ZXMzZSUVxWUk81NT0wXH9TdkdLJyknY3dqaFZgd3Ngdyc%2FcXdwYCknZ2RmbmJ3anBrYUZqaWp3Jz8nJmNjY2NjYycpJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl",
-    "stripe_product_id": "prod_UyDRnbfeDk4CLe",
-    "stripe_price_id": "price_1TyH0wDipowTiYTYeDVSO9pA"
+    "stripe_checkout_url": "https://buy.stripe.com/4gM00jaGD3D7fD59peeME02",
+    "stripe_product_id": "prod_UytkwcvJv5YqeS",
+    "stripe_price_id": "price_1TyvwlDipowTiYTYuurCgsFt"
   },
   {
     "city": "Stockton",
@@ -150,9 +150,9 @@
     "county": "San Joaquin County",
     "state_law": "California's AB 68 (2020), AB 881 (2021), and AB 3182 (2024) which together establish a statewide ADU framework",
     "gumroad_link": "https://diverty2.gumroad.com/l/hwyxbp",
-    "stripe_checkout_url": "https://checkout.stripe.com/c/pay/cs_live_a1i6f1OKyOaNdMsY5E9YN9iK3l8TYmIS6mIdTULQi9rGtNtjibnHTwThOI#fidnandhYHdWcXxpYCc%2FJ2FgY2RwaXEnKSdicGRmZGhqaWBTZHdsZGtxJz8nZmprcXdqaScpJ2R1bE5gfCc%2FJ3VuWmlsc2BaMDRRfENgN0FsdWpyUWxcUVxWX2Ndd3Z8aTR9X2RdajxtYWw9djVPVVdwN1dkU3RGfFRibnJkcn9RM0ZHYWQ9XXU2TndufEtSS1JIZnBGa0ZXMzZSUVxWUk81NT0wXH9TdkdLJyknY3dqaFZgd3Ngdyc%2FcXdwYCknZ2RmbmJ3anBrYUZqaWp3Jz8nJmNjY2NjYycpJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl",
-    "stripe_product_id": "prod_UyDRq2mDREHUjZ",
-    "stripe_price_id": "price_1TyH0wDipowTiYTYyCgZINcI"
+    "stripe_checkout_url": "https://buy.stripe.com/4gM14n5mj5Lf76zgRGeME03",
+    "stripe_product_id": "prod_Uytk5f8GLggkck",
+    "stripe_price_id": "price_1TyvwmDipowTiYTY3oaKjTih"
   },
   {
     "city": "Santa Rosa",
@@ -187,9 +187,9 @@
     "county": "Sonoma County",
     "state_law": "California's AB 68 (2020), AB 881 (2021), and AB 3182 (2024) which together establish a statewide ADU framework",
     "gumroad_link": "https://diverty2.gumroad.com/l/olzon",
-    "stripe_checkout_url": "https://checkout.stripe.com/c/pay/cs_live_a1Zv8V6Hx0aRjYqJTa1rqDLTlQHszuG95U4TxEeB1ZYDI48He33g1k8BPB#fidnandhYHdWcXxpYCc%2FJ2FgY2RwaXEnKSdicGRmZGhqaWBTZHdsZGtxJz8nZmprcXdqaScpJ2R1bE5gfCc%2FJ3VuWmlsc2BaMDRRfENgN0FsdWpyUWxcUVxWX2Ndd3Z8aTR9X2RdajxtYWw9djVPVVdwN1dkU3RGfFRibnJkcn9RM0ZHYWQ9XXU2TndufEtSS1JIZnBGa0ZXMzZSUVxWUk81NT0wXH9TdkdLJyknY3dqaFZgd3Ngdyc%2FcXdwYCknZ2RmbmJ3anBrYUZqaWp3Jz8nJmNjY2NjYycpJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl",
-    "stripe_product_id": "prod_UyDRcoR5CDuIdY",
-    "stripe_price_id": "price_1TyH0xDipowTiYTYrlCM3krc"
+    "stripe_checkout_url": "https://buy.stripe.com/4gMeVd01Z8Xr3Un8laeME04",
+    "stripe_product_id": "prod_Uytk0UtY1biCVz",
+    "stripe_price_id": "price_1TyvwnDipowTiYTYhUOf2UIq"
   },
   {
     "city": "Oceanside",
@@ -224,9 +224,9 @@
     "county": "San Diego County",
     "state_law": "California's AB 68 (2020), AB 881 (2021), and AB 3182 (2024) which together establish a statewide ADU framework",
     "gumroad_link": "https://diverty2.gumroad.com/l/nikkef",
-    "stripe_checkout_url": "https://checkout.stripe.com/c/pay/cs_live_a11kFakk18lov4bI1unys44EDpUL4oyQ2edlzh4cBJXKB1CuozT2djYxwW#fidnandhYHdWcXxpYCc%2FJ2FgY2RwaXEnKSdicGRmZGhqaWBTZHdsZGtxJz8nZmprcXdqaScpJ2R1bE5gfCc%2FJ3VuWmlsc2BaMDRRfENgN0FsdWpyUWxcUVxWX2Ndd3Z8aTR9X2RdajxtYWw9djVPVVdwN1dkU3RGfFRibnJkcn9RM0ZHYWQ9XXU2TndufEtSS1JIZnBGa0ZXMzZSUVxWUk81NT0wXH9TdkdLJyknY3dqaFZgd3Ngdyc%2FcXdwYCknZ2RmbmJ3anBrYUZqaWp3Jz8nJmNjY2NjYycpJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl",
-    "stripe_product_id": "prod_UyDRae2MNkFmTz",
-    "stripe_price_id": "price_1TyH0yDipowTiYTY8t1KRX70"
+    "stripe_checkout_url": "https://buy.stripe.com/00w6oH4if5LfaiLcBqeME05",
+    "stripe_product_id": "prod_UytkzACuqE59Et",
+    "stripe_price_id": "price_1TyvwoDipowTiYTYpS1tt1yz"
   },
   {
     "city": "Vallejo",
@@ -261,9 +261,9 @@
     "county": "Solano County",
     "state_law": "California's AB 68 (2020), AB 881 (2021), and AB 3182 (2024) which together establish a statewide ADU framework",
     "gumroad_link": "https://diverty2.gumroad.com/l/tkqwcs",
-    "stripe_checkout_url": "https://checkout.stripe.com/c/pay/cs_live_a1pta3WRE5xoCUGBtYI7RhPJMIT3lYOM68kBTzgp6U9lp1Z9R3NdpZovuM#fidnandhYHdWcXxpYCc%2FJ2FgY2RwaXEnKSdicGRmZGhqaWBTZHdsZGtxJz8nZmprcXdqaScpJ2R1bE5gfCc%2FJ3VuWmlsc2BaMDRRfENgN0FsdWpyUWxcUVxWX2Ndd3Z8aTR9X2RdajxtYWw9djVPVVdwN1dkU3RGfFRibnJkcn9RM0ZHYWQ9XXU2TndufEtSS1JIZnBGa0ZXMzZSUVxWUk81NT0wXH9TdkdLJyknY3dqaFZgd3Ngdyc%2FcXdwYCknZ2RmbmJ3anBrYUZqaWp3Jz8nJmNjY2NjYycpJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl",
-    "stripe_product_id": "prod_UyDRNLLYDondsw",
-    "stripe_price_id": "price_1TyH0zDipowTiYTY8rLjeQKh"
+    "stripe_checkout_url": "https://buy.stripe.com/28EeVd5mj4HbduX8laeME06",
+    "stripe_product_id": "prod_UytkpOqfFWVViS",
+    "stripe_price_id": "price_1TyvwpDipowTiYTYuEzAdVr1"
   },
   {
     "city": "Spokane",
@@ -298,9 +298,9 @@
     "county": "Spokane County",
     "state_law": "Washington's HB 1337 (2023) which limits local ADU restrictions statewide",
     "gumroad_link": "https://diverty2.gumroad.com/l/adfphg",
-    "stripe_checkout_url": "https://checkout.stripe.com/c/pay/cs_live_a1O4lFuCfUOvZr6YefqT2YTFEyfpLTDrKLF1Llk2C1utLgGbam3CsbYQ5w#fidnandhYHdWcXxpYCc%2FJ2FgY2RwaXEnKSdicGRmZGhqaWBTZHdsZGtxJz8nZmprcXdqaScpJ2R1bE5gfCc%2FJ3VuWmlsc2BaMDRRfENgN0FsdWpyUWxcUVxWX2Ndd3Z8aTR9X2RdajxtYWw9djVPVVdwN1dkU3RGfFRibnJkcn9RM0ZHYWQ9XXU2TndufEtSS1JIZnBGa0ZXMzZSUVxWUk81NT0wXH9TdkdLJyknY3dqaFZgd3Ngdyc%2FcXdwYCknZ2RmbmJ3anBrYUZqaWp3Jz8nJmNjY2NjYycpJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl",
-    "stripe_product_id": "prod_UyDRQGfNEbo8eR",
-    "stripe_price_id": "price_1TyH10DipowTiYTYCgz2hY3M"
+    "stripe_checkout_url": "https://buy.stripe.com/fZu14ncOLc9Dez1gRGeME07",
+    "stripe_product_id": "prod_UytkK9mVtjIGzh",
+    "stripe_price_id": "price_1TyvwqDipowTiYTYBqshyTCM"
   },
   {
     "city": "Tacoma",
@@ -335,9 +335,9 @@
     "county": "Pierce County",
     "state_law": "Washington's HB 1337 (2023) which limits local ADU restrictions statewide",
     "gumroad_link": "https://diverty2.gumroad.com/l/bogrkc",
-    "stripe_checkout_url": "https://checkout.stripe.com/c/pay/cs_live_a1gQSOGxdZRlEwMWMbWIj4aBM60veKGm8za5ESp3c7KQDiFbMPphMxlA1t#fidnandhYHdWcXxpYCc%2FJ2FgY2RwaXEnKSdicGRmZGhqaWBTZHdsZGtxJz8nZmprcXdqaScpJ2R1bE5gfCc%2FJ3VuWmlsc2BaMDRRfENgN0FsdWpyUWxcUVxWX2Ndd3Z8aTR9X2RdajxtYWw9djVPVVdwN1dkU3RGfFRibnJkcn9RM0ZHYWQ9XXU2TndufEtSS1JIZnBGa0ZXMzZSUVxWUk81NT0wXH9TdkdLJyknY3dqaFZgd3Ngdyc%2FcXdwYCknZ2RmbmJ3anBrYUZqaWp3Jz8nJmNjY2NjYycpJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl",
-    "stripe_product_id": "prod_UyDRzclaAp9X14",
-    "stripe_price_id": "price_1TyH11DipowTiYTYALiQn1yj"
+    "stripe_checkout_url": "https://buy.stripe.com/bJe14n5mjehL9eHdFueME08",
+    "stripe_product_id": "prod_UytkCB7oHMn6ZL",
+    "stripe_price_id": "price_1TyvwrDipowTiYTYq4fe483b"
   },
   {
     "city": "Vancouver",
@@ -372,9 +372,9 @@
     "county": "Clark County",
     "state_law": "Washington's HB 1337 (2023) which limits local ADU restrictions statewide",
     "gumroad_link": "https://diverty2.gumroad.com/l/sjnoet",
-    "stripe_checkout_url": "https://checkout.stripe.com/c/pay/cs_live_a1CFBrq78bbrdakgFpjefRmdWuM9c5t03nCxnoXv4JgYhZTPEve7we704F#fidnandhYHdWcXxpYCc%2FJ2FgY2RwaXEnKSdicGRmZGhqaWBTZHdsZGtxJz8nZmprcXdqaScpJ2R1bE5gfCc%2FJ3VuWmlsc2BaMDRRfENgN0FsdWpyUWxcUVxWX2Ndd3Z8aTR9X2RdajxtYWw9djVPVVdwN1dkU3RGfFRibnJkcn9RM0ZHYWQ9XXU2TndufEtSS1JIZnBGa0ZXMzZSUVxWUk81NT0wXH9TdkdLJyknY3dqaFZgd3Ngdyc%2FcXdwYCknZ2RmbmJ3anBrYUZqaWp3Jz8nJmNjY2NjYycpJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl",
-    "stripe_product_id": "prod_UyDRnt0vIFbPuC",
-    "stripe_price_id": "price_1TyH12DipowTiYTYtYHKsTZc"
+    "stripe_checkout_url": "https://buy.stripe.com/9B628reWT1uZ8aD8laeME09",
+    "stripe_product_id": "prod_UytkzX5fEsFSDz",
+    "stripe_price_id": "price_1TyvwsDipowTiYTY9q7UWgqO"
   },
   {
     "city": "Bellevue",
@@ -408,9 +408,9 @@
     "intro": "In King County across Lake Washington from Seattle, Bellevue maintains stringent ADU design guidelines. Despite Washington's HB 1337, the city enforces a 5-year owner occupancy requirement and detailed design review for exterior modifications.",
     "county": "King County",
     "state_law": "Washington's HB 1337 (2023) which limits local ADU restrictions statewide",
-    "stripe_checkout_url": "https://checkout.stripe.com/c/pay/cs_live_a1N18iQmnR5YN8W4DFpWnxRYycQOQmmtXcgCpgUlDJsoR64JjSf1pk9ehE#fidnandhYHdWcXxpYCc%2FJ2FgY2RwaXEnKSdicGRmZGhqaWBTZHdsZGtxJz8nZmprcXdqaScpJ2R1bE5gfCc%2FJ3VuWmlsc2BaMDRRfENgN0FsdWpyUWxcUVxWX2Ndd3Z8aTR9X2RdajxtYWw9djVPVVdwN1dkU3RGfFRibnJkcn9RM0ZHYWQ9XXU2TndufEtSS1JIZnBGa0ZXMzZSUVxWUk81NT0wXH9TdkdLJyknY3dqaFZgd3Ngdyc%2FcXdwYCknZ2RmbmJ3anBrYUZqaWp3Jz8nJmNjY2NjYycpJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl",
-    "stripe_product_id": "prod_UyDRYCT0A1fJmc",
-    "stripe_price_id": "price_1TyH13DipowTiYTYccAU4xIA"
+    "stripe_checkout_url": "https://buy.stripe.com/aFacN58yva1v9eHgRGeME0a",
+    "stripe_product_id": "prod_UytkfhTa0gXDGw",
+    "stripe_price_id": "price_1TyvwsDipowTiYTYotTDteh1"
   },
   {
     "city": "Everett",
@@ -444,9 +444,9 @@
     "intro": "Snohomish County's largest city, Everett permits ADUs by right in all residential zones under Washington's HB 1337. The city prohibits short-term rentals of ADUs, ensuring they serve the local long-term housing market.",
     "county": "Snohomish County",
     "state_law": "Washington's HB 1337 (2023) which limits local ADU restrictions statewide",
-    "stripe_checkout_url": "https://checkout.stripe.com/c/pay/cs_live_a1eVzViCaIqQ4undYJ6Vr1bm8k2aXWd599lNA6ez9TeH9dZPHK4WKfQ3b3#fidnandhYHdWcXxpYCc%2FJ2FgY2RwaXEnKSdicGRmZGhqaWBTZHdsZGtxJz8nZmprcXdqaScpJ2R1bE5gfCc%2FJ3VuWmlsc2BaMDRRfENgN0FsdWpyUWxcUVxWX2Ndd3Z8aTR9X2RdajxtYWw9djVPVVdwN1dkU3RGfFRibnJkcn9RM0ZHYWQ9XXU2TndufEtSS1JIZnBGa0ZXMzZSUVxWUk81NT0wXH9TdkdLJyknY3dqaFZgd3Ngdyc%2FcXdwYCknZ2RmbmJ3anBrYUZqaWp3Jz8nJmNjY2NjYycpJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl",
-    "stripe_product_id": "prod_UyDRgHpSrBFtyk",
-    "stripe_price_id": "price_1TyH14DipowTiYTYa3EbXqsg"
+    "stripe_checkout_url": "https://buy.stripe.com/14A8wP01Z5Lf9eH0SIeME0b",
+    "stripe_product_id": "prod_UytkpLvQqpc7W8",
+    "stripe_price_id": "price_1TyvwtDipowTiYTYAEHkSbBq"
   },
   {
     "city": "Yakima",
@@ -480,9 +480,9 @@
     "intro": "Located in Yakima County in Central Washington, the city permits ADUs in low-density residential zones. Yakima requires owner occupancy and off-street parking, with site plan review for all new ADU construction.",
     "county": "Yakima County",
     "state_law": "Washington's HB 1337 (2023) which limits local ADU restrictions statewide",
-    "stripe_checkout_url": "https://checkout.stripe.com/c/pay/cs_live_a1TErIGEOykPFnUAayCUrcYWv12V3OGjonx4EfJkJZQTGpkk7eCOg2MM82#fidnandhYHdWcXxpYCc%2FJ2FgY2RwaXEnKSdicGRmZGhqaWBTZHdsZGtxJz8nZmprcXdqaScpJ2R1bE5gfCc%2FJ3VuWmlsc2BaMDRRfENgN0FsdWpyUWxcUVxWX2Ndd3Z8aTR9X2RdajxtYWw9djVPVVdwN1dkU3RGfFRibnJkcn9RM0ZHYWQ9XXU2TndufEtSS1JIZnBGa0ZXMzZSUVxWUk81NT0wXH9TdkdLJyknY3dqaFZgd3Ngdyc%2FcXdwYCknZ2RmbmJ3anBrYUZqaWp3Jz8nJmNjY2NjYycpJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl",
-    "stripe_product_id": "prod_UyDRcOogRMwUbe",
-    "stripe_price_id": "price_1TyH15DipowTiYTY7JRZby4R"
+    "stripe_checkout_url": "https://buy.stripe.com/00wfZh5mj1uZ8aDfNCeME0c",
+    "stripe_product_id": "prod_UytkwCCMkIdZLH",
+    "stripe_price_id": "price_1TyvwuDipowTiYTYk6sWe0ES"
   },
   {
     "city": "Fort Collins",
@@ -516,9 +516,9 @@
     "intro": "At the base of the Rocky Mountains in Larimer County, Fort Collins has one of Colorado's most developed ADU programs. The city allows ADUs on lots as small as 3,500 square feet with specific design standards reflecting the community's character.",
     "county": "Larimer County",
     "state_law": "local zoning ordinances, as Colorado has no statewide ADU mandate (HB 24-1152 addresses transit density)",
-    "stripe_checkout_url": "https://checkout.stripe.com/c/pay/cs_live_a1puW6VoqOuELoUMcDYk8Bizxr40ZyxSLIZmljNQPw1DYSJZhgsCCwRHvB#fidnandhYHdWcXxpYCc%2FJ2FgY2RwaXEnKSdicGRmZGhqaWBTZHdsZGtxJz8nZmprcXdqaScpJ2R1bE5gfCc%2FJ3VuWmlsc2BaMDRRfENgN0FsdWpyUWxcUVxWX2Ndd3Z8aTR9X2RdajxtYWw9djVPVVdwN1dkU3RGfFRibnJkcn9RM0ZHYWQ9XXU2TndufEtSS1JIZnBGa0ZXMzZSUVxWUk81NT0wXH9TdkdLJyknY3dqaFZgd3Ngdyc%2FcXdwYCknZ2RmbmJ3anBrYUZqaWp3Jz8nJmNjY2NjYycpJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl",
-    "stripe_product_id": "prod_UyDRe90jorTxth",
-    "stripe_price_id": "price_1TyH15DipowTiYTYRtconBDT"
+    "stripe_checkout_url": "https://buy.stripe.com/cNidR98yv7TnfD57h6eME0d",
+    "stripe_product_id": "prod_UytkgeisOEyH84",
+    "stripe_price_id": "price_1TyvwvDipowTiYTYexPV6bC2"
   },
   {
     "city": "Greeley",
@@ -552,9 +552,9 @@
     "intro": "Situated in Weld County in Northern Colorado, Greeley permits ADUs under local ordinance. Colorado has no statewide ADU mandate (HB 24-1152 focuses on transit density, not ADU-specific rules), so Greeley's local regulations are the governing authority.",
     "county": "Weld County",
     "state_law": "local zoning ordinances, as Colorado has no statewide ADU mandate (HB 24-1152 addresses transit density)",
-    "stripe_checkout_url": "https://checkout.stripe.com/c/pay/cs_live_a1ObPOR2Ttxw4Wa3njbpLS3EqHiCMAi4kiKg9ZGO0Hy5VB2nH8eayh6uLm#fidnandhYHdWcXxpYCc%2FJ2FgY2RwaXEnKSdicGRmZGhqaWBTZHdsZGtxJz8nZmprcXdqaScpJ2R1bE5gfCc%2FJ3VuWmlsc2BaMDRRfENgN0FsdWpyUWxcUVxWX2Ndd3Z8aTR9X2RdajxtYWw9djVPVVdwN1dkU3RGfFRibnJkcn9RM0ZHYWQ9XXU2TndufEtSS1JIZnBGa0ZXMzZSUVxWUk81NT0wXH9TdkdLJyknY3dqaFZgd3Ngdyc%2FcXdwYCknZ2RmbmJ3anBrYUZqaWp3Jz8nJmNjY2NjYycpJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl",
-    "stripe_product_id": "prod_UyDSdwkuPKH5zx",
-    "stripe_price_id": "price_1TyH16DipowTiYTY5rGnoWhV"
+    "stripe_checkout_url": "https://buy.stripe.com/4gM7sLaGD1uZfD58laeME0e",
+    "stripe_product_id": "prod_UytkmjHkD5uuVx",
+    "stripe_price_id": "price_1TyvwwDipowTiYTYrKXSIGgE"
   },
   {
     "city": "Pueblo",
@@ -588,9 +588,9 @@
     "intro": "Located in Pueblo County along the Arkansas River, the city's ADU program operates entirely under local zoning authority. Colorado has no statewide ADU law, meaning Pueblo's municipal code is the definitive source for all ADU requirements.",
     "county": "Pueblo County",
     "state_law": "local zoning ordinances, as Colorado has no statewide ADU mandate (HB 24-1152 addresses transit density)",
-    "stripe_checkout_url": "https://checkout.stripe.com/c/pay/cs_live_a1gbBO2TKBlKKJPBESDVgy0qXfeuqO6cwZbNPb7Rk0sqrOQmO1M2ybARKW#fidnandhYHdWcXxpYCc%2FJ2FgY2RwaXEnKSdicGRmZGhqaWBTZHdsZGtxJz8nZmprcXdqaScpJ2R1bE5gfCc%2FJ3VuWmlsc2BaMDRRfENgN0FsdWpyUWxcUVxWX2Ndd3Z8aTR9X2RdajxtYWw9djVPVVdwN1dkU3RGfFRibnJkcn9RM0ZHYWQ9XXU2TndufEtSS1JIZnBGa0ZXMzZSUVxWUk81NT0wXH9TdkdLJyknY3dqaFZgd3Ngdyc%2FcXdwYCknZ2RmbmJ3anBrYUZqaWp3Jz8nJmNjY2NjYycpJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl",
-    "stripe_product_id": "prod_UyDSP8tsJqmYDi",
-    "stripe_price_id": "price_1TyH17DipowTiYTYE9Yz4PnU"
+    "stripe_checkout_url": "https://buy.stripe.com/eVq7sL01Z7Tnez1dFueME0f",
+    "stripe_product_id": "prod_Uytkej2qFUAHA8",
+    "stripe_price_id": "price_1TyvwxDipowTiYTYENI5iDvQ"
   },
   {
     "city": "Boulder",
@@ -624,9 +624,9 @@
     "intro": "At the foothills of the Flatirons in Boulder County, the city maintains one of Colorado's most thorough ADU review processes. Green building requirements, design review, and strict owner occupancy rules reflect the city's environmental and community values.",
     "county": "Boulder County",
     "state_law": "local zoning ordinances, as Colorado has no statewide ADU mandate (HB 24-1152 addresses transit density)",
-    "stripe_checkout_url": "https://checkout.stripe.com/c/pay/cs_live_a1aq0pyWxPRL1R0WiqsAE7Np9SHytEeOEGJc32WWi4VSeySj6JgNg5owMG#fidnandhYHdWcXxpYCc%2FJ2FgY2RwaXEnKSdicGRmZGhqaWBTZHdsZGtxJz8nZmprcXdqaScpJ2R1bE5gfCc%2FJ3VuWmlsc2BaMDRRfENgN0FsdWpyUWxcUVxWX2Ndd3Z8aTR9X2RdajxtYWw9djVPVVdwN1dkU3RGfFRibnJkcn9RM0ZHYWQ9XXU2TndufEtSS1JIZnBGa0ZXMzZSUVxWUk81NT0wXH9TdkdLJyknY3dqaFZgd3Ngdyc%2FcXdwYCknZ2RmbmJ3anBrYUZqaWp3Jz8nJmNjY2NjYycpJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl",
-    "stripe_product_id": "prod_UyDSR0idiX8gJf",
-    "stripe_price_id": "price_1TyH18DipowTiYTYUCXWPIG5"
+    "stripe_checkout_url": "https://buy.stripe.com/eVq5kDcOLb5zcqT44UeME0g",
+    "stripe_product_id": "prod_Uytk1u8ta6iGP7",
+    "stripe_price_id": "price_1TyvwyDipowTiYTYkDX6xMMT"
   },
   {
     "city": "Grand Junction",
@@ -660,9 +660,9 @@
     "intro": "In Mesa County on Colorado's Western Slope, Grand Junction allows ADUs in lower-density single-family zones. Without a Colorado state ADU mandate, the city's 25% lot coverage limit and owner occupancy requirement are locally determined.",
     "county": "Mesa County",
     "state_law": "local zoning ordinances, as Colorado has no statewide ADU mandate (HB 24-1152 addresses transit density)",
-    "stripe_checkout_url": "https://checkout.stripe.com/c/pay/cs_live_a10k8ZbWVkZu3VlVvgGTHeirjCrDaxdsfSbt0kZdQCAm0bmPgBjY2jL0UD#fidnandhYHdWcXxpYCc%2FJ2FgY2RwaXEnKSdicGRmZGhqaWBTZHdsZGtxJz8nZmprcXdqaScpJ2R1bE5gfCc%2FJ3VuWmlsc2BaMDRRfENgN0FsdWpyUWxcUVxWX2Ndd3Z8aTR9X2RdajxtYWw9djVPVVdwN1dkU3RGfFRibnJkcn9RM0ZHYWQ9XXU2TndufEtSS1JIZnBGa0ZXMzZSUVxWUk81NT0wXH9TdkdLJyknY3dqaFZgd3Ngdyc%2FcXdwYCknZ2RmbmJ3anBrYUZqaWp3Jz8nJmNjY2NjYycpJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl",
-    "stripe_product_id": "prod_UyDScLawHG1qwl",
-    "stripe_price_id": "price_1TyH19DipowTiYTYqrj0ZaaW"
+    "stripe_checkout_url": "https://buy.stripe.com/6oU3cveWT4HbbmP1WMeME0h",
+    "stripe_product_id": "prod_Uytk0pn4bHLnuT",
+    "stripe_price_id": "price_1TyvwzDipowTiYTYnkv5NrC7"
   },
   {
     "city": "Riverside",
@@ -699,9 +699,9 @@
     "county": "Riverside County",
     "state_law": "California's AB 68 (2020), AB 881 (2021), and AB 3182 (2024) which together establish a statewide ADU framework",
     "gumroad_link": "",
-    "stripe_checkout_url": "",
-    "stripe_product_id": "",
-    "stripe_price_id": ""
+    "stripe_checkout_url": "https://buy.stripe.com/5kQ6oH01ZehL0Ib58YeME0i",
+    "stripe_product_id": "prod_Uytk2ReKeNrjDB",
+    "stripe_price_id": "price_1Tyvx0DipowTiYTYOH5nL0aq"
   },
   {
     "city": "San Bernardino",
@@ -738,9 +738,9 @@
     "county": "San Bernardino County",
     "state_law": "California's AB 68 (2020), AB 881 (2021), and AB 3182 (2024) which together establish a statewide ADU framework",
     "gumroad_link": "",
-    "stripe_checkout_url": "",
-    "stripe_product_id": "",
-    "stripe_price_id": ""
+    "stripe_checkout_url": "https://buy.stripe.com/8x23cv3ebgpT0Ib9peeME0j",
+    "stripe_product_id": "prod_UytkbOryujS8hm",
+    "stripe_price_id": "price_1Tyvx1DipowTiYTYbPHXo2vw"
   },
   {
     "city": "Santa Clarita",
@@ -777,9 +777,9 @@
     "county": "Los Angeles County",
     "state_law": "California's AB 68 (2020), AB 881 (2021), and AB 3182 (2024) which together establish a statewide ADU framework",
     "gumroad_link": "",
-    "stripe_checkout_url": "",
-    "stripe_product_id": "",
-    "stripe_price_id": ""
+    "stripe_checkout_url": "https://buy.stripe.com/bJe7sLbKH8Xr76z58YeME0k",
+    "stripe_product_id": "prod_UytkBIcF03FBbs",
+    "stripe_price_id": "price_1Tyvx2DipowTiYTYz08v2DKu"
   },
   {
     "city": "Oxnard",
@@ -816,9 +816,9 @@
     "county": "Ventura County",
     "state_law": "California's AB 68 (2020), AB 881 (2021), and AB 3182 (2024) which together establish a statewide ADU framework",
     "gumroad_link": "",
-    "stripe_checkout_url": "",
-    "stripe_product_id": "",
-    "stripe_price_id": ""
+    "stripe_checkout_url": "https://buy.stripe.com/4gMbJ18yv2z33UnatieME0l",
+    "stripe_product_id": "prod_UytkhVGhjhfAyR",
+    "stripe_price_id": "price_1Tyvx3DipowTiYTYC18WnEB9"
   },
   {
     "city": "Glendale",
@@ -855,9 +855,9 @@
     "county": "Los Angeles County",
     "state_law": "California's AB 68 (2020), AB 881 (2021), and AB 3182 (2024) which together establish a statewide ADU framework",
     "gumroad_link": "",
-    "stripe_checkout_url": "",
-    "stripe_product_id": "",
-    "stripe_price_id": ""
+    "stripe_checkout_url": "https://buy.stripe.com/bJe6oHdSP6PjfD56d2eME0m",
+    "stripe_product_id": "prod_UytkpBTj1NpJDQ",
+    "stripe_price_id": "price_1Tyvx4DipowTiYTY50TlvLnW"
   },
   {
     "city": "Aurora",
@@ -894,9 +894,9 @@
     "county": "Adams County / Arapahoe County",
     "state_law": "local zoning ordinances, as Colorado has no statewide ADU mandate (HB 24-1152 addresses transit density)",
     "gumroad_link": "",
-    "stripe_checkout_url": "",
-    "stripe_product_id": "",
-    "stripe_price_id": ""
+    "stripe_checkout_url": "https://buy.stripe.com/4gM00jaGD6PjaiLbxmeME0n",
+    "stripe_product_id": "prod_UytkbD8NkAiR2J",
+    "stripe_price_id": "price_1Tyvx4DipowTiYTYzvCslnzu"
   },
   {
     "city": "Lakewood",
@@ -933,9 +933,9 @@
     "county": "Jefferson County",
     "state_law": "local zoning ordinances, as Colorado has no statewide ADU mandate (HB 24-1152 addresses transit density)",
     "gumroad_link": "",
-    "stripe_checkout_url": "",
-    "stripe_product_id": "",
-    "stripe_price_id": ""
+    "stripe_checkout_url": "https://buy.stripe.com/eVq9AT4if0qVbmPdFueME0o",
+    "stripe_product_id": "prod_UytksG8K2odIDz",
+    "stripe_price_id": "price_1Tyvx5DipowTiYTYYt4yDgfM"
   },
   {
     "city": "Thornton",
@@ -972,9 +972,9 @@
     "county": "Adams County",
     "state_law": "local zoning ordinances, as Colorado has no statewide ADU mandate (HB 24-1152 addresses transit density)",
     "gumroad_link": "",
-    "stripe_checkout_url": "",
-    "stripe_product_id": "",
-    "stripe_price_id": ""
+    "stripe_checkout_url": "https://buy.stripe.com/00weVdeWT2z30Ib0SIeME0p",
+    "stripe_product_id": "prod_UytkvcvaH7SDTr",
+    "stripe_price_id": "price_1Tyvx7DipowTiYTYw1ux3gXb"
   },
   {
     "city": "Arvada",
@@ -1011,9 +1011,9 @@
     "county": "Jefferson County",
     "state_law": "local zoning ordinances, as Colorado has no statewide ADU mandate (HB 24-1152 addresses transit density)",
     "gumroad_link": "",
-    "stripe_checkout_url": "",
-    "stripe_product_id": "",
-    "stripe_price_id": ""
+    "stripe_checkout_url": "https://buy.stripe.com/cNiaEX4if5Lf62v44UeME0q",
+    "stripe_product_id": "prod_UytkEpUkgwCFXF",
+    "stripe_price_id": "price_1Tyvx7DipowTiYTYEXe51FTB"
   },
   {
     "city": "Westminster",
@@ -1050,9 +1050,9 @@
     "county": "Adams County / Jefferson County",
     "state_law": "local zoning ordinances, as Colorado has no statewide ADU mandate (HB 24-1152 addresses transit density)",
     "gumroad_link": "",
-    "stripe_checkout_url": "",
-    "stripe_product_id": "",
-    "stripe_price_id": ""
+    "stripe_checkout_url": "https://buy.stripe.com/bJebJ1bKHb5zaiLcBqeME0r",
+    "stripe_product_id": "prod_UytkYG1NV0h6Gw",
+    "stripe_price_id": "price_1Tyvx8DipowTiYTY4nkD1tnf"
   },
   {
     "city": "Kent",
@@ -1089,9 +1089,9 @@
     "county": "King County",
     "state_law": "Washington's HB 1337 (2023) which limits local ADU restrictions statewide",
     "gumroad_link": "",
-    "stripe_checkout_url": "",
-    "stripe_product_id": "",
-    "stripe_price_id": ""
+    "stripe_checkout_url": "https://buy.stripe.com/9B66oHg0XgpT4YrdFueME0s",
+    "stripe_product_id": "prod_UytkSUsaWfWnar",
+    "stripe_price_id": "price_1Tyvx9DipowTiYTYruHQNXd9"
   },
   {
     "city": "Renton",
@@ -1128,9 +1128,9 @@
     "county": "King County",
     "state_law": "Washington's HB 1337 (2023) which limits local ADU restrictions statewide",
     "gumroad_link": "",
-    "stripe_checkout_url": "",
-    "stripe_product_id": "",
-    "stripe_price_id": ""
+    "stripe_checkout_url": "https://buy.stripe.com/3cIeVd3eb1uZbmPeJyeME0t",
+    "stripe_product_id": "prod_UytkqObwIHn4zT",
+    "stripe_price_id": "price_1TyvxADipowTiYTY8XV8F6m9"
   },
   {
     "city": "Federal Way",
@@ -1167,9 +1167,9 @@
     "county": "King County",
     "state_law": "Washington's HB 1337 (2023) which limits local ADU restrictions statewide",
     "gumroad_link": "",
-    "stripe_checkout_url": "",
-    "stripe_product_id": "",
-    "stripe_price_id": ""
+    "stripe_checkout_url": "https://buy.stripe.com/fZu14n5mjddHduXfNCeME0u",
+    "stripe_product_id": "prod_UytkCsvmavVYXE",
+    "stripe_price_id": "price_1TyvxBDipowTiYTYeDGmEP6V"
   },
   {
     "city": "Kirkland",
@@ -1206,9 +1206,9 @@
     "county": "King County",
     "state_law": "Washington's HB 1337 (2023) which limits local ADU restrictions statewide",
     "gumroad_link": "",
-    "stripe_checkout_url": "",
-    "stripe_product_id": "",
-    "stripe_price_id": ""
+    "stripe_checkout_url": "https://buy.stripe.com/dRmaEX2a7ddH76zeJyeME0v",
+    "stripe_product_id": "prod_UytkW1Iw8t3nD5",
+    "stripe_price_id": "price_1TyvxCDipowTiYTY3em0cyZG"
   },
   {
     "city": "Redmond",
@@ -1245,9 +1245,9 @@
     "county": "King County",
     "state_law": "Washington's HB 1337 (2023) which limits local ADU restrictions statewide",
     "gumroad_link": "",
-    "stripe_checkout_url": "",
-    "stripe_product_id": "",
-    "stripe_price_id": ""
+    "stripe_checkout_url": "https://buy.stripe.com/5kQdR99Cz5Lf4YrdFueME0w",
+    "stripe_product_id": "prod_UytkEeFVbHUdOA",
+    "stripe_price_id": "price_1TyvxDDipowTiYTYpOdykMf3"
   },
   {
     "city": "Eugene",
@@ -1284,9 +1284,9 @@
     "county": "Lane County",
     "state_law": "Oregon's HB 2001 (2019) which requires ADU approval by-right in all residential zones statewide",
     "gumroad_link": "",
-    "stripe_checkout_url": "",
-    "stripe_product_id": "",
-    "stripe_price_id": ""
+    "stripe_checkout_url": "https://buy.stripe.com/fZu4gzcOL6PjcqTeJyeME0x",
+    "stripe_product_id": "prod_UytkdtkPoX3LBN",
+    "stripe_price_id": "price_1TyvxEDipowTiYTYQ11WzRkj"
   },
   {
     "city": "Salem",
@@ -1323,9 +1323,9 @@
     "county": "Marion County / Polk County",
     "state_law": "Oregon's HB 2001 (2019) which requires ADU approval by-right in all residential zones statewide",
     "gumroad_link": "",
-    "stripe_checkout_url": "",
-    "stripe_product_id": "",
-    "stripe_price_id": ""
+    "stripe_checkout_url": "https://buy.stripe.com/3cI4gz5mj0qV76z58YeME0y",
+    "stripe_product_id": "prod_UytkgdPRYP2DIA",
+    "stripe_price_id": "price_1TyvxFDipowTiYTYcuWnBmV9"
   },
   {
     "city": "Gresham",
@@ -1362,9 +1362,9 @@
     "county": "Multnomah County",
     "state_law": "Oregon's HB 2001 (2019) which requires ADU approval by-right in all residential zones statewide",
     "gumroad_link": "",
-    "stripe_checkout_url": "",
-    "stripe_product_id": "",
-    "stripe_price_id": ""
+    "stripe_checkout_url": "https://buy.stripe.com/dRm4gz4if6PjfD51WMeME0z",
+    "stripe_product_id": "prod_Uytk66vRpzp6h7",
+    "stripe_price_id": "price_1TyvxGDipowTiYTYfLYMjwAH"
   },
   {
     "city": "Hillsboro",
@@ -1401,9 +1401,9 @@
     "county": "Washington County",
     "state_law": "Oregon's HB 2001 (2019) which requires ADU approval by-right in all residential zones statewide",
     "gumroad_link": "",
-    "stripe_checkout_url": "",
-    "stripe_product_id": "",
-    "stripe_price_id": ""
+    "stripe_checkout_url": "https://buy.stripe.com/3cI00j9CzgpTduXgRGeME0A",
+    "stripe_product_id": "prod_Uytk2xm0hOMKmd",
+    "stripe_price_id": "price_1TyvxHDipowTiYTY3ZZqXmpj"
   },
   {
     "city": "Beaverton",
@@ -1440,8 +1440,8 @@
     "county": "Washington County",
     "state_law": "Oregon's HB 2001 (2019) which requires ADU approval by-right in all residential zones statewide",
     "gumroad_link": "",
-    "stripe_checkout_url": "",
-    "stripe_product_id": "",
-    "stripe_price_id": ""
+    "stripe_checkout_url": "https://buy.stripe.com/4gM8wP5mj8XrgH97h6eME0B",
+    "stripe_product_id": "prod_UytkwWY6VsJrHJ",
+    "stripe_price_id": "price_1TyvxIDipowTiYTYjxiOFOu5"
   }
 ]
