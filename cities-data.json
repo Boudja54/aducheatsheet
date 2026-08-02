@@ -41,7 +41,8 @@
     "gumroad_link": "https://diverty2.gumroad.com/l/taprh",
     "stripe_checkout_url": "https://buy.stripe.com/cNicN51638Xr2Qj30QeME00",
     "stripe_product_id": "prod_UytkYLIC0XMhXt",
-    "stripe_price_id": "price_1TyvwjDipowTiYTY9PzBsYzf"
+    "stripe_price_id": "price_1TyvwjDipowTiYTY9PzBsYzf",
+    "published": true
   },
   {
     "city": "Fresno",
@@ -78,7 +79,8 @@
     "gumroad_link": "https://diverty2.gumroad.com/l/bfspjq",
     "stripe_checkout_url": "https://buy.stripe.com/00w3cv1635Lf76z9peeME01",
     "stripe_product_id": "prod_Uytke7Fe1EKivB",
-    "stripe_price_id": "price_1TyvwkDipowTiYTYZzwnEIpv"
+    "stripe_price_id": "price_1TyvwkDipowTiYTYZzwnEIpv",
+    "published": true
   },
   {
     "city": "Modesto",
@@ -115,7 +117,8 @@
     "gumroad_link": "https://diverty2.gumroad.com/l/qlorx",
     "stripe_checkout_url": "https://buy.stripe.com/4gM00jaGD3D7fD59peeME02",
     "stripe_product_id": "prod_UytkwcvJv5YqeS",
-    "stripe_price_id": "price_1TyvwlDipowTiYTYuurCgsFt"
+    "stripe_price_id": "price_1TyvwlDipowTiYTYuurCgsFt",
+    "published": true
   },
   {
     "city": "Stockton",
@@ -152,7 +155,8 @@
     "gumroad_link": "https://diverty2.gumroad.com/l/hwyxbp",
     "stripe_checkout_url": "https://buy.stripe.com/4gM14n5mj5Lf76zgRGeME03",
     "stripe_product_id": "prod_Uytk5f8GLggkck",
-    "stripe_price_id": "price_1TyvwmDipowTiYTY3oaKjTih"
+    "stripe_price_id": "price_1TyvwmDipowTiYTY3oaKjTih",
+    "published": true
   },
   {
     "city": "Santa Rosa",
@@ -189,7 +193,8 @@
     "gumroad_link": "https://diverty2.gumroad.com/l/olzon",
     "stripe_checkout_url": "https://buy.stripe.com/4gMeVd01Z8Xr3Un8laeME04",
     "stripe_product_id": "prod_Uytk0UtY1biCVz",
-    "stripe_price_id": "price_1TyvwnDipowTiYTYhUOf2UIq"
+    "stripe_price_id": "price_1TyvwnDipowTiYTYhUOf2UIq",
+    "published": true
   },
   {
     "city": "Oceanside",
@@ -226,7 +231,8 @@
     "gumroad_link": "https://diverty2.gumroad.com/l/nikkef",
     "stripe_checkout_url": "https://buy.stripe.com/00w6oH4if5LfaiLcBqeME05",
     "stripe_product_id": "prod_UytkzACuqE59Et",
-    "stripe_price_id": "price_1TyvwoDipowTiYTYpS1tt1yz"
+    "stripe_price_id": "price_1TyvwoDipowTiYTYpS1tt1yz",
+    "published": true
   },
   {
     "city": "Vallejo",
@@ -263,7 +269,8 @@
     "gumroad_link": "https://diverty2.gumroad.com/l/tkqwcs",
     "stripe_checkout_url": "https://buy.stripe.com/28EeVd5mj4HbduX8laeME06",
     "stripe_product_id": "prod_UytkpOqfFWVViS",
-    "stripe_price_id": "price_1TyvwpDipowTiYTYuEzAdVr1"
+    "stripe_price_id": "price_1TyvwpDipowTiYTYuEzAdVr1",
+    "published": true
   },
   {
     "city": "Spokane",
@@ -300,7 +307,8 @@
     "gumroad_link": "https://diverty2.gumroad.com/l/adfphg",
     "stripe_checkout_url": "https://buy.stripe.com/fZu14ncOLc9Dez1gRGeME07",
     "stripe_product_id": "prod_UytkK9mVtjIGzh",
-    "stripe_price_id": "price_1TyvwqDipowTiYTYBqshyTCM"
+    "stripe_price_id": "price_1TyvwqDipowTiYTYBqshyTCM",
+    "published": true
   },
   {
     "city": "Tacoma",
@@ -337,7 +345,8 @@
     "gumroad_link": "https://diverty2.gumroad.com/l/bogrkc",
     "stripe_checkout_url": "https://buy.stripe.com/bJe14n5mjehL9eHdFueME08",
     "stripe_product_id": "prod_UytkCB7oHMn6ZL",
-    "stripe_price_id": "price_1TyvwrDipowTiYTYq4fe483b"
+    "stripe_price_id": "price_1TyvwrDipowTiYTYq4fe483b",
+    "published": true
   },
   {
     "city": "Vancouver",
@@ -374,7 +383,8 @@
     "gumroad_link": "https://diverty2.gumroad.com/l/sjnoet",
     "stripe_checkout_url": "https://buy.stripe.com/9B628reWT1uZ8aD8laeME09",
     "stripe_product_id": "prod_UytkzX5fEsFSDz",
-    "stripe_price_id": "price_1TyvwsDipowTiYTY9q7UWgqO"
+    "stripe_price_id": "price_1TyvwsDipowTiYTY9q7UWgqO",
+    "published": true
   },
   {
     "city": "Bellevue",
@@ -410,7 +420,8 @@
     "state_law": "Washington's HB 1337 (2023) which limits local ADU restrictions statewide",
     "stripe_checkout_url": "https://buy.stripe.com/aFacN58yva1v9eHgRGeME0a",
     "stripe_product_id": "prod_UytkfhTa0gXDGw",
-    "stripe_price_id": "price_1TyvwsDipowTiYTYotTDteh1"
+    "stripe_price_id": "price_1TyvwsDipowTiYTYotTDteh1",
+    "published": true
   },
   {
     "city": "Everett",
@@ -446,7 +457,8 @@
     "state_law": "Washington's HB 1337 (2023) which limits local ADU restrictions statewide",
     "stripe_checkout_url": "https://buy.stripe.com/14A8wP01Z5Lf9eH0SIeME0b",
     "stripe_product_id": "prod_UytkpLvQqpc7W8",
-    "stripe_price_id": "price_1TyvwtDipowTiYTYAEHkSbBq"
+    "stripe_price_id": "price_1TyvwtDipowTiYTYAEHkSbBq",
+    "published": true
   },
   {
     "city": "Yakima",
@@ -482,7 +494,8 @@
     "state_law": "Washington's HB 1337 (2023) which limits local ADU restrictions statewide",
     "stripe_checkout_url": "https://buy.stripe.com/00wfZh5mj1uZ8aDfNCeME0c",
     "stripe_product_id": "prod_UytkwCCMkIdZLH",
-    "stripe_price_id": "price_1TyvwuDipowTiYTYk6sWe0ES"
+    "stripe_price_id": "price_1TyvwuDipowTiYTYk6sWe0ES",
+    "published": true
   },
   {
     "city": "Fort Collins",
@@ -518,7 +531,8 @@
     "state_law": "local zoning ordinances, as Colorado has no statewide ADU mandate (HB 24-1152 addresses transit density)",
     "stripe_checkout_url": "https://buy.stripe.com/cNidR98yv7TnfD57h6eME0d",
     "stripe_product_id": "prod_UytkgeisOEyH84",
-    "stripe_price_id": "price_1TyvwvDipowTiYTYexPV6bC2"
+    "stripe_price_id": "price_1TyvwvDipowTiYTYexPV6bC2",
+    "published": true
   },
   {
     "city": "Greeley",
@@ -554,7 +568,8 @@
     "state_law": "local zoning ordinances, as Colorado has no statewide ADU mandate (HB 24-1152 addresses transit density)",
     "stripe_checkout_url": "https://buy.stripe.com/4gM7sLaGD1uZfD58laeME0e",
     "stripe_product_id": "prod_UytkmjHkD5uuVx",
-    "stripe_price_id": "price_1TyvwwDipowTiYTYrKXSIGgE"
+    "stripe_price_id": "price_1TyvwwDipowTiYTYrKXSIGgE",
+    "published": true
   },
   {
     "city": "Pueblo",
@@ -590,7 +605,8 @@
     "state_law": "local zoning ordinances, as Colorado has no statewide ADU mandate (HB 24-1152 addresses transit density)",
     "stripe_checkout_url": "https://buy.stripe.com/eVq7sL01Z7Tnez1dFueME0f",
     "stripe_product_id": "prod_Uytkej2qFUAHA8",
-    "stripe_price_id": "price_1TyvwxDipowTiYTYENI5iDvQ"
+    "stripe_price_id": "price_1TyvwxDipowTiYTYENI5iDvQ",
+    "published": true
   },
   {
     "city": "Boulder",
@@ -626,7 +642,8 @@
     "state_law": "local zoning ordinances, as Colorado has no statewide ADU mandate (HB 24-1152 addresses transit density)",
     "stripe_checkout_url": "https://buy.stripe.com/eVq5kDcOLb5zcqT44UeME0g",
     "stripe_product_id": "prod_Uytk1u8ta6iGP7",
-    "stripe_price_id": "price_1TyvwyDipowTiYTYkDX6xMMT"
+    "stripe_price_id": "price_1TyvwyDipowTiYTYkDX6xMMT",
+    "published": true
   },
   {
     "city": "Grand Junction",
@@ -662,7 +679,8 @@
     "state_law": "local zoning ordinances, as Colorado has no statewide ADU mandate (HB 24-1152 addresses transit density)",
     "stripe_checkout_url": "https://buy.stripe.com/6oU3cveWT4HbbmP1WMeME0h",
     "stripe_product_id": "prod_Uytk0pn4bHLnuT",
-    "stripe_price_id": "price_1TyvwzDipowTiYTYnkv5NrC7"
+    "stripe_price_id": "price_1TyvwzDipowTiYTYnkv5NrC7",
+    "published": true
   },
   {
     "city": "Riverside",
@@ -701,7 +719,8 @@
     "gumroad_link": "",
     "stripe_checkout_url": "https://buy.stripe.com/5kQ6oH01ZehL0Ib58YeME0i",
     "stripe_product_id": "prod_Uytk2ReKeNrjDB",
-    "stripe_price_id": "price_1Tyvx0DipowTiYTYOH5nL0aq"
+    "stripe_price_id": "price_1Tyvx0DipowTiYTYOH5nL0aq",
+    "published": true
   },
   {
     "city": "San Bernardino",
@@ -740,7 +759,8 @@
     "gumroad_link": "",
     "stripe_checkout_url": "https://buy.stripe.com/8x23cv3ebgpT0Ib9peeME0j",
     "stripe_product_id": "prod_UytkbOryujS8hm",
-    "stripe_price_id": "price_1Tyvx1DipowTiYTYbPHXo2vw"
+    "stripe_price_id": "price_1Tyvx1DipowTiYTYbPHXo2vw",
+    "published": true
   },
   {
     "city": "Santa Clarita",
@@ -779,7 +799,8 @@
     "gumroad_link": "",
     "stripe_checkout_url": "https://buy.stripe.com/bJe7sLbKH8Xr76z58YeME0k",
     "stripe_product_id": "prod_UytkBIcF03FBbs",
-    "stripe_price_id": "price_1Tyvx2DipowTiYTYz08v2DKu"
+    "stripe_price_id": "price_1Tyvx2DipowTiYTYz08v2DKu",
+    "published": true
   },
   {
     "city": "Oxnard",
@@ -818,7 +839,8 @@
     "gumroad_link": "",
     "stripe_checkout_url": "https://buy.stripe.com/4gMbJ18yv2z33UnatieME0l",
     "stripe_product_id": "prod_UytkhVGhjhfAyR",
-    "stripe_price_id": "price_1Tyvx3DipowTiYTYC18WnEB9"
+    "stripe_price_id": "price_1Tyvx3DipowTiYTYC18WnEB9",
+    "published": true
   },
   {
     "city": "Glendale",
@@ -857,7 +879,8 @@
     "gumroad_link": "",
     "stripe_checkout_url": "https://buy.stripe.com/bJe6oHdSP6PjfD56d2eME0m",
     "stripe_product_id": "prod_UytkpBTj1NpJDQ",
-    "stripe_price_id": "price_1Tyvx4DipowTiYTY50TlvLnW"
+    "stripe_price_id": "price_1Tyvx4DipowTiYTY50TlvLnW",
+    "published": true
   },
   {
     "city": "Aurora",
@@ -896,7 +919,8 @@
     "gumroad_link": "",
     "stripe_checkout_url": "https://buy.stripe.com/4gM00jaGD6PjaiLbxmeME0n",
     "stripe_product_id": "prod_UytkbD8NkAiR2J",
-    "stripe_price_id": "price_1Tyvx4DipowTiYTYzvCslnzu"
+    "stripe_price_id": "price_1Tyvx4DipowTiYTYzvCslnzu",
+    "published": true
   },
   {
     "city": "Lakewood",
@@ -935,7 +959,8 @@
     "gumroad_link": "",
     "stripe_checkout_url": "https://buy.stripe.com/eVq9AT4if0qVbmPdFueME0o",
     "stripe_product_id": "prod_UytksG8K2odIDz",
-    "stripe_price_id": "price_1Tyvx5DipowTiYTYYt4yDgfM"
+    "stripe_price_id": "price_1Tyvx5DipowTiYTYYt4yDgfM",
+    "published": true
   },
   {
     "city": "Thornton",
@@ -974,7 +999,8 @@
     "gumroad_link": "",
     "stripe_checkout_url": "https://buy.stripe.com/00weVdeWT2z30Ib0SIeME0p",
     "stripe_product_id": "prod_UytkvcvaH7SDTr",
-    "stripe_price_id": "price_1Tyvx7DipowTiYTYw1ux3gXb"
+    "stripe_price_id": "price_1Tyvx7DipowTiYTYw1ux3gXb",
+    "published": true
   },
   {
     "city": "Arvada",
@@ -1013,7 +1039,8 @@
     "gumroad_link": "",
     "stripe_checkout_url": "https://buy.stripe.com/cNiaEX4if5Lf62v44UeME0q",
     "stripe_product_id": "prod_UytkEpUkgwCFXF",
-    "stripe_price_id": "price_1Tyvx7DipowTiYTYEXe51FTB"
+    "stripe_price_id": "price_1Tyvx7DipowTiYTYEXe51FTB",
+    "published": true
   },
   {
     "city": "Westminster",
@@ -1052,7 +1079,8 @@
     "gumroad_link": "",
     "stripe_checkout_url": "https://buy.stripe.com/bJebJ1bKHb5zaiLcBqeME0r",
     "stripe_product_id": "prod_UytkYG1NV0h6Gw",
-    "stripe_price_id": "price_1Tyvx8DipowTiYTY4nkD1tnf"
+    "stripe_price_id": "price_1Tyvx8DipowTiYTY4nkD1tnf",
+    "published": true
   },
   {
     "city": "Kent",
@@ -1091,7 +1119,8 @@
     "gumroad_link": "",
     "stripe_checkout_url": "https://buy.stripe.com/9B66oHg0XgpT4YrdFueME0s",
     "stripe_product_id": "prod_UytkSUsaWfWnar",
-    "stripe_price_id": "price_1Tyvx9DipowTiYTYruHQNXd9"
+    "stripe_price_id": "price_1Tyvx9DipowTiYTYruHQNXd9",
+    "published": true
   },
   {
     "city": "Renton",
@@ -1130,7 +1159,8 @@
     "gumroad_link": "",
     "stripe_checkout_url": "https://buy.stripe.com/3cIeVd3eb1uZbmPeJyeME0t",
     "stripe_product_id": "prod_UytkqObwIHn4zT",
-    "stripe_price_id": "price_1TyvxADipowTiYTY8XV8F6m9"
+    "stripe_price_id": "price_1TyvxADipowTiYTY8XV8F6m9",
+    "published": true
   },
   {
     "city": "Federal Way",
@@ -1169,7 +1199,8 @@
     "gumroad_link": "",
     "stripe_checkout_url": "https://buy.stripe.com/fZu14n5mjddHduXfNCeME0u",
     "stripe_product_id": "prod_UytkCsvmavVYXE",
-    "stripe_price_id": "price_1TyvxBDipowTiYTYeDGmEP6V"
+    "stripe_price_id": "price_1TyvxBDipowTiYTYeDGmEP6V",
+    "published": true
   },
   {
     "city": "Kirkland",
@@ -1208,7 +1239,8 @@
     "gumroad_link": "",
     "stripe_checkout_url": "https://buy.stripe.com/dRmaEX2a7ddH76zeJyeME0v",
     "stripe_product_id": "prod_UytkW1Iw8t3nD5",
-    "stripe_price_id": "price_1TyvxCDipowTiYTY3em0cyZG"
+    "stripe_price_id": "price_1TyvxCDipowTiYTY3em0cyZG",
+    "published": true
   },
   {
     "city": "Redmond",
@@ -1247,7 +1279,8 @@
     "gumroad_link": "",
     "stripe_checkout_url": "https://buy.stripe.com/5kQdR99Cz5Lf4YrdFueME0w",
     "stripe_product_id": "prod_UytkEeFVbHUdOA",
-    "stripe_price_id": "price_1TyvxDDipowTiYTYpOdykMf3"
+    "stripe_price_id": "price_1TyvxDDipowTiYTYpOdykMf3",
+    "published": true
   },
   {
     "city": "Eugene",
@@ -1286,7 +1319,8 @@
     "gumroad_link": "",
     "stripe_checkout_url": "https://buy.stripe.com/fZu4gzcOL6PjcqTeJyeME0x",
     "stripe_product_id": "prod_UytkdtkPoX3LBN",
-    "stripe_price_id": "price_1TyvxEDipowTiYTYQ11WzRkj"
+    "stripe_price_id": "price_1TyvxEDipowTiYTYQ11WzRkj",
+    "published": true
   },
   {
     "city": "Salem",
@@ -1325,7 +1359,8 @@
     "gumroad_link": "",
     "stripe_checkout_url": "https://buy.stripe.com/3cI4gz5mj0qV76z58YeME0y",
     "stripe_product_id": "prod_UytkgdPRYP2DIA",
-    "stripe_price_id": "price_1TyvxFDipowTiYTYcuWnBmV9"
+    "stripe_price_id": "price_1TyvxFDipowTiYTYcuWnBmV9",
+    "published": true
   },
   {
     "city": "Gresham",
@@ -1364,7 +1399,8 @@
     "gumroad_link": "",
     "stripe_checkout_url": "https://buy.stripe.com/dRm4gz4if6PjfD51WMeME0z",
     "stripe_product_id": "prod_Uytk66vRpzp6h7",
-    "stripe_price_id": "price_1TyvxGDipowTiYTYfLYMjwAH"
+    "stripe_price_id": "price_1TyvxGDipowTiYTYfLYMjwAH",
+    "published": true
   },
   {
     "city": "Hillsboro",
@@ -1403,7 +1439,8 @@
     "gumroad_link": "",
     "stripe_checkout_url": "https://buy.stripe.com/3cI00j9CzgpTduXgRGeME0A",
     "stripe_product_id": "prod_Uytk2xm0hOMKmd",
-    "stripe_price_id": "price_1TyvxHDipowTiYTY3ZZqXmpj"
+    "stripe_price_id": "price_1TyvxHDipowTiYTY3ZZqXmpj",
+    "published": true
   },
   {
     "city": "Beaverton",
@@ -1442,6 +1479,7 @@
     "gumroad_link": "",
     "stripe_checkout_url": "https://buy.stripe.com/4gM8wP5mj8XrgH97h6eME0B",
     "stripe_product_id": "prod_UytkwWY6VsJrHJ",
-    "stripe_price_id": "price_1TyvxIDipowTiYTYjxiOFOu5"
+    "stripe_price_id": "price_1TyvxIDipowTiYTYjxiOFOu5",
+    "published": true
   }
 ]
