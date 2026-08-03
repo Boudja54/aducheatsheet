@@ -1481,5 +1481,1405 @@
     "stripe_product_id": "prod_UytkwWY6VsJrHJ",
     "stripe_price_id": "price_1TyvxIDipowTiYTYjxiOFOu5",
     "published": true
+  },
+  {
+    "city": "Plano",
+    "state": "Texas",
+    "state_abbr": "TX",
+    "max_size": "1,000",
+    "setbacks": "5 ft rear, 5 ft side",
+    "parking": "Required (1 space)",
+    "occupancy": "Not required",
+    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>\u26a0\ufe0f TX has NO statewide ADU law \u2014 city code governs</li>",
+    "faq1": "This Texas city permits ADUs under local ordinance. Verify your specific zoning district with the planning department before applying.",
+    "year": "2026",
+    "price": "14",
+    "payhip_link": "[PAYHIP_LINK_PLANO]",
+    "premium": {
+      "dept_name": "Planning Department",
+      "phone": "(972) 941-7136",
+      "email": "planning@plano.gov",
+      "address": "1520 Avenue K, Plano, TX 75074",
+      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "links": {
+        "permit_form": "https://www.plano.gov/permits",
+        "zoning_map": "https://www.plano.gov/gis",
+        "city_website": "https://www.plano.gov"
+      },
+      "fees": {
+        "permit_fee": "$2,000",
+        "impact_fee": "$4,000",
+        "plan_check": "$900"
+      },
+      "notes": ""
+    },
+    "intro": "In Collin County north of Dallas, Plano regulates ADUs through its unified development code. Texas has no statewide ADU mandate, so Plano's local zoning districts \u2014 including specific lot size and design standards \u2014 are the governing authority.",
+    "county": "Collin County",
+    "state_law": "local zoning ordinances, as Texas has no statewide ADU mandate",
+    "gumroad_link": "",
+    "stripe_checkout_url": "",
+    "stripe_product_id": "",
+    "stripe_price_id": "",
+    "published": false
+  },
+  {
+    "city": "Irving",
+    "state": "Texas",
+    "state_abbr": "TX",
+    "max_size": "1,000",
+    "setbacks": "5 ft rear, 5 ft side",
+    "parking": "Required (1 space)",
+    "occupancy": "Not required",
+    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>\u26a0\ufe0f TX has NO statewide ADU law \u2014 city code governs</li>",
+    "faq1": "This Texas city permits ADUs under local ordinance. Verify your specific zoning district with the planning department before applying.",
+    "year": "2026",
+    "price": "14",
+    "payhip_link": "[PAYHIP_LINK_IRVING]",
+    "premium": {
+      "dept_name": "Planning & Development",
+      "phone": "(972) 721-2400",
+      "email": "planning@cityofirving.org",
+      "address": "825 W Irving Blvd, Irving, TX 75060",
+      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "links": {
+        "permit_form": "https://www.irving.gov/permits",
+        "zoning_map": "https://www.irving.gov/gis",
+        "city_website": "https://www.irving.gov"
+      },
+      "fees": {
+        "permit_fee": "$2,000",
+        "impact_fee": "$4,000",
+        "plan_check": "$900"
+      },
+      "notes": ""
+    },
+    "intro": "Located between Dallas and Fort Worth in Dallas County, Irving permits ADUs under local ordinance. Without a Texas statewide ADU law, the city's zoning code determines where accessory units are allowed and under what conditions.",
+    "county": "Dallas County",
+    "state_law": "local zoning ordinances, as Texas has no statewide ADU mandate",
+    "gumroad_link": "",
+    "stripe_checkout_url": "",
+    "stripe_product_id": "",
+    "stripe_price_id": "",
+    "published": false
+  },
+  {
+    "city": "Garland",
+    "state": "Texas",
+    "state_abbr": "TX",
+    "max_size": "1,000",
+    "setbacks": "5 ft rear, 5 ft side",
+    "parking": "Required (1 space)",
+    "occupancy": "Not required",
+    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>\u26a0\ufe0f TX has NO statewide ADU law \u2014 city code governs</li>",
+    "faq1": "This Texas city permits ADUs under local ordinance. Verify your specific zoning district with the planning department before applying.",
+    "year": "2026",
+    "price": "14",
+    "payhip_link": "[PAYHIP_LINK_GARLAND]",
+    "premium": {
+      "dept_name": "Planning Department",
+      "phone": "(972) 205-3300",
+      "email": "planning@garlandtx.gov",
+      "address": "200 N 5th St, Garland, TX 75040",
+      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "links": {
+        "permit_form": "https://www.garland.gov/permits",
+        "zoning_map": "https://www.garland.gov/gis",
+        "city_website": "https://www.garland.gov"
+      },
+      "fees": {
+        "permit_fee": "$2,000",
+        "impact_fee": "$4,000",
+        "plan_check": "$900"
+      },
+      "notes": ""
+    },
+    "intro": "In the northeastern Dallas suburbs, Garland's ADU rules are set entirely by local ordinance. Texas has no statewide ADU framework, making Garland's municipal code the definitive source for accessory dwelling unit requirements.",
+    "county": "Dallas County",
+    "state_law": "local zoning ordinances, as Texas has no statewide ADU mandate",
+    "gumroad_link": "",
+    "stripe_checkout_url": "",
+    "stripe_product_id": "",
+    "stripe_price_id": "",
+    "published": false
+  },
+  {
+    "city": "Arlington",
+    "state": "Texas",
+    "state_abbr": "TX",
+    "max_size": "1,000",
+    "setbacks": "5 ft rear, 5 ft side",
+    "parking": "Required (1 space)",
+    "occupancy": "Not required",
+    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>\u26a0\ufe0f TX has NO statewide ADU law \u2014 city code governs</li>",
+    "faq1": "This Texas city permits ADUs under local ordinance. Verify your specific zoning district with the planning department before applying.",
+    "year": "2026",
+    "price": "14",
+    "payhip_link": "[PAYHIP_LINK_ARLINGTON]",
+    "premium": {
+      "dept_name": "Planning & Development Services",
+      "phone": "(817) 459-6500",
+      "email": "planning@arlingtontx.gov",
+      "address": "101 W Abram St, Arlington, TX 76010",
+      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "links": {
+        "permit_form": "https://www.arlington.gov/permits",
+        "zoning_map": "https://www.arlington.gov/gis",
+        "city_website": "https://www.arlington.gov"
+      },
+      "fees": {
+        "permit_fee": "$2,000",
+        "impact_fee": "$4,000",
+        "plan_check": "$900"
+      },
+      "notes": ""
+    },
+    "intro": "Midway between Dallas and Fort Worth in Tarrant County, Arlington evaluates ADU applications under its local zoning ordinance. Property owners should verify district-specific rules since Texas lacks statewide ADU legislation.",
+    "county": "Tarrant County",
+    "state_law": "local zoning ordinances, as Texas has no statewide ADU mandate",
+    "gumroad_link": "",
+    "stripe_checkout_url": "",
+    "stripe_product_id": "",
+    "stripe_price_id": "",
+    "published": false
+  },
+  {
+    "city": "Corpus Christi",
+    "state": "Texas",
+    "state_abbr": "TX",
+    "max_size": "1,000",
+    "setbacks": "5 ft rear, 5 ft side",
+    "parking": "Required (1 space)",
+    "occupancy": "Not required",
+    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>\u26a0\ufe0f TX has NO statewide ADU law \u2014 city code governs</li>",
+    "faq1": "This Texas city permits ADUs under local ordinance. Verify your specific zoning district with the planning department before applying.",
+    "year": "2026",
+    "price": "14",
+    "payhip_link": "[PAYHIP_LINK_CORPUS_CHRISTI]",
+    "premium": {
+      "dept_name": "Development Services",
+      "phone": "(361) 826-3100",
+      "email": "planning@cctexas.com",
+      "address": "1201 Leopard St, Corpus Christi, TX 78401",
+      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "links": {
+        "permit_form": "https://www.corpuschristi.gov/permits",
+        "zoning_map": "https://www.corpuschristi.gov/gis",
+        "city_website": "https://www.corpuschristi.gov"
+      },
+      "fees": {
+        "permit_fee": "$2,000",
+        "impact_fee": "$4,000",
+        "plan_check": "$900"
+      },
+      "notes": ""
+    },
+    "intro": "On the Gulf Coast in Nueces County, Corpus Christi permits ADUs through local ordinance. The coastal climate means property owners should also consider flood zone requirements alongside the city's ADU zoning rules.",
+    "county": "Nueces County",
+    "state_law": "local zoning ordinances, as Texas has no statewide ADU mandate",
+    "gumroad_link": "",
+    "stripe_checkout_url": "",
+    "stripe_product_id": "",
+    "stripe_price_id": "",
+    "published": false
+  },
+  {
+    "city": "Lubbock",
+    "state": "Texas",
+    "state_abbr": "TX",
+    "max_size": "1,000",
+    "setbacks": "5 ft rear, 5 ft side",
+    "parking": "Required (1 space)",
+    "occupancy": "Not required",
+    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>\u26a0\ufe0f TX has NO statewide ADU law \u2014 city code governs</li>",
+    "faq1": "This Texas city permits ADUs under local ordinance. Verify your specific zoning district with the planning department before applying.",
+    "year": "2026",
+    "price": "14",
+    "payhip_link": "[PAYHIP_LINK_LUBBOCK]",
+    "premium": {
+      "dept_name": "Planning Department",
+      "phone": "(806) 775-2141",
+      "email": "planning@mylubbock.us",
+      "address": "1314 Avenue K, Lubbock, TX 79401",
+      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "links": {
+        "permit_form": "https://www.lubbock.gov/permits",
+        "zoning_map": "https://www.lubbock.gov/gis",
+        "city_website": "https://www.lubbock.gov"
+      },
+      "fees": {
+        "permit_fee": "$2,000",
+        "impact_fee": "$4,000",
+        "plan_check": "$900"
+      },
+      "notes": ""
+    },
+    "intro": "At the heart of the South Plains in Lubbock County, the city manages ADU approvals under local zoning authority. With no Texas statewide mandate, Lubbock's code sets all lot, setback, and design requirements.",
+    "county": "Lubbock County",
+    "state_law": "local zoning ordinances, as Texas has no statewide ADU mandate",
+    "gumroad_link": "",
+    "stripe_checkout_url": "",
+    "stripe_product_id": "",
+    "stripe_price_id": "",
+    "published": false
+  },
+  {
+    "city": "Laredo",
+    "state": "Texas",
+    "state_abbr": "TX",
+    "max_size": "1,000",
+    "setbacks": "5 ft rear, 5 ft side",
+    "parking": "Required (1 space)",
+    "occupancy": "Not required",
+    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>\u26a0\ufe0f TX has NO statewide ADU law \u2014 city code governs</li>",
+    "faq1": "This Texas city permits ADUs under local ordinance. Verify your specific zoning district with the planning department before applying.",
+    "year": "2026",
+    "price": "14",
+    "payhip_link": "[PAYHIP_LINK_LAREDO]",
+    "premium": {
+      "dept_name": "Planning & Zoning Department",
+      "phone": "(956) 791-7325",
+      "email": "planning@ci.laredo.tx.us",
+      "address": "1110 Houston St, Laredo, TX 78040",
+      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "links": {
+        "permit_form": "https://www.laredo.gov/permits",
+        "zoning_map": "https://www.laredo.gov/gis",
+        "city_website": "https://www.laredo.gov"
+      },
+      "fees": {
+        "permit_fee": "$2,000",
+        "impact_fee": "$4,000",
+        "plan_check": "$900"
+      },
+      "notes": ""
+    },
+    "intro": "On the Texas-Mexico border in Webb County, Laredo regulates accessory dwelling units through its municipal code. Texas has no statewide ADU law, so local zoning rules govern all new ADU construction.",
+    "county": "Webb County",
+    "state_law": "local zoning ordinances, as Texas has no statewide ADU mandate",
+    "gumroad_link": "",
+    "stripe_checkout_url": "",
+    "stripe_product_id": "",
+    "stripe_price_id": "",
+    "published": false
+  },
+  {
+    "city": "Brownsville",
+    "state": "Texas",
+    "state_abbr": "TX",
+    "max_size": "1,000",
+    "setbacks": "5 ft rear, 5 ft side",
+    "parking": "Required (1 space)",
+    "occupancy": "Not required",
+    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>\u26a0\ufe0f TX has NO statewide ADU law \u2014 city code governs</li>",
+    "faq1": "This Texas city permits ADUs under local ordinance. Verify your specific zoning district with the planning department before applying.",
+    "year": "2026",
+    "price": "14",
+    "payhip_link": "[PAYHIP_LINK_BROWNSVILLE]",
+    "premium": {
+      "dept_name": "Development Services",
+      "phone": "(956) 546-0062",
+      "email": "planning@cob.us",
+      "address": "1150 E Madison St, Brownsville, TX 78520",
+      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "links": {
+        "permit_form": "https://www.brownsville.gov/permits",
+        "zoning_map": "https://www.brownsville.gov/gis",
+        "city_website": "https://www.brownsville.gov"
+      },
+      "fees": {
+        "permit_fee": "$2,000",
+        "impact_fee": "$4,000",
+        "plan_check": "$900"
+      },
+      "notes": ""
+    },
+    "intro": "At the southern tip of Texas in Cameron County, Brownsville permits ADUs under local ordinance. The city's proximity to the Rio Grande means flood mitigation rules may apply alongside ADU zoning requirements.",
+    "county": "Cameron County",
+    "state_law": "local zoning ordinances, as Texas has no statewide ADU mandate",
+    "gumroad_link": "",
+    "stripe_checkout_url": "",
+    "stripe_product_id": "",
+    "stripe_price_id": "",
+    "published": false
+  },
+  {
+    "city": "McKinney",
+    "state": "Texas",
+    "state_abbr": "TX",
+    "max_size": "1,000",
+    "setbacks": "5 ft rear, 5 ft side",
+    "parking": "Required (1 space)",
+    "occupancy": "Not required",
+    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>\u26a0\ufe0f TX has NO statewide ADU law \u2014 city code governs</li>",
+    "faq1": "This Texas city permits ADUs under local ordinance. Verify your specific zoning district with the planning department before applying.",
+    "year": "2026",
+    "price": "14",
+    "payhip_link": "[PAYHIP_LINK_MCKINNEY]",
+    "premium": {
+      "dept_name": "Planning Department",
+      "phone": "(972) 547-7300",
+      "email": "planning@mckinneytexas.org",
+      "address": "221 N Tennessee St, McKinney, TX 75069",
+      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "links": {
+        "permit_form": "https://www.mckinney.gov/permits",
+        "zoning_map": "https://www.mckinney.gov/gis",
+        "city_website": "https://www.mckinney.gov"
+      },
+      "fees": {
+        "permit_fee": "$2,000",
+        "impact_fee": "$4,000",
+        "plan_check": "$900"
+      },
+      "notes": ""
+    },
+    "intro": "One of the fastest-growing cities in Collin County, McKinney evaluates ADU applications through its unified development code. Texas's lack of a statewide ADU mandate means all requirements are locally determined.",
+    "county": "Collin County",
+    "state_law": "local zoning ordinances, as Texas has no statewide ADU mandate",
+    "gumroad_link": "",
+    "stripe_checkout_url": "",
+    "stripe_product_id": "",
+    "stripe_price_id": "",
+    "published": false
+  },
+  {
+    "city": "Frisco",
+    "state": "Texas",
+    "state_abbr": "TX",
+    "max_size": "1,000",
+    "setbacks": "5 ft rear, 5 ft side",
+    "parking": "Required (1 space)",
+    "occupancy": "Not required",
+    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>\u26a0\ufe0f TX has NO statewide ADU law \u2014 city code governs</li>",
+    "faq1": "This Texas city permits ADUs under local ordinance. Verify your specific zoning district with the planning department before applying.",
+    "year": "2026",
+    "price": "14",
+    "payhip_link": "[PAYHIP_LINK_FRISCO]",
+    "premium": {
+      "dept_name": "Planning & Development",
+      "phone": "(972) 292-5300",
+      "email": "planning@friscotexas.gov",
+      "address": "6101 Frisco Square Blvd, Frisco, TX 75034",
+      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "links": {
+        "permit_form": "https://www.frisco.gov/permits",
+        "zoning_map": "https://www.frisco.gov/gis",
+        "city_website": "https://www.frisco.gov"
+      },
+      "fees": {
+        "permit_fee": "$2,000",
+        "impact_fee": "$4,000",
+        "plan_check": "$900"
+      },
+      "notes": ""
+    },
+    "intro": "In booming Collin County, Frisco's ADU regulations come entirely from the municipal zoning code. Without statewide ADU legislation in Texas, property owners must follow the city's specific lot and design standards.",
+    "county": "Collin County",
+    "state_law": "local zoning ordinances, as Texas has no statewide ADU mandate",
+    "gumroad_link": "",
+    "stripe_checkout_url": "",
+    "stripe_product_id": "",
+    "stripe_price_id": "",
+    "published": false
+  },
+  {
+    "city": "Mesa",
+    "state": "Arizona",
+    "state_abbr": "AZ",
+    "max_size": "1,000",
+    "setbacks": "5 ft rear, 5 ft side",
+    "parking": "Required (1 space)",
+    "occupancy": "Not required",
+    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>\u26a0\ufe0f AZ has NO statewide ADU law \u2014 city code governs</li>",
+    "faq1": "This Arizona city permits ADUs under local ordinance. Confirm your zone's eligibility with the planning department first.",
+    "year": "2026",
+    "price": "14",
+    "payhip_link": "[PAYHIP_LINK_MESA]",
+    "premium": {
+      "dept_name": "Planning Division",
+      "phone": "(480) 644-2150",
+      "email": "planning@mesaaz.gov",
+      "address": "55 N Center St, Mesa, AZ 85201",
+      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "links": {
+        "permit_form": "https://www.mesa.gov/permits",
+        "zoning_map": "https://www.mesa.gov/gis",
+        "city_website": "https://www.mesa.gov"
+      },
+      "fees": {
+        "permit_fee": "$2,000",
+        "impact_fee": "$4,000",
+        "plan_check": "$900"
+      },
+      "notes": ""
+    },
+    "intro": "Arizona's third-largest city in Maricopa County, Mesa permits ADUs through its zoning ordinance. The state's hot desert climate influences design requirements, and local code governs all ADU approvals.",
+    "county": "Maricopa County",
+    "state_law": "local zoning ordinances, as Arizona has no statewide ADU mandate",
+    "gumroad_link": "",
+    "stripe_checkout_url": "",
+    "stripe_product_id": "",
+    "stripe_price_id": "",
+    "published": false
+  },
+  {
+    "city": "Chandler",
+    "state": "Arizona",
+    "state_abbr": "AZ",
+    "max_size": "1,000",
+    "setbacks": "5 ft rear, 5 ft side",
+    "parking": "Required (1 space)",
+    "occupancy": "Not required",
+    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>\u26a0\ufe0f AZ has NO statewide ADU law \u2014 city code governs</li>",
+    "faq1": "This Arizona city permits ADUs under local ordinance. Confirm your zone's eligibility with the planning department first.",
+    "year": "2026",
+    "price": "14",
+    "payhip_link": "[PAYHIP_LINK_CHANDLER]",
+    "premium": {
+      "dept_name": "Planning & Development",
+      "phone": "(480) 782-3150",
+      "email": "planning@chandleraz.gov",
+      "address": "175 S Arizona Ave, Chandler, AZ 85225",
+      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "links": {
+        "permit_form": "https://www.chandler.gov/permits",
+        "zoning_map": "https://www.chandler.gov/gis",
+        "city_website": "https://www.chandler.gov"
+      },
+      "fees": {
+        "permit_fee": "$2,000",
+        "impact_fee": "$4,000",
+        "plan_check": "$900"
+      },
+      "notes": ""
+    },
+    "intro": "In the southeast Phoenix metro, Chandler regulates ADUs under its zoning code. The city's modern housing stock and HOA communities mean property owners should verify both municipal rules and any community covenants.",
+    "county": "Maricopa County",
+    "state_law": "local zoning ordinances, as Arizona has no statewide ADU mandate",
+    "gumroad_link": "",
+    "stripe_checkout_url": "",
+    "stripe_product_id": "",
+    "stripe_price_id": "",
+    "published": false
+  },
+  {
+    "city": "Gilbert",
+    "state": "Arizona",
+    "state_abbr": "AZ",
+    "max_size": "1,000",
+    "setbacks": "5 ft rear, 5 ft side",
+    "parking": "Required (1 space)",
+    "occupancy": "Not required",
+    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>\u26a0\ufe0f AZ has NO statewide ADU law \u2014 city code governs</li>",
+    "faq1": "This Arizona city permits ADUs under local ordinance. Confirm your zone's eligibility with the planning department first.",
+    "year": "2026",
+    "price": "14",
+    "payhip_link": "[PAYHIP_LINK_GILBERT]",
+    "premium": {
+      "dept_name": "Planning Division",
+      "phone": "(480) 503-6740",
+      "email": "planning@gilbertaz.gov",
+      "address": "90 E Civic Center Dr, Gilbert, AZ 85296",
+      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "links": {
+        "permit_form": "https://www.gilbert.gov/permits",
+        "zoning_map": "https://www.gilbert.gov/gis",
+        "city_website": "https://www.gilbert.gov"
+      },
+      "fees": {
+        "permit_fee": "$2,000",
+        "impact_fee": "$4,000",
+        "plan_check": "$900"
+      },
+      "notes": ""
+    },
+    "intro": "One of Arizona's fastest-growing suburbs in Maricopa County, Gilbert permits ADUs through local ordinance. Arizona has no statewide ADU mandate, so Gilbert's zoning code is the final authority on accessory units.",
+    "county": "Maricopa County",
+    "state_law": "local zoning ordinances, as Arizona has no statewide ADU mandate",
+    "gumroad_link": "",
+    "stripe_checkout_url": "",
+    "stripe_product_id": "",
+    "stripe_price_id": "",
+    "published": false
+  },
+  {
+    "city": "Scottsdale",
+    "state": "Arizona",
+    "state_abbr": "AZ",
+    "max_size": "1,000",
+    "setbacks": "5 ft rear, 5 ft side",
+    "parking": "Required (1 space)",
+    "occupancy": "Not required",
+    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>\u26a0\ufe0f AZ has NO statewide ADU law \u2014 city code governs</li>",
+    "faq1": "This Arizona city permits ADUs under local ordinance. Confirm your zone's eligibility with the planning department first.",
+    "year": "2026",
+    "price": "14",
+    "payhip_link": "[PAYHIP_LINK_SCOTTSDALE]",
+    "premium": {
+      "dept_name": "Planning & Development Services",
+      "phone": "(480) 312-2350",
+      "email": "planning@scottsdaleaz.gov",
+      "address": "7447 E Indian School Rd, Scottsdale, AZ 85251",
+      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "links": {
+        "permit_form": "https://www.scottsdale.gov/permits",
+        "zoning_map": "https://www.scottsdale.gov/gis",
+        "city_website": "https://www.scottsdale.gov"
+      },
+      "fees": {
+        "permit_fee": "$2,000",
+        "impact_fee": "$4,000",
+        "plan_check": "$900"
+      },
+      "notes": ""
+    },
+    "intro": "Known for its desert luxury communities in Maricopa County, Scottsdale enforces detailed design standards for ADUs. The city's zoning code requires compatibility with the surrounding architectural character.",
+    "county": "Maricopa County",
+    "state_law": "local zoning ordinances, as Arizona has no statewide ADU mandate",
+    "gumroad_link": "",
+    "stripe_checkout_url": "",
+    "stripe_product_id": "",
+    "stripe_price_id": "",
+    "published": false
+  },
+  {
+    "city": "Tempe",
+    "state": "Arizona",
+    "state_abbr": "AZ",
+    "max_size": "1,000",
+    "setbacks": "5 ft rear, 5 ft side",
+    "parking": "Required (1 space)",
+    "occupancy": "Not required",
+    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>\u26a0\ufe0f AZ has NO statewide ADU law \u2014 city code governs</li>",
+    "faq1": "This Arizona city permits ADUs under local ordinance. Confirm your zone's eligibility with the planning department first.",
+    "year": "2026",
+    "price": "14",
+    "payhip_link": "[PAYHIP_LINK_TEMPE]",
+    "premium": {
+      "dept_name": "Development Services",
+      "phone": "(480) 350-8311",
+      "email": "planning@tempe.gov",
+      "address": "31 E 5th St, Tempe, AZ 85281",
+      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "links": {
+        "permit_form": "https://www.tempe.gov/permits",
+        "zoning_map": "https://www.tempe.gov/gis",
+        "city_website": "https://www.tempe.gov"
+      },
+      "fees": {
+        "permit_fee": "$2,000",
+        "impact_fee": "$4,000",
+        "plan_check": "$900"
+      },
+      "notes": ""
+    },
+    "intro": "Home to Arizona State University in Maricopa County, Tempe allows ADUs in residential zones under local ordinance. The high rental demand from students makes ADUs a popular option for property owners.",
+    "county": "Maricopa County",
+    "state_law": "local zoning ordinances, as Arizona has no statewide ADU mandate",
+    "gumroad_link": "",
+    "stripe_checkout_url": "",
+    "stripe_product_id": "",
+    "stripe_price_id": "",
+    "published": false
+  },
+  {
+    "city": "Peoria",
+    "state": "Arizona",
+    "state_abbr": "AZ",
+    "max_size": "1,000",
+    "setbacks": "5 ft rear, 5 ft side",
+    "parking": "Required (1 space)",
+    "occupancy": "Not required",
+    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>\u26a0\ufe0f AZ has NO statewide ADU law \u2014 city code governs</li>",
+    "faq1": "This Arizona city permits ADUs under local ordinance. Confirm your zone's eligibility with the planning department first.",
+    "year": "2026",
+    "price": "14",
+    "payhip_link": "[PAYHIP_LINK_PEORIA]",
+    "premium": {
+      "dept_name": "Planning & Zoning",
+      "phone": "(623) 773-7600",
+      "email": "planning@peoriaaz.gov",
+      "address": "8401 W Monroe St, Peoria, AZ 85345",
+      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "links": {
+        "permit_form": "https://www.peoria.gov/permits",
+        "zoning_map": "https://www.peoria.gov/gis",
+        "city_website": "https://www.peoria.gov"
+      },
+      "fees": {
+        "permit_fee": "$2,000",
+        "impact_fee": "$4,000",
+        "plan_check": "$900"
+      },
+      "notes": ""
+    },
+    "intro": "In the northwest Phoenix metro, Peoria's ADU rules are established by municipal zoning code. Arizona has no statewide ADU law, so the city's lot and design requirements apply to all accessory units.",
+    "county": "Maricopa County",
+    "state_law": "local zoning ordinances, as Arizona has no statewide ADU mandate",
+    "gumroad_link": "",
+    "stripe_checkout_url": "",
+    "stripe_product_id": "",
+    "stripe_price_id": "",
+    "published": false
+  },
+  {
+    "city": "Surprise",
+    "state": "Arizona",
+    "state_abbr": "AZ",
+    "max_size": "1,000",
+    "setbacks": "5 ft rear, 5 ft side",
+    "parking": "Required (1 space)",
+    "occupancy": "Not required",
+    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>\u26a0\ufe0f AZ has NO statewide ADU law \u2014 city code governs</li>",
+    "faq1": "This Arizona city permits ADUs under local ordinance. Confirm your zone's eligibility with the planning department first.",
+    "year": "2026",
+    "price": "14",
+    "payhip_link": "[PAYHIP_LINK_SURPRISE]",
+    "premium": {
+      "dept_name": "Planning Department",
+      "phone": "(623) 222-3000",
+      "email": "planning@surpriseaz.gov",
+      "address": "16000 N Civic Center Plaza, Surprise, AZ 85374",
+      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "links": {
+        "permit_form": "https://www.surprise.gov/permits",
+        "zoning_map": "https://www.surprise.gov/gis",
+        "city_website": "https://www.surprise.gov"
+      },
+      "fees": {
+        "permit_fee": "$2,000",
+        "impact_fee": "$4,000",
+        "plan_check": "$900"
+      },
+      "notes": ""
+    },
+    "intro": "One of the west valley's fastest-growing cities in Maricopa County, Surprise permits ADUs through local ordinance. Property owners should verify the specific zoning district before planning an accessory unit.",
+    "county": "Maricopa County",
+    "state_law": "local zoning ordinances, as Arizona has no statewide ADU mandate",
+    "gumroad_link": "",
+    "stripe_checkout_url": "",
+    "stripe_product_id": "",
+    "stripe_price_id": "",
+    "published": false
+  },
+  {
+    "city": "Goodyear",
+    "state": "Arizona",
+    "state_abbr": "AZ",
+    "max_size": "1,000",
+    "setbacks": "5 ft rear, 5 ft side",
+    "parking": "Required (1 space)",
+    "occupancy": "Not required",
+    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>\u26a0\ufe0f AZ has NO statewide ADU law \u2014 city code governs</li>",
+    "faq1": "This Arizona city permits ADUs under local ordinance. Confirm your zone's eligibility with the planning department first.",
+    "year": "2026",
+    "price": "14",
+    "payhip_link": "[PAYHIP_LINK_GOODYEAR]",
+    "premium": {
+      "dept_name": "Planning Division",
+      "phone": "(623) 882-7810",
+      "email": "planning@goodyearaz.gov",
+      "address": "190 N Litchfield Rd, Goodyear, AZ 85338",
+      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "links": {
+        "permit_form": "https://www.goodyear.gov/permits",
+        "zoning_map": "https://www.goodyear.gov/gis",
+        "city_website": "https://www.goodyear.gov"
+      },
+      "fees": {
+        "permit_fee": "$2,000",
+        "impact_fee": "$4,000",
+        "plan_check": "$900"
+      },
+      "notes": ""
+    },
+    "intro": "In the southwest Phoenix metro, Goodyear regulates ADUs through its zoning code. Without a statewide mandate, the city's residential district rules determine where and how accessory units may be built.",
+    "county": "Maricopa County",
+    "state_law": "local zoning ordinances, as Arizona has no statewide ADU mandate",
+    "gumroad_link": "",
+    "stripe_checkout_url": "",
+    "stripe_product_id": "",
+    "stripe_price_id": "",
+    "published": false
+  },
+  {
+    "city": "Flagstaff",
+    "state": "Arizona",
+    "state_abbr": "AZ",
+    "max_size": "1,000",
+    "setbacks": "5 ft rear, 5 ft side",
+    "parking": "Required (1 space)",
+    "occupancy": "Not required",
+    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>\u26a0\ufe0f AZ has NO statewide ADU law \u2014 city code governs</li>",
+    "faq1": "This Arizona city permits ADUs under local ordinance. Confirm your zone's eligibility with the planning department first.",
+    "year": "2026",
+    "price": "14",
+    "payhip_link": "[PAYHIP_LINK_FLAGSTAFF]",
+    "premium": {
+      "dept_name": "Planning & Development Services",
+      "phone": "(928) 679-8300",
+      "email": "planning@flagstaffaz.gov",
+      "address": "211 W Aspen Ave, Flagstaff, AZ 86001",
+      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "links": {
+        "permit_form": "https://www.flagstaff.gov/permits",
+        "zoning_map": "https://www.flagstaff.gov/gis",
+        "city_website": "https://www.flagstaff.gov"
+      },
+      "fees": {
+        "permit_fee": "$2,000",
+        "impact_fee": "$4,000",
+        "plan_check": "$900"
+      },
+      "notes": ""
+    },
+    "intro": "At 7,000 feet in Coconino County, Flagstaff permits ADUs under local ordinance with a focus on rental housing affordability. The mountain climate influences building standards for accessory units.",
+    "county": "Coconino County",
+    "state_law": "local zoning ordinances, as Arizona has no statewide ADU mandate",
+    "gumroad_link": "",
+    "stripe_checkout_url": "",
+    "stripe_product_id": "",
+    "stripe_price_id": "",
+    "published": false
+  },
+  {
+    "city": "Lake Havasu City",
+    "state": "Arizona",
+    "state_abbr": "AZ",
+    "max_size": "1,000",
+    "setbacks": "5 ft rear, 5 ft side",
+    "parking": "Required (1 space)",
+    "occupancy": "Not required",
+    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>\u26a0\ufe0f AZ has NO statewide ADU law \u2014 city code governs</li>",
+    "faq1": "This Arizona city permits ADUs under local ordinance. Confirm your zone's eligibility with the planning department first.",
+    "year": "2026",
+    "price": "14",
+    "payhip_link": "[PAYHIP_LINK_LAKE_HAVASU_CITY]",
+    "premium": {
+      "dept_name": "Community Development",
+      "phone": "(928) 855-3725",
+      "email": "planning@lhcaz.gov",
+      "address": "2330 McCulloch Blvd N, Lake Havasu City, AZ 86403",
+      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "links": {
+        "permit_form": "https://www.lakehavasucity.gov/permits",
+        "zoning_map": "https://www.lakehavasucity.gov/gis",
+        "city_website": "https://www.lakehavasucity.gov"
+      },
+      "fees": {
+        "permit_fee": "$2,000",
+        "impact_fee": "$4,000",
+        "plan_check": "$900"
+      },
+      "notes": ""
+    },
+    "intro": "Along the Colorado River in Mohave County, Lake Havasu City allows ADUs in residential zones under local code. The seasonal rental market makes accessory units attractive for property owners.",
+    "county": "Mohave County",
+    "state_law": "local zoning ordinances, as Arizona has no statewide ADU mandate",
+    "gumroad_link": "",
+    "stripe_checkout_url": "",
+    "stripe_product_id": "",
+    "stripe_price_id": "",
+    "published": false
+  },
+  {
+    "city": "Chula Vista",
+    "state": "California",
+    "state_abbr": "CA",
+    "max_size": "1,200",
+    "setbacks": "4 ft rear, 4 ft side",
+    "parking": "Not required",
+    "occupancy": "Not required",
+    "additional": "<li>ADU by right in residential zones</li><li>Minimum 150 sq ft</li><li>Height limit: 16 ft for detached</li>",
+    "faq1": "This California city follows the statewide AB 68 framework. Most single-family lots qualify for by-right ADU development.",
+    "year": "2026",
+    "price": "12",
+    "payhip_link": "[PAYHIP_LINK_CHULA_VISTA]",
+    "premium": {
+      "dept_name": "Planning & Building",
+      "phone": "(619) 691-5100",
+      "email": "planning@chulavistaca.gov",
+      "address": "276 Fourth Ave, Chula Vista, CA 91910",
+      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "links": {
+        "permit_form": "https://www.chulavista.gov/permits",
+        "zoning_map": "https://www.chulavista.gov/gis",
+        "city_website": "https://www.chulavista.gov"
+      },
+      "fees": {
+        "permit_fee": "$1,500",
+        "impact_fee": "$5,000",
+        "plan_check": "$800"
+      },
+      "notes": ""
+    },
+    "intro": "In southern San Diego County, Chula Vista follows California's statewide ADU framework under AB 68. The city's coastal location and proximity to the border influence specific design and lot coverage considerations.",
+    "county": "San Diego County",
+    "state_law": "California's AB 68 (2020), AB 881 (2021), and AB 3182 (2024) which together establish a statewide ADU framework",
+    "gumroad_link": "",
+    "stripe_checkout_url": "",
+    "stripe_product_id": "",
+    "stripe_price_id": "",
+    "published": false
+  },
+  {
+    "city": "Elk Grove",
+    "state": "California",
+    "state_abbr": "CA",
+    "max_size": "1,200",
+    "setbacks": "4 ft rear, 4 ft side",
+    "parking": "Not required",
+    "occupancy": "Not required",
+    "additional": "<li>ADU by right in residential zones</li><li>Minimum 150 sq ft</li><li>Height limit: 16 ft for detached</li>",
+    "faq1": "This California city follows the statewide AB 68 framework. Most single-family lots qualify for by-right ADU development.",
+    "year": "2026",
+    "price": "12",
+    "payhip_link": "[PAYHIP_LINK_ELK_GROVE]",
+    "premium": {
+      "dept_name": "Planning Department",
+      "phone": "(916) 478-3600",
+      "email": "planning@elkgrovecity.org",
+      "address": "8401 Laguna Palms Way, Elk Grove, CA 95758",
+      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "links": {
+        "permit_form": "https://www.elkgrove.gov/permits",
+        "zoning_map": "https://www.elkgrove.gov/gis",
+        "city_website": "https://www.elkgrove.gov"
+      },
+      "fees": {
+        "permit_fee": "$1,500",
+        "impact_fee": "$5,000",
+        "plan_check": "$800"
+      },
+      "notes": ""
+    },
+    "intro": "In Sacramento County, Elk Grove permits ADUs by right under California's AB 68 and AB 3182. The city's planned neighborhoods have specific design guidelines that apply to new accessory units.",
+    "county": "Sacramento County",
+    "state_law": "California's AB 68 (2020), AB 881 (2021), and AB 3182 (2024) which together establish a statewide ADU framework",
+    "gumroad_link": "",
+    "stripe_checkout_url": "",
+    "stripe_product_id": "",
+    "stripe_price_id": "",
+    "published": false
+  },
+  {
+    "city": "Rancho Cucamonga",
+    "state": "California",
+    "state_abbr": "CA",
+    "max_size": "1,200",
+    "setbacks": "4 ft rear, 4 ft side",
+    "parking": "Not required",
+    "occupancy": "Not required",
+    "additional": "<li>ADU by right in residential zones</li><li>Minimum 150 sq ft</li><li>Height limit: 16 ft for detached</li>",
+    "faq1": "This California city follows the statewide AB 68 framework. Most single-family lots qualify for by-right ADU development.",
+    "year": "2026",
+    "price": "12",
+    "payhip_link": "[PAYHIP_LINK_RANCHO_CUCAMONGA]",
+    "premium": {
+      "dept_name": "Planning Division",
+      "phone": "(909) 477-2700",
+      "email": "planning@cityofrc.us",
+      "address": "10500 Civic Center Dr, Rancho Cucamonga, CA 91730",
+      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "links": {
+        "permit_form": "https://www.ranchocucamonga.gov/permits",
+        "zoning_map": "https://www.ranchocucamonga.gov/gis",
+        "city_website": "https://www.ranchocucamonga.gov"
+      },
+      "fees": {
+        "permit_fee": "$1,500",
+        "impact_fee": "$5,000",
+        "plan_check": "$800"
+      },
+      "notes": ""
+    },
+    "intro": "In San Bernardino County, Rancho Cucamonga follows California's statewide ADU mandates. The city's suburban master-planned communities may have additional design review standards for accessory units.",
+    "county": "San Bernardino County",
+    "state_law": "California's AB 68 (2020), AB 881 (2021), and AB 3182 (2024) which together establish a statewide ADU framework",
+    "gumroad_link": "",
+    "stripe_checkout_url": "",
+    "stripe_product_id": "",
+    "stripe_price_id": "",
+    "published": false
+  },
+  {
+    "city": "Murrieta",
+    "state": "California",
+    "state_abbr": "CA",
+    "max_size": "1,200",
+    "setbacks": "4 ft rear, 4 ft side",
+    "parking": "Not required",
+    "occupancy": "Not required",
+    "additional": "<li>ADU by right in residential zones</li><li>Minimum 150 sq ft</li><li>Height limit: 16 ft for detached</li>",
+    "faq1": "This California city follows the statewide AB 68 framework. Most single-family lots qualify for by-right ADU development.",
+    "year": "2026",
+    "price": "12",
+    "payhip_link": "[PAYHIP_LINK_MURRIETA]",
+    "premium": {
+      "dept_name": "Planning Department",
+      "phone": "(951) 304-2489",
+      "email": "planning@murrietaca.gov",
+      "address": "1 Town Square, Murrieta, CA 92562",
+      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "links": {
+        "permit_form": "https://www.murrieta.gov/permits",
+        "zoning_map": "https://www.murrieta.gov/gis",
+        "city_website": "https://www.murrieta.gov"
+      },
+      "fees": {
+        "permit_fee": "$1,500",
+        "impact_fee": "$5,000",
+        "plan_check": "$800"
+      },
+      "notes": ""
+    },
+    "intro": "In southwest Riverside County, Murrieta permits ADUs under California state law. The city's growing suburban neighborhoods welcome accessory units as part of the regional housing strategy.",
+    "county": "Riverside County",
+    "state_law": "California's AB 68 (2020), AB 881 (2021), and AB 3182 (2024) which together establish a statewide ADU framework",
+    "gumroad_link": "",
+    "stripe_checkout_url": "",
+    "stripe_product_id": "",
+    "stripe_price_id": "",
+    "published": false
+  },
+  {
+    "city": "Centennial",
+    "state": "Colorado",
+    "state_abbr": "CO",
+    "max_size": "1,000",
+    "setbacks": "5 ft rear, 5 ft side",
+    "parking": "Required (1 space)",
+    "occupancy": "Required",
+    "additional": "<li>Minimum lot size may apply</li><li>Minimum 200 sq ft</li><li>Owner occupancy may be required</li><li>\u26a0\ufe0f CO has NO statewide ADU mandate \u2014 verify with city</li>",
+    "faq1": "This Colorado city regulates ADUs through local ordinance. Confirm the minimum lot size and owner occupancy rules with the planning department.",
+    "year": "2026",
+    "price": "14",
+    "payhip_link": "[PAYHIP_LINK_CENTENNIAL]",
+    "premium": {
+      "dept_name": "Planning & Zoning",
+      "phone": "(303) 325-8000",
+      "email": "planning@centennialco.gov",
+      "address": "13133 E Arapahoe Rd, Centennial, CO 80112",
+      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "links": {
+        "permit_form": "https://www.centennial.gov/permits",
+        "zoning_map": "https://www.centennial.gov/gis",
+        "city_website": "https://www.centennial.gov"
+      },
+      "fees": {
+        "permit_fee": "$2,000",
+        "impact_fee": "$4,000",
+        "plan_check": "$900"
+      },
+      "notes": ""
+    },
+    "intro": "In Arapahoe County, Centennial regulates ADUs through local ordinance. Colorado has no statewide ADU mandate, so the city's zoning code \u2014 including lot coverage and design standards \u2014 is the governing authority.",
+    "county": "Arapahoe County",
+    "state_law": "local zoning ordinances, as Colorado has no statewide ADU mandate (HB 24-1152 addresses transit density)",
+    "gumroad_link": "",
+    "stripe_checkout_url": "",
+    "stripe_product_id": "",
+    "stripe_price_id": "",
+    "published": false
+  },
+  {
+    "city": "Longmont",
+    "state": "Colorado",
+    "state_abbr": "CO",
+    "max_size": "1,000",
+    "setbacks": "5 ft rear, 5 ft side",
+    "parking": "Required (1 space)",
+    "occupancy": "Required",
+    "additional": "<li>Minimum lot size may apply</li><li>Minimum 200 sq ft</li><li>Owner occupancy may be required</li><li>\u26a0\ufe0f CO has NO statewide ADU mandate \u2014 verify with city</li>",
+    "faq1": "This Colorado city regulates ADUs through local ordinance. Confirm the minimum lot size and owner occupancy rules with the planning department.",
+    "year": "2026",
+    "price": "14",
+    "payhip_link": "[PAYHIP_LINK_LONGMONT]",
+    "premium": {
+      "dept_name": "Planning & Development Services",
+      "phone": "(303) 651-8330",
+      "email": "planning@longmontcolorado.gov",
+      "address": "385 Kimbark St, Longmont, CO 80501",
+      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "links": {
+        "permit_form": "https://www.longmont.gov/permits",
+        "zoning_map": "https://www.longmont.gov/gis",
+        "city_website": "https://www.longmont.gov"
+      },
+      "fees": {
+        "permit_fee": "$2,000",
+        "impact_fee": "$4,000",
+        "plan_check": "$900"
+      },
+      "notes": ""
+    },
+    "intro": "In Boulder County, Longmont has an established ADU program under local ordinance. Colorado's lack of a statewide mandate means Longmont's municipal code sets all requirements for accessory dwelling units.",
+    "county": "Boulder County",
+    "state_law": "local zoning ordinances, as Colorado has no statewide ADU mandate (HB 24-1152 addresses transit density)",
+    "gumroad_link": "",
+    "stripe_checkout_url": "",
+    "stripe_product_id": "",
+    "stripe_price_id": "",
+    "published": false
+  },
+  {
+    "city": "Loveland",
+    "state": "Colorado",
+    "state_abbr": "CO",
+    "max_size": "1,000",
+    "setbacks": "5 ft rear, 5 ft side",
+    "parking": "Required (1 space)",
+    "occupancy": "Required",
+    "additional": "<li>Minimum lot size may apply</li><li>Minimum 200 sq ft</li><li>Owner occupancy may be required</li><li>\u26a0\ufe0f CO has NO statewide ADU mandate \u2014 verify with city</li>",
+    "faq1": "This Colorado city regulates ADUs through local ordinance. Confirm the minimum lot size and owner occupancy rules with the planning department.",
+    "year": "2026",
+    "price": "14",
+    "payhip_link": "[PAYHIP_LINK_LOVELAND]",
+    "premium": {
+      "dept_name": "Planning Commission",
+      "phone": "(970) 962-2523",
+      "email": "planning@cityofloveland.org",
+      "address": "500 E 3rd St, Loveland, CO 80537",
+      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "links": {
+        "permit_form": "https://www.loveland.gov/permits",
+        "zoning_map": "https://www.loveland.gov/gis",
+        "city_website": "https://www.loveland.gov"
+      },
+      "fees": {
+        "permit_fee": "$2,000",
+        "impact_fee": "$4,000",
+        "plan_check": "$900"
+      },
+      "notes": ""
+    },
+    "intro": "In Larimer County between Fort Collins and Greeley, Loveland permits ADUs through local zoning rules. With no Colorado statewide ADU law, the city's ordinance determines eligibility and standards.",
+    "county": "Larimer County",
+    "state_law": "local zoning ordinances, as Colorado has no statewide ADU mandate (HB 24-1152 addresses transit density)",
+    "gumroad_link": "",
+    "stripe_checkout_url": "",
+    "stripe_product_id": "",
+    "stripe_price_id": "",
+    "published": false
+  },
+  {
+    "city": "Northglenn",
+    "state": "Colorado",
+    "state_abbr": "CO",
+    "max_size": "1,000",
+    "setbacks": "5 ft rear, 5 ft side",
+    "parking": "Required (1 space)",
+    "occupancy": "Required",
+    "additional": "<li>Minimum lot size may apply</li><li>Minimum 200 sq ft</li><li>Owner occupancy may be required</li><li>\u26a0\ufe0f CO has NO statewide ADU mandate \u2014 verify with city</li>",
+    "faq1": "This Colorado city regulates ADUs through local ordinance. Confirm the minimum lot size and owner occupancy rules with the planning department.",
+    "year": "2026",
+    "price": "14",
+    "payhip_link": "[PAYHIP_LINK_NORTHGLENN]",
+    "premium": {
+      "dept_name": "Community Development",
+      "phone": "(303) 450-8740",
+      "email": "planning@northglenn.org",
+      "address": "11701 Community Center Dr, Northglenn, CO 80233",
+      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "links": {
+        "permit_form": "https://www.northglenn.gov/permits",
+        "zoning_map": "https://www.northglenn.gov/gis",
+        "city_website": "https://www.northglenn.gov"
+      },
+      "fees": {
+        "permit_fee": "$2,000",
+        "impact_fee": "$4,000",
+        "plan_check": "$900"
+      },
+      "notes": ""
+    },
+    "intro": "In Adams County north of Denver, Northglenn regulates ADUs under local ordinance. Colorado has no statewide ADU mandate, so property owners must follow the city's specific zoning requirements.",
+    "county": "Adams County",
+    "state_law": "local zoning ordinances, as Colorado has no statewide ADU mandate (HB 24-1152 addresses transit density)",
+    "gumroad_link": "",
+    "stripe_checkout_url": "",
+    "stripe_product_id": "",
+    "stripe_price_id": "",
+    "published": false
+  },
+  {
+    "city": "Marysville",
+    "state": "Washington",
+    "state_abbr": "WA",
+    "max_size": "1,000",
+    "setbacks": "5 ft rear, 5 ft side",
+    "parking": "Not required (near transit)",
+    "occupancy": "Not required",
+    "additional": "<li>ADU by right in residential zones</li><li>Minimum 200 sq ft</li><li>WA HB 1337 limits local restrictions</li>",
+    "faq1": "This Washington city follows HB 1337 which limits local ADU restrictions. Parking may be waived near transit.",
+    "year": "2026",
+    "price": "14",
+    "payhip_link": "[PAYHIP_LINK_MARYSVILLE]",
+    "premium": {
+      "dept_name": "Planning & Development",
+      "phone": "(360) 363-8000",
+      "email": "planning@marysvillewa.gov",
+      "address": "501 Delta Ave, Marysville, WA 98270",
+      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "links": {
+        "permit_form": "https://www.marysville.gov/permits",
+        "zoning_map": "https://www.marysville.gov/gis",
+        "city_website": "https://www.marysville.gov"
+      },
+      "fees": {
+        "permit_fee": "$2,000",
+        "impact_fee": "$4,000",
+        "plan_check": "$900"
+      },
+      "notes": ""
+    },
+    "intro": "In Snohomish County north of Everett, Marysville permits ADUs under Washington's HB 1337 which limits local restrictions. The city's growing residential neighborhoods welcome accessory units by right.",
+    "county": "Snohomish County",
+    "state_law": "Washington's HB 1337 (2023) which limits local ADU restrictions statewide",
+    "gumroad_link": "",
+    "stripe_checkout_url": "",
+    "stripe_product_id": "",
+    "stripe_price_id": "",
+    "published": false
+  },
+  {
+    "city": "Sammamish",
+    "state": "Washington",
+    "state_abbr": "WA",
+    "max_size": "1,000",
+    "setbacks": "5 ft rear, 5 ft side",
+    "parking": "Not required (near transit)",
+    "occupancy": "Not required",
+    "additional": "<li>ADU by right in residential zones</li><li>Minimum 200 sq ft</li><li>WA HB 1337 limits local restrictions</li>",
+    "faq1": "This Washington city follows HB 1337 which limits local ADU restrictions. Parking may be waived near transit.",
+    "year": "2026",
+    "price": "14",
+    "payhip_link": "[PAYHIP_LINK_SAMMAMISH]",
+    "premium": {
+      "dept_name": "Planning & Community Development",
+      "phone": "(425) 295-0500",
+      "email": "planning@sammamish.us",
+      "address": "801 228th Ave SE, Sammamish, WA 98074",
+      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "links": {
+        "permit_form": "https://www.sammamish.gov/permits",
+        "zoning_map": "https://www.sammamish.gov/gis",
+        "city_website": "https://www.sammamish.gov"
+      },
+      "fees": {
+        "permit_fee": "$2,000",
+        "impact_fee": "$4,000",
+        "plan_check": "$900"
+      },
+      "notes": ""
+    },
+    "intro": "In eastern King County, Sammamish allows ADUs under Washington's HB 1337 framework. The city's affluent lakeside neighborhoods apply design review standards to new accessory units.",
+    "county": "King County",
+    "state_law": "Washington's HB 1337 (2023) which limits local ADU restrictions statewide",
+    "gumroad_link": "",
+    "stripe_checkout_url": "",
+    "stripe_product_id": "",
+    "stripe_price_id": "",
+    "published": false
+  },
+  {
+    "city": "Burien",
+    "state": "Washington",
+    "state_abbr": "WA",
+    "max_size": "1,000",
+    "setbacks": "5 ft rear, 5 ft side",
+    "parking": "Not required (near transit)",
+    "occupancy": "Not required",
+    "additional": "<li>ADU by right in residential zones</li><li>Minimum 200 sq ft</li><li>WA HB 1337 limits local restrictions</li>",
+    "faq1": "This Washington city follows HB 1337 which limits local ADU restrictions. Parking may be waived near transit.",
+    "year": "2026",
+    "price": "14",
+    "payhip_link": "[PAYHIP_LINK_BURIEN]",
+    "premium": {
+      "dept_name": "Planning Department",
+      "phone": "(206) 248-5500",
+      "email": "planning@burienwa.gov",
+      "address": "400 SW 152nd St, Burien, WA 98166",
+      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "links": {
+        "permit_form": "https://www.burien.gov/permits",
+        "zoning_map": "https://www.burien.gov/gis",
+        "city_website": "https://www.burien.gov"
+      },
+      "fees": {
+        "permit_fee": "$2,000",
+        "impact_fee": "$4,000",
+        "plan_check": "$900"
+      },
+      "notes": ""
+    },
+    "intro": "Just south of Seattle in King County, Burien permits ADUs under Washington's HB 1337. The city's transit-oriented zones near Sound Transit provide parking exemptions for accessory units.",
+    "county": "King County",
+    "state_law": "Washington's HB 1337 (2023) which limits local ADU restrictions statewide",
+    "gumroad_link": "",
+    "stripe_checkout_url": "",
+    "stripe_product_id": "",
+    "stripe_price_id": "",
+    "published": false
+  },
+  {
+    "city": "Lakewood",
+    "state": "Washington",
+    "state_abbr": "WA",
+    "max_size": "1,000",
+    "setbacks": "5 ft rear, 5 ft side",
+    "parking": "Not required (near transit)",
+    "occupancy": "Not required",
+    "additional": "<li>ADU by right in residential zones</li><li>Minimum 200 sq ft</li><li>WA HB 1337 limits local restrictions</li>",
+    "faq1": "This Washington city follows HB 1337 which limits local ADU restrictions. Parking may be waived near transit.",
+    "year": "2026",
+    "price": "14",
+    "payhip_link": "[PAYHIP_LINK_LAKEWOOD]",
+    "premium": {
+      "dept_name": "Planning & Public Works",
+      "phone": "(253) 983-7700",
+      "email": "planning@cityoflakewood.us",
+      "address": "6000 Main St SW, Lakewood, WA 98499",
+      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "links": {
+        "permit_form": "https://www.lakewood.gov/permits",
+        "zoning_map": "https://www.lakewood.gov/gis",
+        "city_website": "https://www.lakewood.gov"
+      },
+      "fees": {
+        "permit_fee": "$2,000",
+        "impact_fee": "$4,000",
+        "plan_check": "$900"
+      },
+      "notes": ""
+    },
+    "intro": "In Pierce County south of Tacoma, Lakewood follows Washington's HB 1337 statewide ADU rules. The city's location near Joint Base Lewis-McChord creates strong rental demand for accessory units.",
+    "county": "Pierce County",
+    "state_law": "Washington's HB 1337 (2023) which limits local ADU restrictions statewide",
+    "gumroad_link": "",
+    "stripe_checkout_url": "",
+    "stripe_product_id": "",
+    "stripe_price_id": "",
+    "published": false
+  },
+  {
+    "city": "Bend",
+    "state": "Oregon",
+    "state_abbr": "OR",
+    "max_size": "1,200",
+    "setbacks": "5 ft rear, 5 ft side",
+    "parking": "Not required",
+    "occupancy": "Not required",
+    "additional": "<li>ADU by right in all residential zones (HB 2001)</li><li>Minimum 200 sq ft</li><li>System development charges may apply</li>",
+    "faq1": "This Oregon city allows ADUs by right under HB 2001. No owner occupancy requirement and minimal local restrictions.",
+    "year": "2026",
+    "price": "12",
+    "payhip_link": "[PAYHIP_LINK_BEND]",
+    "premium": {
+      "dept_name": "Planning Division",
+      "phone": "(541) 388-5580",
+      "email": "planning@bendoregon.gov",
+      "address": "710 NW Wall St, Bend, OR 97703",
+      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "links": {
+        "permit_form": "https://www.bend.gov/permits",
+        "zoning_map": "https://www.bend.gov/gis",
+        "city_website": "https://www.bend.gov"
+      },
+      "fees": {
+        "permit_fee": "$1,500",
+        "impact_fee": "$5,000",
+        "plan_check": "$800"
+      },
+      "notes": ""
+    },
+    "intro": "In Deschutes County at the foot of the Cascades, Bend permits ADUs by right under Oregon's HB 2001. The city's booming housing market and tourism economy make accessory units a strong investment.",
+    "county": "Deschutes County",
+    "state_law": "Oregon's HB 2001 (2019) which requires ADU approval by-right in all residential zones statewide",
+    "gumroad_link": "",
+    "stripe_checkout_url": "",
+    "stripe_product_id": "",
+    "stripe_price_id": "",
+    "published": false
+  },
+  {
+    "city": "Medford",
+    "state": "Oregon",
+    "state_abbr": "OR",
+    "max_size": "1,200",
+    "setbacks": "5 ft rear, 5 ft side",
+    "parking": "Not required",
+    "occupancy": "Not required",
+    "additional": "<li>ADU by right in all residential zones (HB 2001)</li><li>Minimum 200 sq ft</li><li>System development charges may apply</li>",
+    "faq1": "This Oregon city allows ADUs by right under HB 2001. No owner occupancy requirement and minimal local restrictions.",
+    "year": "2026",
+    "price": "12",
+    "payhip_link": "[PAYHIP_LINK_MEDFORD]",
+    "premium": {
+      "dept_name": "Planning Department",
+      "phone": "(541) 774-2400",
+      "email": "planning@ci.medford.or.us",
+      "address": "411 W 8th St, Medford, OR 97501",
+      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "links": {
+        "permit_form": "https://www.medford.gov/permits",
+        "zoning_map": "https://www.medford.gov/gis",
+        "city_website": "https://www.medford.gov"
+      },
+      "fees": {
+        "permit_fee": "$1,500",
+        "impact_fee": "$5,000",
+        "plan_check": "$800"
+      },
+      "notes": ""
+    },
+    "intro": "In southern Oregon's Jackson County, Medford allows ADUs by right under HB 2001. The city's affordable housing initiatives actively encourage accessory dwelling unit construction.",
+    "county": "Jackson County",
+    "state_law": "Oregon's HB 2001 (2019) which requires ADU approval by-right in all residential zones statewide",
+    "gumroad_link": "",
+    "stripe_checkout_url": "",
+    "stripe_product_id": "",
+    "stripe_price_id": "",
+    "published": false
+  },
+  {
+    "city": "Corvallis",
+    "state": "Oregon",
+    "state_abbr": "OR",
+    "max_size": "1,200",
+    "setbacks": "5 ft rear, 5 ft side",
+    "parking": "Not required",
+    "occupancy": "Not required",
+    "additional": "<li>ADU by right in all residential zones (HB 2001)</li><li>Minimum 200 sq ft</li><li>System development charges may apply</li>",
+    "faq1": "This Oregon city allows ADUs by right under HB 2001. No owner occupancy requirement and minimal local restrictions.",
+    "year": "2026",
+    "price": "12",
+    "payhip_link": "[PAYHIP_LINK_CORVALLIS]",
+    "premium": {
+      "dept_name": "Community Development",
+      "phone": "(541) 766-6900",
+      "email": "planning@corvallisoregon.gov",
+      "address": "501 SW Madison Ave, Corvallis, OR 97333",
+      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "links": {
+        "permit_form": "https://www.corvallis.gov/permits",
+        "zoning_map": "https://www.corvallis.gov/gis",
+        "city_website": "https://www.corvallis.gov"
+      },
+      "fees": {
+        "permit_fee": "$1,500",
+        "impact_fee": "$5,000",
+        "plan_check": "$800"
+      },
+      "notes": ""
+    },
+    "intro": "Home to Oregon State University in Benton County, Corvallis permits ADUs by right under Oregon's HB 2001. Student housing demand makes accessory units a practical option for local property owners.",
+    "county": "Benton County",
+    "state_law": "Oregon's HB 2001 (2019) which requires ADU approval by-right in all residential zones statewide",
+    "gumroad_link": "",
+    "stripe_checkout_url": "",
+    "stripe_product_id": "",
+    "stripe_price_id": "",
+    "published": false
   }
 ]
