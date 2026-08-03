@@ -1,0 +1,49 @@
+name: Drip Publishing — ADUCheatSheet
+
+# RÈGLE DE FRÉQUENCE : 1 déploiement tous les 15 jours
+# Planifié : 1er et 16 de chaque mois à 06:00 UTC
+# Manuel : bouton "Run workflow" → tu choisis le nombre de villes
+
+on:
+  schedule:
+    - cron: '0 6 1,16 * *'   # 1er et 16 de chaque mois à 6h UTC
+  workflow_dispatch:
+    inputs:
+      batch_size:
+        description: 'Nombre de villes à publier ce cycle'
+        required: true
+        default: '50'
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install stripe reportlab
+
+      - name: Run drip publish (Stripe Payment Links + HTML + index)
+        env:
+          STRIPE_KEY: ${{ secrets.STRIPE_KEY }}
+          BATCH_SIZE: ${{ inputs.batch_size || '50' }}
+        run: python deploy_batch.py
+
+      - name: Commit & push
+        run: |
+          git config user.name "drip-publisher"
+          git config user.email "drip-publisher@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "🚀 Drip publish: nouveau lot de villes (batch ${{ inputs.batch_size || '50' }})"
+          git push
