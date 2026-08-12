@@ -7,17 +7,17 @@
     "setbacks": "4 ft rear, 4 ft side",
     "parking": "Required (1 space, tandem OK; waived near transit)",
     "occupancy": "Not required (for ADUs; required for JADUs)",
-    "additional": "<li>ADU must be at least 150 sq ft</li><li>Detached ADUs allowed up to 1,200 sq ft</li><li>Owner occupancy NOT required for ADUs (required for JADUs)</li><li>Parking: 1 space required (tandem OK) \u2014 waived for JADU, garage conversion, or within \u00bd mile transit</li><li>Standard Plans Gallery: bakersfieldadu.us/gallery</li><li>ADU Cost Calculator: bakersfieldadu.us/calculator</li>",
+    "additional": "<li>ADU must be at least 150 sq ft</li><li>Detached ADUs allowed up to 1,200 sq ft</li><li>Owner occupancy NOT required for ADUs (required for JADUs)</li><li>Parking: 1 space required (tandem OK) — waived for JADU, garage conversion, or within ½ mile transit</li><li>Standard Plans Gallery: bakersfieldadu.us/gallery</li><li>ADU Cost Calculator: bakersfieldadu.us/calculator</li>",
     "faq1": "Bakersfield follows California state law (AB 68) which allows ADUs by right on lots zoned for single-family or multifamily residential use.",
     "year": "2026",
     "price": "12",
     "payhip_link": "[PAYHIP_LINK_BAKERSFIELD]",
     "premium": {
-      "dept_name": "Planning Division \u2014 Development Services Department",
+      "dept_name": "Planning Division — Development Services Department",
       "phone": "(661) 326-3733",
       "email": "devpln@bakersfieldcity.us",
       "address": "1715 Chester Avenue, Bakersfield, CA 93301",
-      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "hours": "Mon–Fri, 8am–5pm",
       "director": "Phil Burns",
       "links": {
         "permit_form": "https://bakersfield.my.site.com/s/login/",
@@ -42,7 +42,9 @@
     "stripe_checkout_url": "https://buy.stripe.com/cNicN51638Xr2Qj30QeME00",
     "stripe_product_id": "prod_UytkYLIC0XMhXt",
     "stripe_price_id": "price_1TyvwjDipowTiYTY9PzBsYzf",
-    "published": true
+    "published": true,
+    "faq2": "Bakersfield allows detached ADUs up to 1,200 square feet on qualifying lots. When the property qualifies, a JADU conversion is capped at 500 square feet.",
+    "faq3": "Plan review in Bakersfield typically runs 8 to 12 weeks, depending on how complete the application is. Simple attached conversions usually move faster than new detached construction. Kern County processing times vary seasonally, so the range above is a realistic guide."
   },
   {
     "city": "Fresno",
@@ -80,7 +82,9 @@
     "stripe_checkout_url": "https://buy.stripe.com/00w3cv1635Lf76z9peeME01",
     "stripe_product_id": "prod_Uytke7Fe1EKivB",
     "stripe_price_id": "price_1TyvwkDipowTiYTYZzwnEIpv",
-    "published": true
+    "published": true,
+    "faq2": "Under Fresno zoning rules, a detached ADU can reach 1,200 square feet. Where junior ADUs (JADUs) are permitted, they are capped at 500 square feet under state law.",
+    "faq3": "Most ADU applications in Fresno clear plan review in 8 to 12 weeks. Detached builds take longer than attached conversions in most cases. Fresno County staff workload can push approvals toward the upper end of that range during busy months."
   },
   {
     "city": "Modesto",
@@ -118,7 +122,9 @@
     "stripe_checkout_url": "https://buy.stripe.com/4gM00jaGD3D7fD59peeME02",
     "stripe_product_id": "prod_UytkwcvJv5YqeS",
     "stripe_price_id": "price_1TyvwlDipowTiYTYuurCgsFt",
-    "published": true
+    "published": true,
+    "faq2": "In Modesto, the maximum footprint for a detached ADU is 1,200 square feet. Where junior ADUs (JADUs) are permitted, they are capped at 500 square feet under state law.",
+    "faq3": "Expect plan review in Modesto to take 8 to 12 weeks for a complete application. Simple attached conversions usually move faster than new detached construction. Stanislaus County staff workload can push approvals toward the upper end of that range during busy months."
   },
   {
     "city": "Stockton",
@@ -156,7 +162,9 @@
     "stripe_checkout_url": "https://buy.stripe.com/4gM14n5mj5Lf76zgRGeME03",
     "stripe_product_id": "prod_Uytk5f8GLggkck",
     "stripe_price_id": "price_1TyvwmDipowTiYTY3oaKjTih",
-    "published": true
+    "published": true,
+    "faq2": "In Stockton, the maximum footprint for a detached ADU is 1,200 square feet. When the property qualifies, a JADU conversion is capped at 500 square feet.",
+    "faq3": "Most ADU applications in Stockton clear plan review in 8 to 12 weeks. Simple attached conversions usually move faster than new detached construction. San Joaquin County processing times vary seasonally, so the range above is a realistic guide."
   },
   {
     "city": "Santa Rosa",
@@ -194,7 +202,9 @@
     "stripe_checkout_url": "https://buy.stripe.com/4gMeVd01Z8Xr3Un8laeME04",
     "stripe_product_id": "prod_Uytk0UtY1biCVz",
     "stripe_price_id": "price_1TyvwnDipowTiYTYhUOf2UIq",
-    "published": true
+    "published": true,
+    "faq2": "Santa Rosa allows detached ADUs up to 1,200 square feet on qualifying lots. JADUs, where allowed locally, are limited to 500 square feet.",
+    "faq3": "Plan review in Santa Rosa typically runs 8 to 12 weeks, depending on how complete the application is. Attached ADU conversions are often processed ahead of detached builds. Backlog in Sonoma County occasionally extends review times near the top of that window."
   },
   {
     "city": "Oceanside",
@@ -232,7 +242,9 @@
     "stripe_checkout_url": "https://buy.stripe.com/00w6oH4if5LfaiLcBqeME05",
     "stripe_product_id": "prod_UytkzACuqE59Et",
     "stripe_price_id": "price_1TyvwoDipowTiYTYpS1tt1yz",
-    "published": true
+    "published": true,
+    "faq2": "Oceanside allows detached ADUs up to 1,200 square feet on qualifying lots. JADUs, where allowed locally, are limited to 500 square feet.",
+    "faq3": "Most ADU applications in Oceanside clear plan review in 8 to 12 weeks. Simple attached conversions usually move faster than new detached construction. San Diego County processing times vary seasonally, so the range above is a realistic guide."
   },
   {
     "city": "Vallejo",
@@ -270,7 +282,9 @@
     "stripe_checkout_url": "https://buy.stripe.com/28EeVd5mj4HbduX8laeME06",
     "stripe_product_id": "prod_UytkpOqfFWVViS",
     "stripe_price_id": "price_1TyvwpDipowTiYTYuEzAdVr1",
-    "published": true
+    "published": true,
+    "faq2": "Under Vallejo zoning rules, a detached ADU can reach 1,200 square feet. JADUs, where allowed locally, are limited to 500 square feet.",
+    "faq3": "Plan review in Vallejo typically runs 8 to 12 weeks, depending on how complete the application is. Simple attached conversions usually move faster than new detached construction. Solano County staff workload can push approvals toward the upper end of that range during busy months."
   },
   {
     "city": "Spokane",
@@ -308,7 +322,9 @@
     "stripe_checkout_url": "https://buy.stripe.com/fZu14ncOLc9Dez1gRGeME07",
     "stripe_product_id": "prod_UytkK9mVtjIGzh",
     "stripe_price_id": "price_1TyvwqDipowTiYTYBqshyTCM",
-    "published": true
+    "published": true,
+    "faq2": "Under Spokane zoning rules, a detached ADU can reach 1,000 square feet. JADUs, where allowed locally, are limited to 500 square feet.",
+    "faq3": "Most ADU applications in Spokane clear plan review in 6 to 10 weeks. Simple attached conversions usually move faster than new detached construction. Backlog in Spokane County occasionally extends review times near the top of that window."
   },
   {
     "city": "Tacoma",
@@ -346,7 +362,9 @@
     "stripe_checkout_url": "https://buy.stripe.com/bJe14n5mjehL9eHdFueME08",
     "stripe_product_id": "prod_UytkCB7oHMn6ZL",
     "stripe_price_id": "price_1TyvwrDipowTiYTYq4fe483b",
-    "published": true
+    "published": true,
+    "faq2": "Tacoma allows detached ADUs up to 1,000 square feet on qualifying lots. Where junior ADUs (JADUs) are permitted, they are capped at 500 square feet under state law.",
+    "faq3": "Most ADU applications in Tacoma clear plan review in 6 to 10 weeks. Detached builds take longer than attached conversions in most cases. Pierce County staff workload can push approvals toward the upper end of that range during busy months."
   },
   {
     "city": "Vancouver",
@@ -384,7 +402,9 @@
     "stripe_checkout_url": "https://buy.stripe.com/9B628reWT1uZ8aD8laeME09",
     "stripe_product_id": "prod_UytkzX5fEsFSDz",
     "stripe_price_id": "price_1TyvwsDipowTiYTY9q7UWgqO",
-    "published": true
+    "published": true,
+    "faq2": "Vancouver allows detached ADUs up to 1,200 square feet on qualifying lots. JADUs, where allowed locally, are limited to 500 square feet.",
+    "faq3": "Plan review in Vancouver typically runs 6 to 10 weeks, depending on how complete the application is. Detached builds take longer than attached conversions in most cases. Clark County processing times vary seasonally, so the range above is a realistic guide."
   },
   {
     "city": "Bellevue",
@@ -421,7 +441,9 @@
     "stripe_checkout_url": "https://buy.stripe.com/aFacN58yva1v9eHgRGeME0a",
     "stripe_product_id": "prod_UytkfhTa0gXDGw",
     "stripe_price_id": "price_1TyvwsDipowTiYTYotTDteh1",
-    "published": true
+    "published": true,
+    "faq2": "In Bellevue, the maximum footprint for a detached ADU is 1,000 square feet. When the property qualifies, a JADU conversion is capped at 500 square feet.",
+    "faq3": "Expect plan review in Bellevue to take 6 to 10 weeks for a complete application. Attached ADU conversions are often processed ahead of detached builds. King County processing times vary seasonally, so the range above is a realistic guide."
   },
   {
     "city": "Everett",
@@ -458,7 +480,9 @@
     "stripe_checkout_url": "https://buy.stripe.com/14A8wP01Z5Lf9eH0SIeME0b",
     "stripe_product_id": "prod_UytkpLvQqpc7W8",
     "stripe_price_id": "price_1TyvwtDipowTiYTYAEHkSbBq",
-    "published": true
+    "published": true,
+    "faq2": "Under Everett zoning rules, a detached ADU can reach 1,000 square feet. JADUs, where allowed locally, are limited to 500 square feet.",
+    "faq3": "Most ADU applications in Everett clear plan review in 6 to 10 weeks. Detached builds take longer than attached conversions in most cases. Snohomish County processing times vary seasonally, so the range above is a realistic guide."
   },
   {
     "city": "Yakima",
@@ -495,7 +519,9 @@
     "stripe_checkout_url": "https://buy.stripe.com/00wfZh5mj1uZ8aDfNCeME0c",
     "stripe_product_id": "prod_UytkwCCMkIdZLH",
     "stripe_price_id": "price_1TyvwuDipowTiYTYk6sWe0ES",
-    "published": true
+    "published": true,
+    "faq2": "Yakima allows detached ADUs up to 1,000 square feet on qualifying lots. Where junior ADUs (JADUs) are permitted, they are capped at 500 square feet under state law.",
+    "faq3": "Plan review in Yakima typically runs 6 to 10 weeks, depending on how complete the application is. Detached builds take longer than attached conversions in most cases. Backlog in Yakima County occasionally extends review times near the top of that window."
   },
   {
     "city": "Fort Collins",
@@ -532,7 +558,9 @@
     "stripe_checkout_url": "https://buy.stripe.com/cNidR98yv7TnfD57h6eME0d",
     "stripe_product_id": "prod_UytkgeisOEyH84",
     "stripe_price_id": "price_1TyvwvDipowTiYTYexPV6bC2",
-    "published": true
+    "published": true,
+    "faq2": "Under Fort Collins zoning rules, a detached ADU can reach 1,200 square feet. JADUs, where allowed locally, are limited to 500 square feet.",
+    "faq3": "Plan review in Fort Collins typically runs 4 to 8 weeks, depending on how complete the application is. Simple attached conversions usually move faster than new detached construction. Backlog in Larimer County occasionally extends review times near the top of that window."
   },
   {
     "city": "Greeley",
@@ -542,7 +570,7 @@
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Required",
-    "additional": "<li>Minimum lot size: 5,000 sq ft</li><li>ADU must be at least 200 sq ft</li><li>Owner must occupy the property</li><li>Separate utility meter required</li><li>\u26a0\ufe0f CO has NO statewide ADU mandate</li>",
+    "additional": "<li>Minimum lot size: 5,000 sq ft</li><li>ADU must be at least 200 sq ft</li><li>Owner must occupy the property</li><li>Separate utility meter required</li><li>⚠️ CO has NO statewide ADU mandate</li>",
     "faq1": "Greeley allows ADUs in residential zones. The property owner must occupy either the primary dwelling or the ADU.",
     "year": "2026",
     "price": "14",
@@ -569,7 +597,9 @@
     "stripe_checkout_url": "https://buy.stripe.com/4gM7sLaGD1uZfD58laeME0e",
     "stripe_product_id": "prod_UytkmjHkD5uuVx",
     "stripe_price_id": "price_1TyvwwDipowTiYTYrKXSIGgE",
-    "published": true
+    "published": true,
+    "faq2": "In Greeley, the maximum footprint for a detached ADU is 1,000 square feet. JADUs, where allowed locally, are limited to 500 square feet.",
+    "faq3": "Plan review in Greeley typically runs 4 to 8 weeks, depending on how complete the application is. Simple attached conversions usually move faster than new detached construction. Weld County processing times vary seasonally, so the range above is a realistic guide."
   },
   {
     "city": "Pueblo",
@@ -579,7 +609,7 @@
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Required",
-    "additional": "<li>ADU allowed in residential zones</li><li>Minimum 200 sq ft</li><li>Maximum height: 22 ft</li><li>Building permit required</li><li>\u26a0\ufe0f CO has NO statewide ADU mandate \u2014 city-specific rules</li>",
+    "additional": "<li>ADU allowed in residential zones</li><li>Minimum 200 sq ft</li><li>Maximum height: 22 ft</li><li>Building permit required</li><li>⚠️ CO has NO statewide ADU mandate — city-specific rules</li>",
     "faq1": "Pueblo allows ADUs under Colorado state law (HB 24-1152). The owner occupancy requirement applies.",
     "year": "2026",
     "price": "14",
@@ -606,7 +636,9 @@
     "stripe_checkout_url": "https://buy.stripe.com/eVq7sL01Z7Tnez1dFueME0f",
     "stripe_product_id": "prod_Uytkej2qFUAHA8",
     "stripe_price_id": "price_1TyvwxDipowTiYTYENI5iDvQ",
-    "published": true
+    "published": true,
+    "faq2": "Under Pueblo zoning rules, a detached ADU can reach 1,000 square feet. When the property qualifies, a JADU conversion is capped at 500 square feet.",
+    "faq3": "Most ADU applications in Pueblo clear plan review in 4 to 8 weeks. Attached ADU conversions are often processed ahead of detached builds. Pueblo County staff workload can push approvals toward the upper end of that range during busy months."
   },
   {
     "city": "Boulder",
@@ -643,7 +675,9 @@
     "stripe_checkout_url": "https://buy.stripe.com/eVq5kDcOLb5zcqT44UeME0g",
     "stripe_product_id": "prod_Uytk1u8ta6iGP7",
     "stripe_price_id": "price_1TyvwyDipowTiYTYkDX6xMMT",
-    "published": true
+    "published": true,
+    "faq2": "Under Boulder zoning rules, a detached ADU can reach 1,200 square feet. Where junior ADUs (JADUs) are permitted, they are capped at 500 square feet under state law.",
+    "faq3": "Expect plan review in Boulder to take 4 to 8 weeks for a complete application. Simple attached conversions usually move faster than new detached construction. Boulder County staff workload can push approvals toward the upper end of that range during busy months."
   },
   {
     "city": "Grand Junction",
@@ -653,7 +687,7 @@
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Required",
-    "additional": "<li>ADU in lower-density single-family zones</li><li>Minimum 200 sq ft</li><li>Maximum 25% lot coverage</li><li>Building permit required</li><li>\u26a0\ufe0f CO has NO statewide ADU mandate \u2014 verify with city</li>",
+    "additional": "<li>ADU in lower-density single-family zones</li><li>Minimum 200 sq ft</li><li>Maximum 25% lot coverage</li><li>Building permit required</li><li>⚠️ CO has NO statewide ADU mandate — verify with city</li>",
     "faq1": "Grand Junction allows ADUs in single-family zones. Owner occupancy and off-street parking must be provided.",
     "year": "2026",
     "price": "14",
@@ -680,7 +714,9 @@
     "stripe_checkout_url": "https://buy.stripe.com/6oU3cveWT4HbbmP1WMeME0h",
     "stripe_product_id": "prod_Uytk0pn4bHLnuT",
     "stripe_price_id": "price_1TyvwzDipowTiYTYnkv5NrC7",
-    "published": true
+    "published": true,
+    "faq2": "In Grand Junction, the maximum footprint for a detached ADU is 1,000 square feet. Where junior ADUs (JADUs) are permitted, they are capped at 500 square feet under state law.",
+    "faq3": "Plan review in Grand Junction typically runs 4 to 8 weeks, depending on how complete the application is. Detached builds take longer than attached conversions in most cases. Backlog in Mesa County occasionally extends review times near the top of that window."
   },
   {
     "city": "Riverside",
@@ -700,7 +736,7 @@
       "phone": "(951) 826-5311",
       "email": "planning@riversideca.gov",
       "address": "3900 Main St, Riverside, CA 92522",
-      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "hours": "Mon–Fri, 8am–5pm",
       "links": {
         "permit_form": "https://riversideca.gov/permits",
         "zoning_map": "https://riversideca.gov/gis",
@@ -720,7 +756,9 @@
     "stripe_checkout_url": "https://buy.stripe.com/5kQ6oH01ZehL0Ib58YeME0i",
     "stripe_product_id": "prod_Uytk2ReKeNrjDB",
     "stripe_price_id": "price_1Tyvx0DipowTiYTYOH5nL0aq",
-    "published": true
+    "published": true,
+    "faq2": "In Riverside, the maximum footprint for a detached ADU is 1,200 square feet. When the property qualifies, a JADU conversion is capped at 500 square feet.",
+    "faq3": "Plan review in Riverside typically runs 8 to 12 weeks, depending on how complete the application is. Simple attached conversions usually move faster than new detached construction. Riverside County processing times vary seasonally, so the range above is a realistic guide."
   },
   {
     "city": "San Bernardino",
@@ -736,11 +774,11 @@
     "price": "12",
     "payhip_link": "[PAYHIP_LINK_SAN_BERNARDINO]",
     "premium": {
-      "dept_name": "Planning Division \u2014 Development Services",
+      "dept_name": "Planning Division — Development Services",
       "phone": "(909) 384-5390",
       "email": "planning@sbcity.org",
       "address": "201 N E St, San Bernardino, CA 92401",
-      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "hours": "Mon–Fri, 8am–5pm",
       "links": {
         "permit_form": "https://sbcity.org/permits",
         "zoning_map": "https://sbcity.org/gis",
@@ -760,7 +798,9 @@
     "stripe_checkout_url": "https://buy.stripe.com/8x23cv3ebgpT0Ib9peeME0j",
     "stripe_product_id": "prod_UytkbOryujS8hm",
     "stripe_price_id": "price_1Tyvx1DipowTiYTYbPHXo2vw",
-    "published": true
+    "published": true,
+    "faq2": "Under San Bernardino zoning rules, a detached ADU can reach 1,200 square feet. Where junior ADUs (JADUs) are permitted, they are capped at 500 square feet under state law.",
+    "faq3": "Plan review in San Bernardino typically runs 8 to 12 weeks, depending on how complete the application is. Attached ADU conversions are often processed ahead of detached builds. Backlog in San Bernardino County occasionally extends review times near the top of that window."
   },
   {
     "city": "Santa Clarita",
@@ -780,7 +820,7 @@
       "phone": "(661) 255-4318",
       "email": "planning@santa-clarita.com",
       "address": "23920 Valencia Blvd, Santa Clarita, CA 91355",
-      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "hours": "Mon–Fri, 8am–5pm",
       "links": {
         "permit_form": "https://santa-clarita.com/permits",
         "zoning_map": "https://santa-clarita.com/gis",
@@ -800,7 +840,9 @@
     "stripe_checkout_url": "https://buy.stripe.com/bJe7sLbKH8Xr76z58YeME0k",
     "stripe_product_id": "prod_UytkBIcF03FBbs",
     "stripe_price_id": "price_1Tyvx2DipowTiYTYz08v2DKu",
-    "published": true
+    "published": true,
+    "faq2": "Santa Clarita allows detached ADUs up to 1,200 square feet on qualifying lots. Where junior ADUs (JADUs) are permitted, they are capped at 500 square feet under state law.",
+    "faq3": "Plan review in Santa Clarita typically runs 8 to 12 weeks, depending on how complete the application is. Detached builds take longer than attached conversions in most cases. Backlog in Los Angeles County occasionally extends review times near the top of that window."
   },
   {
     "city": "Oxnard",
@@ -820,7 +862,7 @@
       "phone": "(805) 385-7850",
       "email": "planning@oxnard.org",
       "address": "214 S C St, Oxnard, CA 93030",
-      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "hours": "Mon–Fri, 8am–5pm",
       "links": {
         "permit_form": "https://oxnard.org/permits",
         "zoning_map": "https://oxnard.org/gis",
@@ -840,7 +882,9 @@
     "stripe_checkout_url": "https://buy.stripe.com/4gMbJ18yv2z33UnatieME0l",
     "stripe_product_id": "prod_UytkhVGhjhfAyR",
     "stripe_price_id": "price_1Tyvx3DipowTiYTYC18WnEB9",
-    "published": true
+    "published": true,
+    "faq2": "Oxnard allows detached ADUs up to 1,200 square feet on qualifying lots. JADUs, where allowed locally, are limited to 500 square feet.",
+    "faq3": "Most ADU applications in Oxnard clear plan review in 8 to 12 weeks. Simple attached conversions usually move faster than new detached construction. Ventura County staff workload can push approvals toward the upper end of that range during busy months."
   },
   {
     "city": "Glendale",
@@ -856,11 +900,11 @@
     "price": "12",
     "payhip_link": "[PAYHIP_LINK_GLENDALE]",
     "premium": {
-      "dept_name": "Planning Division \u2014 Community Development",
+      "dept_name": "Planning Division — Community Development",
       "phone": "(818) 548-2140",
       "email": "planning@glendaleca.gov",
       "address": "633 E Broadway, Glendale, CA 91206",
-      "hours": "Mon\u2013Fri, 7:30am\u20135:30pm",
+      "hours": "Mon–Fri, 7:30am–5:30pm",
       "links": {
         "permit_form": "https://glendaleca.gov/permits",
         "zoning_map": "https://glendaleca.gov/gis",
@@ -880,7 +924,9 @@
     "stripe_checkout_url": "https://buy.stripe.com/bJe6oHdSP6PjfD56d2eME0m",
     "stripe_product_id": "prod_UytkpBTj1NpJDQ",
     "stripe_price_id": "price_1Tyvx4DipowTiYTY50TlvLnW",
-    "published": true
+    "published": true,
+    "faq2": "Glendale allows detached ADUs up to 1,200 square feet on qualifying lots. When the property qualifies, a JADU conversion is capped at 500 square feet.",
+    "faq3": "Most ADU applications in Glendale clear plan review in 8 to 12 weeks. Detached builds take longer than attached conversions in most cases. Los Angeles County staff workload can push approvals toward the upper end of that range during busy months."
   },
   {
     "city": "Aurora",
@@ -890,7 +936,7 @@
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Required",
-    "additional": "<li>ADU on lots 6,000 sq ft minimum</li><li>Minimum 300 sq ft</li><li>Design review for exterior changes</li><li>Short-term rentals prohibited</li><li>\u26a0\ufe0f CO has NO statewide ADU mandate</li>",
+    "additional": "<li>ADU on lots 6,000 sq ft minimum</li><li>Minimum 300 sq ft</li><li>Design review for exterior changes</li><li>Short-term rentals prohibited</li><li>⚠️ CO has NO statewide ADU mandate</li>",
     "faq1": "Aurora allows ADUs in single-family zones. The city has specific design standards and a minimum lot size requirement.",
     "year": "2026",
     "price": "14",
@@ -900,7 +946,7 @@
       "phone": "(303) 739-7520",
       "email": "planning@auroragov.org",
       "address": "15151 E Alameda Pkwy, Aurora, CO 80012",
-      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "hours": "Mon–Fri, 8am–5pm",
       "links": {
         "permit_form": "https://auroragov.org/permits",
         "zoning_map": "https://auroragov.org/gis",
@@ -920,7 +966,9 @@
     "stripe_checkout_url": "https://buy.stripe.com/4gM00jaGD6PjaiLbxmeME0n",
     "stripe_product_id": "prod_UytkbD8NkAiR2J",
     "stripe_price_id": "price_1Tyvx4DipowTiYTYzvCslnzu",
-    "published": true
+    "published": true,
+    "faq2": "Under Aurora zoning rules, a detached ADU can reach 1,200 square feet. Where junior ADUs (JADUs) are permitted, they are capped at 500 square feet under state law.",
+    "faq3": "Plan review in Aurora typically runs 4 to 8 weeks, depending on how complete the application is. Detached builds take longer than attached conversions in most cases. Adams County / Arapahoe County processing times vary seasonally, so the range above is a realistic guide."
   },
   {
     "city": "Lakewood",
@@ -940,7 +988,7 @@
       "phone": "(303) 987-7510",
       "email": "planning@lakewood.org",
       "address": "480 S Allison Pkwy, Lakewood, CO 80226",
-      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "hours": "Mon–Fri, 8am–5pm",
       "links": {
         "permit_form": "https://lakewood.org/permits",
         "zoning_map": "https://lakewood.org/gis",
@@ -953,14 +1001,16 @@
       },
       "notes": ""
     },
-    "intro": "Located in Jefferson County, Lakewood's ADU program is governed entirely by local zoning ordinances. Colorado's lack of a statewide ADU mandate means each city sets its own rules \u2014 Lakewood requires minimum lot sizes and owner occupancy.",
+    "intro": "Located in Jefferson County, Lakewood's ADU program is governed entirely by local zoning ordinances. Colorado's lack of a statewide ADU mandate means each city sets its own rules — Lakewood requires minimum lot sizes and owner occupancy.",
     "county": "Jefferson County",
     "state_law": "local zoning ordinances, as Colorado has no statewide ADU mandate (HB 24-1152 addresses transit density)",
     "gumroad_link": "",
     "stripe_checkout_url": "https://buy.stripe.com/eVq9AT4if0qVbmPdFueME0o",
     "stripe_product_id": "prod_UytksG8K2odIDz",
     "stripe_price_id": "price_1Tyvx5DipowTiYTYYt4yDgfM",
-    "published": true
+    "published": true,
+    "faq2": "In Lakewood, the maximum footprint for a detached ADU is 1,000 square feet. Where junior ADUs (JADUs) are permitted, they are capped at 500 square feet under state law.",
+    "faq3": "Most ADU applications in Lakewood clear plan review in 4 to 8 weeks. Attached ADU conversions are often processed ahead of detached builds. Backlog in Jefferson County occasionally extends review times near the top of that window."
   },
   {
     "city": "Thornton",
@@ -980,7 +1030,7 @@
       "phone": "(303) 538-7230",
       "email": "planning@thorntonco.gov",
       "address": "9500 Civic Center Dr, Thornton, CO 80229",
-      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "hours": "Mon–Fri, 8am–5pm",
       "links": {
         "permit_form": "https://thorntonco.gov/permits",
         "zoning_map": "https://thorntonco.gov/gis",
@@ -1000,7 +1050,9 @@
     "stripe_checkout_url": "https://buy.stripe.com/00weVdeWT2z30Ib0SIeME0p",
     "stripe_product_id": "prod_UytkvcvaH7SDTr",
     "stripe_price_id": "price_1Tyvx7DipowTiYTYw1ux3gXb",
-    "published": true
+    "published": true,
+    "faq2": "Thornton allows detached ADUs up to 1,000 square feet on qualifying lots. JADUs, where allowed locally, are limited to 500 square feet.",
+    "faq3": "Most ADU applications in Thornton clear plan review in 4 to 8 weeks. Attached ADU conversions are often processed ahead of detached builds. Adams County staff workload can push approvals toward the upper end of that range during busy months."
   },
   {
     "city": "Arvada",
@@ -1020,7 +1072,7 @@
       "phone": "(720) 898-7450",
       "email": "planning@arvada.org",
       "address": "8101 Ralston Rd, Arvada, CO 80002",
-      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "hours": "Mon–Fri, 8am–5pm",
       "links": {
         "permit_form": "https://arvada.org/permits",
         "zoning_map": "https://arvada.org/gis",
@@ -1033,14 +1085,16 @@
       },
       "notes": "Building Division: (720) 898-7480"
     },
-    "intro": "Jefferson County's second-largest city, Arvada operates its ADU program under local zoning authority. Colorado's lack of a statewide ADU law means Arvada's code \u2014 including lot coverage caps and historic district review \u2014 is the governing standard.",
+    "intro": "Jefferson County's second-largest city, Arvada operates its ADU program under local zoning authority. Colorado's lack of a statewide ADU law means Arvada's code — including lot coverage caps and historic district review — is the governing standard.",
     "county": "Jefferson County",
     "state_law": "local zoning ordinances, as Colorado has no statewide ADU mandate (HB 24-1152 addresses transit density)",
     "gumroad_link": "",
     "stripe_checkout_url": "https://buy.stripe.com/cNiaEX4if5Lf62v44UeME0q",
     "stripe_product_id": "prod_UytkEpUkgwCFXF",
     "stripe_price_id": "price_1Tyvx7DipowTiYTYEXe51FTB",
-    "published": true
+    "published": true,
+    "faq2": "Under Arvada zoning rules, a detached ADU can reach 1,000 square feet. When the property qualifies, a JADU conversion is capped at 500 square feet.",
+    "faq3": "Most ADU applications in Arvada clear plan review in 4 to 8 weeks. Simple attached conversions usually move faster than new detached construction. Backlog in Jefferson County occasionally extends review times near the top of that window."
   },
   {
     "city": "Westminster",
@@ -1050,7 +1104,7 @@
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Required",
-    "additional": "<li>ADU on lots 5,000 sq ft minimum</li><li>Minimum 200 sq ft</li><li>Owner occupancy mandatory</li><li>Building permit required \u2014 CO has no state ADU mandate</li>",
+    "additional": "<li>ADU on lots 5,000 sq ft minimum</li><li>Minimum 200 sq ft</li><li>Owner occupancy mandatory</li><li>Building permit required — CO has no state ADU mandate</li>",
     "faq1": "Westminster allows ADUs in certain residential zones. Contact the planning department to confirm your zone eligibility.",
     "year": "2026",
     "price": "14",
@@ -1060,7 +1114,7 @@
       "phone": "(303) 658-2400",
       "email": "planning@westminsterco.gov",
       "address": "4800 W 92nd Ave, Westminster, CO 80031",
-      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "hours": "Mon–Fri, 8am–5pm",
       "links": {
         "permit_form": "https://westminsterco.gov/permits",
         "zoning_map": "https://westminsterco.gov/gis",
@@ -1080,7 +1134,9 @@
     "stripe_checkout_url": "https://buy.stripe.com/bJebJ1bKHb5zaiLcBqeME0r",
     "stripe_product_id": "prod_UytkYG1NV0h6Gw",
     "stripe_price_id": "price_1Tyvx8DipowTiYTY4nkD1tnf",
-    "published": true
+    "published": true,
+    "faq2": "In Westminster, the maximum footprint for a detached ADU is 1,000 square feet. Where junior ADUs (JADUs) are permitted, they are capped at 500 square feet under state law.",
+    "faq3": "Most ADU applications in Westminster clear plan review in 4 to 8 weeks. Attached ADU conversions are often processed ahead of detached builds. Backlog in Adams County / Jefferson County occasionally extends review times near the top of that window."
   },
   {
     "city": "Kent",
@@ -1100,7 +1156,7 @@
       "phone": "(253) 856-5454",
       "email": "planning@kentwa.gov",
       "address": "400 W Gowe St, Kent, WA 98032",
-      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "hours": "Mon–Fri, 8am–5pm",
       "links": {
         "permit_form": "https://kentwa.gov/permits",
         "zoning_map": "https://kentwa.gov/gis",
@@ -1120,7 +1176,9 @@
     "stripe_checkout_url": "https://buy.stripe.com/9B66oHg0XgpT4YrdFueME0s",
     "stripe_product_id": "prod_UytkSUsaWfWnar",
     "stripe_price_id": "price_1Tyvx9DipowTiYTYruHQNXd9",
-    "published": true
+    "published": true,
+    "faq2": "In Kent, the maximum footprint for a detached ADU is 1,000 square feet. JADUs, where allowed locally, are limited to 500 square feet.",
+    "faq3": "Expect plan review in Kent to take 6 to 10 weeks for a complete application. Attached ADU conversions are often processed ahead of detached builds. King County processing times vary seasonally, so the range above is a realistic guide."
   },
   {
     "city": "Renton",
@@ -1140,7 +1198,7 @@
       "phone": "(425) 430-7222",
       "email": "planning@rentonwa.gov",
       "address": "1055 S Grady Way, Renton, WA 98057",
-      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "hours": "Mon–Fri, 8am–5pm",
       "links": {
         "permit_form": "https://rentonwa.gov/permits",
         "zoning_map": "https://rentonwa.gov/gis",
@@ -1160,7 +1218,9 @@
     "stripe_checkout_url": "https://buy.stripe.com/3cIeVd3eb1uZbmPeJyeME0t",
     "stripe_product_id": "prod_UytkqObwIHn4zT",
     "stripe_price_id": "price_1TyvxADipowTiYTY8XV8F6m9",
-    "published": true
+    "published": true,
+    "faq2": "Renton allows detached ADUs up to 1,000 square feet on qualifying lots. Where junior ADUs (JADUs) are permitted, they are capped at 500 square feet under state law.",
+    "faq3": "Most ADU applications in Renton clear plan review in 6 to 10 weeks. Simple attached conversions usually move faster than new detached construction. King County processing times vary seasonally, so the range above is a realistic guide."
   },
   {
     "city": "Federal Way",
@@ -1180,7 +1240,7 @@
       "phone": "(253) 835-2600",
       "email": "planning@cityoffederalway.com",
       "address": "33325 8th Ave S, Federal Way, WA 98003",
-      "hours": "Mon\u2013Fri, 8:30am\u20135pm",
+      "hours": "Mon–Fri, 8:30am–5pm",
       "links": {
         "permit_form": "https://cityoffederalway.com/permits",
         "zoning_map": "https://cityoffederalway.com/gis",
@@ -1200,7 +1260,9 @@
     "stripe_checkout_url": "https://buy.stripe.com/fZu14n5mjddHduXfNCeME0u",
     "stripe_product_id": "prod_UytkCsvmavVYXE",
     "stripe_price_id": "price_1TyvxBDipowTiYTYeDGmEP6V",
-    "published": true
+    "published": true,
+    "faq2": "In Federal Way, the maximum footprint for a detached ADU is 1,000 square feet. JADUs, where allowed locally, are limited to 500 square feet.",
+    "faq3": "Most ADU applications in Federal Way clear plan review in 6 to 10 weeks. Detached builds take longer than attached conversions in most cases. King County processing times vary seasonally, so the range above is a realistic guide."
   },
   {
     "city": "Kirkland",
@@ -1220,7 +1282,7 @@
       "phone": "(425) 587-3600",
       "email": "planning@kirklandwa.gov",
       "address": "123 5th Ave, Kirkland, WA 98033",
-      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "hours": "Mon–Fri, 8am–5pm",
       "links": {
         "permit_form": "https://kirklandwa.gov/permits",
         "zoning_map": "https://kirklandwa.gov/gis",
@@ -1240,7 +1302,9 @@
     "stripe_checkout_url": "https://buy.stripe.com/dRmaEX2a7ddH76zeJyeME0v",
     "stripe_product_id": "prod_UytkW1Iw8t3nD5",
     "stripe_price_id": "price_1TyvxCDipowTiYTY3em0cyZG",
-    "published": true
+    "published": true,
+    "faq2": "Kirkland allows detached ADUs up to 1,000 square feet on qualifying lots. JADUs, where allowed locally, are limited to 500 square feet.",
+    "faq3": "Most ADU applications in Kirkland clear plan review in 6 to 10 weeks. Attached ADU conversions are often processed ahead of detached builds. King County staff workload can push approvals toward the upper end of that range during busy months."
   },
   {
     "city": "Redmond",
@@ -1260,7 +1324,7 @@
       "phone": "(425) 556-2490",
       "email": "planning@redmond.gov",
       "address": "15670 NE 85th St, Redmond, WA 98052",
-      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "hours": "Mon–Fri, 8am–5pm",
       "links": {
         "permit_form": "https://redmond.gov/permits",
         "zoning_map": "https://redmond.gov/gis",
@@ -1280,7 +1344,9 @@
     "stripe_checkout_url": "https://buy.stripe.com/5kQdR99Cz5Lf4YrdFueME0w",
     "stripe_product_id": "prod_UytkEeFVbHUdOA",
     "stripe_price_id": "price_1TyvxDDipowTiYTYpOdykMf3",
-    "published": true
+    "published": true,
+    "faq2": "Redmond allows detached ADUs up to 1,000 square feet on qualifying lots. Where junior ADUs (JADUs) are permitted, they are capped at 500 square feet under state law.",
+    "faq3": "Most ADU applications in Redmond clear plan review in 6 to 10 weeks. Simple attached conversions usually move faster than new detached construction. King County staff workload can push approvals toward the upper end of that range during busy months."
   },
   {
     "city": "Eugene",
@@ -1300,7 +1366,7 @@
       "phone": "(541) 682-5225",
       "email": "planning@eugene-or.gov",
       "address": "99 W 10th Ave, Eugene, OR 97401",
-      "hours": "Mon\u2013Fri, 8:30am\u20135pm",
+      "hours": "Mon–Fri, 8:30am–5pm",
       "links": {
         "permit_form": "https://eugene-or.gov/permits",
         "zoning_map": "https://eugene-or.gov/gis",
@@ -1320,7 +1386,9 @@
     "stripe_checkout_url": "https://buy.stripe.com/fZu4gzcOL6PjcqTeJyeME0x",
     "stripe_product_id": "prod_UytkdtkPoX3LBN",
     "stripe_price_id": "price_1TyvxEDipowTiYTYQ11WzRkj",
-    "published": true
+    "published": true,
+    "faq2": "In Eugene, the maximum footprint for a detached ADU is 1,200 square feet. JADUs, where allowed locally, are limited to 500 square feet.",
+    "faq3": "Most ADU applications in Eugene clear plan review in 5 to 9 weeks. Simple attached conversions usually move faster than new detached construction. Lane County processing times vary seasonally, so the range above is a realistic guide."
   },
   {
     "city": "Salem",
@@ -1336,11 +1404,11 @@
     "price": "12",
     "payhip_link": "[PAYHIP_LINK_SALEM]",
     "premium": {
-      "dept_name": "Planning Division \u2014 Community Development",
+      "dept_name": "Planning Division — Community Development",
       "phone": "(503) 588-6170",
       "email": "planning@cityofsalem.net",
       "address": "555 Liberty St SE, Salem, OR 97301",
-      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "hours": "Mon–Fri, 8am–5pm",
       "links": {
         "permit_form": "https://cityofsalem.net/permits",
         "zoning_map": "https://cityofsalem.net/gis",
@@ -1360,7 +1428,9 @@
     "stripe_checkout_url": "https://buy.stripe.com/3cI4gz5mj0qV76z58YeME0y",
     "stripe_product_id": "prod_UytkgdPRYP2DIA",
     "stripe_price_id": "price_1TyvxFDipowTiYTYcuWnBmV9",
-    "published": true
+    "published": true,
+    "faq2": "Salem allows detached ADUs up to 1,200 square feet on qualifying lots. JADUs, where allowed locally, are limited to 500 square feet.",
+    "faq3": "Plan review in Salem typically runs 5 to 9 weeks, depending on how complete the application is. Detached builds take longer than attached conversions in most cases. Marion County / Polk County processing times vary seasonally, so the range above is a realistic guide."
   },
   {
     "city": "Gresham",
@@ -1380,7 +1450,7 @@
       "phone": "(503) 618-2845",
       "email": "planning@greshamoregon.gov",
       "address": "1333 NW Eastman Pkwy, Gresham, OR 97030",
-      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "hours": "Mon–Fri, 8am–5pm",
       "links": {
         "permit_form": "https://greshamoregon.gov/permits",
         "zoning_map": "https://greshamoregon.gov/gis",
@@ -1400,7 +1470,9 @@
     "stripe_checkout_url": "https://buy.stripe.com/dRm4gz4if6PjfD51WMeME0z",
     "stripe_product_id": "prod_Uytk66vRpzp6h7",
     "stripe_price_id": "price_1TyvxGDipowTiYTYfLYMjwAH",
-    "published": true
+    "published": true,
+    "faq2": "Under Gresham zoning rules, a detached ADU can reach 1,200 square feet. When the property qualifies, a JADU conversion is capped at 500 square feet.",
+    "faq3": "Plan review in Gresham typically runs 5 to 9 weeks, depending on how complete the application is. Detached builds take longer than attached conversions in most cases. Backlog in Multnomah County occasionally extends review times near the top of that window."
   },
   {
     "city": "Hillsboro",
@@ -1420,7 +1492,7 @@
       "phone": "(503) 681-6153",
       "email": "planning@hillsboro-oregon.gov",
       "address": "150 E Main St, Hillsboro, OR 97123",
-      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "hours": "Mon–Fri, 8am–5pm",
       "links": {
         "permit_form": "https://hillsboro-oregon.gov/permits",
         "zoning_map": "https://hillsboro-oregon.gov/gis",
@@ -1440,7 +1512,9 @@
     "stripe_checkout_url": "https://buy.stripe.com/3cI00j9CzgpTduXgRGeME0A",
     "stripe_product_id": "prod_Uytk2xm0hOMKmd",
     "stripe_price_id": "price_1TyvxHDipowTiYTY3ZZqXmpj",
-    "published": true
+    "published": true,
+    "faq2": "Under Hillsboro zoning rules, a detached ADU can reach 1,200 square feet. When the property qualifies, a JADU conversion is capped at 500 square feet.",
+    "faq3": "Most ADU applications in Hillsboro clear plan review in 5 to 9 weeks. Attached ADU conversions are often processed ahead of detached builds. Washington County processing times vary seasonally, so the range above is a realistic guide."
   },
   {
     "city": "Beaverton",
@@ -1460,7 +1534,7 @@
       "phone": "(503) 526-2493",
       "email": "planning@beavertonoregon.gov",
       "address": "12725 SW Millikan Way, Beaverton, OR 97005",
-      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "hours": "Mon–Fri, 8am–5pm",
       "links": {
         "permit_form": "https://beavertonoregon.gov/permits",
         "zoning_map": "https://beavertonoregon.gov/gis",
@@ -1480,7 +1554,9 @@
     "stripe_checkout_url": "https://buy.stripe.com/4gM8wP5mj8XrgH97h6eME0B",
     "stripe_product_id": "prod_UytkwWY6VsJrHJ",
     "stripe_price_id": "price_1TyvxIDipowTiYTYjxiOFOu5",
-    "published": true
+    "published": true,
+    "faq2": "Under Beaverton zoning rules, a detached ADU can reach 1,200 square feet. JADUs, where allowed locally, are limited to 500 square feet.",
+    "faq3": "Expect plan review in Beaverton to take 5 to 9 weeks for a complete application. Attached ADU conversions are often processed ahead of detached builds. Washington County staff workload can push approvals toward the upper end of that range during busy months."
   },
   {
     "city": "Plano",
@@ -1490,7 +1566,7 @@
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Not required",
-    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>\u26a0\ufe0f TX has NO statewide ADU law \u2014 city code governs</li>",
+    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>⚠️ TX has NO statewide ADU law — city code governs</li>",
     "faq1": "This Texas city permits ADUs under local ordinance. Verify your specific zoning district with the planning department before applying.",
     "year": "2026",
     "price": "14",
@@ -1500,7 +1576,7 @@
       "phone": "(972) 941-7136",
       "email": "planning@plano.gov",
       "address": "1520 Avenue K, Plano, TX 75074",
-      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "hours": "Mon–Fri, 8am–5pm",
       "links": {
         "permit_form": "https://www.plano.gov/permits",
         "zoning_map": "https://www.plano.gov/gis",
@@ -1513,14 +1589,16 @@
       },
       "notes": ""
     },
-    "intro": "In Collin County north of Dallas, Plano regulates ADUs through its unified development code. Texas has no statewide ADU mandate, so Plano's local zoning districts \u2014 including specific lot size and design standards \u2014 are the governing authority.",
+    "intro": "In Collin County north of Dallas, Plano regulates ADUs through its unified development code. Texas has no statewide ADU mandate, so Plano's local zoning districts — including specific lot size and design standards — are the governing authority.",
     "county": "Collin County",
     "state_law": "local zoning ordinances, as Texas has no statewide ADU mandate",
     "gumroad_link": "",
     "stripe_checkout_url": "",
     "stripe_product_id": "",
     "stripe_price_id": "",
-    "published": false
+    "published": false,
+    "faq2": "In Plano, the maximum footprint for a detached ADU is 1,000 square feet. Where junior ADUs (JADUs) are permitted, they are capped at 500 square feet under state law.",
+    "faq3": "Most ADU applications in Plano clear plan review in 6 to 12 weeks. Attached ADU conversions are often processed ahead of detached builds. Backlog in Collin County occasionally extends review times near the top of that window."
   },
   {
     "city": "Irving",
@@ -1530,7 +1608,7 @@
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Not required",
-    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>\u26a0\ufe0f TX has NO statewide ADU law \u2014 city code governs</li>",
+    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>⚠️ TX has NO statewide ADU law — city code governs</li>",
     "faq1": "This Texas city permits ADUs under local ordinance. Verify your specific zoning district with the planning department before applying.",
     "year": "2026",
     "price": "14",
@@ -1540,7 +1618,7 @@
       "phone": "(972) 721-2400",
       "email": "planning@cityofirving.org",
       "address": "825 W Irving Blvd, Irving, TX 75060",
-      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "hours": "Mon–Fri, 8am–5pm",
       "links": {
         "permit_form": "https://www.irving.gov/permits",
         "zoning_map": "https://www.irving.gov/gis",
@@ -1560,7 +1638,9 @@
     "stripe_checkout_url": "",
     "stripe_product_id": "",
     "stripe_price_id": "",
-    "published": false
+    "published": false,
+    "faq2": "In Irving, the maximum footprint for a detached ADU is 1,000 square feet. Where junior ADUs (JADUs) are permitted, they are capped at 500 square feet under state law.",
+    "faq3": "Plan review in Irving typically runs 6 to 12 weeks, depending on how complete the application is. Detached builds take longer than attached conversions in most cases. Backlog in Dallas County occasionally extends review times near the top of that window."
   },
   {
     "city": "Garland",
@@ -1570,7 +1650,7 @@
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Not required",
-    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>\u26a0\ufe0f TX has NO statewide ADU law \u2014 city code governs</li>",
+    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>⚠️ TX has NO statewide ADU law — city code governs</li>",
     "faq1": "This Texas city permits ADUs under local ordinance. Verify your specific zoning district with the planning department before applying.",
     "year": "2026",
     "price": "14",
@@ -1580,7 +1660,7 @@
       "phone": "(972) 205-3300",
       "email": "planning@garlandtx.gov",
       "address": "200 N 5th St, Garland, TX 75040",
-      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "hours": "Mon–Fri, 8am–5pm",
       "links": {
         "permit_form": "https://www.garland.gov/permits",
         "zoning_map": "https://www.garland.gov/gis",
@@ -1600,7 +1680,9 @@
     "stripe_checkout_url": "",
     "stripe_product_id": "",
     "stripe_price_id": "",
-    "published": false
+    "published": false,
+    "faq2": "Garland allows detached ADUs up to 1,000 square feet on qualifying lots. When the property qualifies, a JADU conversion is capped at 500 square feet.",
+    "faq3": "Plan review in Garland typically runs 6 to 12 weeks, depending on how complete the application is. Detached builds take longer than attached conversions in most cases. Backlog in Dallas County occasionally extends review times near the top of that window."
   },
   {
     "city": "Arlington",
@@ -1610,7 +1692,7 @@
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Not required",
-    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>\u26a0\ufe0f TX has NO statewide ADU law \u2014 city code governs</li>",
+    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>⚠️ TX has NO statewide ADU law — city code governs</li>",
     "faq1": "This Texas city permits ADUs under local ordinance. Verify your specific zoning district with the planning department before applying.",
     "year": "2026",
     "price": "14",
@@ -1620,7 +1702,7 @@
       "phone": "(817) 459-6500",
       "email": "planning@arlingtontx.gov",
       "address": "101 W Abram St, Arlington, TX 76010",
-      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "hours": "Mon–Fri, 8am–5pm",
       "links": {
         "permit_form": "https://www.arlington.gov/permits",
         "zoning_map": "https://www.arlington.gov/gis",
@@ -1640,7 +1722,9 @@
     "stripe_checkout_url": "",
     "stripe_product_id": "",
     "stripe_price_id": "",
-    "published": false
+    "published": false,
+    "faq2": "Arlington allows detached ADUs up to 1,000 square feet on qualifying lots. Where junior ADUs (JADUs) are permitted, they are capped at 500 square feet under state law.",
+    "faq3": "Plan review in Arlington typically runs 6 to 12 weeks, depending on how complete the application is. Attached ADU conversions are often processed ahead of detached builds. Backlog in Tarrant County occasionally extends review times near the top of that window."
   },
   {
     "city": "Corpus Christi",
@@ -1650,7 +1734,7 @@
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Not required",
-    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>\u26a0\ufe0f TX has NO statewide ADU law \u2014 city code governs</li>",
+    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>⚠️ TX has NO statewide ADU law — city code governs</li>",
     "faq1": "This Texas city permits ADUs under local ordinance. Verify your specific zoning district with the planning department before applying.",
     "year": "2026",
     "price": "14",
@@ -1660,7 +1744,7 @@
       "phone": "(361) 826-3100",
       "email": "planning@cctexas.com",
       "address": "1201 Leopard St, Corpus Christi, TX 78401",
-      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "hours": "Mon–Fri, 8am–5pm",
       "links": {
         "permit_form": "https://www.corpuschristi.gov/permits",
         "zoning_map": "https://www.corpuschristi.gov/gis",
@@ -1680,7 +1764,9 @@
     "stripe_checkout_url": "",
     "stripe_product_id": "",
     "stripe_price_id": "",
-    "published": false
+    "published": false,
+    "faq2": "Under Corpus Christi zoning rules, a detached ADU can reach 1,000 square feet. JADUs, where allowed locally, are limited to 500 square feet.",
+    "faq3": "Most ADU applications in Corpus Christi clear plan review in 6 to 12 weeks. Attached ADU conversions are often processed ahead of detached builds. Nueces County staff workload can push approvals toward the upper end of that range during busy months."
   },
   {
     "city": "Lubbock",
@@ -1690,7 +1776,7 @@
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Not required",
-    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>\u26a0\ufe0f TX has NO statewide ADU law \u2014 city code governs</li>",
+    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>⚠️ TX has NO statewide ADU law — city code governs</li>",
     "faq1": "This Texas city permits ADUs under local ordinance. Verify your specific zoning district with the planning department before applying.",
     "year": "2026",
     "price": "14",
@@ -1700,7 +1786,7 @@
       "phone": "(806) 775-2141",
       "email": "planning@mylubbock.us",
       "address": "1314 Avenue K, Lubbock, TX 79401",
-      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "hours": "Mon–Fri, 8am–5pm",
       "links": {
         "permit_form": "https://www.lubbock.gov/permits",
         "zoning_map": "https://www.lubbock.gov/gis",
@@ -1720,7 +1806,9 @@
     "stripe_checkout_url": "",
     "stripe_product_id": "",
     "stripe_price_id": "",
-    "published": false
+    "published": false,
+    "faq2": "Under Lubbock zoning rules, a detached ADU can reach 1,000 square feet. When the property qualifies, a JADU conversion is capped at 500 square feet.",
+    "faq3": "Expect plan review in Lubbock to take 6 to 12 weeks for a complete application. Simple attached conversions usually move faster than new detached construction. Backlog in Lubbock County occasionally extends review times near the top of that window."
   },
   {
     "city": "Laredo",
@@ -1730,7 +1818,7 @@
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Not required",
-    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>\u26a0\ufe0f TX has NO statewide ADU law \u2014 city code governs</li>",
+    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>⚠️ TX has NO statewide ADU law — city code governs</li>",
     "faq1": "This Texas city permits ADUs under local ordinance. Verify your specific zoning district with the planning department before applying.",
     "year": "2026",
     "price": "14",
@@ -1740,7 +1828,7 @@
       "phone": "(956) 791-7325",
       "email": "planning@ci.laredo.tx.us",
       "address": "1110 Houston St, Laredo, TX 78040",
-      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "hours": "Mon–Fri, 8am–5pm",
       "links": {
         "permit_form": "https://www.laredo.gov/permits",
         "zoning_map": "https://www.laredo.gov/gis",
@@ -1760,7 +1848,9 @@
     "stripe_checkout_url": "",
     "stripe_product_id": "",
     "stripe_price_id": "",
-    "published": false
+    "published": false,
+    "faq2": "Under Laredo zoning rules, a detached ADU can reach 1,000 square feet. When the property qualifies, a JADU conversion is capped at 500 square feet.",
+    "faq3": "Expect plan review in Laredo to take 6 to 12 weeks for a complete application. Detached builds take longer than attached conversions in most cases. Backlog in Webb County occasionally extends review times near the top of that window."
   },
   {
     "city": "Brownsville",
@@ -1770,7 +1860,7 @@
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Not required",
-    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>\u26a0\ufe0f TX has NO statewide ADU law \u2014 city code governs</li>",
+    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>⚠️ TX has NO statewide ADU law — city code governs</li>",
     "faq1": "This Texas city permits ADUs under local ordinance. Verify your specific zoning district with the planning department before applying.",
     "year": "2026",
     "price": "14",
@@ -1780,7 +1870,7 @@
       "phone": "(956) 546-0062",
       "email": "planning@cob.us",
       "address": "1150 E Madison St, Brownsville, TX 78520",
-      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "hours": "Mon–Fri, 8am–5pm",
       "links": {
         "permit_form": "https://www.brownsville.gov/permits",
         "zoning_map": "https://www.brownsville.gov/gis",
@@ -1800,7 +1890,9 @@
     "stripe_checkout_url": "",
     "stripe_product_id": "",
     "stripe_price_id": "",
-    "published": false
+    "published": false,
+    "faq2": "Brownsville allows detached ADUs up to 1,000 square feet on qualifying lots. Where junior ADUs (JADUs) are permitted, they are capped at 500 square feet under state law.",
+    "faq3": "Plan review in Brownsville typically runs 6 to 12 weeks, depending on how complete the application is. Simple attached conversions usually move faster than new detached construction. Cameron County staff workload can push approvals toward the upper end of that range during busy months."
   },
   {
     "city": "McKinney",
@@ -1810,7 +1902,7 @@
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Not required",
-    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>\u26a0\ufe0f TX has NO statewide ADU law \u2014 city code governs</li>",
+    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>⚠️ TX has NO statewide ADU law — city code governs</li>",
     "faq1": "This Texas city permits ADUs under local ordinance. Verify your specific zoning district with the planning department before applying.",
     "year": "2026",
     "price": "14",
@@ -1820,7 +1912,7 @@
       "phone": "(972) 547-7300",
       "email": "planning@mckinneytexas.org",
       "address": "221 N Tennessee St, McKinney, TX 75069",
-      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "hours": "Mon–Fri, 8am–5pm",
       "links": {
         "permit_form": "https://www.mckinney.gov/permits",
         "zoning_map": "https://www.mckinney.gov/gis",
@@ -1840,7 +1932,9 @@
     "stripe_checkout_url": "",
     "stripe_product_id": "",
     "stripe_price_id": "",
-    "published": false
+    "published": false,
+    "faq2": "In McKinney, the maximum footprint for a detached ADU is 1,000 square feet. Where junior ADUs (JADUs) are permitted, they are capped at 500 square feet under state law.",
+    "faq3": "Expect plan review in McKinney to take 6 to 12 weeks for a complete application. Attached ADU conversions are often processed ahead of detached builds. Collin County processing times vary seasonally, so the range above is a realistic guide."
   },
   {
     "city": "Frisco",
@@ -1850,7 +1944,7 @@
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Not required",
-    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>\u26a0\ufe0f TX has NO statewide ADU law \u2014 city code governs</li>",
+    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>⚠️ TX has NO statewide ADU law — city code governs</li>",
     "faq1": "This Texas city permits ADUs under local ordinance. Verify your specific zoning district with the planning department before applying.",
     "year": "2026",
     "price": "14",
@@ -1860,7 +1954,7 @@
       "phone": "(972) 292-5300",
       "email": "planning@friscotexas.gov",
       "address": "6101 Frisco Square Blvd, Frisco, TX 75034",
-      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "hours": "Mon–Fri, 8am–5pm",
       "links": {
         "permit_form": "https://www.frisco.gov/permits",
         "zoning_map": "https://www.frisco.gov/gis",
@@ -1880,7 +1974,9 @@
     "stripe_checkout_url": "",
     "stripe_product_id": "",
     "stripe_price_id": "",
-    "published": false
+    "published": false,
+    "faq2": "In Frisco, the maximum footprint for a detached ADU is 1,000 square feet. Where junior ADUs (JADUs) are permitted, they are capped at 500 square feet under state law.",
+    "faq3": "Plan review in Frisco typically runs 6 to 12 weeks, depending on how complete the application is. Detached builds take longer than attached conversions in most cases. Backlog in Collin County occasionally extends review times near the top of that window."
   },
   {
     "city": "Mesa",
@@ -1890,7 +1986,7 @@
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Not required",
-    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>\u26a0\ufe0f AZ has NO statewide ADU law \u2014 city code governs</li>",
+    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>⚠️ AZ has NO statewide ADU law — city code governs</li>",
     "faq1": "This Arizona city permits ADUs under local ordinance. Confirm your zone's eligibility with the planning department first.",
     "year": "2026",
     "price": "14",
@@ -1900,7 +1996,7 @@
       "phone": "(480) 644-2150",
       "email": "planning@mesaaz.gov",
       "address": "55 N Center St, Mesa, AZ 85201",
-      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "hours": "Mon–Fri, 8am–5pm",
       "links": {
         "permit_form": "https://www.mesa.gov/permits",
         "zoning_map": "https://www.mesa.gov/gis",
@@ -1920,7 +2016,9 @@
     "stripe_checkout_url": "",
     "stripe_product_id": "",
     "stripe_price_id": "",
-    "published": false
+    "published": false,
+    "faq2": "Mesa allows detached ADUs up to 1,000 square feet on qualifying lots. JADUs, where allowed locally, are limited to 500 square feet.",
+    "faq3": "Expect plan review in Mesa to take 4 to 8 weeks for a complete application. Detached builds take longer than attached conversions in most cases. Maricopa County staff workload can push approvals toward the upper end of that range during busy months."
   },
   {
     "city": "Chandler",
@@ -1930,7 +2028,7 @@
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Not required",
-    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>\u26a0\ufe0f AZ has NO statewide ADU law \u2014 city code governs</li>",
+    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>⚠️ AZ has NO statewide ADU law — city code governs</li>",
     "faq1": "This Arizona city permits ADUs under local ordinance. Confirm your zone's eligibility with the planning department first.",
     "year": "2026",
     "price": "14",
@@ -1940,7 +2038,7 @@
       "phone": "(480) 782-3150",
       "email": "planning@chandleraz.gov",
       "address": "175 S Arizona Ave, Chandler, AZ 85225",
-      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "hours": "Mon–Fri, 8am–5pm",
       "links": {
         "permit_form": "https://www.chandler.gov/permits",
         "zoning_map": "https://www.chandler.gov/gis",
@@ -1960,7 +2058,9 @@
     "stripe_checkout_url": "",
     "stripe_product_id": "",
     "stripe_price_id": "",
-    "published": false
+    "published": false,
+    "faq2": "Under Chandler zoning rules, a detached ADU can reach 1,000 square feet. Where junior ADUs (JADUs) are permitted, they are capped at 500 square feet under state law.",
+    "faq3": "Expect plan review in Chandler to take 4 to 8 weeks for a complete application. Simple attached conversions usually move faster than new detached construction. Backlog in Maricopa County occasionally extends review times near the top of that window."
   },
   {
     "city": "Gilbert",
@@ -1970,7 +2070,7 @@
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Not required",
-    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>\u26a0\ufe0f AZ has NO statewide ADU law \u2014 city code governs</li>",
+    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>⚠️ AZ has NO statewide ADU law — city code governs</li>",
     "faq1": "This Arizona city permits ADUs under local ordinance. Confirm your zone's eligibility with the planning department first.",
     "year": "2026",
     "price": "14",
@@ -1980,7 +2080,7 @@
       "phone": "(480) 503-6740",
       "email": "planning@gilbertaz.gov",
       "address": "90 E Civic Center Dr, Gilbert, AZ 85296",
-      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "hours": "Mon–Fri, 8am–5pm",
       "links": {
         "permit_form": "https://www.gilbert.gov/permits",
         "zoning_map": "https://www.gilbert.gov/gis",
@@ -2000,7 +2100,9 @@
     "stripe_checkout_url": "",
     "stripe_product_id": "",
     "stripe_price_id": "",
-    "published": false
+    "published": false,
+    "faq2": "Gilbert allows detached ADUs up to 1,000 square feet on qualifying lots. Where junior ADUs (JADUs) are permitted, they are capped at 500 square feet under state law.",
+    "faq3": "Most ADU applications in Gilbert clear plan review in 4 to 8 weeks. Attached ADU conversions are often processed ahead of detached builds. Maricopa County processing times vary seasonally, so the range above is a realistic guide."
   },
   {
     "city": "Scottsdale",
@@ -2010,7 +2112,7 @@
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Not required",
-    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>\u26a0\ufe0f AZ has NO statewide ADU law \u2014 city code governs</li>",
+    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>⚠️ AZ has NO statewide ADU law — city code governs</li>",
     "faq1": "This Arizona city permits ADUs under local ordinance. Confirm your zone's eligibility with the planning department first.",
     "year": "2026",
     "price": "14",
@@ -2020,7 +2122,7 @@
       "phone": "(480) 312-2350",
       "email": "planning@scottsdaleaz.gov",
       "address": "7447 E Indian School Rd, Scottsdale, AZ 85251",
-      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "hours": "Mon–Fri, 8am–5pm",
       "links": {
         "permit_form": "https://www.scottsdale.gov/permits",
         "zoning_map": "https://www.scottsdale.gov/gis",
@@ -2040,7 +2142,9 @@
     "stripe_checkout_url": "",
     "stripe_product_id": "",
     "stripe_price_id": "",
-    "published": false
+    "published": false,
+    "faq2": "Under Scottsdale zoning rules, a detached ADU can reach 1,000 square feet. When the property qualifies, a JADU conversion is capped at 500 square feet.",
+    "faq3": "Plan review in Scottsdale typically runs 4 to 8 weeks, depending on how complete the application is. Attached ADU conversions are often processed ahead of detached builds. Maricopa County staff workload can push approvals toward the upper end of that range during busy months."
   },
   {
     "city": "Tempe",
@@ -2050,7 +2154,7 @@
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Not required",
-    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>\u26a0\ufe0f AZ has NO statewide ADU law \u2014 city code governs</li>",
+    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>⚠️ AZ has NO statewide ADU law — city code governs</li>",
     "faq1": "This Arizona city permits ADUs under local ordinance. Confirm your zone's eligibility with the planning department first.",
     "year": "2026",
     "price": "14",
@@ -2060,7 +2164,7 @@
       "phone": "(480) 350-8311",
       "email": "planning@tempe.gov",
       "address": "31 E 5th St, Tempe, AZ 85281",
-      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "hours": "Mon–Fri, 8am–5pm",
       "links": {
         "permit_form": "https://www.tempe.gov/permits",
         "zoning_map": "https://www.tempe.gov/gis",
@@ -2080,7 +2184,9 @@
     "stripe_checkout_url": "",
     "stripe_product_id": "",
     "stripe_price_id": "",
-    "published": false
+    "published": false,
+    "faq2": "Tempe allows detached ADUs up to 1,000 square feet on qualifying lots. Where junior ADUs (JADUs) are permitted, they are capped at 500 square feet under state law.",
+    "faq3": "Expect plan review in Tempe to take 4 to 8 weeks for a complete application. Simple attached conversions usually move faster than new detached construction. Backlog in Maricopa County occasionally extends review times near the top of that window."
   },
   {
     "city": "Peoria",
@@ -2090,7 +2196,7 @@
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Not required",
-    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>\u26a0\ufe0f AZ has NO statewide ADU law \u2014 city code governs</li>",
+    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>⚠️ AZ has NO statewide ADU law — city code governs</li>",
     "faq1": "This Arizona city permits ADUs under local ordinance. Confirm your zone's eligibility with the planning department first.",
     "year": "2026",
     "price": "14",
@@ -2100,7 +2206,7 @@
       "phone": "(623) 773-7600",
       "email": "planning@peoriaaz.gov",
       "address": "8401 W Monroe St, Peoria, AZ 85345",
-      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "hours": "Mon–Fri, 8am–5pm",
       "links": {
         "permit_form": "https://www.peoria.gov/permits",
         "zoning_map": "https://www.peoria.gov/gis",
@@ -2120,7 +2226,9 @@
     "stripe_checkout_url": "",
     "stripe_product_id": "",
     "stripe_price_id": "",
-    "published": false
+    "published": false,
+    "faq2": "In Peoria, the maximum footprint for a detached ADU is 1,000 square feet. Where junior ADUs (JADUs) are permitted, they are capped at 500 square feet under state law.",
+    "faq3": "Most ADU applications in Peoria clear plan review in 4 to 8 weeks. Detached builds take longer than attached conversions in most cases. Maricopa County staff workload can push approvals toward the upper end of that range during busy months."
   },
   {
     "city": "Surprise",
@@ -2130,7 +2238,7 @@
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Not required",
-    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>\u26a0\ufe0f AZ has NO statewide ADU law \u2014 city code governs</li>",
+    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>⚠️ AZ has NO statewide ADU law — city code governs</li>",
     "faq1": "This Arizona city permits ADUs under local ordinance. Confirm your zone's eligibility with the planning department first.",
     "year": "2026",
     "price": "14",
@@ -2140,7 +2248,7 @@
       "phone": "(623) 222-3000",
       "email": "planning@surpriseaz.gov",
       "address": "16000 N Civic Center Plaza, Surprise, AZ 85374",
-      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "hours": "Mon–Fri, 8am–5pm",
       "links": {
         "permit_form": "https://www.surprise.gov/permits",
         "zoning_map": "https://www.surprise.gov/gis",
@@ -2160,7 +2268,9 @@
     "stripe_checkout_url": "",
     "stripe_product_id": "",
     "stripe_price_id": "",
-    "published": false
+    "published": false,
+    "faq2": "In Surprise, the maximum footprint for a detached ADU is 1,000 square feet. Where junior ADUs (JADUs) are permitted, they are capped at 500 square feet under state law.",
+    "faq3": "Plan review in Surprise typically runs 4 to 8 weeks, depending on how complete the application is. Simple attached conversions usually move faster than new detached construction. Maricopa County staff workload can push approvals toward the upper end of that range during busy months."
   },
   {
     "city": "Goodyear",
@@ -2170,7 +2280,7 @@
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Not required",
-    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>\u26a0\ufe0f AZ has NO statewide ADU law \u2014 city code governs</li>",
+    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>⚠️ AZ has NO statewide ADU law — city code governs</li>",
     "faq1": "This Arizona city permits ADUs under local ordinance. Confirm your zone's eligibility with the planning department first.",
     "year": "2026",
     "price": "14",
@@ -2180,7 +2290,7 @@
       "phone": "(623) 882-7810",
       "email": "planning@goodyearaz.gov",
       "address": "190 N Litchfield Rd, Goodyear, AZ 85338",
-      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "hours": "Mon–Fri, 8am–5pm",
       "links": {
         "permit_form": "https://www.goodyear.gov/permits",
         "zoning_map": "https://www.goodyear.gov/gis",
@@ -2200,7 +2310,9 @@
     "stripe_checkout_url": "",
     "stripe_product_id": "",
     "stripe_price_id": "",
-    "published": false
+    "published": false,
+    "faq2": "Goodyear allows detached ADUs up to 1,000 square feet on qualifying lots. JADUs, where allowed locally, are limited to 500 square feet.",
+    "faq3": "Most ADU applications in Goodyear clear plan review in 4 to 8 weeks. Attached ADU conversions are often processed ahead of detached builds. Maricopa County processing times vary seasonally, so the range above is a realistic guide."
   },
   {
     "city": "Flagstaff",
@@ -2210,7 +2322,7 @@
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Not required",
-    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>\u26a0\ufe0f AZ has NO statewide ADU law \u2014 city code governs</li>",
+    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>⚠️ AZ has NO statewide ADU law — city code governs</li>",
     "faq1": "This Arizona city permits ADUs under local ordinance. Confirm your zone's eligibility with the planning department first.",
     "year": "2026",
     "price": "14",
@@ -2220,7 +2332,7 @@
       "phone": "(928) 679-8300",
       "email": "planning@flagstaffaz.gov",
       "address": "211 W Aspen Ave, Flagstaff, AZ 86001",
-      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "hours": "Mon–Fri, 8am–5pm",
       "links": {
         "permit_form": "https://www.flagstaff.gov/permits",
         "zoning_map": "https://www.flagstaff.gov/gis",
@@ -2240,7 +2352,9 @@
     "stripe_checkout_url": "",
     "stripe_product_id": "",
     "stripe_price_id": "",
-    "published": false
+    "published": false,
+    "faq2": "Flagstaff allows detached ADUs up to 1,000 square feet on qualifying lots. When the property qualifies, a JADU conversion is capped at 500 square feet.",
+    "faq3": "Expect plan review in Flagstaff to take 4 to 8 weeks for a complete application. Detached builds take longer than attached conversions in most cases. Backlog in Coconino County occasionally extends review times near the top of that window."
   },
   {
     "city": "Lake Havasu City",
@@ -2250,7 +2364,7 @@
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Not required",
-    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>\u26a0\ufe0f AZ has NO statewide ADU law \u2014 city code governs</li>",
+    "additional": "<li>ADU allowed in residential zones per local ordinance</li><li>Minimum 200 sq ft</li><li>Building permit required</li><li>⚠️ AZ has NO statewide ADU law — city code governs</li>",
     "faq1": "This Arizona city permits ADUs under local ordinance. Confirm your zone's eligibility with the planning department first.",
     "year": "2026",
     "price": "14",
@@ -2260,7 +2374,7 @@
       "phone": "(928) 855-3725",
       "email": "planning@lhcaz.gov",
       "address": "2330 McCulloch Blvd N, Lake Havasu City, AZ 86403",
-      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "hours": "Mon–Fri, 8am–5pm",
       "links": {
         "permit_form": "https://www.lakehavasucity.gov/permits",
         "zoning_map": "https://www.lakehavasucity.gov/gis",
@@ -2280,7 +2394,9 @@
     "stripe_checkout_url": "",
     "stripe_product_id": "",
     "stripe_price_id": "",
-    "published": false
+    "published": false,
+    "faq2": "In Lake Havasu City, the maximum footprint for a detached ADU is 1,000 square feet. When the property qualifies, a JADU conversion is capped at 500 square feet.",
+    "faq3": "Expect plan review in Lake Havasu City to take 4 to 8 weeks for a complete application. Simple attached conversions usually move faster than new detached construction. Mohave County staff workload can push approvals toward the upper end of that range during busy months."
   },
   {
     "city": "Chula Vista",
@@ -2300,7 +2416,7 @@
       "phone": "(619) 691-5100",
       "email": "planning@chulavistaca.gov",
       "address": "276 Fourth Ave, Chula Vista, CA 91910",
-      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "hours": "Mon–Fri, 8am–5pm",
       "links": {
         "permit_form": "https://www.chulavista.gov/permits",
         "zoning_map": "https://www.chulavista.gov/gis",
@@ -2320,7 +2436,9 @@
     "stripe_checkout_url": "",
     "stripe_product_id": "",
     "stripe_price_id": "",
-    "published": false
+    "published": false,
+    "faq2": "Under Chula Vista zoning rules, a detached ADU can reach 1,200 square feet. When the property qualifies, a JADU conversion is capped at 500 square feet.",
+    "faq3": "Most ADU applications in Chula Vista clear plan review in 8 to 12 weeks. Simple attached conversions usually move faster than new detached construction. San Diego County staff workload can push approvals toward the upper end of that range during busy months."
   },
   {
     "city": "Elk Grove",
@@ -2340,7 +2458,7 @@
       "phone": "(916) 478-3600",
       "email": "planning@elkgrovecity.org",
       "address": "8401 Laguna Palms Way, Elk Grove, CA 95758",
-      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "hours": "Mon–Fri, 8am–5pm",
       "links": {
         "permit_form": "https://www.elkgrove.gov/permits",
         "zoning_map": "https://www.elkgrove.gov/gis",
@@ -2360,7 +2478,9 @@
     "stripe_checkout_url": "",
     "stripe_product_id": "",
     "stripe_price_id": "",
-    "published": false
+    "published": false,
+    "faq2": "In Elk Grove, the maximum footprint for a detached ADU is 1,200 square feet. JADUs, where allowed locally, are limited to 500 square feet.",
+    "faq3": "Expect plan review in Elk Grove to take 8 to 12 weeks for a complete application. Detached builds take longer than attached conversions in most cases. Sacramento County processing times vary seasonally, so the range above is a realistic guide."
   },
   {
     "city": "Rancho Cucamonga",
@@ -2380,7 +2500,7 @@
       "phone": "(909) 477-2700",
       "email": "planning@cityofrc.us",
       "address": "10500 Civic Center Dr, Rancho Cucamonga, CA 91730",
-      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "hours": "Mon–Fri, 8am–5pm",
       "links": {
         "permit_form": "https://www.ranchocucamonga.gov/permits",
         "zoning_map": "https://www.ranchocucamonga.gov/gis",
@@ -2400,7 +2520,9 @@
     "stripe_checkout_url": "",
     "stripe_product_id": "",
     "stripe_price_id": "",
-    "published": false
+    "published": false,
+    "faq2": "Rancho Cucamonga allows detached ADUs up to 1,200 square feet on qualifying lots. When the property qualifies, a JADU conversion is capped at 500 square feet.",
+    "faq3": "Most ADU applications in Rancho Cucamonga clear plan review in 8 to 12 weeks. Simple attached conversions usually move faster than new detached construction. Backlog in San Bernardino County occasionally extends review times near the top of that window."
   },
   {
     "city": "Murrieta",
@@ -2420,7 +2542,7 @@
       "phone": "(951) 304-2489",
       "email": "planning@murrietaca.gov",
       "address": "1 Town Square, Murrieta, CA 92562",
-      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "hours": "Mon–Fri, 8am–5pm",
       "links": {
         "permit_form": "https://www.murrieta.gov/permits",
         "zoning_map": "https://www.murrieta.gov/gis",
@@ -2440,7 +2562,9 @@
     "stripe_checkout_url": "",
     "stripe_product_id": "",
     "stripe_price_id": "",
-    "published": false
+    "published": false,
+    "faq2": "Murrieta allows detached ADUs up to 1,200 square feet on qualifying lots. Where junior ADUs (JADUs) are permitted, they are capped at 500 square feet under state law.",
+    "faq3": "Plan review in Murrieta typically runs 8 to 12 weeks, depending on how complete the application is. Attached ADU conversions are often processed ahead of detached builds. Backlog in Riverside County occasionally extends review times near the top of that window."
   },
   {
     "city": "Centennial",
@@ -2450,7 +2574,7 @@
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Required",
-    "additional": "<li>Minimum lot size may apply</li><li>Minimum 200 sq ft</li><li>Owner occupancy may be required</li><li>\u26a0\ufe0f CO has NO statewide ADU mandate \u2014 verify with city</li>",
+    "additional": "<li>Minimum lot size may apply</li><li>Minimum 200 sq ft</li><li>Owner occupancy may be required</li><li>⚠️ CO has NO statewide ADU mandate — verify with city</li>",
     "faq1": "This Colorado city regulates ADUs through local ordinance. Confirm the minimum lot size and owner occupancy rules with the planning department.",
     "year": "2026",
     "price": "14",
@@ -2460,7 +2584,7 @@
       "phone": "(303) 325-8000",
       "email": "planning@centennialco.gov",
       "address": "13133 E Arapahoe Rd, Centennial, CO 80112",
-      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "hours": "Mon–Fri, 8am–5pm",
       "links": {
         "permit_form": "https://www.centennial.gov/permits",
         "zoning_map": "https://www.centennial.gov/gis",
@@ -2473,14 +2597,16 @@
       },
       "notes": ""
     },
-    "intro": "In Arapahoe County, Centennial regulates ADUs through local ordinance. Colorado has no statewide ADU mandate, so the city's zoning code \u2014 including lot coverage and design standards \u2014 is the governing authority.",
+    "intro": "In Arapahoe County, Centennial regulates ADUs through local ordinance. Colorado has no statewide ADU mandate, so the city's zoning code — including lot coverage and design standards — is the governing authority.",
     "county": "Arapahoe County",
     "state_law": "local zoning ordinances, as Colorado has no statewide ADU mandate (HB 24-1152 addresses transit density)",
     "gumroad_link": "",
     "stripe_checkout_url": "",
     "stripe_product_id": "",
     "stripe_price_id": "",
-    "published": false
+    "published": false,
+    "faq2": "Centennial allows detached ADUs up to 1,000 square feet on qualifying lots. Where junior ADUs (JADUs) are permitted, they are capped at 500 square feet under state law.",
+    "faq3": "Expect plan review in Centennial to take 4 to 8 weeks for a complete application. Attached ADU conversions are often processed ahead of detached builds. Arapahoe County processing times vary seasonally, so the range above is a realistic guide."
   },
   {
     "city": "Longmont",
@@ -2490,7 +2616,7 @@
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Required",
-    "additional": "<li>Minimum lot size may apply</li><li>Minimum 200 sq ft</li><li>Owner occupancy may be required</li><li>\u26a0\ufe0f CO has NO statewide ADU mandate \u2014 verify with city</li>",
+    "additional": "<li>Minimum lot size may apply</li><li>Minimum 200 sq ft</li><li>Owner occupancy may be required</li><li>⚠️ CO has NO statewide ADU mandate — verify with city</li>",
     "faq1": "This Colorado city regulates ADUs through local ordinance. Confirm the minimum lot size and owner occupancy rules with the planning department.",
     "year": "2026",
     "price": "14",
@@ -2500,7 +2626,7 @@
       "phone": "(303) 651-8330",
       "email": "planning@longmontcolorado.gov",
       "address": "385 Kimbark St, Longmont, CO 80501",
-      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "hours": "Mon–Fri, 8am–5pm",
       "links": {
         "permit_form": "https://www.longmont.gov/permits",
         "zoning_map": "https://www.longmont.gov/gis",
@@ -2520,7 +2646,9 @@
     "stripe_checkout_url": "",
     "stripe_product_id": "",
     "stripe_price_id": "",
-    "published": false
+    "published": false,
+    "faq2": "Under Longmont zoning rules, a detached ADU can reach 1,000 square feet. Where junior ADUs (JADUs) are permitted, they are capped at 500 square feet under state law.",
+    "faq3": "Expect plan review in Longmont to take 4 to 8 weeks for a complete application. Simple attached conversions usually move faster than new detached construction. Boulder County processing times vary seasonally, so the range above is a realistic guide."
   },
   {
     "city": "Loveland",
@@ -2530,7 +2658,7 @@
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Required",
-    "additional": "<li>Minimum lot size may apply</li><li>Minimum 200 sq ft</li><li>Owner occupancy may be required</li><li>\u26a0\ufe0f CO has NO statewide ADU mandate \u2014 verify with city</li>",
+    "additional": "<li>Minimum lot size may apply</li><li>Minimum 200 sq ft</li><li>Owner occupancy may be required</li><li>⚠️ CO has NO statewide ADU mandate — verify with city</li>",
     "faq1": "This Colorado city regulates ADUs through local ordinance. Confirm the minimum lot size and owner occupancy rules with the planning department.",
     "year": "2026",
     "price": "14",
@@ -2540,7 +2668,7 @@
       "phone": "(970) 962-2523",
       "email": "planning@cityofloveland.org",
       "address": "500 E 3rd St, Loveland, CO 80537",
-      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "hours": "Mon–Fri, 8am–5pm",
       "links": {
         "permit_form": "https://www.loveland.gov/permits",
         "zoning_map": "https://www.loveland.gov/gis",
@@ -2560,7 +2688,9 @@
     "stripe_checkout_url": "",
     "stripe_product_id": "",
     "stripe_price_id": "",
-    "published": false
+    "published": false,
+    "faq2": "Under Loveland zoning rules, a detached ADU can reach 1,000 square feet. When the property qualifies, a JADU conversion is capped at 500 square feet.",
+    "faq3": "Most ADU applications in Loveland clear plan review in 4 to 8 weeks. Simple attached conversions usually move faster than new detached construction. Backlog in Larimer County occasionally extends review times near the top of that window."
   },
   {
     "city": "Northglenn",
@@ -2570,7 +2700,7 @@
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Required",
-    "additional": "<li>Minimum lot size may apply</li><li>Minimum 200 sq ft</li><li>Owner occupancy may be required</li><li>\u26a0\ufe0f CO has NO statewide ADU mandate \u2014 verify with city</li>",
+    "additional": "<li>Minimum lot size may apply</li><li>Minimum 200 sq ft</li><li>Owner occupancy may be required</li><li>⚠️ CO has NO statewide ADU mandate — verify with city</li>",
     "faq1": "This Colorado city regulates ADUs through local ordinance. Confirm the minimum lot size and owner occupancy rules with the planning department.",
     "year": "2026",
     "price": "14",
@@ -2580,7 +2710,7 @@
       "phone": "(303) 450-8740",
       "email": "planning@northglenn.org",
       "address": "11701 Community Center Dr, Northglenn, CO 80233",
-      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "hours": "Mon–Fri, 8am–5pm",
       "links": {
         "permit_form": "https://www.northglenn.gov/permits",
         "zoning_map": "https://www.northglenn.gov/gis",
@@ -2600,7 +2730,9 @@
     "stripe_checkout_url": "",
     "stripe_product_id": "",
     "stripe_price_id": "",
-    "published": false
+    "published": false,
+    "faq2": "Northglenn allows detached ADUs up to 1,000 square feet on qualifying lots. JADUs, where allowed locally, are limited to 500 square feet.",
+    "faq3": "Most ADU applications in Northglenn clear plan review in 4 to 8 weeks. Attached ADU conversions are often processed ahead of detached builds. Adams County processing times vary seasonally, so the range above is a realistic guide."
   },
   {
     "city": "Marysville",
@@ -2620,7 +2752,7 @@
       "phone": "(360) 363-8000",
       "email": "planning@marysvillewa.gov",
       "address": "501 Delta Ave, Marysville, WA 98270",
-      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "hours": "Mon–Fri, 8am–5pm",
       "links": {
         "permit_form": "https://www.marysville.gov/permits",
         "zoning_map": "https://www.marysville.gov/gis",
@@ -2640,7 +2772,9 @@
     "stripe_checkout_url": "",
     "stripe_product_id": "",
     "stripe_price_id": "",
-    "published": false
+    "published": false,
+    "faq2": "Marysville allows detached ADUs up to 1,000 square feet on qualifying lots. Where junior ADUs (JADUs) are permitted, they are capped at 500 square feet under state law.",
+    "faq3": "Most ADU applications in Marysville clear plan review in 6 to 10 weeks. Detached builds take longer than attached conversions in most cases. Backlog in Snohomish County occasionally extends review times near the top of that window."
   },
   {
     "city": "Sammamish",
@@ -2660,7 +2794,7 @@
       "phone": "(425) 295-0500",
       "email": "planning@sammamish.us",
       "address": "801 228th Ave SE, Sammamish, WA 98074",
-      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "hours": "Mon–Fri, 8am–5pm",
       "links": {
         "permit_form": "https://www.sammamish.gov/permits",
         "zoning_map": "https://www.sammamish.gov/gis",
@@ -2680,7 +2814,9 @@
     "stripe_checkout_url": "",
     "stripe_product_id": "",
     "stripe_price_id": "",
-    "published": false
+    "published": false,
+    "faq2": "In Sammamish, the maximum footprint for a detached ADU is 1,000 square feet. Where junior ADUs (JADUs) are permitted, they are capped at 500 square feet under state law.",
+    "faq3": "Expect plan review in Sammamish to take 6 to 10 weeks for a complete application. Detached builds take longer than attached conversions in most cases. Backlog in King County occasionally extends review times near the top of that window."
   },
   {
     "city": "Burien",
@@ -2700,7 +2836,7 @@
       "phone": "(206) 248-5500",
       "email": "planning@burienwa.gov",
       "address": "400 SW 152nd St, Burien, WA 98166",
-      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "hours": "Mon–Fri, 8am–5pm",
       "links": {
         "permit_form": "https://www.burien.gov/permits",
         "zoning_map": "https://www.burien.gov/gis",
@@ -2720,7 +2856,9 @@
     "stripe_checkout_url": "",
     "stripe_product_id": "",
     "stripe_price_id": "",
-    "published": false
+    "published": false,
+    "faq2": "Burien allows detached ADUs up to 1,000 square feet on qualifying lots. JADUs, where allowed locally, are limited to 500 square feet.",
+    "faq3": "Plan review in Burien typically runs 6 to 10 weeks, depending on how complete the application is. Attached ADU conversions are often processed ahead of detached builds. King County processing times vary seasonally, so the range above is a realistic guide."
   },
   {
     "city": "Lakewood",
@@ -2740,7 +2878,7 @@
       "phone": "(253) 983-7700",
       "email": "planning@cityoflakewood.us",
       "address": "6000 Main St SW, Lakewood, WA 98499",
-      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "hours": "Mon–Fri, 8am–5pm",
       "links": {
         "permit_form": "https://www.lakewood.gov/permits",
         "zoning_map": "https://www.lakewood.gov/gis",
@@ -2760,7 +2898,9 @@
     "stripe_checkout_url": "",
     "stripe_product_id": "",
     "stripe_price_id": "",
-    "published": false
+    "published": false,
+    "faq2": "In Lakewood, the maximum footprint for a detached ADU is 1,000 square feet. Where junior ADUs (JADUs) are permitted, they are capped at 500 square feet under state law.",
+    "faq3": "Most ADU applications in Lakewood clear plan review in 6 to 10 weeks. Attached ADU conversions are often processed ahead of detached builds. Backlog in Pierce County occasionally extends review times near the top of that window."
   },
   {
     "city": "Bend",
@@ -2780,7 +2920,7 @@
       "phone": "(541) 388-5580",
       "email": "planning@bendoregon.gov",
       "address": "710 NW Wall St, Bend, OR 97703",
-      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "hours": "Mon–Fri, 8am–5pm",
       "links": {
         "permit_form": "https://www.bend.gov/permits",
         "zoning_map": "https://www.bend.gov/gis",
@@ -2800,7 +2940,9 @@
     "stripe_checkout_url": "",
     "stripe_product_id": "",
     "stripe_price_id": "",
-    "published": false
+    "published": false,
+    "faq2": "In Bend, the maximum footprint for a detached ADU is 1,200 square feet. When the property qualifies, a JADU conversion is capped at 500 square feet.",
+    "faq3": "Plan review in Bend typically runs 5 to 9 weeks, depending on how complete the application is. Simple attached conversions usually move faster than new detached construction. Deschutes County staff workload can push approvals toward the upper end of that range during busy months."
   },
   {
     "city": "Medford",
@@ -2820,7 +2962,7 @@
       "phone": "(541) 774-2400",
       "email": "planning@ci.medford.or.us",
       "address": "411 W 8th St, Medford, OR 97501",
-      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "hours": "Mon–Fri, 8am–5pm",
       "links": {
         "permit_form": "https://www.medford.gov/permits",
         "zoning_map": "https://www.medford.gov/gis",
@@ -2840,7 +2982,9 @@
     "stripe_checkout_url": "",
     "stripe_product_id": "",
     "stripe_price_id": "",
-    "published": false
+    "published": false,
+    "faq2": "Medford allows detached ADUs up to 1,200 square feet on qualifying lots. JADUs, where allowed locally, are limited to 500 square feet.",
+    "faq3": "Most ADU applications in Medford clear plan review in 5 to 9 weeks. Simple attached conversions usually move faster than new detached construction. Backlog in Jackson County occasionally extends review times near the top of that window."
   },
   {
     "city": "Corvallis",
@@ -2860,7 +3004,7 @@
       "phone": "(541) 766-6900",
       "email": "planning@corvallisoregon.gov",
       "address": "501 SW Madison Ave, Corvallis, OR 97333",
-      "hours": "Mon\u2013Fri, 8am\u20135pm",
+      "hours": "Mon–Fri, 8am–5pm",
       "links": {
         "permit_form": "https://www.corvallis.gov/permits",
         "zoning_map": "https://www.corvallis.gov/gis",
@@ -2880,6 +3024,8 @@
     "stripe_checkout_url": "",
     "stripe_product_id": "",
     "stripe_price_id": "",
-    "published": false
+    "published": false,
+    "faq2": "Corvallis allows detached ADUs up to 1,200 square feet on qualifying lots. When the property qualifies, a JADU conversion is capped at 500 square feet.",
+    "faq3": "Most ADU applications in Corvallis clear plan review in 5 to 9 weeks. Attached ADU conversions are often processed ahead of detached builds. Backlog in Benton County occasionally extends review times near the top of that window."
   }
 ]

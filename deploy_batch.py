@@ -138,6 +138,8 @@ for c in all_published:
         "[OCCUPANCY_ROW]": occ_row,
         "[ADDITIONAL_REQUIREMENTS]": c.get("additional", ""),
         "[FAQ_1]": c.get("faq1", ""),
+        "[FAQ_2]": c.get("faq2", f"The maximum size for a detached ADU in {c['city']} is {c['max_size']} square feet, subject to setback requirements and lot coverage limits."),
+        "[FAQ_3]": c.get("faq3", f"Plan review in {c['city']} typically takes 4 to 8 weeks depending on application completeness and current workload."),
         "[YEAR]": c.get("year", "2026"),
         "[PRICE]": c.get("web_price", "12"),
         "[STRIPE_CHECKOUT_URL]": c.get("stripe_checkout_url", ""),
