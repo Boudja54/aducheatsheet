@@ -20,6 +20,7 @@ import stripe, json, os, sys
 # ============================================================
 DATA_FILE = "cities-data.json"
 TEMPLATE_FILE = "template-city.html"
+ROOT = os.path.dirname(os.path.abspath(__file__))
 CITIES_DIR = "cities"
 PRICES = {"CA": 1200, "WA": 1400, "CO": 1400, "OR": 1200, "TX": 1400, "AZ": 1400}
 
@@ -197,7 +198,19 @@ if os.path.exists("index.html"):
         print("  ⚠️  Marqueurs STATES_START/END absents — index.html non modifié (à vérifier manuellement)")
 
 # ============================================================
-# 7. SAUVEGARDER
+# 7. RÉGÉNÉRER SITEMAP.XML (toutes les villes publiées)
+# ============================================================
+print("\n🗺️  Régénération de sitemap.xml...")
+try:
+    import subprocess
+    r = subprocess.run([sys.executable, os.path.join(ROOT, "gen_sitemap.py")],
+                       capture_output=True, text=True, cwd=ROOT)
+    print(r.stdout.strip() or r.stderr.strip())
+except Exception as e:
+    print(f"  ⚠️ sitemap non régénéré: {e}")
+
+# ============================================================
+# 8. SAUVEGARDER
 # ============================================================
 with open(DATA_FILE, "w") as f:
     json.dump(cities, f, indent=2)
