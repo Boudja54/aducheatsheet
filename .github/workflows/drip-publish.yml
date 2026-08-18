@@ -6,7 +6,7 @@ name: Drip Publishing — ADUCheatSheet
 
 on:
   schedule:
-    - cron: '0 6 1,16 * *'   # 1er et 16 de chaque mois à 6h UTC
+    - cron: '0 11 1,16 * *'   # 1er et 16 de chaque mois à 11h UTC (off-peak DeepSeek -50%)
   workflow_dispatch:
     inputs:
       batch_size:
