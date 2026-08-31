@@ -74,6 +74,8 @@ for c in cities:
         "[OCCUPANCY_ROW]": occ_row,
         "[ADDITIONAL_REQUIREMENTS]": c.get("additional", ""),
         "[FAQ_1]": c.get("faq1", ""),
+        "[FAQ_2]": c.get("faq2", ""),
+        "[FAQ_3]": c.get("faq3", ""),
         "[YEAR]": c.get("year", "2026"),
         "[PRICE]": c.get("web_price", "12"),
         "[STRIPE_CHECKOUT_URL]": c.get("stripe_checkout_url", ""),
