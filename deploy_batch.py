@@ -138,6 +138,8 @@ for c in all_published:
         "[OCCUPANCY_ROW]": occ_row,
         "[ADDITIONAL_REQUIREMENTS]": c.get("additional", ""),
         "[FAQ_1]": c.get("faq1", ""),
+        "[FAQ_2]": c.get("faq2", ""),
+        "[FAQ_3]": c.get("faq3", ""),
         "[YEAR]": c.get("year", "2026"),
         "[PRICE]": c.get("web_price", "12"),
         "[STRIPE_CHECKOUT_URL]": c.get("stripe_checkout_url", ""),
@@ -145,6 +147,27 @@ for c in all_published:
     }
     for old, new in replacements.items():
         html = html.replace(old, new)
+
+    # SCHEMA.ORG JSON-LD (SEO : extraits enrichis Google) — même bloc que generate.py
+    faq_items = ""
+    for q in [c.get("faq1", ""), c.get("faq2", ""), c.get("faq3", "")]:
+        if q and len(q) > 30:
+            q_clean = q[:300].replace('"', "'")
+            q_name = q.split("?")[0][:90].strip()
+            if q_name:
+                faq_items += f'{{"@type":"Question","name":"{q_name}?","acceptedAnswer":{{"@type":"Answer","text":"{q_clean}"}}}},'
+    schema_json = f'''<script type="application/ld+json">
+{{"@context":"https://schema.org",
+"@graph":[
+{{"@type":"FAQPage","mainEntity":[{faq_items.rstrip(",")}]}},
+{{"@type":"LocalBusiness","name":"ADUCheatSheet - {c["city"]} ADU Guide",
+"description":"{c["city"]} ADU requirements and zoning laws for {c["state"]}",
+"areaServed":"{c["city"]}, {c["state_abbr"]}",
+"url":"https://aducheatsheet.com/cities/{city_filename(c["city"], c["state_abbr"])}",
+"address":{{"@type":"PostalAddress","addressLocality":"{c["city"]}","addressRegion":"{c["state_abbr"]}","addressCountry":"US"}}}}
+]}}
+</script>'''
+    html = html.replace("</head>", schema_json + "\n</head>")
 
     with open(os.path.join(CITIES_DIR, city_filename(c["city"], c["state_abbr"])), "w") as f:
         f.write(html)
