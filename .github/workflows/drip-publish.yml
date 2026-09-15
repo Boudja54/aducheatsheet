@@ -40,6 +40,9 @@ jobs:
           BATCH_SIZE: ${{ inputs.batch_size || '50' }}
         run: python deploy_batch.py
 
+      - name: Refresh sitemap (toujours, même si aucune ville publiée)
+        run: python gen_sitemap_v2.py
+
       - name: Commit & push
         run: |
           git config user.name "drip-publisher"

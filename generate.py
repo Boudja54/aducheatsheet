@@ -80,6 +80,8 @@ for c in cities:
         "[PRICE]": c.get("web_price", "12"),
         "[STRIPE_CHECKOUT_URL]": c.get("stripe_checkout_url", ""),
         "[RELATED_CITIES]": related_html,
+        "[SEO_TITLE]": c.get("seo_title") or f'{c["city"]} ADU Requirements and Zoning Laws — {c["state"]} | ADUCheatSheet',
+        "[SEO_DESC]": c.get("seo_desc") or f'Complete {c["city"]} ADU zoning guide. Maximum size, setbacks, parking rules, owner occupancy requirements in {c.get("county", "")}, {c["state"]}. Download your city-specific PDF cheat sheet.',
     }
     
     for old, new in replacements.items():
