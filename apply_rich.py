@@ -240,7 +240,7 @@ VALLEJO = {
     "state_law": (
         "California Government Code sections 66310 to 66342 (the ADU statutes, renumbered by "
         "SB 477 in 2024) layered on the Vallejo Municipal Code Chapter 16.303, which was "
-        "rewritten by Ordinance No. 1890 N.C.(2d), effective 8 October 2026"
+        "rewritten by Ordinance No. 1890 N.C.(2d) and takes effect on 8 October 2026"
     ),
     "intro": (
         "Vallejo replaced its entire ADU chapter in 2026. Ordinance No. 1890 N.C.(2d) was "
@@ -445,7 +445,7 @@ MODESTO = {
     "county": "Stanislaus County",
     "state_law": (
         "the Modesto Municipal Code Title 10, Chapter 4, Article 5, sections 10-4.501 to "
-        "10-4.512, which implements California Government Code section 66310 et seq."
+        "10-4.512, which implements California Government Code sections 66310 to 66342"
     ),
     "intro": (
         "Modesto's ADU rules sit in the city's own land use code &mdash; Title 10, Chapter 4, "
