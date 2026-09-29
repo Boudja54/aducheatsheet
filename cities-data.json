@@ -3,7 +3,7 @@
     "city": "Bakersfield",
     "state": "California",
     "state_abbr": "CA",
-    "max_size": "1,200",
+    "max_size": "1,200 sq ft",
     "setbacks": "4 ft rear, 4 ft side",
     "parking": "Required (1 space, tandem OK; waived near transit)",
     "occupancy": "Not required (for ADUs; required for JADUs)",
@@ -50,7 +50,7 @@
     "city": "Fresno",
     "state": "California",
     "state_abbr": "CA",
-    "max_size": "1,200",
+    "max_size": "1,200 sq ft",
     "setbacks": "4 ft rear, 4 ft side",
     "parking": "Not required",
     "occupancy": "Required",
@@ -90,12 +90,12 @@
     "city": "Modesto",
     "state": "California",
     "state_abbr": "CA",
-    "max_size": "1,200",
-    "setbacks": "4 ft rear, 4 ft side",
-    "parking": "Not required",
-    "occupancy": "Not required",
-    "additional": "<li>ADU allowed by right in residential zones</li><li>Minimum 150 sq ft for detached ADUs</li><li>Can be attached or detached</li><li>Permit fees vary by size</li>",
-    "faq1": "What does Modesto land use law say about ADUs? Modesto allows ADUs under California state law and does not impose additional restrictions beyond the state minimums. Most residential properties in Stanislaus County qualify for by-right ADU development.",
+    "max_size": "1,200 sq ft for a detached ADU, which also cannot exceed the main home's floor area; an attached ADU is capped at 50% of the main home but never below 800 sq ft; a JADU is limited to 500 sq ft",
+    "setbacks": "At least 4 ft side and 4 ft rear for a new detached ADU; a converted structure only needs enough clearance for fire and safety; lot coverage limits do not apply to an ADU of 800 sq ft or less",
+    "parking": "No more than 1 off-street space may be required, and zero in six cases &mdash; within 1/2 mile of transit, in a historic or architecturally significant district, inside the main or accessory structure, on-street permits required but not offered to the ADU occupant, a car-share vehicle within one block, or an ADU filed with a new dwelling permit on the same lot",
+    "occupancy": "Not required for an ADU. A JADU requires a recorded deed restriction that the owner live in the JADU or the remaining part of the main home",
+    "additional": "<ul>\n  <li>Up to <strong>2 additional units</strong> on a single-family lot &mdash; any combination of attached, detached or converted ADU plus one JADU; three homes counting the main house</li>\n  <li>ADUs are allowed in single-family, multifamily and mixed-use zones; JADUs only in single-family zones where a house exists or is proposed</li>\n  <li>Detached ADU height: <strong>16 ft</strong>, or 18 ft within 1/2 mile of a major transit stop, plus 2 ft for an aligned roof pitch; attached ADUs up to <strong>25 ft</strong> and two storeys</li>\n  <li>Approval is <strong>ministerial</strong> with no public hearing, and the city must decide within 60 days or the ADU is deemed approved</li>\n  <li><strong>No impact fee</strong> on an ADU under 750 sq ft; larger ADUs are charged proportionally to the main home</li>\n  <li>Building permit fee: <strong>$2,429 per permit</strong> for ADUs and small dwellings up to 1,200 sq ft under the FY 2026-27 fee schedule, including mechanical, plumbing and electrical</li>\n  <li>Photovoltaic (solar) plans are required for new-construction detached ADUs under the California Energy Code</li>\n  <li>Fire sprinklers cannot be required in the ADU unless the main home needs them, and no passageway may be required</li>\n  <li>Rentals must be for 30 days or more, and the JADU cannot be sold separately from the main house</li>\n  <li>The City Council may designate areas where ADUs are not allowed because of water or sewer infrastructure constraints</li>\n</ul>",
+    "faq1": "Are ADUs allowed in Modesto? Yes. Modesto allows ADUs in any zone that permits single-family, multifamily or mixed-use development, and JADUs in single-family zones where a house exists or is proposed. Approval is ministerial with no public hearing, and the city must decide within 60 days of a complete application or the permit is deemed approved.",
     "year": "2026",
     "price": "12",
     "payhip_link": "[PAYHIP_LINK_MODESTO]",
@@ -115,24 +115,82 @@
         "plan_check": "$800"
       }
     },
-    "intro": "Located in Stanislaus County, Modesto's ADU regulations align with California's statewide mandates. The city encourages detached ADUs as a solution to local housing needs, with most residential properties qualifying for by-right development under state law.",
+    "intro": "Modesto's ADU rules sit in the city's own land use code &mdash; Title 10, Chapter 4, Article 5 of the Modesto Municipal Code, added by Ordinance 3762-C.S. and amended in 2025. Modesto is an incorporated charter city, so Stanislaus County's ADU chapter (21.74) does not apply inside the city limits; the county's rules govern unincorporated land only, although its free ADU plan sets are accepted in Modesto.",
     "county": "Stanislaus County",
-    "state_law": "California's AB 68 (2020), AB 881 (2021), and AB 3182 (2024) which together establish a statewide ADU framework",
+    "state_law": "the Modesto Municipal Code Title 10, Chapter 4, Article 5, sections 10-4.501 to 10-4.512, which implements California Government Code section 66310 et seq.",
     "gumroad_link": "https://diverty2.gumroad.com/l/qlorx",
     "stripe_checkout_url": "https://buy.stripe.com/4gM00jaGD3D7fD59peeME02",
     "stripe_product_id": "prod_UytkwcvJv5YqeS",
     "stripe_price_id": "price_1TyvwlDipowTiYTYuurCgsFt",
     "published": true,
-    "faq2": "What is the maximum ADU size allowed in Modesto? ADUs in Modesto can be up to 1,200 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Modesto planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Modesto? ADUs in Modesto generally require setbacks of 4 ft rear, 4 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning.",
-    "seo_title": "Modesto ADU & Land Use Law — Stanislaus County Zoning (2026)",
-    "seo_desc": "Modesto land use law and ADU rules: what you can build in Stanislaus County — 1,200 sq ft max size, 4 ft setbacks, parking and permit steps. Get the Modesto ADU cheat sheet."
+    "faq2": "What is the maximum ADU size in Modesto? A detached ADU can be up to 1,200 sq ft and can never exceed the floor area of the main home. An attached ADU is capped at 50% of the main home's floor area, but the code states that cap cannot be used to refuse an attached ADU of up to 800 sq ft. A JADU is limited to 500 sq ft inside the walls of the house.",
+    "faq3": "What are Modesto's ADU setback and parking requirements? A new detached ADU needs a minimum 4 ft side and 4 ft rear setback; a structure converted into an ADU only needs enough clearance for fire and safety. Parking is capped at one off-street space per ADU, and no space may be required when the unit is within 1/2 mile of transit, in a historic district, inside the main or accessory structure, on a permit-only street where the ADU occupant cannot get a permit, within a block of a car-share vehicle, or built together with a new dwelling permit on the same lot.",
+    "seo_title": "Modesto ADU Rules 2026: Land Use Law, Size, Fees & Permits",
+    "seo_desc": "Modesto ADU requirements from the city's own land use code (Title 10, Article 5): 1,200 sq ft detached, 4 ft setbacks, parking limits, the $2,429 flat permit fee, no minimum size and ADU Express same-day review.",
+    "h1": "Modesto ADU Rules &amp; Land Use Law: Size, Setbacks, Parking &amp; Permits",
+    "long_content": "<h2>Which law applies to a Modesto ADU: city, county or state?</h2>\n<p>All three, in this order. Modesto's own code governs first: the city is incorporated, so the rules that count inside the city limits are Title 10, Chapter 4, Article 5 of the Modesto Municipal Code (sections 10-4.501 to 10-4.512), not Stanislaus County's Chapter 21.74. Where a local standard conflicts with California Government Code section 66310 et seq., state law applies &mdash; section 10-4.512 says so directly.</p><p>One practical consequence: the county publishes <strong>free ADU plan sets</strong> (405 sq ft, 744 sq ft and 1,192 sq ft, drawn to the 2025 California Building Code) that can be used in Modesto as well as in the unincorporated county. For a new-construction detached ADU, those drawings can remove most of the design cost before you ever speak to a plan reviewer.</p>\n<h2>How many ADUs can I build in Modesto?</h2>\n<ul>\n  <li><strong>Single-family lot:</strong> up to two additional units &mdash; any combination of attached, detached or converted ADU, plus one JADU.</li>\n  <li><strong>Multifamily building:</strong> ADUs inside existing non-livable space can be at least one and up to 25% of the existing units; up to 8 detached ADUs on a lot with an existing multifamily building, and up to 2 detached ADUs where the multifamily building is proposed.</li>\n  <li><strong>Places of worship:</strong> up to two detached ADUs of no more than 1,200 sq ft each, with 4 ft interior side and rear setbacks and no extra parking where one existing space is reserved per ADU.</li>\n</ul><p>California also requires Modesto to approve certain ADU types ministerially, and the city's code says so explicitly in section 10-4.511. Those units cannot be refused because the property has non-conforming zoning conditions, and correcting those conditions cannot be made a condition of approval.</p>\n<h2>Modesto ADU size, height and setback limits</h2>\n<table class=\"data-table\"><thead><tr><th>Item</th><th>Modesto limit</th></tr></thead><tbody><tr><td>Detached ADU maximum</td><td>1,200 sq ft, and never more than the main home's floor area</td></tr><tr><td>Attached ADU maximum</td><td>50% of the main home's floor area, but the city cannot refuse an attached ADU of up to 800 sq ft</td></tr><tr><td>JADU maximum</td><td>500 sq ft, inside the walls of the house</td></tr><tr><td>Minimum ADU size</td><td>None in the code &mdash; state law bars a minimum that would exclude an efficiency unit</td></tr><tr><td>Expansion of a converted ADU</td><td>Up to 150 sq ft beyond the existing structure, for ingress and egress only</td></tr><tr><td>Detached ADU height</td><td>16 ft; 18 ft within 1/2 mile of a major transit stop; plus 2 ft for an aligned roof pitch</td></tr><tr><td>Attached ADU height</td><td>25 ft or the zone limit for the main home, whichever is lower; two storeys maximum</td></tr><tr><td>Setbacks, new detached</td><td>4 ft side and 4 ft rear minimum</td></tr><tr><td>Setbacks, converted structure</td><td>Sufficient for fire and safety only</td></tr><tr><td>Lot coverage</td><td>Limits do not apply to an ADU of 800 sq ft or less</td></tr><tr><td>Parking</td><td>1 space maximum, zero in six cases</td></tr><tr><td>Owner occupancy</td><td>Not required for an ADU; required for a JADU</td></tr></tbody></table>\n<h2>Parking in Modesto: one space maximum, none in six cases</h2>\n<p>Modesto cannot require more than one off-street space for an ADU, and a tandem space in an existing driveway counts. Uncovered spaces may sit in the required front setback where a driveway already exists, or in the rear setback where the lot has alley access. No space at all may be required in these six situations:</p><ul>\n  <li>the ADU is within 1/2 mile walking distance of public transit;</li>\n  <li>it is in an architecturally or historically significant district;</li>\n  <li>it is part of the main residence or an existing accessory structure;</li>\n  <li>the street requires permits but no permit is offered to the ADU occupant;</li>\n  <li>a car-share vehicle is available within one block;</li>\n  <li>the ADU permit is filed together with a new single-family or multifamily dwelling permit on the same lot.</li>\n</ul><p>Parking that disappears when a garage or carport is demolished or converted does <strong>not</strong> have to be replaced.</p>\n<h2>Modesto's ADU Express program: same-day plan review</h2>\n<p>Modesto runs an appointment-based <strong>ADU Express</strong> service that coordinates Building Safety, Fire, Planning and Engineering in one review session for ADU and JADU projects that qualify for ministerial approval. Same-day approval requires plans prepared by a professional designer, licensed architect or engineer. Appointments are booked through Building Safety at 209-577-5232, extension 0; the program's flyer lists Tuesday sessions from 10:00 to 11:00 a.m.</p><p>The city describes an eight-step path: create a plan, get planning advice, prepare the submittal package, apply through the eTRAKiT portal, hire licensed professionals, go through staff plan review, receive the permit, then build and inspect. Housing questions go to the Community Development Division at housing@modestogov.com or 209-577-5211; planning questions to 209-577-5267.</p>\n<h2>What a Modesto ADU costs: $2,429 per permit</h2>\n<p>The FY 2026-27 Building Safety fee schedule charges <strong>$2,429 per permit</strong> for accessory dwelling units and small dwellings up to 1,200 sq ft, covering mechanical, plumbing and electrical work, payable at application. On top of that, <strong>no impact fee applies to an ADU under 750 sq ft</strong>, and above that threshold fees must be charged in proportion to the main dwelling's square footage &mdash; not at the full rate for a new house.</p><p>Financial help exists: CalHFA's ADU grant programme has offered up to $40,000, and local options include the Valley First Credit Union Expand.Enhance.Empower loan programme and Stanislaus Equity Partners. Beware of older guides quoting Modesto's \"ADU Development Fees 2022-2023\" document &mdash; that link is dead and the numbers are obsolete.</p>\n<h2>Conversions, as-built drawings and unpermitted space</h2>\n<p>If you are converting a garage, a workshop or an unpermitted living area, Modesto does not require a setback beyond what fire and safety need, allows expansion of up to 150 sq ft of the existing structure for ingress and egress, waives lot coverage limits for units of 800 sq ft or less, and prohibits the city from requiring you to correct non-conforming zoning conditions as a condition of approval.</p><p>What reviewers will still need is a clear picture of how the structure actually exists today &mdash; that is what a conversion set of drawings has to document. California law also prevents the city from denying a permit because of building-code violations or unpermitted structures, as long as the ADU itself is built to code.</p>\n",
+    "faqs": [
+      {
+        "q": "What does Modesto land use law say about ADUs?",
+        "a": "ADUs are governed by the Modesto Municipal Code Title 10, Chapter 4, Article 5, sections 10-4.501 to 10-4.512. That article sets where ADUs are allowed, the size and height limits, setbacks, parking, the JADU owner-occupancy deed restriction and the fee rules, and it says that where a local standard conflicts with California Government Code section 66310 et seq., state law applies. It is a city code, not a county one: Stanislaus County's Chapter 21.74 has no force inside Modesto's city limits."
+      },
+      {
+        "q": "Does Modesto require a minimum ADU size?",
+        "a": "No. Modesto's code sets no minimum floor area for an ADU, and California law forbids a minimum that would prevent an efficiency unit. Guides quoting a 150 sq ft minimum for Modesto are not supported by the current code."
+      },
+      {
+        "q": "How much does a Modesto ADU permit cost?",
+        "a": "$2,429 per permit for an ADU or small dwelling up to 1,200 sq ft under the FY 2026-27 fee schedule, including mechanical, plumbing and electrical, payable when you apply. Separately, no impact fee applies to an ADU under 750 sq ft, and larger units are charged proportionally to the main home rather than at full new-house rates."
+      },
+      {
+        "q": "Can I convert my garage into an ADU in Modesto?",
+        "a": "Yes. A conversion inside or replacing an existing structure needs only enough setback for fire and safety, may expand the structure by up to 150 sq ft for ingress and egress, is exempt from lot coverage limits up to 800 sq ft, and the lost parking does not have to be replaced."
+      },
+      {
+        "q": "Do I have to live in the property to rent out a Modesto ADU?",
+        "a": "No for an ADU — Modesto does not require owner occupancy for ADUs, and state law bars the requirement. A JADU is different: before final inspection the owner must record a deed restriction agreeing to live in the JADU or the rest of the house at all times, unless the owner is a government agency, land trust or housing organisation. Rentals must run 30 days or longer."
+      },
+      {
+        "q": "How long does a Modesto ADU permit take?",
+        "a": "Ministerial review must be completed within 60 days of a complete application, and if the city takes no action the ADU is deemed approved. Modesto also runs ADU Express, an appointment-based session that reviews an eligible ADU with Building Safety, Fire, Planning and Engineering at once and can approve it the same day when the plans are prepared by a licensed professional."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Modesto Municipal Code Title 10, Ch. 4, Art. 5 &mdash; Accessory Dwelling Units (Municode)",
+        "url": "https://library.municode.com/ca/modesto/codes/code_of_ordinances?nodeId=TIT10ZORE_CH4DEST_ART5ACDWUN"
+      },
+      {
+        "label": "City of Modesto &mdash; Accessory Dwelling Units program page",
+        "url": "https://www.modestogov.com/2845/Accessory-Dwelling-Units"
+      },
+      {
+        "label": "City of Modesto &mdash; ADU Express flyer (PDF)",
+        "url": "https://www.modestogov.com/DocumentCenter/View/26117"
+      },
+      {
+        "label": "City of Modesto &mdash; Building Safety fees (FY 2026-27)",
+        "url": "https://www.modestogov.com/3308/Building-Safety-Fees"
+      },
+      {
+        "label": "California Government Code Chapter 13 &mdash; Accessory Dwelling Units (sections 66310 to 66342)",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=GOV&division=1.&title=7.&part=&chapter=13.&article="
+      },
+      {
+        "label": "HCD &mdash; ADU Handbook (January 2025)",
+        "url": "https://www.hcd.ca.gov/sites/default/files/docs/policy-and-research/adu-handbook-update.pdf"
+      },
+      {
+        "label": "Stanislaus County &mdash; ADUs and free plan sets (unincorporated areas; plan sets usable in Modesto)",
+        "url": "https://www.stancounty.com/planning/ADUs/"
+      }
+    ]
   },
   {
     "city": "Stockton",
     "state": "California",
     "state_abbr": "CA",
-    "max_size": "1,200",
+    "max_size": "1,200 sq ft",
     "setbacks": "4 ft rear, 4 ft side",
     "parking": "Not required",
     "occupancy": "Not required",
@@ -172,7 +230,7 @@
     "city": "Santa Rosa",
     "state": "California",
     "state_abbr": "CA",
-    "max_size": "1,200",
+    "max_size": "1,200 sq ft",
     "setbacks": "4 ft rear, 4 ft side",
     "parking": "Not required",
     "occupancy": "Not required",
@@ -212,7 +270,7 @@
     "city": "Oceanside",
     "state": "California",
     "state_abbr": "CA",
-    "max_size": "1,200",
+    "max_size": "1,200 sq ft",
     "setbacks": "4 ft rear, 4 ft side",
     "parking": "Not required",
     "occupancy": "Not required",
@@ -252,12 +310,12 @@
     "city": "Vallejo",
     "state": "California",
     "state_abbr": "CA",
-    "max_size": "1,200",
-    "setbacks": "4 ft rear, 4 ft side",
-    "parking": "Not required",
-    "occupancy": "Not required",
-    "additional": "<li>ADU by right in residential zones</li><li>Minimum 150 sq ft</li><li>Maximum 16 ft height</li><li>Conversion of garages allowed</li>",
-    "faq1": "Does Vallejo allow ADUs? Vallejo follows California state ADU law and allows accessory dwelling units on most residential lots in Solano County. The city encourages ADU construction as part of its housing element plan and applies local design review standards for the North Bay.",
+    "max_size": "1,200 sq ft for a detached ADU; an attached ADU is capped at the lesser of 50% of the main home's floor area or 1,200 sq ft; garage and interior conversions have no size limit",
+    "setbacks": "4 ft side and 4 ft rear for new units; no setback at all for a conversion or a JADU; the front setback follows the underlying zoning district (the city's summary sheet lists 15 ft)",
+    "parking": "1 off-street space per ADU (tandem counts) unless an exemption applies &mdash; no space is required for an ADU of 500 sq ft or less, within 1/2 mile of transit, in a historic district, inside the main or accessory structure, on a permit-only street where no permit is offered to the ADU occupant, or where a car-share vehicle sits within one block",
+    "occupancy": "Not required for an ADU. A JADU requires owner occupancy today; from 8 October 2026 only where it shares sanitation facilities with the main home",
+    "additional": "<ul>\n  <li>Up to <strong>3 units</strong> on a single-family lot: 1 JADU, plus one attached or conversion ADU, plus one detached ADU</li>\n  <li>On a lot with an existing multifamily building: up to <strong>8 detached ADUs</strong>, capped at the number of existing units; ADUs created inside existing non-livable space can be at least 1 and up to 25% of the existing units</li>\n  <li>Detached ADU height: <strong>16 ft</strong>, rising to <strong>18 ft</strong> (plus a 2 ft roof-pitch allowance) within 1/2 mile of a major transit stop; attached ADUs may reach <strong>25 ft</strong></li>\n  <li><strong>No replacement parking</strong> is required when a garage or carport is demolished or converted for an ADU</li>\n  <li>Impact fees apply only to new ADUs of <strong>750 sq ft or more</strong>, and must be charged proportionally to the main home's fees; conversions and JADUs pay no new utility connection fees</li>\n  <li>New detached ADUs need solar panels under the California Energy Code (exempt below 500 sq ft or 1.8 kW)</li>\n  <li>Fire sprinklers cannot be required in an ADU unless the main home already requires them</li>\n  <li>Rentals must run <strong>30 consecutive days or longer</strong>; the ADU cannot be sold separately, and the deed restriction is recorded with the Solano County Assessor/Recorder</li>\n  <li>Approval is <strong>ministerial</strong> &mdash; no public hearing &mdash; and the city must decide within 60 days of a complete application or the permit is deemed approved</li>\n  <li>An ADU built before 1 January 2020 without permits can be legalised, with enforcement on health and safety issues delayed to 1 January 2030</li>\n</ul>",
+    "faq1": "Are ADUs allowed in Vallejo? Yes. Vallejo allows ADUs and JADUs on residential lots that have a proposed or existing dwelling, and approval is ministerial with no public hearing. Chapter 16.303 was rewritten by Ordinance No. 1890 N.C.(2d), effective 8 October 2026.",
     "year": "2026",
     "price": "12",
     "payhip_link": "[PAYHIP_LINK_VALLEJO]",
@@ -277,24 +335,90 @@
         "plan_check": "$800"
       }
     },
-    "intro": "Situated in Solano County in the North Bay, Vallejo benefits from California's streamlined ADU laws while maintaining local design review standards. The city views ADUs as key to meeting its Regional Housing Needs Allocation (RHNA) targets.",
+    "intro": "Vallejo replaced its entire ADU chapter in 2026. Ordinance No. 1890 N.C.(2d) was adopted on 8 September 2026 and takes effect on 8 October 2026, turning a six-section chapter into a new fifteen-section Chapter 16.303. The figures below are correct under both the outgoing and the incoming chapter, with two exceptions: the minimum unit size rises from 150 to 190 sq ft, and JADU owner occupancy narrows to shared-sanitation cases only.",
     "county": "Solano County",
-    "state_law": "California's AB 68 (2020), AB 881 (2021), and AB 3182 (2024) which together establish a statewide ADU framework",
+    "state_law": "California Government Code sections 66310 to 66342 (the ADU statutes, renumbered by SB 477 in 2024) layered on the Vallejo Municipal Code Chapter 16.303, which was rewritten by Ordinance No. 1890 N.C.(2d), effective 8 October 2026",
     "gumroad_link": "https://diverty2.gumroad.com/l/tkqwcs",
     "stripe_checkout_url": "https://buy.stripe.com/28EeVd5mj4HbduX8laeME06",
     "stripe_product_id": "prod_UytkpOqfFWVViS",
     "stripe_price_id": "price_1TyvwpDipowTiYTYuEzAdVr1",
     "published": true,
-    "faq2": "What is the maximum ADU size allowed in Vallejo? ADUs in Vallejo can be up to 1,200 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Vallejo planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Vallejo? ADUs in Vallejo generally require setbacks of 4 ft rear, 4 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning.",
-    "seo_title": "Vallejo ADU Rules — Solano County, CA Zoning & Permits (2026)",
-    "seo_desc": "ADU rules in Vallejo, Solano County CA: 1,200 sq ft maximum size, 4 ft setbacks, parking rules and permit steps under California state law. Get the Vallejo ADU cheat sheet."
+    "faq2": "How big can an ADU be in Vallejo? A detached ADU can be up to 1,200 sq ft. An attached ADU is capped at the lesser of 50% of the main home's floor area or 1,200 sq ft. Garage and interior conversions have no size limit. The minimum unit size becomes 190 sq ft on 8 October 2026, up from 150 sq ft.",
+    "faq3": "What are the setback and parking requirements for an ADU in Vallejo? New units need 4 ft side and 4 ft rear setbacks; conversions and JADUs need none. One off-street parking space per ADU is required unless an exemption applies &mdash; an ADU of 500 sq ft or less, within 1/2 mile of transit, in a historic district, inside the main or accessory structure, on a permit-only street where no permit is offered to the ADU occupant, or within one block of a car-share vehicle. No replacement parking is needed for a garage conversion.",
+    "seo_title": "Vallejo ADU Rules 2026: Size, Setbacks, Parking & Permits",
+    "seo_desc": "Vallejo ADU requirements under the new Ordinance 1890 and California state law: 1,200 sq ft detached, 4 ft setbacks, parking exemptions, JADU rules, fees and the 60-day approval deadline.",
+    "h1": "Vallejo ADU Rules (Solano County): Size, Setbacks, Parking &amp; Permits",
+    "long_content": "<h2>Vallejo's ADU ordinance changed in 2026 &mdash; what that means for you</h2>\n<p>Vallejo repealed and replaced Chapter 16.303 in its entirety. Ordinance No. 1890 N.C.(2d) was introduced on 4 August 2026, adopted on 8 September 2026, and became effective on <strong>8 October 2026</strong> after the standard 30-day period. Until that date the old six-section chapter still governs.</p><p>There is a second layer to the story. On 8 October 2025 the state Department of Housing and Community Development wrote to Vallejo noting that the most recent ADU ordinance on file dated from 2018 and may not comply with state ADU law. Under Government Code section 66316, an ADU ordinance that fails to meet state law is <strong>null and void</strong> &mdash; and state standards apply instead. Ordinance 1890 is the city's compliance response.</p><p>The practical rule for a homeowner: if a local standard blocks your project, ask whether it is stricter than state law allows. Where the two conflict, state law wins (VMC section 16.303.15).</p>\n<h2>How many ADUs can I build on a Vallejo lot?</h2>\n<ul>\n  <li><strong>Single-family lot:</strong> three units in total &mdash; one JADU, one attached or conversion ADU, and one detached ADU.</li>\n  <li><strong>Lot with an existing multifamily building:</strong> up to 8 detached ADUs, capped at the number of existing units; conversion ADUs inside existing non-livable space are allowed at a minimum of one and up to 25% of the existing units.</li>\n  <li><strong>Lot with a proposed multifamily building:</strong> up to 2 detached ADUs.</li>\n  <li>ADUs and JADUs do <strong>not</strong> count toward the site's allowable residential density.</li>\n</ul><p>On top of these local limits, California requires every city to approve certain ADU types ministerially, including one ADU plus one JADU on a single-family lot and a detached new-construction ADU of up to 800 sq ft with 4 ft side and rear setbacks. Those by-right units cannot be refused for parking, or because the site has non-conforming conditions.</p>\n<h2>Vallejo ADU size, height and setback limits</h2>\n<table class=\"data-table\"><thead><tr><th>Item</th><th>Vallejo limit</th></tr></thead><tbody><tr><td>Detached ADU maximum</td><td>1,200 sq ft</td></tr><tr><td>Attached ADU maximum</td><td>Lesser of 50% of the main home's floor area or 1,200 sq ft</td></tr><tr><td>Conversion ADU (garage, interior)</td><td>No minimum or maximum floor area</td></tr><tr><td>Minimum unit size</td><td>190 sq ft from 8 October 2026 (150 sq ft before that)</td></tr><tr><td>JADU</td><td>500 sq ft maximum, and it must sit within the walls of the house</td></tr><tr><td>Detached ADU height</td><td>16 ft; 18 ft near major transit or on a multifamily multistory lot, plus 2 ft for an aligned roof pitch</td></tr><tr><td>Attached ADU height</td><td>Up to 25 ft, or the main home's limit if lower</td></tr><tr><td>Side and rear setbacks</td><td>4 ft for new units; none for conversions or JADUs</td></tr><tr><td>Front setback</td><td>Follows the base zoning district (the city summary sheet lists 15 ft)</td></tr><tr><td>Parking</td><td>1 space per ADU unless an exemption applies</td></tr><tr><td>Owner occupancy</td><td>Not required for an ADU; required for a JADU in shared-sanitation cases</td></tr><tr><td>Rental term</td><td>30 consecutive days or more</td></tr></tbody></table>\n<h2>Parking: Vallejo does require a space, with a long list of exceptions</h2>\n<p>Most summaries of Vallejo's rules state that no parking is required. That is wrong. The city requires <strong>one off-street space per ADU</strong>, and tandem spaces count. A space cannot be required, however, in any of these cases:</p><ul>\n  <li>the ADU is 500 sq ft or less;</li>\n  <li>it sits within 1/2 mile walking distance of public transit;</li>\n  <li>it is in a historic district;</li>\n  <li>it is located entirely within the main dwelling or an accessory structure;</li>\n  <li>the street is permit-parking only and the city does not offer a permit to the ADU occupant;</li>\n  <li>a car-share vehicle is available within one block.</li>\n</ul><p>Two further points save money. <strong>No replacement parking</strong> is required when you demolish or convert a garage or carport for the ADU, and the by-right units listed in Government Code section 66323 cannot be conditioned on parking at all.</p>\n<h2>Owner occupancy, renting and selling a Vallejo ADU</h2>\n<ul>\n  <li><strong>An ADU does not require owner occupancy.</strong> State law bars the requirement for ADUs.</li>\n  <li><strong>A JADU does</strong> under the current chapter; from 8 October 2026 the requirement applies only when the JADU shares sanitation facilities with the main home.</li>\n  <li><strong>Rentals must be 30 days or longer.</strong> Short-term and vacation rentals of an ADU are not allowed in Vallejo.</li>\n  <li><strong>The unit cannot be sold separately</strong> from the main house, and the deed restriction that records these limits is filed with the Solano County Assessor/Recorder &mdash; that is the county's only role inside the city, since Solano County's own zoning chapter governs unincorporated land only.</li>\n</ul>\n<h2>Permits, fees and the 60-day rule</h2>\n<ul>\n  <li><strong>Ministerial approval, no hearing.</strong> The city must approve or deny a complete application within 60 days; if it does nothing, the permit is <strong>deemed approved</strong>.</li>\n  <li><strong>The 800 sq ft by-right ADU.</strong> Vallejo must allow at least an 800 sq ft ADU with 4 ft side and rear setbacks, and site rules such as lot coverage, floor-area ratio, open space and front setbacks cannot be used to preclude it.</li>\n  <li><strong>Impact fees only above 750 sq ft</strong>, and only in proportion to what the main home would pay. Conversions and JADUs are not charged new utility connection or capacity fees.</li>\n  <li><strong>Design standards apply narrowly:</strong> objective design rules for newly built attached or detached ADUs over 800 sq ft must be met; they do not apply to by-right state units.</li>\n  <li><strong>Fire sprinklers and passageways cannot be imposed</strong> beyond what the main residence already requires.</li>\n  <li><strong>Unpermitted ADUs:</strong> a unit built before 1 January 2020 can be legalised, and enforcement is delayed to 1 January 2030 where there is no health or safety issue.</li>\n</ul><p>Because the ordinance changed in October 2026, confirm the fee schedule and front setback for your specific zoning district with Vallejo Planning before you draw anything. The figures above come from the ordinance text, the city's own ADU summary sheet and California statute &mdash; all linked below.</p>\n",
+    "faqs": [
+      {
+        "q": "How many ADUs can I build in Vallejo?",
+        "a": "On a single-family lot, three units in total: one JADU plus one attached or conversion ADU plus one detached ADU. A lot with an existing multifamily building can take up to 8 detached ADUs, capped at the number of existing units, and interior conversion ADUs can be at least one and up to 25% of the existing units."
+      },
+      {
+        "q": "Do I have to live in the property to rent out a Vallejo ADU?",
+        "a": "No for an ADU — California law bars an owner-occupancy requirement for ADUs and Vallejo dropped it. A JADU does require owner occupancy today, and from 8 October 2026 it does so only where the JADU shares sanitation facilities with the main home. Rentals must be for 30 consecutive days or longer."
+      },
+      {
+        "q": "Can I convert my garage into an ADU in Vallejo?",
+        "a": "Yes. A legally built garage, barn or studio can be converted, and Vallejo treats a converted garage as a conversion ADU: no setback requirement, no minimum or maximum floor area, and no replacement parking. Demolishing a detached garage can be permitted at the same time as the ADU."
+      },
+      {
+        "q": "How long does a Vallejo ADU permit take?",
+        "a": "Vallejo must approve or deny a complete ADU application within 60 days, and the review is ministerial with no public hearing. If the city misses the deadline, the permit is deemed approved under state law."
+      },
+      {
+        "q": "Do Vallejo's rules or California's rules apply?",
+        "a": "Both, and state law wins where they conflict. California's ADU statutes (Government Code sections 66310 to 66342) set the floor: they limit what a city can require on size, setbacks, parking, owner occupancy and fees. Vallejo's chapter 16.303 adds local standards, but section 66316 makes a non-compliant ordinance null and void — which is why the state sent Vallejo a technical assistance letter in October 2025."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Vallejo Ordinance No. 1890 N.C.(2d) &mdash; full ordinance text (PDF)",
+        "url": "https://www.cityofvallejo.net/common/pages/GetFile.ashx?key=anxGAdOC"
+      },
+      {
+        "label": "City of Vallejo &mdash; ADU Ordinance Update project page",
+        "url": "https://www.vallejo.gov/our_city/departments_divisions/planning_development_services/planning_division/long_range_projects/a_d_u_ordinance_update"
+      },
+      {
+        "label": "Vallejo Municipal Code Chapter 16.303 &mdash; Accessory dwelling units (Municode)",
+        "url": "https://library.municode.com/ca/vallejo/codes/municipal_code?nodeId=TIT16ZO_PTIIIUSST_CH16.303ACDWUN"
+      },
+      {
+        "label": "City of Vallejo &mdash; ADU Mini-Guide and Summary Sheet (PDF)",
+        "url": "https://www.cityofvallejo.net/common/pages/GetFile.ashx?key=0wc%2fARP5"
+      },
+      {
+        "label": "California Government Code 66314 &mdash; development standards",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=66314"
+      },
+      {
+        "label": "California Government Code 66321 &mdash; size and height floors",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=66321"
+      },
+      {
+        "label": "California Government Code 66323 &mdash; by-right ministerial approvals",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=66323"
+      },
+      {
+        "label": "HCD &mdash; technical assistance letter to Vallejo (8 October 2025, PDF)",
+        "url": "https://www.hcd.ca.gov/sites/default/files/docs/policy-and-research/ordinance-review-letters/vallejo-adu-ta-100825.pdf"
+      },
+      {
+        "label": "HCD &mdash; ADU Handbook and ordinance review",
+        "url": "https://www.hcd.ca.gov/building-standards/adu/handbook"
+      },
+      {
+        "label": "Solano County &mdash; ADU information (unincorporated areas)",
+        "url": "https://www.solanocounty.gov/government/resource-management/planning-services/accessory-dwelling-units-adus"
+      }
+    ]
   },
   {
     "city": "Spokane",
     "state": "Washington",
     "state_abbr": "WA",
-    "max_size": "1,000",
+    "max_size": "1,000 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Required",
@@ -328,13 +452,13 @@
     "stripe_price_id": "price_1TyvwqDipowTiYTYBqshyTCM",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in Spokane? ADUs in Spokane can be up to 1,000 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Spokane planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Spokane? ADUs in Spokane generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in Spokane? ADUs in Spokane generally require setbacks of 5 ft rear, 5 ft side. Washington's HB 1337 (2023) limits how restrictive local ADU rules can be, but the exact setback figures come from Spokane's own land use code — confirm them with the city before you design."
   },
   {
     "city": "Tacoma",
     "state": "Washington",
     "state_abbr": "WA",
-    "max_size": "1,000",
+    "max_size": "1,000 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Not required (near transit)",
     "occupancy": "Not required",
@@ -368,13 +492,13 @@
     "stripe_price_id": "price_1TyvwrDipowTiYTYq4fe483b",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in Tacoma? ADUs in Tacoma can be up to 1,000 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Tacoma planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Tacoma? ADUs in Tacoma generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in Tacoma? ADUs in Tacoma generally require setbacks of 5 ft rear, 5 ft side. Washington's HB 1337 (2023) limits how restrictive local ADU rules can be, but the exact setback figures come from Tacoma's own land use code — confirm them with the city before you design."
   },
   {
     "city": "Vancouver",
     "state": "Washington",
     "state_abbr": "WA",
-    "max_size": "1,200",
+    "max_size": "1,200 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Required",
@@ -408,18 +532,18 @@
     "stripe_price_id": "price_1TyvwsDipowTiYTY9q7UWgqO",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in Vancouver? ADUs in Vancouver can be up to 1,200 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Vancouver planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Vancouver? ADUs in Vancouver generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in Vancouver? ADUs in Vancouver generally require setbacks of 5 ft rear, 5 ft side. Washington's HB 1337 (2023) limits how restrictive local ADU rules can be, but the exact setback figures come from Vancouver's own land use code — confirm them with the city before you design."
   },
   {
     "city": "Bellevue",
     "state": "Washington",
     "state_abbr": "WA",
-    "max_size": "1,000",
-    "setbacks": "5 ft rear, 5 ft side",
-    "parking": "Not required (near transit)",
-    "occupancy": "Required",
-    "additional": "<li>ADU allowed in single-family zones</li><li>Minimum 200 sq ft</li><li>5-year owner occupancy required</li><li>Design review for exterior changes</li>",
-    "faq1": "Bellevue allows ADUs under strict design guidelines. The city requires owner occupancy for the first 5 years after permit issuance.",
+    "max_size": "1,200 sq ft of floor area (up to 300 sq ft used for parking or unheated storage does not count toward the limit)",
+    "setbacks": "New detached ADUs: 10 ft front / 15 ft rear / 5 ft side in the SR-1 and SR-2 zones, per LUC 20.20.538 &mdash; a detached ADU may sit on the lot line that abuts an alley. Attached ADUs match the main house. A structure converted into an ADU does not have to meet today's setback or lot coverage rules at all.",
+    "parking": "No space required for an ADU under 1,000 sq ft of floor area, or for any ADU within 1/2 mile of a major transit stop. Otherwise 1 space per ADU",
+    "occupancy": "Not required &mdash; Bellevue repealed owner occupancy in 2023 (Ordinance 6746) and Washington law bars cities from imposing it",
+    "additional": "<ul>\n  <li>Up to <strong>2 ADUs per lot</strong> in any zone where a single-family home is allowed &mdash; two attached, one attached plus one detached, or two detached units</li>\n  <li>Detached ADU height limit: <strong>24 ft</strong>, or <strong>28 ft</strong> when built as an addition over an existing accessory structure</li>\n  <li>No design review and no ADU registry: additional design controls and the registration/noticing requirements were removed in 2023</li>\n  <li>Converting a detached garage, studio or other existing structure is allowed <strong>even if that structure does not meet current setback or lot coverage rules</strong></li>\n  <li>Impact fees are capped at <strong>50%</strong> of what the main house would be charged (RCW 36.70A.681)</li>\n  <li>An ADU may now be <strong>sold separately</strong> from the main house; the old condominium prohibition was lifted</li>\n  <li>A property cannot have both an ADU and a home-occupation business, and new ADUs are not allowed on unit lots created by unit-lot or short subdivision</li>\n  <li>Short-term rentals may still be regulated by the city &mdash; check before counting on nightly-rental income</li>\n</ul>",
+    "faq1": "Can I build an ADU in Bellevue? Yes. Bellevue allows up to two ADUs on any lot zoned for a single-family home, and since Ordinance 6851 took effect on 1 July 2025 that includes detached ADUs (DADUs). No owner occupancy is required and no design review is applied.",
     "year": "2026",
     "price": "14",
     "payhip_link": "[PAYHIP_LINK_BELLEVUE]",
@@ -439,21 +563,77 @@
         "plan_check": "$900"
       }
     },
-    "intro": "In King County across Lake Washington from Seattle, Bellevue maintains stringent ADU design guidelines. Despite Washington's HB 1337, the city enforces a 5-year owner occupancy requirement and detailed design review for exterior modifications.",
+    "intro": "Detached ADUs only became legal in Bellevue on 1 July 2025, when the city's Middle Housing amendments (Ordinance 6851) took effect. Bellevue had already reformed its ADU rules in 2023 (Ordinance 6746). Together those two ordinances deleted most of the restrictions that older guides still repeat.",
     "county": "King County",
-    "state_law": "Washington's HB 1337 (2023) which limits local ADU restrictions statewide",
+    "state_law": "the Bellevue Land Use Code (LUC 20.20.120, with dimensional standards in LUC 20.20.538) and Washington's statewide ADU law, RCW 36.70A.680 and 36.70A.681",
     "stripe_checkout_url": "https://buy.stripe.com/aFacN58yva1v9eHgRGeME0a",
     "stripe_product_id": "prod_UytkfhTa0gXDGw",
     "stripe_price_id": "price_1TyvwsDipowTiYTYotTDteh1",
     "published": true,
-    "faq2": "What is the maximum ADU size allowed in Bellevue? ADUs in Bellevue can be up to 1,000 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Bellevue planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Bellevue? ADUs in Bellevue generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq2": "How big can an ADU be in Bellevue? The standard maximum floor area is 1,200 sq ft. Up to 300 sq ft used for parking or unheated storage is excluded from the count, an ADU converted from a previously permitted guest cottage is exempt from the cap, and the Director may approve more than 1,200 sq ft where the unit sits entirely on one floor or is added to an existing detached structure. An attached ADU's floor area does not count against the site's single-family floor-area allowance.",
+    "faq3": "What are the setback requirements for an ADU in Bellevue? An attached ADU follows the main house's setbacks. A new detached ADU follows the middle-housing table in LUC 20.20.538, which is 10 ft front, 15 ft rear and 5 ft side in the SR-1 and SR-2 zones, although a detached ADU may be sited on the lot line that abuts an alley. If you convert an existing structure, today's setback and lot coverage rules do not block the project.",
+    "h1": "Bellevue ADU Rules (2026): Size, Setbacks, Parking &amp; DADU Guide",
+    "seo_title": "Bellevue ADU Rules 2026: Size, Setbacks, Parking & DADU Permits",
+    "seo_desc": "Bellevue ADU and DADU requirements checked against the city's Land Use Code: 1,200 sq ft maximum, 24 ft height, 10/15/5 ft setbacks, parking, owner occupancy and the building permit you actually need.",
+    "long_content": "<h2>Bellevue ADU rules changed twice in three years</h2>\n<p>Two ordinances explain why so much Bellevue ADU information online is out of date:</p><ul>\n  <li><strong>Ordinance 6746 (2023) &mdash; the ADU reform package.</strong> Bellevue repealed the owner-occupancy requirement, removed ADU design controls, dropped the registration and noticing process, and lifted the ban on selling an ADU separately from the main house.</li>\n  <li><strong>Ordinance 6851 (adopted 24 June 2025, effective 1 July 2025) &mdash; Middle Housing.</strong> This is the change that matters most: before it, detached ADUs were <em>not allowed in Bellevue at all</em>. The middle housing amendments legalised them and allow up to two ADUs per lot, implementing Washington's HB 1110 and HB 1337.</li>\n</ul><p>Practical consequence: if an article tells you Bellevue requires the owner to live on site, caps an ADU at 1,000 sq ft, or that you cannot build a detached unit, it was written before mid-2025 and is describing rules that no longer exist.</p>\n<h2>What you can build in Bellevue: the 2026 limits</h2>\n<table class=\"data-table\"><thead><tr><th>Item</th><th>Bellevue limit</th></tr></thead><tbody><tr><td>Maximum ADU floor area</td><td>1,200 sq ft (up to 300 sq ft of parking or unheated storage excluded)</td></tr><tr><td>Detached ADU height</td><td>24 ft &mdash; 28 ft when added over an existing accessory structure</td></tr><tr><td>Attached ADU height</td><td>The same limit that applies to the main house</td></tr><tr><td>Setbacks, new detached ADU</td><td>10 ft front / 15 ft rear / 5 ft side (SR-1 and SR-2, LUC 20.20.538)</td></tr><tr><td>Setbacks, attached ADU</td><td>Same as the main house</td></tr><tr><td>Converted existing structure</td><td>Allowed regardless of current setback or lot coverage compliance</td></tr><tr><td>Units per lot</td><td>Up to 2 ADUs</td></tr><tr><td>Units counted for permit type</td><td>ADUs count as regular dwelling units</td></tr><tr><td>Parking</td><td>0 spaces under 1,000 sq ft or within 1/2 mile of a major transit stop; otherwise 1</td></tr><tr><td>Owner occupancy</td><td>Not required</td></tr><tr><td>Impact fees</td><td>Capped at 50% of the principal unit's fees</td></tr></tbody></table><p>Two narrow limits are worth knowing early: a site cannot contain both an ADU and a home-occupation business, and no new ADU can be built on a unit lot created through a unit-lot or short subdivision.</p>\n<h2>Can I add an ADU to my existing Bellevue house?</h2>\n<p>Yes, and this is the cheapest route. An <strong>attached</strong> ADU (basement, converted garage, upper-floor addition) follows the main house's height and setback limits, and its floor area is <em>not</em> counted against the site's single-family floor-area allowance &mdash; so a big addition does not eat your FAR.</p><p>Conversions are the hidden advantage in Bellevue: the code lets you convert an existing structure into an ADU <em>regardless of whether that structure currently meets the applicable setback and lot coverage dimensional requirements</em>, and doing so does not make the property legally non-conforming. In most cities, a garage that sits too close to the property line is the reason a conversion fails. In Bellevue it is not a blocker.</p>\n<h2>Can I build a DADU (detached ADU) in Bellevue?</h2>\n<p>Since 1 July 2025, yes. Detached units are limited to <strong>24 ft</strong> in height, or <strong>28 ft</strong> when proposed as an addition over an existing accessory structure, and they follow the middle-housing dimensional table in LUC 20.20.538 (10 ft front, 15 ft rear, 5 ft side in the single-family zones). A detached ADU may be sited on the lot line that abuts an alley, which is how narrow lots usually make the numbers work.</p><p>Watch for one confusion that catches even experienced designers: the old detached <em>accessory structure</em> rules (LUC 20.20.125 &mdash; 5 ft rear setback, 15 ft height, 10% lot coverage) do <strong>not</strong> apply to detached ADUs. Mixing the two produces the wrong setback and the wrong height limit, which is exactly the mistake this page used to contain.</p>\n<h2>Parking, owner occupancy and design review: three rules people get wrong</h2>\n<ul>\n  <li><strong>Parking is not simply waived.</strong> Bellevue requires no off-street space for an ADU under 1,000 sq ft, or for one within 1/2 mile of a major transit stop. Outside those cases, one space per ADU is required. State law also caps what a city may ask: no parking within a 1/2-mile walk of a major transit stop, at most 1 space on lots under 6,000 sq ft, at most 2 on larger lots.</li>\n  <li><strong>Owner occupancy is gone.</strong> The city repealed it in 2023 and RCW 36.70A.681 independently forbids cities from requiring the owner to live in the ADU or the main house.</li>\n  <li><strong>Design review is gone.</strong> An ADU cannot face design or aesthetic requirements stricter than those applied to a single-family house, and Bellevue removed its extra design controls in 2023.</li>\n</ul>\n<h2>Which Bellevue building permit you need, and how the process runs</h2>\n<ul>\n  <li><strong>1 or 2 units on the lot:</strong> a standard one- and two-family residence building permit.</li>\n  <li><strong>3 to 6 units in a single structure:</strong> the Middle Housing permit process.</li>\n  <li><strong>More than 6 units:</strong> the commercial multifamily process.</li>\n  <li>ADUs count as dwelling units for this test, so adding a second ADU can push a project into the middle housing path.</li>\n  <li>One building permit is issued per building; a multi-building project may also need a separate clearing and grading site permit.</li>\n  <li>There is no ADU registry and no noticing requirement &mdash; that step was removed in 2023.</li>\n</ul><p>Start with a pre-application conversation with Bellevue's Development Services before you pay for drawings. Ask two questions that change projects: whether the lot carries a home-occupation business, and whether it was created by a unit-lot or short subdivision &mdash; either one can rule out a new ADU.</p>\n<h2>One amendment to watch</h2>\n<p>Ordinance 6931, passed on 28 July 2026, amends the units-per-lot provisions in LUC 20.20.120(C)(1) and 20.20.538(C)(1). It was pending codification at the time this page was written. If your project depends on the exact number of units you can build, confirm the current count with the city rather than relying on any guide, including this one.</p>\n",
+    "faqs": [
+      {
+        "q": "Can I build a DADU in Bellevue?",
+        "a": "Yes, but only since 1 July 2025. Detached ADUs were not allowed in Bellevue before Ordinance 6851 (the Middle Housing amendments) took effect. Detached units are limited to 24 ft in height, or 28 ft when built as an addition over an existing accessory structure, and they follow the dimensional table in LUC 20.20.538."
+      },
+      {
+        "q": "How many ADUs can I build in Bellevue?",
+        "a": "Up to two ADUs on a lot where a single-family dwelling is allowed: two attached, one attached plus one detached, or two detached. Note that Ordinance 6931, passed on 28 July 2026, amends the units-per-lot provisions and was still pending codification when this page was written, so confirm the current count with Bellevue before you commit."
+      },
+      {
+        "q": "Do I have to live in my Bellevue house to rent out the ADU?",
+        "a": "No. Bellevue removed its owner-occupancy requirement in 2023 and Washington law bars cities from requiring the owner to live in the ADU or the main house. Rentals of 30 consecutive days or more are allowed; short-term rentals may still be restricted by the city."
+      },
+      {
+        "q": "Do I need design review for an ADU in Bellevue?",
+        "a": "No. Bellevue removed ADU design controls in 2023, and state law bars aesthetic requirements or design review for ADUs that are stricter than those applied to the principal unit."
+      },
+      {
+        "q": "What does a Bellevue ADU cost in impact fees?",
+        "a": "Impact fees for an ADU are capped at 50% of what the same unit would be charged as a principal dwelling under RCW 36.70A.681. That cap is one of the biggest cost differences between Bellevue and California cities, where impact fees often apply in full above a size threshold."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Bellevue Land Use Code 20.20.120 &mdash; Accessory dwelling units",
+        "url": "https://bellevue.municipal.codes/LUC/20.20.120"
+      },
+      {
+        "label": "Bellevue Land Use Code 20.20.538 &mdash; Middle housing dimensional standards",
+        "url": "https://bellevue.municipal.codes/LUC/20.20.538"
+      },
+      {
+        "label": "City of Bellevue &mdash; ADU reform (Ordinance 6746, 2023)",
+        "url": "https://bellevuewa.gov/ADU-reform"
+      },
+      {
+        "label": "City of Bellevue &mdash; Middle Housing code amendments (Ordinance 6851, effective 1 July 2025)",
+        "url": "https://bellevuewa.gov/code-amendments/recent-code-amendments/middle-housing-code-amendments"
+      },
+      {
+        "label": "City of Bellevue &mdash; Middle housing building permits",
+        "url": "https://bellevuewa.gov/city-government/departments/development/permits/middle-housing-building"
+      },
+      {
+        "label": "Washington RCW 36.70A.681 &mdash; ADU standards a city may not impose",
+        "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=36.70A.681"
+      },
+      {
+        "label": "Bellevue Planning Commission staff report &mdash; middle housing dimensional table (March 2025)",
+        "url": "https://bellevuewa.gov/sites/default/files/media/pdf_document/2025/dsd-03212025-middle-housing-pc-staff-report-luca-and-attachment-a.pdf"
+      }
+    ]
   },
   {
     "city": "Everett",
     "state": "Washington",
     "state_abbr": "WA",
-    "max_size": "1,000",
+    "max_size": "1,000 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Not required",
@@ -486,13 +666,13 @@
     "stripe_price_id": "price_1TyvwtDipowTiYTYAEHkSbBq",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in Everett? ADUs in Everett can be up to 1,000 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Everett planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Everett? ADUs in Everett generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in Everett? ADUs in Everett generally require setbacks of 5 ft rear, 5 ft side. Washington's HB 1337 (2023) limits how restrictive local ADU rules can be, but the exact setback figures come from Everett's own land use code — confirm them with the city before you design."
   },
   {
     "city": "Yakima",
     "state": "Washington",
     "state_abbr": "WA",
-    "max_size": "1,000",
+    "max_size": "1,000 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Required",
@@ -525,13 +705,13 @@
     "stripe_price_id": "price_1TyvwuDipowTiYTYk6sWe0ES",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in Yakima? ADUs in Yakima can be up to 1,000 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Yakima planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Yakima? ADUs in Yakima generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in Yakima? ADUs in Yakima generally require setbacks of 5 ft rear, 5 ft side. Washington's HB 1337 (2023) limits how restrictive local ADU rules can be, but the exact setback figures come from Yakima's own land use code — confirm them with the city before you design."
   },
   {
     "city": "Fort Collins",
     "state": "Colorado",
     "state_abbr": "CO",
-    "max_size": "1,200",
+    "max_size": "1,200 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Required",
@@ -564,13 +744,13 @@
     "stripe_price_id": "price_1TyvwvDipowTiYTYexPV6bC2",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in Fort Collins? ADUs in Fort Collins can be up to 1,200 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Fort Collins planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Fort Collins? ADUs in Fort Collins generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in Fort Collins? ADUs in Fort Collins generally require setbacks of 5 ft rear, 5 ft side. Colorado has no statewide ADU mandate, so the exact setback figures come from Fort Collins's own zoning code — confirm them with the city planning department before you design."
   },
   {
     "city": "Greeley",
     "state": "Colorado",
     "state_abbr": "CO",
-    "max_size": "1,000",
+    "max_size": "1,000 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Required",
@@ -603,13 +783,13 @@
     "stripe_price_id": "price_1TyvwwDipowTiYTYrKXSIGgE",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in Greeley? ADUs in Greeley can be up to 1,000 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Greeley planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Greeley? ADUs in Greeley generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in Greeley? ADUs in Greeley generally require setbacks of 5 ft rear, 5 ft side. Colorado has no statewide ADU mandate, so the exact setback figures come from Greeley's own zoning code — confirm them with the city planning department before you design."
   },
   {
     "city": "Pueblo",
     "state": "Colorado",
     "state_abbr": "CO",
-    "max_size": "1,000",
+    "max_size": "1,000 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Required",
@@ -642,13 +822,13 @@
     "stripe_price_id": "price_1TyvwxDipowTiYTYENI5iDvQ",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in Pueblo? ADUs in Pueblo can be up to 1,000 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Pueblo planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Pueblo? ADUs in Pueblo generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in Pueblo? ADUs in Pueblo generally require setbacks of 5 ft rear, 5 ft side. Colorado has no statewide ADU mandate, so the exact setback figures come from Pueblo's own zoning code — confirm them with the city planning department before you design."
   },
   {
     "city": "Boulder",
     "state": "Colorado",
     "state_abbr": "CO",
-    "max_size": "1,200",
+    "max_size": "1,200 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Required",
@@ -681,13 +861,13 @@
     "stripe_price_id": "price_1TyvwyDipowTiYTYkDX6xMMT",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in Boulder? ADUs in Boulder can be up to 1,200 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Boulder planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Boulder? ADUs in Boulder generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in Boulder? ADUs in Boulder generally require setbacks of 5 ft rear, 5 ft side. Colorado has no statewide ADU mandate, so the exact setback figures come from Boulder's own zoning code — confirm them with the city planning department before you design."
   },
   {
     "city": "Grand Junction",
     "state": "Colorado",
     "state_abbr": "CO",
-    "max_size": "1,000",
+    "max_size": "1,000 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Required",
@@ -720,13 +900,13 @@
     "stripe_price_id": "price_1TyvwzDipowTiYTYnkv5NrC7",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in Grand Junction? ADUs in Grand Junction can be up to 1,000 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Grand Junction planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Grand Junction? ADUs in Grand Junction generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in Grand Junction? ADUs in Grand Junction generally require setbacks of 5 ft rear, 5 ft side. Colorado has no statewide ADU mandate, so the exact setback figures come from Grand Junction's own zoning code — confirm them with the city planning department before you design."
   },
   {
     "city": "Riverside",
     "state": "California",
     "state_abbr": "CA",
-    "max_size": "1,200",
+    "max_size": "1,200 sq ft",
     "setbacks": "4 ft rear, 4 ft side",
     "parking": "Required (1 space, tandem OK)",
     "occupancy": "Not required",
@@ -768,7 +948,7 @@
     "city": "San Bernardino",
     "state": "California",
     "state_abbr": "CA",
-    "max_size": "1,200",
+    "max_size": "1,200 sq ft",
     "setbacks": "4 ft rear, 4 ft side",
     "parking": "Not required",
     "occupancy": "Not required",
@@ -810,7 +990,7 @@
     "city": "Santa Clarita",
     "state": "California",
     "state_abbr": "CA",
-    "max_size": "1,200",
+    "max_size": "1,200 sq ft",
     "setbacks": "4 ft rear, 4 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Not required",
@@ -852,7 +1032,7 @@
     "city": "Oxnard",
     "state": "California",
     "state_abbr": "CA",
-    "max_size": "1,200",
+    "max_size": "1,200 sq ft",
     "setbacks": "4 ft rear, 4 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Not required",
@@ -894,7 +1074,7 @@
     "city": "Glendale",
     "state": "California",
     "state_abbr": "CA",
-    "max_size": "1,200",
+    "max_size": "1,200 sq ft",
     "setbacks": "4 ft rear, 4 ft side",
     "parking": "Not required",
     "occupancy": "Not required",
@@ -936,7 +1116,7 @@
     "city": "Aurora",
     "state": "Colorado",
     "state_abbr": "CO",
-    "max_size": "1,200",
+    "max_size": "1,200 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Required",
@@ -972,13 +1152,13 @@
     "stripe_price_id": "price_1Tyvx4DipowTiYTYzvCslnzu",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in Aurora? ADUs in Aurora can be up to 1,200 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Aurora planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Aurora? ADUs in Aurora generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in Aurora? ADUs in Aurora generally require setbacks of 5 ft rear, 5 ft side. Colorado has no statewide ADU mandate, so the exact setback figures come from Aurora's own zoning code — confirm them with the city planning department before you design."
   },
   {
     "city": "Lakewood",
     "state": "Colorado",
     "state_abbr": "CO",
-    "max_size": "1,000",
+    "max_size": "1,000 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Required",
@@ -1014,13 +1194,13 @@
     "stripe_price_id": "price_1Tyvx5DipowTiYTYYt4yDgfM",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in Lakewood? ADUs in Lakewood can be up to 1,000 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Lakewood planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Lakewood? ADUs in Lakewood generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in Lakewood? ADUs in Lakewood generally require setbacks of 5 ft rear, 5 ft side. Colorado has no statewide ADU mandate, so the exact setback figures come from Lakewood's own zoning code — confirm them with the city planning department before you design."
   },
   {
     "city": "Thornton",
     "state": "Colorado",
     "state_abbr": "CO",
-    "max_size": "1,000",
+    "max_size": "1,000 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Required",
@@ -1056,13 +1236,13 @@
     "stripe_price_id": "price_1Tyvx7DipowTiYTYw1ux3gXb",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in Thornton? ADUs in Thornton can be up to 1,000 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Thornton planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Thornton? ADUs in Thornton generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in Thornton? ADUs in Thornton generally require setbacks of 5 ft rear, 5 ft side. Colorado has no statewide ADU mandate, so the exact setback figures come from Thornton's own zoning code — confirm them with the city planning department before you design."
   },
   {
     "city": "Arvada",
     "state": "Colorado",
     "state_abbr": "CO",
-    "max_size": "1,000",
+    "max_size": "1,000 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Required",
@@ -1098,13 +1278,13 @@
     "stripe_price_id": "price_1Tyvx7DipowTiYTYEXe51FTB",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in Arvada? ADUs in Arvada can be up to 1,000 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Arvada planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Arvada? ADUs in Arvada generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in Arvada? ADUs in Arvada generally require setbacks of 5 ft rear, 5 ft side. Colorado has no statewide ADU mandate, so the exact setback figures come from Arvada's own zoning code — confirm them with the city planning department before you design."
   },
   {
     "city": "Westminster",
     "state": "Colorado",
     "state_abbr": "CO",
-    "max_size": "1,000",
+    "max_size": "1,000 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Required",
@@ -1140,13 +1320,13 @@
     "stripe_price_id": "price_1Tyvx8DipowTiYTY4nkD1tnf",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in Westminster? ADUs in Westminster can be up to 1,000 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Westminster planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Westminster? ADUs in Westminster generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in Westminster? ADUs in Westminster generally require setbacks of 5 ft rear, 5 ft side. Colorado has no statewide ADU mandate, so the exact setback figures come from Westminster's own zoning code — confirm them with the city planning department before you design."
   },
   {
     "city": "Kent",
     "state": "Washington",
     "state_abbr": "WA",
-    "max_size": "1,000",
+    "max_size": "1,000 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Not required (near transit)",
     "occupancy": "Not required",
@@ -1182,13 +1362,13 @@
     "stripe_price_id": "price_1Tyvx9DipowTiYTYruHQNXd9",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in Kent? ADUs in Kent can be up to 1,000 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Kent planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Kent? ADUs in Kent generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in Kent? ADUs in Kent generally require setbacks of 5 ft rear, 5 ft side. Washington's HB 1337 (2023) limits how restrictive local ADU rules can be, but the exact setback figures come from Kent's own land use code — confirm them with the city before you design."
   },
   {
     "city": "Renton",
     "state": "Washington",
     "state_abbr": "WA",
-    "max_size": "1,000",
+    "max_size": "1,000 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Not required",
@@ -1224,13 +1404,13 @@
     "stripe_price_id": "price_1TyvxADipowTiYTY8XV8F6m9",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in Renton? ADUs in Renton can be up to 1,000 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Renton planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Renton? ADUs in Renton generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in Renton? ADUs in Renton generally require setbacks of 5 ft rear, 5 ft side. Washington's HB 1337 (2023) limits how restrictive local ADU rules can be, but the exact setback figures come from Renton's own land use code — confirm them with the city before you design."
   },
   {
     "city": "Federal Way",
     "state": "Washington",
     "state_abbr": "WA",
-    "max_size": "1,000",
+    "max_size": "1,000 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Not required",
@@ -1266,13 +1446,13 @@
     "stripe_price_id": "price_1TyvxBDipowTiYTYeDGmEP6V",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in Federal Way? ADUs in Federal Way can be up to 1,000 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Federal Way planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Federal Way? ADUs in Federal Way generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in Federal Way? ADUs in Federal Way generally require setbacks of 5 ft rear, 5 ft side. Washington's HB 1337 (2023) limits how restrictive local ADU rules can be, but the exact setback figures come from Federal Way's own land use code — confirm them with the city before you design."
   },
   {
     "city": "Kirkland",
     "state": "Washington",
     "state_abbr": "WA",
-    "max_size": "1,000",
+    "max_size": "1,000 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Not required (near transit)",
     "occupancy": "Not required",
@@ -1308,13 +1488,13 @@
     "stripe_price_id": "price_1TyvxCDipowTiYTY3em0cyZG",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in Kirkland? ADUs in Kirkland can be up to 1,000 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Kirkland planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Kirkland? ADUs in Kirkland generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in Kirkland? ADUs in Kirkland generally require setbacks of 5 ft rear, 5 ft side. Washington's HB 1337 (2023) limits how restrictive local ADU rules can be, but the exact setback figures come from Kirkland's own land use code — confirm them with the city before you design."
   },
   {
     "city": "Redmond",
     "state": "Washington",
     "state_abbr": "WA",
-    "max_size": "1,000",
+    "max_size": "1,000 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Not required (near transit)",
     "occupancy": "Not required",
@@ -1350,13 +1530,13 @@
     "stripe_price_id": "price_1TyvxDDipowTiYTYpOdykMf3",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in Redmond? ADUs in Redmond can be up to 1,000 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Redmond planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Redmond? ADUs in Redmond generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in Redmond? ADUs in Redmond generally require setbacks of 5 ft rear, 5 ft side. Washington's HB 1337 (2023) limits how restrictive local ADU rules can be, but the exact setback figures come from Redmond's own land use code — confirm them with the city before you design."
   },
   {
     "city": "Eugene",
     "state": "Oregon",
     "state_abbr": "OR",
-    "max_size": "1,200",
+    "max_size": "1,200 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Not required",
     "occupancy": "Not required",
@@ -1392,13 +1572,13 @@
     "stripe_price_id": "price_1TyvxEDipowTiYTYQ11WzRkj",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in Eugene? ADUs in Eugene can be up to 1,200 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Eugene planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Eugene? ADUs in Eugene generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in Eugene? ADUs in Eugene generally require setbacks of 5 ft rear, 5 ft side. Oregon's HB 2001 (2019) requires cities to allow ADUs in residential zones, but the exact setback figures come from Eugene's own code — confirm them with the city before you design."
   },
   {
     "city": "Salem",
     "state": "Oregon",
     "state_abbr": "OR",
-    "max_size": "1,200",
+    "max_size": "1,200 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Not required",
     "occupancy": "Not required",
@@ -1434,13 +1614,13 @@
     "stripe_price_id": "price_1TyvxFDipowTiYTYcuWnBmV9",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in Salem? ADUs in Salem can be up to 1,200 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Salem planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Salem? ADUs in Salem generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in Salem? ADUs in Salem generally require setbacks of 5 ft rear, 5 ft side. Oregon's HB 2001 (2019) requires cities to allow ADUs in residential zones, but the exact setback figures come from Salem's own code — confirm them with the city before you design."
   },
   {
     "city": "Gresham",
     "state": "Oregon",
     "state_abbr": "OR",
-    "max_size": "1,200",
+    "max_size": "1,200 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Not required",
     "occupancy": "Not required",
@@ -1476,13 +1656,13 @@
     "stripe_price_id": "price_1TyvxGDipowTiYTYfLYMjwAH",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in Gresham? ADUs in Gresham can be up to 1,200 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Gresham planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Gresham? ADUs in Gresham generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in Gresham? ADUs in Gresham generally require setbacks of 5 ft rear, 5 ft side. Oregon's HB 2001 (2019) requires cities to allow ADUs in residential zones, but the exact setback figures come from Gresham's own code — confirm them with the city before you design."
   },
   {
     "city": "Hillsboro",
     "state": "Oregon",
     "state_abbr": "OR",
-    "max_size": "1,200",
+    "max_size": "1,200 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Not required",
     "occupancy": "Not required",
@@ -1518,13 +1698,13 @@
     "stripe_price_id": "price_1TyvxHDipowTiYTY3ZZqXmpj",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in Hillsboro? ADUs in Hillsboro can be up to 1,200 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Hillsboro planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Hillsboro? ADUs in Hillsboro generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in Hillsboro? ADUs in Hillsboro generally require setbacks of 5 ft rear, 5 ft side. Oregon's HB 2001 (2019) requires cities to allow ADUs in residential zones, but the exact setback figures come from Hillsboro's own code — confirm them with the city before you design."
   },
   {
     "city": "Beaverton",
     "state": "Oregon",
     "state_abbr": "OR",
-    "max_size": "1,200",
+    "max_size": "1,200 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Not required",
     "occupancy": "Not required",
@@ -1560,13 +1740,13 @@
     "stripe_price_id": "price_1TyvxIDipowTiYTYjxiOFOu5",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in Beaverton? ADUs in Beaverton can be up to 1,200 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Beaverton planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Beaverton? ADUs in Beaverton generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in Beaverton? ADUs in Beaverton generally require setbacks of 5 ft rear, 5 ft side. Oregon's HB 2001 (2019) requires cities to allow ADUs in residential zones, but the exact setback figures come from Beaverton's own code — confirm them with the city before you design."
   },
   {
     "city": "Plano",
     "state": "Texas",
     "state_abbr": "TX",
-    "max_size": "1,000",
+    "max_size": "1,000 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Not required",
@@ -1602,13 +1782,13 @@
     "stripe_price_id": "price_1UApE2DipowTiYTYHvKQqDrr",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in Plano? ADUs in Plano can be up to 1,000 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Plano planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Plano? ADUs in Plano generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in Plano? ADUs in Plano generally require setbacks of 5 ft rear, 5 ft side. Texas has no statewide ADU mandate — the exact setback figures come from Plano's own zoning code, so confirm them with the city planning department before you design."
   },
   {
     "city": "Irving",
     "state": "Texas",
     "state_abbr": "TX",
-    "max_size": "1,000",
+    "max_size": "1,000 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Not required",
@@ -1644,13 +1824,13 @@
     "stripe_price_id": "price_1UApE3DipowTiYTYjuKqXkFg",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in Irving? ADUs in Irving can be up to 1,000 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Irving planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Irving? ADUs in Irving generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in Irving? ADUs in Irving generally require setbacks of 5 ft rear, 5 ft side. Texas has no statewide ADU mandate — the exact setback figures come from Irving's own zoning code, so confirm them with the city planning department before you design."
   },
   {
     "city": "Garland",
     "state": "Texas",
     "state_abbr": "TX",
-    "max_size": "1,000",
+    "max_size": "1,000 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Not required",
@@ -1686,13 +1866,13 @@
     "stripe_price_id": "price_1UApE3DipowTiYTY1AjpkSYw",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in Garland? ADUs in Garland can be up to 1,000 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Garland planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Garland? ADUs in Garland generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in Garland? ADUs in Garland generally require setbacks of 5 ft rear, 5 ft side. Texas has no statewide ADU mandate — the exact setback figures come from Garland's own zoning code, so confirm them with the city planning department before you design."
   },
   {
     "city": "Arlington",
     "state": "Texas",
     "state_abbr": "TX",
-    "max_size": "1,000",
+    "max_size": "1,000 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Not required",
@@ -1728,13 +1908,13 @@
     "stripe_price_id": "price_1UApE4DipowTiYTYBPT3DtTv",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in Arlington? ADUs in Arlington can be up to 1,000 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Arlington planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Arlington? ADUs in Arlington generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in Arlington? ADUs in Arlington generally require setbacks of 5 ft rear, 5 ft side. Texas has no statewide ADU mandate — the exact setback figures come from Arlington's own zoning code, so confirm them with the city planning department before you design."
   },
   {
     "city": "Corpus Christi",
     "state": "Texas",
     "state_abbr": "TX",
-    "max_size": "1,000",
+    "max_size": "1,000 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Not required",
@@ -1770,13 +1950,13 @@
     "stripe_price_id": "price_1UApE4DipowTiYTYmxP3SI2G",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in Corpus Christi? ADUs in Corpus Christi can be up to 1,000 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Corpus Christi planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Corpus Christi? ADUs in Corpus Christi generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in Corpus Christi? ADUs in Corpus Christi generally require setbacks of 5 ft rear, 5 ft side. Texas has no statewide ADU mandate — the exact setback figures come from Corpus Christi's own zoning code, so confirm them with the city planning department before you design."
   },
   {
     "city": "Lubbock",
     "state": "Texas",
     "state_abbr": "TX",
-    "max_size": "1,000",
+    "max_size": "1,000 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Not required",
@@ -1812,13 +1992,13 @@
     "stripe_price_id": "price_1UApE5DipowTiYTY3zUjnS27",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in Lubbock? ADUs in Lubbock can be up to 1,000 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Lubbock planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Lubbock? ADUs in Lubbock generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in Lubbock? ADUs in Lubbock generally require setbacks of 5 ft rear, 5 ft side. Texas has no statewide ADU mandate — the exact setback figures come from Lubbock's own zoning code, so confirm them with the city planning department before you design."
   },
   {
     "city": "Laredo",
     "state": "Texas",
     "state_abbr": "TX",
-    "max_size": "1,000",
+    "max_size": "1,000 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Not required",
@@ -1854,13 +2034,13 @@
     "stripe_price_id": "price_1UApE5DipowTiYTY3CwOBU96",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in Laredo? ADUs in Laredo can be up to 1,000 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Laredo planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Laredo? ADUs in Laredo generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in Laredo? ADUs in Laredo generally require setbacks of 5 ft rear, 5 ft side. Texas has no statewide ADU mandate — the exact setback figures come from Laredo's own zoning code, so confirm them with the city planning department before you design."
   },
   {
     "city": "Brownsville",
     "state": "Texas",
     "state_abbr": "TX",
-    "max_size": "1,000",
+    "max_size": "1,000 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Not required",
@@ -1896,13 +2076,13 @@
     "stripe_price_id": "price_1UApE6DipowTiYTYqC7AVoTJ",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in Brownsville? ADUs in Brownsville can be up to 1,000 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Brownsville planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Brownsville? ADUs in Brownsville generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in Brownsville? ADUs in Brownsville generally require setbacks of 5 ft rear, 5 ft side. Texas has no statewide ADU mandate — the exact setback figures come from Brownsville's own zoning code, so confirm them with the city planning department before you design."
   },
   {
     "city": "McKinney",
     "state": "Texas",
     "state_abbr": "TX",
-    "max_size": "1,000",
+    "max_size": "1,000 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Not required",
@@ -1938,13 +2118,13 @@
     "stripe_price_id": "price_1UApE6DipowTiYTYeIInacKa",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in McKinney? ADUs in McKinney can be up to 1,000 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the McKinney planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in McKinney? ADUs in McKinney generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in McKinney? ADUs in McKinney generally require setbacks of 5 ft rear, 5 ft side. Texas has no statewide ADU mandate — the exact setback figures come from McKinney's own zoning code, so confirm them with the city planning department before you design."
   },
   {
     "city": "Frisco",
     "state": "Texas",
     "state_abbr": "TX",
-    "max_size": "1,000",
+    "max_size": "1,000 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Not required",
@@ -1980,13 +2160,13 @@
     "stripe_price_id": "price_1UApE7DipowTiYTYV4hc6YR1",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in Frisco? ADUs in Frisco can be up to 1,000 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Frisco planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Frisco? ADUs in Frisco generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in Frisco? ADUs in Frisco generally require setbacks of 5 ft rear, 5 ft side. Texas has no statewide ADU mandate — the exact setback figures come from Frisco's own zoning code, so confirm them with the city planning department before you design."
   },
   {
     "city": "Mesa",
     "state": "Arizona",
     "state_abbr": "AZ",
-    "max_size": "1,000",
+    "max_size": "1,000 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Not required",
@@ -2022,13 +2202,13 @@
     "stripe_price_id": "price_1UApE7DipowTiYTYlgZxAydL",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in Mesa? ADUs in Mesa can be up to 1,000 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Mesa planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Mesa? ADUs in Mesa generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in Mesa? ADUs in Mesa generally require setbacks of 5 ft rear, 5 ft side. Arizona has no statewide ADU mandate — the exact setback figures come from Mesa's own zoning code, so confirm them with the city planning department before you design."
   },
   {
     "city": "Chandler",
     "state": "Arizona",
     "state_abbr": "AZ",
-    "max_size": "1,000",
+    "max_size": "1,000 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Not required",
@@ -2064,13 +2244,13 @@
     "stripe_price_id": "price_1UApE8DipowTiYTYRwdCOlSx",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in Chandler? ADUs in Chandler can be up to 1,000 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Chandler planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Chandler? ADUs in Chandler generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in Chandler? ADUs in Chandler generally require setbacks of 5 ft rear, 5 ft side. Arizona has no statewide ADU mandate — the exact setback figures come from Chandler's own zoning code, so confirm them with the city planning department before you design."
   },
   {
     "city": "Gilbert",
     "state": "Arizona",
     "state_abbr": "AZ",
-    "max_size": "1,000",
+    "max_size": "1,000 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Not required",
@@ -2106,13 +2286,13 @@
     "stripe_price_id": "price_1UApE9DipowTiYTYHVyGA75a",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in Gilbert? ADUs in Gilbert can be up to 1,000 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Gilbert planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Gilbert? ADUs in Gilbert generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in Gilbert? ADUs in Gilbert generally require setbacks of 5 ft rear, 5 ft side. Arizona has no statewide ADU mandate — the exact setback figures come from Gilbert's own zoning code, so confirm them with the city planning department before you design."
   },
   {
     "city": "Scottsdale",
     "state": "Arizona",
     "state_abbr": "AZ",
-    "max_size": "1,000",
+    "max_size": "1,000 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Not required",
@@ -2148,13 +2328,13 @@
     "stripe_price_id": "price_1UApE9DipowTiYTYdbWISLEY",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in Scottsdale? ADUs in Scottsdale can be up to 1,000 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Scottsdale planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Scottsdale? ADUs in Scottsdale generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in Scottsdale? ADUs in Scottsdale generally require setbacks of 5 ft rear, 5 ft side. Arizona has no statewide ADU mandate — the exact setback figures come from Scottsdale's own zoning code, so confirm them with the city planning department before you design."
   },
   {
     "city": "Tempe",
     "state": "Arizona",
     "state_abbr": "AZ",
-    "max_size": "1,000",
+    "max_size": "1,000 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Not required",
@@ -2190,13 +2370,13 @@
     "stripe_price_id": "price_1UApEADipowTiYTYuvtKM3yi",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in Tempe? ADUs in Tempe can be up to 1,000 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Tempe planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Tempe? ADUs in Tempe generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in Tempe? ADUs in Tempe generally require setbacks of 5 ft rear, 5 ft side. Arizona has no statewide ADU mandate — the exact setback figures come from Tempe's own zoning code, so confirm them with the city planning department before you design."
   },
   {
     "city": "Peoria",
     "state": "Arizona",
     "state_abbr": "AZ",
-    "max_size": "1,000",
+    "max_size": "1,000 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Not required",
@@ -2232,13 +2412,13 @@
     "stripe_price_id": "price_1UApEADipowTiYTYGXrWzhxW",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in Peoria? ADUs in Peoria can be up to 1,000 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Peoria planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Peoria? ADUs in Peoria generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in Peoria? ADUs in Peoria generally require setbacks of 5 ft rear, 5 ft side. Arizona has no statewide ADU mandate — the exact setback figures come from Peoria's own zoning code, so confirm them with the city planning department before you design."
   },
   {
     "city": "Surprise",
     "state": "Arizona",
     "state_abbr": "AZ",
-    "max_size": "1,000",
+    "max_size": "1,000 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Not required",
@@ -2274,13 +2454,13 @@
     "stripe_price_id": "price_1UApEBDipowTiYTYnPHJycIO",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in Surprise? ADUs in Surprise can be up to 1,000 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Surprise planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Surprise? ADUs in Surprise generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in Surprise? ADUs in Surprise generally require setbacks of 5 ft rear, 5 ft side. Arizona has no statewide ADU mandate — the exact setback figures come from Surprise's own zoning code, so confirm them with the city planning department before you design."
   },
   {
     "city": "Goodyear",
     "state": "Arizona",
     "state_abbr": "AZ",
-    "max_size": "1,000",
+    "max_size": "1,000 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Not required",
@@ -2316,13 +2496,13 @@
     "stripe_price_id": "price_1UApEBDipowTiYTYeh58U1jz",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in Goodyear? ADUs in Goodyear can be up to 1,000 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Goodyear planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Goodyear? ADUs in Goodyear generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in Goodyear? ADUs in Goodyear generally require setbacks of 5 ft rear, 5 ft side. Arizona has no statewide ADU mandate — the exact setback figures come from Goodyear's own zoning code, so confirm them with the city planning department before you design."
   },
   {
     "city": "Flagstaff",
     "state": "Arizona",
     "state_abbr": "AZ",
-    "max_size": "1,000",
+    "max_size": "1,000 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Not required",
@@ -2358,13 +2538,13 @@
     "stripe_price_id": "price_1UApECDipowTiYTYz1hfGrmW",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in Flagstaff? ADUs in Flagstaff can be up to 1,000 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Flagstaff planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Flagstaff? ADUs in Flagstaff generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in Flagstaff? ADUs in Flagstaff generally require setbacks of 5 ft rear, 5 ft side. Arizona has no statewide ADU mandate — the exact setback figures come from Flagstaff's own zoning code, so confirm them with the city planning department before you design."
   },
   {
     "city": "Lake Havasu City",
     "state": "Arizona",
     "state_abbr": "AZ",
-    "max_size": "1,000",
+    "max_size": "1,000 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Not required",
@@ -2400,13 +2580,13 @@
     "stripe_price_id": "price_1UApEDDipowTiYTYkW3n8XGa",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in Lake Havasu City? ADUs in Lake Havasu City can be up to 1,000 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Lake Havasu City planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Lake Havasu City? ADUs in Lake Havasu City generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in Lake Havasu City? ADUs in Lake Havasu City generally require setbacks of 5 ft rear, 5 ft side. Arizona has no statewide ADU mandate — the exact setback figures come from Lake Havasu City's own zoning code, so confirm them with the city planning department before you design."
   },
   {
     "city": "Chula Vista",
     "state": "California",
     "state_abbr": "CA",
-    "max_size": "1,200",
+    "max_size": "1,200 sq ft",
     "setbacks": "4 ft rear, 4 ft side",
     "parking": "Not required",
     "occupancy": "Not required",
@@ -2448,7 +2628,7 @@
     "city": "Elk Grove",
     "state": "California",
     "state_abbr": "CA",
-    "max_size": "1,200",
+    "max_size": "1,200 sq ft",
     "setbacks": "4 ft rear, 4 ft side",
     "parking": "Not required",
     "occupancy": "Not required",
@@ -2490,7 +2670,7 @@
     "city": "Rancho Cucamonga",
     "state": "California",
     "state_abbr": "CA",
-    "max_size": "1,200",
+    "max_size": "1,200 sq ft",
     "setbacks": "4 ft rear, 4 ft side",
     "parking": "Not required",
     "occupancy": "Not required",
@@ -2532,7 +2712,7 @@
     "city": "Murrieta",
     "state": "California",
     "state_abbr": "CA",
-    "max_size": "1,200",
+    "max_size": "1,200 sq ft",
     "setbacks": "4 ft rear, 4 ft side",
     "parking": "Not required",
     "occupancy": "Not required",
@@ -2574,7 +2754,7 @@
     "city": "Centennial",
     "state": "Colorado",
     "state_abbr": "CO",
-    "max_size": "1,000",
+    "max_size": "1,000 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Required",
@@ -2610,13 +2790,13 @@
     "stripe_price_id": "price_1UApEFDipowTiYTYCGpMBCfR",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in Centennial? ADUs in Centennial can be up to 1,000 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Centennial planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Centennial? ADUs in Centennial generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in Centennial? ADUs in Centennial generally require setbacks of 5 ft rear, 5 ft side. Colorado has no statewide ADU mandate, so the exact setback figures come from Centennial's own zoning code — confirm them with the city planning department before you design."
   },
   {
     "city": "Longmont",
     "state": "Colorado",
     "state_abbr": "CO",
-    "max_size": "1,000",
+    "max_size": "1,000 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Required",
@@ -2652,13 +2832,13 @@
     "stripe_price_id": "price_1UApEGDipowTiYTYslaI5SJW",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in Longmont? ADUs in Longmont can be up to 1,000 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Longmont planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Longmont? ADUs in Longmont generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in Longmont? ADUs in Longmont generally require setbacks of 5 ft rear, 5 ft side. Colorado has no statewide ADU mandate, so the exact setback figures come from Longmont's own zoning code — confirm them with the city planning department before you design."
   },
   {
     "city": "Loveland",
     "state": "Colorado",
     "state_abbr": "CO",
-    "max_size": "1,000",
+    "max_size": "1,000 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Required",
@@ -2694,13 +2874,13 @@
     "stripe_price_id": "price_1UApEGDipowTiYTYTUYI2wXr",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in Loveland? ADUs in Loveland can be up to 1,000 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Loveland planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Loveland? ADUs in Loveland generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in Loveland? ADUs in Loveland generally require setbacks of 5 ft rear, 5 ft side. Colorado has no statewide ADU mandate, so the exact setback figures come from Loveland's own zoning code — confirm them with the city planning department before you design."
   },
   {
     "city": "Northglenn",
     "state": "Colorado",
     "state_abbr": "CO",
-    "max_size": "1,000",
+    "max_size": "1,000 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Required (1 space)",
     "occupancy": "Required",
@@ -2736,13 +2916,13 @@
     "stripe_price_id": "price_1UApEHDipowTiYTYZriFxoyM",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in Northglenn? ADUs in Northglenn can be up to 1,000 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Northglenn planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Northglenn? ADUs in Northglenn generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in Northglenn? ADUs in Northglenn generally require setbacks of 5 ft rear, 5 ft side. Colorado has no statewide ADU mandate, so the exact setback figures come from Northglenn's own zoning code — confirm them with the city planning department before you design."
   },
   {
     "city": "Marysville",
     "state": "Washington",
     "state_abbr": "WA",
-    "max_size": "1,000",
+    "max_size": "1,000 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Not required (near transit)",
     "occupancy": "Not required",
@@ -2778,13 +2958,13 @@
     "stripe_price_id": "price_1UApEIDipowTiYTYKGhmvkBM",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in Marysville? ADUs in Marysville can be up to 1,000 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Marysville planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Marysville? ADUs in Marysville generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in Marysville? ADUs in Marysville generally require setbacks of 5 ft rear, 5 ft side. Washington's HB 1337 (2023) limits how restrictive local ADU rules can be, but the exact setback figures come from Marysville's own land use code — confirm them with the city before you design."
   },
   {
     "city": "Sammamish",
     "state": "Washington",
     "state_abbr": "WA",
-    "max_size": "1,000",
+    "max_size": "1,000 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Not required (near transit)",
     "occupancy": "Not required",
@@ -2820,13 +3000,13 @@
     "stripe_price_id": "price_1UApEIDipowTiYTYFAe3jFIB",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in Sammamish? ADUs in Sammamish can be up to 1,000 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Sammamish planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Sammamish? ADUs in Sammamish generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in Sammamish? ADUs in Sammamish generally require setbacks of 5 ft rear, 5 ft side. Washington's HB 1337 (2023) limits how restrictive local ADU rules can be, but the exact setback figures come from Sammamish's own land use code — confirm them with the city before you design."
   },
   {
     "city": "Burien",
     "state": "Washington",
     "state_abbr": "WA",
-    "max_size": "1,000",
+    "max_size": "1,000 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Not required (near transit)",
     "occupancy": "Not required",
@@ -2862,13 +3042,13 @@
     "stripe_price_id": "price_1UApEJDipowTiYTYNlyeNxIl",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in Burien? ADUs in Burien can be up to 1,000 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Burien planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Burien? ADUs in Burien generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in Burien? ADUs in Burien generally require setbacks of 5 ft rear, 5 ft side. Washington's HB 1337 (2023) limits how restrictive local ADU rules can be, but the exact setback figures come from Burien's own land use code — confirm them with the city before you design."
   },
   {
     "city": "Lakewood",
     "state": "Washington",
     "state_abbr": "WA",
-    "max_size": "1,000",
+    "max_size": "1,000 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Not required (near transit)",
     "occupancy": "Not required",
@@ -2904,13 +3084,13 @@
     "stripe_price_id": "price_1UApEJDipowTiYTY2IJZmhZM",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in Lakewood? ADUs in Lakewood can be up to 1,000 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Lakewood planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Lakewood? ADUs in Lakewood generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in Lakewood? ADUs in Lakewood generally require setbacks of 5 ft rear, 5 ft side. Washington's HB 1337 (2023) limits how restrictive local ADU rules can be, but the exact setback figures come from Lakewood's own land use code — confirm them with the city before you design."
   },
   {
     "city": "Bend",
     "state": "Oregon",
     "state_abbr": "OR",
-    "max_size": "1,200",
+    "max_size": "1,200 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Not required",
     "occupancy": "Not required",
@@ -2946,13 +3126,13 @@
     "stripe_price_id": "price_1UApEKDipowTiYTYY0ime2VF",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in Bend? ADUs in Bend can be up to 1,200 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Bend planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Bend? ADUs in Bend generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in Bend? ADUs in Bend generally require setbacks of 5 ft rear, 5 ft side. Oregon's HB 2001 (2019) requires cities to allow ADUs in residential zones, but the exact setback figures come from Bend's own code — confirm them with the city before you design."
   },
   {
     "city": "Medford",
     "state": "Oregon",
     "state_abbr": "OR",
-    "max_size": "1,200",
+    "max_size": "1,200 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Not required",
     "occupancy": "Not required",
@@ -2988,13 +3168,13 @@
     "stripe_price_id": "price_1UApEKDipowTiYTYc8DK7Wbn",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in Medford? ADUs in Medford can be up to 1,200 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Medford planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Medford? ADUs in Medford generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in Medford? ADUs in Medford generally require setbacks of 5 ft rear, 5 ft side. Oregon's HB 2001 (2019) requires cities to allow ADUs in residential zones, but the exact setback figures come from Medford's own code — confirm them with the city before you design."
   },
   {
     "city": "Corvallis",
     "state": "Oregon",
     "state_abbr": "OR",
-    "max_size": "1,200",
+    "max_size": "1,200 sq ft",
     "setbacks": "5 ft rear, 5 ft side",
     "parking": "Not required",
     "occupancy": "Not required",
@@ -3030,6 +3210,6 @@
     "stripe_price_id": "price_1UApELDipowTiYTY30qg93Cq",
     "published": true,
     "faq2": "What is the maximum ADU size allowed in Corvallis? ADUs in Corvallis can be up to 1,200 square feet, subject to the property's zoning and lot coverage limits. Always confirm the exact allowed size with the Corvallis planning department before designing your project.",
-    "faq3": "What are the setback requirements for an ADU in Corvallis? ADUs in Corvallis generally require setbacks of 5 ft rear, 5 ft side. California state law (AB 68) limits local setback requirements to 4 feet for existing structures, but always verify with local zoning."
+    "faq3": "What are the setback requirements for an ADU in Corvallis? ADUs in Corvallis generally require setbacks of 5 ft rear, 5 ft side. Oregon's HB 2001 (2019) requires cities to allow ADUs in residential zones, but the exact setback figures come from Corvallis's own code — confirm them with the city before you design."
   }
 ]

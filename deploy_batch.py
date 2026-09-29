@@ -15,6 +15,8 @@ Logique :
 
 import stripe, json, os, sys
 
+import city_pages  # rendu des pages villes — logique partagee avec generate.py (local)
+
 # ============================================================
 # CONFIG
 # ============================================================
@@ -97,10 +99,10 @@ for c in to_publish:
 # 5. GÉNÉRER LES HTML (toutes les villes publiées)
 # ============================================================
 def slug(city):
-    return city.lower().replace(" ", "-").replace("'", "")
+    return city_pages.slug(city)
 
 def city_filename(city, state):
-    return f'{slug(city)}-{state.lower()}.html'
+    return city_pages.city_filename(city, state)
 
 all_published = [c for c in cities if c.get("published", False)]
 print(f"\n📄 Génération de {len(all_published)} pages HTML...")
@@ -108,70 +110,8 @@ print(f"\n📄 Génération de {len(all_published)} pages HTML...")
 os.makedirs(CITIES_DIR, exist_ok=True)
 
 for c in all_published:
-    html = template[:]
-    related = [x for x in all_published if x["state_abbr"] == c["state_abbr"] and x["city"] != c["city"]]
-    related_html = ""
-    for r in related:
-        related_html += f'<li><a href="/cities/{city_filename(r["city"], r["state_abbr"])}">{r["city"]}, {r["state_abbr"]}</a></li>\n'
-
-    parking_row = ""
-    if "required" in c.get("parking", "").lower() or "space" in c.get("parking", "").lower():
-        parking_row = f'<tr><td><strong>Extra Parking Required</strong></td><td>{c["parking"]}</td></tr>'
-
-    occ_row = ""
-    if "required" in c.get("occupancy", "").lower():
-        occ_row = f'<tr><td><strong>Owner Occupancy</strong></td><td>{c["occupancy"]}</td></tr>'
-    elif "not" in c.get("occupancy", "").lower():
-        occ_row = ""
-
-    replacements = {
-        "[CITY]": c["city"],
-        "[CITY-LOWER]": slug(c["city"]),
-        "[STATE]": c["state"],
-        "[STATE-LOWER]": c["state_abbr"].lower(),
-        "[COUNTY]": c.get("county", ""),
-        "[CITY_INTRO]": c.get("intro", ""),
-        "[STATE_LAW]": c.get("state_law", "local zoning ordinances"),
-        "[MAX_SIZE]": c["max_size"],
-        "[SETBACKS]": c["setbacks"],
-        "[PARKING_ROW]": parking_row,
-        "[OCCUPANCY_ROW]": occ_row,
-        "[ADDITIONAL_REQUIREMENTS]": c.get("additional", ""),
-        "[FAQ_1]": c.get("faq1", ""),
-        "[FAQ_2]": c.get("faq2", ""),
-        "[FAQ_3]": c.get("faq3", ""),
-        "[YEAR]": c.get("year", "2026"),
-        "[PRICE]": c.get("web_price", "12"),
-        "[STRIPE_CHECKOUT_URL]": c.get("stripe_checkout_url", ""),
-        "[RELATED_CITIES]": related_html,
-        "[SEO_TITLE]": c.get("seo_title") or f'{c["city"]} ADU Requirements and Zoning Laws — {c["state"]} | ADUCheatSheet',
-        "[SEO_DESC]": c.get("seo_desc") or f'Complete {c["city"]} ADU zoning guide. Maximum size, setbacks, parking rules, owner occupancy requirements in {c.get("county", "")}, {c["state"]}. Download your city-specific PDF cheat sheet.',
-    }
-    for old, new in replacements.items():
-        html = html.replace(old, new)
-
-    # SCHEMA.ORG JSON-LD (SEO : extraits enrichis Google) — même bloc que generate.py
-    faq_items = ""
-    for q in [c.get("faq1", ""), c.get("faq2", ""), c.get("faq3", "")]:
-        if q and len(q) > 30:
-            q_clean = q[:300].replace('"', "'")
-            q_name = q.split("?")[0][:90].strip()
-            if q_name:
-                faq_items += f'{{"@type":"Question","name":"{q_name}?","acceptedAnswer":{{"@type":"Answer","text":"{q_clean}"}}}},'
-    schema_json = f'''<script type="application/ld+json">
-{{"@context":"https://schema.org",
-"@graph":[
-{{"@type":"FAQPage","mainEntity":[{faq_items.rstrip(",")}]}},
-{{"@type":"LocalBusiness","name":"ADUCheatSheet - {c["city"]} ADU Guide",
-"description":"{c["city"]} ADU requirements and zoning laws for {c["state"]}",
-"areaServed":"{c["city"]}, {c["state_abbr"]}",
-"url":"https://aducheatsheet.com/cities/{city_filename(c["city"], c["state_abbr"])}",
-"address":{{"@type":"PostalAddress","addressLocality":"{c["city"]}","addressRegion":"{c["state_abbr"]}","addressCountry":"US"}}}}
-]}}
-</script>'''
-    html = html.replace("</head>", schema_json + "\n</head>")
-
-    with open(os.path.join(CITIES_DIR, city_filename(c["city"], c["state_abbr"])), "w") as f:
+    html = city_pages.build_page(c, all_published, template)
+    with open(os.path.join(CITIES_DIR, city_filename(c["city"], c["state_abbr"])), "w", encoding="utf-8") as f:
         f.write(html)
     print(f"  ✅ {city_filename(c['city'], c['state_abbr'])}")
 

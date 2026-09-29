@@ -20,17 +20,16 @@ TEMPLATE_FILE = "template-city.html"
 CITIES_DIR = "cities"
 PDF_DIR = "pdfs"
 
+import city_pages  # logique de page partagee avec deploy_batch.py (CI) — voir city_pages.py
+
 with open(DATA_FILE) as f:
     cities = json.load(f)
 
 with open(TEMPLATE_FILE) as f:
     template = f.read()
 
-def slug(city):
-    return city.lower().replace(" ", "-").replace("'", "")
-
-def city_filename(city, state):
-    return f'{slug(city)}-{state.lower()}.html'
+slug = city_pages.slug
+city_filename = city_pages.city_filename
 
 os.makedirs(CITIES_DIR, exist_ok=True)
 os.makedirs(PDF_DIR, exist_ok=True)
@@ -39,77 +38,9 @@ os.makedirs(PDF_DIR, exist_ok=True)
 # 1. GENERATE HTML PAGES (Anti-Penalty: unique content per city)
 # ============================================================
 for c in cities:
-    html = template[:]
-    
-    # Related cities (same state)
-    related = [x for x in cities if x["state_abbr"] == c["state_abbr"] and x["city"] != c["city"]]
-    related_html = ""
-    for r in related:
-        related_html += f'<li><a href="/cities/{city_filename(r["city"], r["state_abbr"])}">{r["city"]}, {r["state_abbr"]}</a></li>\n'
-    
-    # Conditional rows: hide if "Not required" / "Not applicable"
-    parking_row = ""
-    if "required" in c.get("parking", "").lower() or "space" in c.get("parking", "").lower():
-        parking_row = f'<tr><td><strong>Extra Parking Required</strong></td><td>{c["parking"]}</td></tr>'
-    
-    occ_row = ""
-    if "required" in c.get("occupancy", "").lower():
-        occ_row = f'<tr><td><strong>Owner Occupancy</strong></td><td>{c["occupancy"]}</td></tr>'
-    elif "not" in c.get("occupancy", "").lower():
-        occ_row = ""  # Hide row completely — no "Not required" text
-    else:
-        occ_row = f'<tr><td><strong>Owner Occupancy</strong></td><td>{c["occupancy"]}</td></tr>'
-    
-    replacements = {
-        "[CITY]": c["city"],
-        "[CITY-LOWER]": slug(c["city"]),
-        "[STATE]": c["state"],
-        "[STATE-LOWER]": c["state_abbr"].lower(),
-        "[COUNTY]": c.get("county", ""),
-        "[CITY_INTRO]": c.get("intro", ""),
-        "[STATE_LAW]": c.get("state_law", "local zoning ordinances"),
-        "[MAX_SIZE]": c["max_size"],
-        "[SETBACKS]": c["setbacks"],
-        "[PARKING_ROW]": parking_row,
-        "[OCCUPANCY_ROW]": occ_row,
-        "[ADDITIONAL_REQUIREMENTS]": c.get("additional", ""),
-        "[FAQ_1]": c.get("faq1", ""),
-        "[FAQ_2]": c.get("faq2", ""),
-        "[FAQ_3]": c.get("faq3", ""),
-        "[YEAR]": c.get("year", "2026"),
-        "[PRICE]": c.get("web_price", "12"),
-        "[STRIPE_CHECKOUT_URL]": c.get("stripe_checkout_url", ""),
-        "[RELATED_CITIES]": related_html,
-        "[SEO_TITLE]": c.get("seo_title") or f'{c["city"]} ADU Requirements and Zoning Laws — {c["state"]} | ADUCheatSheet',
-        "[SEO_DESC]": c.get("seo_desc") or f'Complete {c["city"]} ADU zoning guide. Maximum size, setbacks, parking rules, owner occupancy requirements in {c.get("county", "")}, {c["state"]}. Download your city-specific PDF cheat sheet.',
-    }
-    
-    for old, new in replacements.items():
-        html = html.replace(old, new)
-    
-    # SCHEMA.ORG JSON-LD (SEO : extraits enrichis Google)
-    faq_items = ""
-    for q in [c.get("faq1", ""), c.get("faq2", ""), c.get("faq3", "")]:
-        if q and len(q) > 30:
-            q_clean = q[:300].replace('"', "'")
-            q_name = q.split("?")[0][:90].strip()
-            if q_name:
-                faq_items += f'{{"@type":"Question","name":"{q_name}?","acceptedAnswer":{{"@type":"Answer","text":"{q_clean}"}}}},'
-    schema_json = f'''<script type="application/ld+json">
-{{"@context":"https://schema.org",
-"@graph":[
-{{"@type":"FAQPage","mainEntity":[{faq_items.rstrip(",")}]}},
-{{"@type":"LocalBusiness","name":"ADUCheatSheet - {c["city"]} ADU Guide",
-"description":"{c["city"]} ADU requirements and zoning laws for {c["state"]}",
-"areaServed":"{c["city"]}, {c["state_abbr"]}",
-"url":"https://aducheatsheet.com/cities/{city_filename(c["city"], c["state_abbr"])}",
-"address":{{"@type":"PostalAddress","addressLocality":"{c["city"]}","addressRegion":"{c["state_abbr"]}","addressCountry":"US"}}}}
-]}}
-</script>'''
-    html = html.replace("</head>", schema_json + "\n</head>")
-    
-    fname = city_filename(c["city"], c["state_abbr"])
-    with open(os.path.join(CITIES_DIR, fname), "w") as f:
+    html = city_pages.build_page(c, cities, template)
+    fname = city_pages.city_filename(c["city"], c["state_abbr"])
+    with open(os.path.join(CITIES_DIR, fname), "w", encoding="utf-8") as f:
         f.write(html)
     print(f"✅ HTML: {fname}")
 
